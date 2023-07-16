@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\TendenciasController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,6 +20,8 @@ Route::get('/', function () {
 
 Route::view('servicios', 'servicios');
 Route::view('productos', 'productos');
+Route::view('soluciones', 'soluciones');
+Route::get('tendencias', [TendenciasController::class, 'index']);
 
 Route::middleware([
     'auth:sanctum',

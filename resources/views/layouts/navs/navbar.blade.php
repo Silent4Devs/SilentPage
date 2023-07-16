@@ -7,8 +7,8 @@
             <nav class="nav-principal mobile-none">
                 <a href="{{ url('servicios') }}">Servicios</a>
                 <a href="{{ url('productos') }}">Productos</a>
-                <a href="soluciones">Soluciones</a>
-                <a href="tendencias">Ciber Blog</a>
+                <a href="{{ url('soluciones') }}">Soluciones</a>
+                <a href="{{ url('tendencias') }}">Ciber Blog</a>
                 <a href="cert">CERT</a>
                 <a href="test" class="d-none">Test de seguridad</a>
             </nav>
