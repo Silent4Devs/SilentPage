@@ -18,10 +18,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::view('solicitantes', 'admin.solicitantes')->name('solicitantes');
+
 Route::view('servicios', 'servicios');
 Route::view('productos', 'productos');
 Route::view('soluciones', 'soluciones');
 Route::get('tendencias', [TendenciasController::class, 'index']);
+
+Route::view('talento', 'talento');
 
 Route::middleware([
     'auth:sanctum',
