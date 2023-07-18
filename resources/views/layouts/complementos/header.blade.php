@@ -1,7 +1,7 @@
 <div class="first-header mobile-none">
     <content class="content-header">
         <nav>
-            <a href="index#alianzas">Alianzas</a>
+            <a href="/#alianzas">Alianzas</a>
             <a href="exito">Casos de éxito</a>
             <a href="talento">Aporta tu talento</a>
             <a href="medios">S4B en medios</a>
