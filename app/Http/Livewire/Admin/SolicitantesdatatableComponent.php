@@ -26,4 +26,9 @@ class SolicitantesdatatableComponent extends Component
 
         return view('livewire.admin.solicitantesdatatable-component', compact('solicitudes'));
     }
+
+    public function export($path)
+    {
+        return response()->download(storage_path('app/public/' . $path));
+    }
 }
