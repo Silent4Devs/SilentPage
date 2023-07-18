@@ -26,6 +26,7 @@ Route::view('soluciones', 'soluciones');
 Route::get('tendencias', [TendenciasController::class, 'index']);
 Route::view('exito','exito');
 Route::view('medios','medios');
+Route::view('cert','cert');
 Route::view('talento', 'talento');
 
 Route::middleware([
