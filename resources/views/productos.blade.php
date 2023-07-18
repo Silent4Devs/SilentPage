@@ -6,7 +6,7 @@
 
 <style>
     .title-fondo::before {
-        background-image: url('img/portadas/portada_productos.png');
+        background-image: url('img/portadas/portada_productos.webp');
     }
 </style>
 
@@ -23,7 +23,7 @@
         <div class="blue-compu">
             <content class="content-limit">
                 <div class="caja-flex" style="align-items: center;">
-                    <img src="img/logo_silent.png">
+                    <img src="img/logo_silent.webp">
                     <p>
                         <font style="font-size: 24px;">Somos Silent4Business </font> A través de un equipo especializado,
                         ser un referente confiable en materia de investigación, asistencia y difusión en actividades de
@@ -82,7 +82,7 @@
                         </div>
                     </div>
                     <div class="img-product">
-                        <img src="img/product_1.png">
+                        <img src="img/product_1.webp">
                         <hr>
                     </div>
                     <div class="info-product info-der">
@@ -94,7 +94,7 @@
 
                     </div>
                     <div class="img-product">
-                        <img src="img/product_2.png">
+                        <img src="img/product_2.webp">
                         <hr>
                     </div>
                     <div class="info-product info-der">
@@ -132,7 +132,7 @@
 
                     </div>
                     <div class="img-product">
-                        <img src="img/product_3.png">
+                        <img src="img/product_3.webp">
                         <hr>
                     </div>
                     <div class="info-product info-der">
@@ -199,7 +199,7 @@
                         </div>
                     </div>
                     <div class="img-product">
-                        <img src="img/product_4.png" style="transform: scale(0.8);">
+                        <img src="img/product_4.webp" style="transform: scale(0.8);">
                         <hr>
                     </div>
                     <div class="info-product info-der">

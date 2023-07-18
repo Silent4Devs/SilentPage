@@ -6,7 +6,7 @@
 
 <style>
     .title-fondo::before {
-        background-image: url('img/portadas/portada_exito.png');
+        background-image: url('img/portadas/portada_exito.webp');
     }
 </style>
 </head>
@@ -19,7 +19,7 @@
 
         <div id="seguridad-medida" class="caso-exito-complete" style="background-color: #F3F5FF; margin-top: 100px;">
             <content class="content-limit">
-                <div class="caso-img" style="background-image: url('img/exito_caso_1.jpg');"></div>
+                <div class="caso-img" style="background-image: url('img/exito_caso_1.webp');"></div>
                 <div class="caso-info">
                     <h2>Seguridad a la medida</h2>
                     <p style="font-size: 24px;">Industria turística</p>
@@ -51,14 +51,14 @@
                     </p>
                 </div>
                 <div class="caso-img"
-                    style="background-image: url('img/exito_caso_2.jpg'); border-radius: 0; border-top-left-radius: 20px; border-bottom-left-radius: 20px; border:none; border-right: 60px solid #B8B8B8;">
+                    style="background-image: url('img/exito_caso_2.webp'); border-radius: 0; border-top-left-radius: 20px; border-bottom-left-radius: 20px; border:none; border-right: 60px solid #B8B8B8;">
                 </div>
             </content>
         </div>
 
         <div id="proteccion-total" class="caso-exito-complete no-visible" style="background-color: #F3F5FF;">
             <content class="content-limit">
-                <div class="caso-img" style="background-image: url('img/exito_caso_3.jpg');"></div>
+                <div class="caso-img" style="background-image: url('img/exito_caso_3.webp');"></div>
                 <div class="caso-info">
                     <h2>Protección total</h2>
                     <p style="font-size: 24px;">SENER</p>

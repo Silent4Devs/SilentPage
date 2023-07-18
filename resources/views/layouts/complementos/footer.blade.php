@@ -4,7 +4,7 @@
     </div>
     <div class="caja-footer">
         <div class="info-footer">
-            <img src="img/logo_silent.png">
+            <img src="img/logo_silent.webp">
             <p>
                 <i class="fa-solid fa-location-dot"></i>
                 Torre Murano Insurgentes Sur #2453

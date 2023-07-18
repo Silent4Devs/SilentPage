@@ -6,7 +6,7 @@
 
 <style>
     .title-fondo::before {
-        background-image: url('img/portadas/portada_talento.png');
+        background-image: url('img/portadas/portada_talento.webp');
     }
 </style>
 
@@ -36,21 +36,21 @@
                         </p>
                         <div class="caja-flex" style="justify-content: space-between; margin-top: 80px;">
                             <div class="talent-serv">
-                                <img src="img/talent_1.png">
+                                <img src="img/talent_1.webp">
                                 <p>Crecimiento continuo</p>
                             </div>
                             <div class="talent-serv">
-                                <img src="img/talent_2.png">
+                                <img src="img/talent_2.webp">
                                 <p>Vacaciones flexibles</p>
                             </div>
                         </div>
                         <div class="caja-flex" style="justify-content: space-between; margin-top: 30px;">
                             <div class="talent-serv">
-                                <img src="img/talent_3.png">
+                                <img src="img/talent_3.webp">
                                 <p>Eventos de integración</p>
                             </div>
                             <div class="talent-serv">
-                                <img src="img/talent_4.png">
+                                <img src="img/talent_4.webp">
                                 <p>Capacitaciones constantes</p>
                             </div>
                         </div>
