@@ -2,7 +2,7 @@
     <content class="content-header">
         <div class="header-caja">
             <a href="{{ url('/') }}">
-                <img src="img/logo_silent.png" style="height: 70px;">
+                <img src="img/logo_silent.webp" style="height: 70px;">
             </a>
             <nav class="nav-principal mobile-none">
                 <a href="{{ url('servicios') }}">Servicios</a>

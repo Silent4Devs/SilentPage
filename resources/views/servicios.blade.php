@@ -6,7 +6,7 @@
 
 <style>
     .title-fondo::before {
-        background-image: url('img/portadas/portada_servicios.png');
+        background-image: url('img/portadas/portada_servicios.webp');
     }
 </style>
 
@@ -19,19 +19,19 @@
     <content class="content-limit">
         <div class="caja-btn-group">
             <a href="serv_soc_noc.php">
-                <img src="img/serv_monitor.png">
+                <img src="img/serv_monitor.webp">
                 <p>SOC / NOC</p>
             </a>
             <a href="serv_ciber.php">
-                <img src="img/serv_escudo.png">
+                <img src="img/serv_escudo.webp">
                 <p>Ciberinteligencia</p>
             </a>
             <a href="serv_consul.php">
-                <img src="img/serv_global.png">
+                <img src="img/serv_global.webp">
                 <p>Consultoría <br> Estratégica</p>
             </a>
             <a href="serv_otros.php">
-                <img src="img/serv_soluciones.png">
+                <img src="img/serv_soluciones.webp">
                 <p>Otras <br> soluciones</p>
             </a>
         </div>

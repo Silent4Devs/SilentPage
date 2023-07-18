@@ -17,7 +17,7 @@
     content="Protege tu organización con servicios a la medida: Centro de Operaciones de Seguridad, Pentesting, ISO 27001:2022 y mucho más.”
 
 <meta property="
-    og:image" content="https://www.silent4business.com/img/logo_silent.jpg">
+    og:image" content="https://www.silent4business.com/img/logo_silent.webp">
 
 <!-- Twitter Meta Tags -->
 <meta name="twitter:card" content="summary_large_image">
@@ -31,9 +31,9 @@
 <meta name="twitter:description"
     content="Protege tu organización con servicios a la medida: Centro de Operaciones de Seguridad, Pentesting, ISO 27001:2022 y mucho más.">
 
-<meta name="twitter:image" content="https://www.silent4business.com/img/logo_silent.jpg">
+<meta name="twitter:image" content="https://www.silent4business.com/img/logo_silent.webp">
 <!-- favicon -->
-<link rel="shortcut icon" href="{{ asset('img/logo_silent.png') }}" type="image/png" />
+<link rel="shortcut icon" href="{{ asset('img/logo_silent.webp') }}" type="image/png" />
 
 <!-- css inerno -->
 <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">

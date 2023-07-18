@@ -6,7 +6,7 @@
 
 <style>
     .title-fondo::before {
-        background-image: url('img/portadas/portada_servicios_inter.png');
+        background-image: url('img/portadas/portada_servicios_inter.webp');
     }
 </style>
 

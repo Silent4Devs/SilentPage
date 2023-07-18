@@ -6,7 +6,7 @@
 
 <style>
     .title-fondo::before {
-        background-image: url('img/portadas/portada_productos.png');
+        background-image: url('img/portadas/portada_productos.webp');
     }
 </style>
 
@@ -23,7 +23,7 @@
         <content class="content-limit">
             <div class="caja-soluciones">
                 <div id="salud" class="solucion">
-                    <img src="img/sol-salud.jpg" class="img-solucion">
+                    <img src="img/sol-salud.webp" class="img-solucion">
                     <p>
                         Los sistemas de salud están redefiniendo la forma en cómo se realiza la atención médica,
                         incrementando el uso de la medicina virtual y promoviendo alianzas entre distintos jugadores
@@ -32,14 +32,14 @@
                     </p>
                 </div>
                 <div id="financiera" class="solucion">
-                    <img src="img/sol-financiera.jpg" class="img-solucion">
+                    <img src="img/sol-financiera.webp" class="img-solucion">
                     <p>
                         Nos adaptamos a la constante evolución de las exigencias de los clientes que buscan servicios
                         financiero más seguros y personalizados tanto de forma física como virtual y móvil.
                     </p>
                 </div>
                 <div id="manofactura" class="solucion">
-                    <img src="img/sol-manofactura.jpg" class="img-solucion">
+                    <img src="img/sol-manofactura.webp" class="img-solucion">
                     <p>
                         La manufactura está en un proceso de transformación constante. Aprovechamos esta nueva ventana
                         de oportunidades y retos que ponen a prueba la capacidad de las empresas de enfrentarse a un
@@ -47,7 +47,7 @@
                     </p>
                 </div>
                 <div id="energia" class="solucion">
-                    <img src="img/sol-energia.jpg" class="img-solucion">
+                    <img src="img/sol-energia.webp" class="img-solucion">
                     <p>
                         En un mundo en constante cambio, las compañías energéticas y de recursos enfrentan retos
                         tecnológicos importantes. Por esta razón implementamos estrategias eficaces a lo largo de la
@@ -56,7 +56,7 @@
                     </p>
                 </div>
                 <div id="agro" class="solucion">
-                    <img src="img/sol-agro.jpg" class="img-solucion">
+                    <img src="img/sol-agro.webp" class="img-solucion">
                     <p>
                         El uso de nuevas tecnologías con el objetivo de mejorar el rendimiento, la eficacia y la
                         rentabilidad de los productos agroindustriales no está exenta de los riesgos informáticos. Por
@@ -65,7 +65,7 @@
                     </p>
                 </div>
                 <div id="academia" class="solucion">
-                    <img src="img/sol-academia.jpg" class="img-solucion">
+                    <img src="img/sol-academia.webp" class="img-solucion">
                     <p>
                         Las organizaciones educativas están redefiniendo la forma en cómo se gestiona y lleva a cabo la
                         docencia. Nuestra oferta de servicios está diseñada para permitir que este tipo de

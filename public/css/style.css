@@ -386,16 +386,16 @@ header:hover{
     background-size: cover;
 }
 .mision-1 .img-mision{
-    background-image: url('../img/valor_mision.jpg');
+    background-image: url('../img/valor_mision.webp');
 }
 .vision-1 .img-vision{
-    background-image: url('../img/valor_vision.jpg');
+    background-image: url('../img/valor_vision.webp');
 }
 .mision-2 .img-mision{
-    background-image: url('../img/valor_mision_2.jpg');
+    background-image: url('../img/valor_mision_2.webp');
 }
 .vision-2 .img-vision{
-    background-image: url('../img/valor_vision_2.jpg');
+    background-image: url('../img/valor_vision_2.webp');
 }
 
 .nivel-seguridad{
@@ -405,7 +405,7 @@ header:hover{
     padding: 100px 0;
     color: #646464;
 
-    background-image: url('../img/fondo_seguridad.png');
+    background-image: url('../img/fondo_seguridad.webp');
     background-size: cover;
     background-position: center;
 }
@@ -592,8 +592,8 @@ header:hover{
     background-position: center;
     background-repeat: no-repeat;
 }
-.img-caso1{background-image: url('../img/exito_caso_1.jpg') }
-.img-caso2{background-image: url('../img/exito_caso_2.jpg') }
+.img-caso1{background-image: url('../img/exito_caso_1.webp') }
+.img-caso2{background-image: url('../img/exito_caso_2.webp') }
 
 .caja-tendencias{
     background-color: #FBFBFB;
@@ -674,7 +674,7 @@ header:hover{
     width: 100%;
     height: 60vh;
     overflow: hidden;
-    background-image: url('../img/medios.jpg');
+    background-image: url('../img/medios.webp');
     background-size: cover 150%;
     background-position: center 0%;
     display: flex;
@@ -774,7 +774,7 @@ header:hover{
     align-items: center;
     flex-direction: column;
 
-    background-image: url('../img/curso.jpg');
+    background-image: url('../img/curso.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -813,7 +813,7 @@ header:hover{
     z-index: -1;
     filter: sepia(100%) hue-rotate(190deg) saturate(900%) brightness(1) opacity(0.1);
 
-    background-image: url('../img/fondo_jefes.jpg');
+    background-image: url('../img/fondo_jefes.webp');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -1489,10 +1489,10 @@ body.terminos-body{
     font-size: 22px;
 }
 .activ-cert::after{
-    background-image: url('../img/cert_impul.png');
+    background-image: url('../img/cert_impul.webp');
 }
 .herra-cert::after{
-    background-image: url('../img/cert_obj_4.png');
+    background-image: url('../img/cert_obj_4.webp');
 }
 .activ-cert .second-p,
 .herra-cert .second-p{
@@ -1507,10 +1507,10 @@ body.terminos-body{
     display: none;
 }
 .activ-cert:hover::after{
-    background-image: url('../img/cert_ob_3.png');
+    background-image: url('../img/cert_ob_3.webp');
 }
 .herra-cert:hover::after{
-    background-image: url('../img/cert_obj_5.png');
+    background-image: url('../img/cert_obj_5.webp');
 }
 .servicio-img{
     width: 90%;

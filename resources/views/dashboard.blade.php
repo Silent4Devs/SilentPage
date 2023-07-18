@@ -5,7 +5,7 @@
             <div class="items-center justify-between px-8 py-2 md:flex md:px-12">
                 <div class="flex items-center justify-between">
                     <div class="text-2xl font-bold text-gray-800 md:text-3xl">
-                        <img src="https://silent4business.com/img/logo_silent.png">
+                        <img src="https://silent4business.com/img/logo_silent.webp">
                     </div>
                 </div>
             </div>

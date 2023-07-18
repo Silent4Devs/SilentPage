@@ -7,7 +7,7 @@
 <div id="video-inicio" class="caja-video-fondo">
     <video autoplay muted loop>
         <source src="img/fondo.webm" type="video/mp4">
-        <img src="img/fondo_img.png" width="100%">
+        <img src="img/fondo_img.webp" width="100%">
     </video>
 </div>
 
@@ -86,19 +86,19 @@
                 </div>
                 <div class="caja-btn-servicios caja-btn-group no-visible">
                     <button onclick="servicio('soc-noc')">
-                        <img src="img/serv_monitor.png">
+                        <img src="img/serv_monitor.webp">
                         <p>SOC / NOC</p>
                     </button>
                     <button onclick="servicio('ciberinteligencia')">
-                        <img src="img/serv_escudo.png">
+                        <img src="img/serv_escudo.webp">
                         <p>Ciberinteligencia</p>
                     </button>
                     <button onclick="servicio('consultoria')">
-                        <img src="img/serv_global.png">
+                        <img src="img/serv_global.webp">
                         <p>Consultoría <br> Estratégica</p>
                     </button>
                     <button onclick="servicio('otra-solucion')">
-                        <img src="img/serv_soluciones.png">
+                        <img src="img/serv_soluciones.webp">
                         <p>Otras <br> soluciones</p>
                     </button>
                 </div>
@@ -165,7 +165,7 @@
 
 <section class="d-none">
     <div class="nivel-seguridad no-visible">
-        <img src="img/escudo.png">
+        <img src="img/escudo.webp">
         <div>
             <h1>¿Conoces tu nivel de seguridad?</h1>
             <p class="ns-p-1" style="margin-top: 13px; font-size: 24px;">
@@ -188,27 +188,27 @@
         <content class="content-limit">
             <div class="caja-btn-group">
                 <a href="soluciones.php#salud">
-                    <img src="img/serv_escudo.png">
+                    <img src="img/serv_escudo.webp">
                     <p>Salud</p>
                 </a>
                 <a href="soluciones.php#financiera">
-                    <img src="img/ciber_edificio.png">
+                    <img src="img/ciber_edificio.webp">
                     <p>Financiera</p>
                 </a>
                 <a href="soluciones.php#manofactura">
-                    <img src="img/ciber_person.png">
+                    <img src="img/ciber_person.webp">
                     <p>Manofactura</p>
                 </a>
                 <a href="soluciones.php#energia">
-                    <img src="img/ciber_electro.png">
+                    <img src="img/ciber_electro.webp">
                     <p>Energética y Recursos</p>
                 </a>
                 <a href="soluciones.php#agro">
-                    <img src="img/ciber_tubo.png">
+                    <img src="img/ciber_tubo.webp">
                     <p>Agroindustrial</p>
                 </a>
                 <a href="soluciones.php#academia">
-                    <img src="img/ciber_graduado.png">
+                    <img src="img/ciber_graduado.webp">
                     <p>Académica</p>
                 </a>
             </div>
@@ -281,7 +281,7 @@
 
         <div class="card-tend">
             <div class="tend-img">
-                <img src="img/tend_polonium.jpg">
+                <img src="img/tend_polonium.webp">
             </div>
             <div class="tend-text">
                 <h2>Protección Online <br> Confiable</h2>
@@ -296,7 +296,7 @@
             </div>
 
             <div class="tend-img d-none">
-                <img src="img/tend_lilisbot.jpg">
+                <img src="img/tend_lilisbot.webp">
             </div>
             <div class="tend-text d-none">
                 <h2>Tendencias de Ciberseguridad <br> Actualizadas</h2>
@@ -333,41 +333,41 @@
         <p>Cada uno de nuestros aliados potencia nuestra capacidad para diseñar y proveer seguridad ágil.</p>
 
         <div class="logos-alianzas no-visible">
-            <img src="img/alianzas/alianza_1.png">
-            <img src="img/alianzas/alianza_2.png">
-            <img src="img/alianzas/alianza_3.png">
-            <img src="img/alianzas/alianza_4.png">
-            <img src="img/alianzas/alianza_5.png">
-            <img src="img/alianzas/alianza_6.png">
-            <img src="img/alianzas/alianza_7.png">
-            <img src="img/alianzas/alianza_8.png">
-            <img src="img/alianzas/alianza_9.png">
-            <img src="img/alianzas/alianza_10.png">
-            <img src="img/alianzas/alianza_11.png">
-            <img src="img/alianzas/alianza_12.png">
-            <img src="img/alianzas/alianza_13.png">
-            <img src="img/alianzas/alianza_14.png">
-            <img src="img/alianzas/alianza_15.png">
-            <img src="img/alianzas/alianza_16.png">
-            <img src="img/alianzas/alianza_17.png">
-            <img src="img/alianzas/alianza_18.png">
-            <img src="img/alianzas/alianza_19.png">
-            <img src="img/alianzas/alianza_20.png">
-            <img src="img/alianzas/alianza_21.png">
-            <img src="img/alianzas/alianza_22.png">
-            <img src="img/alianzas/alianza_23.png">
-            <img src="img/alianzas/alianza_24.png">
-            <img src="img/alianzas/alianza_25.png">
-            <img src="img/alianzas/alianza_26.png">
-            <img src="img/alianzas/alianza_27.png">
-            <img src="img/alianzas/alianza_28.png">
-            <img src="img/alianzas/alianza_29.png">
-            <img src="img/alianzas/alianza_30.png">
-            <img src="img/alianzas/alianza_31.png">
-            <img src="img/alianzas/alianza_32.png">
-            <img src="img/alianzas/alianza_33.png">
-            <img src="img/alianzas/alianza_34.png">
-            <img src="img/alianzas/alianza_35.png">
+            <img src="img/alianzas/alianza_1.webp">
+            <img src="img/alianzas/alianza_2.webp">
+            <img src="img/alianzas/alianza_3.webp">
+            <img src="img/alianzas/alianza_4.webp">
+            <img src="img/alianzas/alianza_5.webp">
+            <img src="img/alianzas/alianza_6.webp">
+            <img src="img/alianzas/alianza_7.webp">
+            <img src="img/alianzas/alianza_8.webp">
+            <img src="img/alianzas/alianza_9.webp">
+            <img src="img/alianzas/alianza_10.webp">
+            <img src="img/alianzas/alianza_11.webp">
+            <img src="img/alianzas/alianza_12.webp">
+            <img src="img/alianzas/alianza_13.webp">
+            <img src="img/alianzas/alianza_14.webp">
+            <img src="img/alianzas/alianza_15.webp">
+            <img src="img/alianzas/alianza_16.webp">
+            <img src="img/alianzas/alianza_17.webp">
+            <img src="img/alianzas/alianza_18.webp">
+            <img src="img/alianzas/alianza_19.webp">
+            <img src="img/alianzas/alianza_20.webp">
+            <img src="img/alianzas/alianza_21.webp">
+            <img src="img/alianzas/alianza_22.webp">
+            <img src="img/alianzas/alianza_23.webp">
+            <img src="img/alianzas/alianza_24.webp">
+            <img src="img/alianzas/alianza_25.webp">
+            <img src="img/alianzas/alianza_26.webp">
+            <img src="img/alianzas/alianza_27.webp">
+            <img src="img/alianzas/alianza_28.webp">
+            <img src="img/alianzas/alianza_29.webp">
+            <img src="img/alianzas/alianza_30.webp">
+            <img src="img/alianzas/alianza_31.webp">
+            <img src="img/alianzas/alianza_32.webp">
+            <img src="img/alianzas/alianza_33.webp">
+            <img src="img/alianzas/alianza_34.webp">
+            <img src="img/alianzas/alianza_35.webp">
         </div>
     </div>
 </section>
@@ -378,29 +378,29 @@
         <p>Buscamos siempre las mejores practicas para poder ofrecer la mejor calidad en nuestros servicios</p>
 
         <div class="logos-certificaciones no-visible">
-            <img src="img/certificaciones/cert_1.png">
-            <img src="img/certificaciones/cert_2.png">
-            <img src="img/certificaciones/cert_3.png">
-            <img src="img/certificaciones/cert_4.png">
-            <img src="img/certificaciones/cert_5.png">
-            <img src="img/certificaciones/cert_6.png">
-            <img src="img/certificaciones/cert_7.png">
-            <img src="img/certificaciones/cert_8.png">
-            <img src="img/certificaciones/cert_9.png">
-            <img src="img/certificaciones/cert_10.png">
-            <img src="img/certificaciones/cert_11.png">
-            <img src="img/certificaciones/cert_12.png">
-            <img src="img/certificaciones/cert_13.png">
-            <img src="img/certificaciones/cert_14.png">
-            <img src="img/certificaciones/cert_15.png">
-            <img src="img/certificaciones/cert_16.png">
-            <img src="img/certificaciones/cert_17.png">
-            <img src="img/certificaciones/cert_18.png">
-            <img src="img/certificaciones/cert_19.png">
-            <img src="img/certificaciones/cert_20.png">
-            <img src="img/certificaciones/cert_21.png">
-            <img src="img/certificaciones/cert_22.png">
-            <img src="img/certificaciones/cert_23.png">
+            <img src="img/certificaciones/cert_1.webp">
+            <img src="img/certificaciones/cert_2.webp">
+            <img src="img/certificaciones/cert_3.webp">
+            <img src="img/certificaciones/cert_4.webp">
+            <img src="img/certificaciones/cert_5.webp">
+            <img src="img/certificaciones/cert_6.webp">
+            <img src="img/certificaciones/cert_7.webp">
+            <img src="img/certificaciones/cert_8.webp">
+            <img src="img/certificaciones/cert_9.webp">
+            <img src="img/certificaciones/cert_10.webp">
+            <img src="img/certificaciones/cert_11.webp">
+            <img src="img/certificaciones/cert_12.webp">
+            <img src="img/certificaciones/cert_13.webp">
+            <img src="img/certificaciones/cert_14.webp">
+            <img src="img/certificaciones/cert_15.webp">
+            <img src="img/certificaciones/cert_16.webp">
+            <img src="img/certificaciones/cert_17.webp">
+            <img src="img/certificaciones/cert_18.webp">
+            <img src="img/certificaciones/cert_19.webp">
+            <img src="img/certificaciones/cert_20.webp">
+            <img src="img/certificaciones/cert_21.webp">
+            <img src="img/certificaciones/cert_22.webp">
+            <img src="img/certificaciones/cert_23.webp">
             <br style="clear: both;">
         </div>
     </div>
@@ -426,7 +426,7 @@
     <div class="jefes-cards no-visible">
         <div class="card-jefe lay">
             <div class="img-jefe">
-                <img src="img/jefe_lay.png">
+                <img src="img/jefe_lay.webp">
             </div>
             <div class="info-jefe">
                 <h3>Layla Delgadillo</h3>
@@ -441,7 +441,7 @@
 
         <div class="card-jefe gera">
             <div class="img-jefe">
-                <img src="img/jefe_gerardo.png">
+                <img src="img/jefe_gerardo.webp">
             </div>
             <div class="info-jefe">
                 <h3>Gerardo Garibay</h3>

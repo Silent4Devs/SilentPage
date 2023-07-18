@@ -6,7 +6,7 @@
 
 <style>
     .title-fondo::before {
-        background-image: url('img/portadas/portada_cert.png');
+        background-image: url('img/portadas/portada_cert.webp');
     }
 </style>
 </head>
@@ -41,13 +41,13 @@
                     </p>
                 </div>
                 <div class="cert-icon">
-                    <img src="img/cert_vision.png">
+                    <img src="img/cert_vision.webp">
                     <h5>Misión</h5>
                 </div>
             </div>
             <div class="cert-valor cert-vision">
                 <div class="cert-icon">
-                    <img src="img/cert_vision.png">
+                    <img src="img/cert_vision.webp">
                     <h5>Visión</h5>
                 </div>
                 <div class="cert-text">
@@ -87,13 +87,13 @@
             </div>
         </div>
 
-        <img src="img/servicio_cert.png" class="servicio-img no-visible">
+        <img src="img/servicio_cert.webp" class="servicio-img no-visible">
 
         <hr style="width: 500px; border-color:#fff; margin-top:80px;">
 
         <h2 class="title-somm">Somos miembros</h2>
 
-        <img src="img/first.png" class="first-img no-visible">
+        <img src="img/first.webp" class="first-img no-visible">
 
         <content class="content-limit">
             <p class="parrafo-soes no-visible">
@@ -116,7 +116,7 @@
                 las etiquetas enumeradas en esta norma.
             </p>
 
-            <img src="img/estandares.png" class="estandares-img no-visible">
+            <img src="img/estandares.webp" class="estandares-img no-visible">
 
             <hr style="width: 500px; border-color:#fff; margin-top:80px;">
 
