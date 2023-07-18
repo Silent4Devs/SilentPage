@@ -4,7 +4,7 @@
     font-weight: normal;
     src: local('Segoe UI Regular'), url('../fonts/Segoe UI.woff') format('woff');
 }
-    
+
 @font-face {
     font-family: 'Segoe UI Bold';
     font-style: normal;
@@ -78,7 +78,7 @@ button{
 .close-modal{
     position: absolute;
     top: 10px;
-    right: 10px; 
+    right: 10px;
     cursor: pointer;
 }
 
@@ -218,7 +218,7 @@ header:hover{
 .caja-video-fondo video{
     width: 100%;
 }
-    
+
 .nuestros-servicios{
     padding: 100px 0;
     background-color: #EFEBEB;
@@ -311,7 +311,7 @@ header:hover{
 .caja-valores{
     width: 100%;
     height: 100vh;
-    
+
     display: flex;
 }
 .vision, .mision{
@@ -381,7 +381,7 @@ header:hover{
     height: 100%;
     position: absolute;
     top:0;
-    
+
     background-position: center;
     background-size: cover;
 }
@@ -547,7 +547,7 @@ header:hover{
     max-width: 100px;
 }
 .btn-exito i{
-    margin-left: 15px; 
+    margin-left: 15px;
 }
 .exito-text::before{
     content: "";
@@ -715,7 +715,7 @@ header:hover{
 .logos-alianzas{
     width: 100%;
     max-width: 2000px;
-    
+
     margin: auto;
     margin-top: 70px;
     box-sizing: border-box;
@@ -884,7 +884,7 @@ header:hover{
 .card-jefe:hover .img-jefe img{
     transition: 0.4s;
     transform: scale(1.1) translateY(-3%);
-} 
+}
 .info-jefe{
     background-color: #2567AE;
     text-align: center;
@@ -1028,7 +1028,7 @@ footer button.error{
     }
     50%{
         opacity: 0;
-        transform: translate(-100px);   
+        transform: translate(-100px);
     }
     100%{
         opacity: 1;
@@ -1126,7 +1126,7 @@ footer button.error{
 .caso-exito-complete .caso-img{
     width: 700px;
     height: 360px;
-    margin-top: -10px; 
+    margin-top: -10px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     position: relative;
@@ -1147,7 +1147,7 @@ body.servicios-body{
     width: 100%;
     margin-top: 60px;
     justify-content: space-between;
-    gap: 50px; 
+    gap: 50px;
 }
 
 /* talento --------------------------- */
@@ -1423,25 +1423,25 @@ body.terminos-body{
     z-index: -1;
     width: 100%;
     height: 100%;
-    background-image: url('../img/candados.png');
+    background-image: url('../img/candados.webp');
     background-position: center;
     background-size: cover;
     transition: 0.2s;
-    filter: grayscale(0.6) opacity(0.5); 
+    filter: grayscale(0.6) opacity(0.5);
 }
 .cert-mision:hover::before{
-    background-image: url('../img/cert_second_ms.jpg');
-    filter: grayscale(0.6) opacity(0.2);     
+    background-image: url('../img/cert_second_ms.webp');
+    filter: grayscale(0.6) opacity(0.2);
 }
 .cert-vision:hover::before{
-    background-image: url('../img/cert_second_vs.jpg');
-    filter: grayscale(0.6) opacity(0.2);     
+    background-image: url('../img/cert_second_vs.webp');
+    filter: grayscale(0.6) opacity(0.2);
 }
 .cert-vision::before{
     transform: rotateY(180deg);
 }
 .cert-valor img{
-    width: 240px;   
+    width: 240px;
 }
 .cert-valor h5{
     color: #fff;
@@ -1472,7 +1472,7 @@ body.terminos-body{
     height: 100%;
     z-index: 0;
     opacity: 0.5;
-    
+
     background-position: center;
     background-size: cover;
     transition: 0.3s;
@@ -1494,7 +1494,7 @@ body.terminos-body{
 .herra-cert::after{
     background-image: url('../img/cert_obj_4.png');
 }
-.activ-cert .second-p, 
+.activ-cert .second-p,
 .herra-cert .second-p{
     display: none;
 }
@@ -1958,7 +1958,7 @@ body.medios-body hr{
 }
 .caja-menu-serv{
     position: sticky;
-    top: 130px; 
+    top: 130px;
 }
 .menu-serv-inter h3{
     color: #2567AE;
@@ -1985,8 +1985,8 @@ body.medios-body hr{
     font-size: 18px;
     color: #646464;
 }
-.main-serv-inter p, 
-.main-serv-inter ul, 
+.main-serv-inter p,
+.main-serv-inter ul,
 .main-serv-inter img
 .main-serv-inter h1{
     margin-top: 40px;
@@ -1996,7 +1996,7 @@ body.medios-body hr{
 .ingresa-admin{
     width:450px;
     margin: auto;
-    margin-top: 100px; 
+    margin-top: 100px;
 }
 .ingresa-admin .form-item button{
     width: 100%;
@@ -2134,7 +2134,7 @@ body.admin-medios{
     filter: opacity(0);
     transform: scale(0.5);
 }
-.nivel-seguridad.no-visible h1, 
+.nivel-seguridad.no-visible h1,
 .nivel-seguridad.no-visible p{
     filter: opacity(0);
     transform: translate(-10%);
@@ -2669,7 +2669,7 @@ body.admin-medios{
         margin: 0px;
         padding: 0px 10px;
     }
-    
+
     /* footer */
     .info-footer img{
         width: 50%;
@@ -2846,7 +2846,7 @@ body.admin-medios{
     .main-serv-inter{
         margin-left: 0px;
     }
-    .title-first-serv, 
+    .title-first-serv,
     .title-first-serv{
         font-size: 20px;
     }
