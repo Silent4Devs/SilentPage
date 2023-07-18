@@ -4,6 +4,7 @@
 
 <head>
     @include('layouts.complementos.head')
+    @livewireStyles
 </head>
 
 <body>
@@ -21,6 +22,12 @@
     </main>
 
     @include('layouts.complementos.footer')
+
+    @livewireScripts
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <x-livewire-alert::scripts />
 
 </body>
 

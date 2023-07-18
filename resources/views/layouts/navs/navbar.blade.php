@@ -39,7 +39,7 @@
         <nav>
             <a href="index#alianzas">Alianzas</a>
             <a href="exito">Casos de éxito</a>
-            <a href="talento">Aporta tu talento</a>
+            <a href="{{ url('talento') }}">Aporta tu talento</a>
             <a href="medios">S4B en medios</a>
             <a href="cert">CERT</a>
             <a href="#pie-page">Newsletter</a>
