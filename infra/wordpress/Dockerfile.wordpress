@@ -1,0 +1,12 @@
+FROM wordpress:latest
+
+COPY ./infra/wordpress/httpd.conf /etc/apache2/conf-available/custom.conf
+RUN ln -s /etc/apache2/conf-available/custom.conf /etc/apache2/conf-enabled/custom.conf
+
+# Expose port 443
+EXPOSE 7006
+EXPOSE 8443
+
+# Healthcheck
+HEALTHCHECK --interval=15m --timeout=3s \
+    CMD curl --fail http://localhost:7006 || exit 1
