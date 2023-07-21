@@ -13,9 +13,18 @@ class TendenciasController extends Controller
      */
     public function index()
     {
-        $posts = Post::published()->get();
+        // $posts = Post::published()->get();
+        $posts = Post::where('post_type', 'post')
+        ->where('post_status', 'publish')
+        ->orderBy('post_date', 'desc')
+        ->get();
+// dd($posts);
+        $postsRecientes = $posts = Post::where('post_type', 'post')
+        ->where('post_status', 'publish')
+        ->orderBy('post_date', 'desc')
+        ->paginate(5);
 
-        return view('tendencias', compact('posts'));
+        return view('tendencias', compact('posts', 'postsRecientes'));
     }
 
     /**
@@ -39,7 +48,8 @@ class TendenciasController extends Controller
      */
     public function show(string $id)
     {
-        //
+        $post = Post::find($id);
+        return view('tendenciaid', compact('post'));
     }
 
     /**

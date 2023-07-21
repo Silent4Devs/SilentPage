@@ -28,13 +28,11 @@
                 <div class="column-noticias caja-noticias-med">
                     @foreach ($posts as $post)
                         <div class="card noticia">
-                            <img src="img/tendencias/${element.imagen}">
+                                <img src={{$post->thumbnail}}>
                             <div class="info-noticia">
-                                <small>{{ $post->post_title }}</small><br><br>
-                                <h3>{!! $post->post_content !!}</h3>
-                                <p>
-                                    <span onclick="modal('modal-tend-${element.id}')">Leer más</span>
-                                </p>
+                                <small>{{$post->post_date}}</small><br><br>
+                                <h3>{{ $post->post_title }}</h3><br><br>
+                                <a href={{url("/tendencias/".$post->ID)}}>Leer más</a>
                             </div>
                         </div>
                     @endforeach
@@ -45,7 +43,19 @@
                 <div class="column-posts">
                     <h3 style="color:#2567AE;">Últimos posts</h3>
                     <div class="list-noticias-med">
-
+                        @foreach ($postsRecientes as $postReciente)
+                        <div class="caja-flex">
+                            <div class="img-posts">
+                                <img src={{$postReciente->thumbnail}}>
+                            </div>
+                            <div>
+                                <small>{{$postReciente->post_date}}</small><br>
+                                <h4>{{$postReciente->post_title}}...</h4>
+                                <a href={{url("/tendencias/".$postReciente->ID)}}>Leer más</a>
+                            </div>
+                        </div>
+                        <hr>
+                        @endforeach
                     </div>
                 </div>
             </div>
@@ -56,3 +66,5 @@
 </div>
 
 @endsection
+
+

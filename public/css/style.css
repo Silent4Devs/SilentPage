@@ -1822,6 +1822,18 @@ body.medios-body hr{
     margin-bottom: 30px;
     float: left;
 }
+.noticiaid{
+    width: 800px;
+        height: auto;
+        padding: 0px;
+        overflow: hidden;
+        margin: 15px;
+        margin-bottom: 30px;
+        float: left;
+}
+.noticiaid img {
+    width: 100%;
+}
 .noticia img{
     width: 100%;
 }
