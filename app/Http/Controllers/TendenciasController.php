@@ -13,12 +13,11 @@ class TendenciasController extends Controller
      */
     public function index()
     {
-        // $posts = Post::published()->get();
         $posts = Post::where('post_type', 'post')
         ->where('post_status', 'publish')
         ->orderBy('post_date', 'desc')
         ->get();
-// dd($posts);
+
         $postsRecientes = $posts = Post::where('post_type', 'post')
         ->where('post_status', 'publish')
         ->orderBy('post_date', 'desc')
