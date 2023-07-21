@@ -81,6 +81,10 @@ button{
     right: 10px;
     cursor: pointer;
 }
+.wrapper-space{
+    padding-left: 50px;
+    padding-right: 50px;
+}
 
 /* header --------------- */
 header{
@@ -2344,9 +2348,17 @@ body.admin-medios{
         height: auto;
     }
 }
+@media(max-width:1220px){
+    .first-header nav a{
+        margin-right: 30px;
+    }
+}
 @media(max-width: 1020px){
     .solo-mobile{
         display: block;
+    }
+    .caja-flex.solo-mobile{
+        display: flex;
     }
     .mobile-none{
         display: none !important;
@@ -2355,7 +2367,7 @@ body.admin-medios{
         font-size: 12px;
     }
     main{
-        margin-top: 75px;
+        margin-top: 70px;
     }
 
     /* header */
@@ -2417,6 +2429,9 @@ body.admin-medios{
         padding: 17px 15px;
         box-sizing: border-box;
         color: #2375A6;
+    }
+    .btn-contact.solo-mobile{
+        display: flex;
     }
 
     /* index */

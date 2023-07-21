@@ -2,7 +2,7 @@
     <content class="content-header">
         <div class="header-caja">
             <a href="{{ url('/') }}">
-                <img src="img/logo_silent.webp" style="height: 70px;">
+                <img src="{{ asset('img/logo_silent.webp') }}" style="height: 70px;">
             </a>
             <nav class="nav-principal mobile-none">
                 <a href="{{ url('servicios') }}">Servicios</a>
@@ -18,7 +18,7 @@
             <a href="contacto" class="btn-contact">Contáctanos</a>
         </div>
 
-        <div class="caja-flex solo-mobile" style="gap:20px; align-items: center;">
+        <div class="caja-flex solo-mobile" style="gap:30px; align-items: center;">
             <a href="contacto" class="btn-contact solo-mobile">Contáctanos</a>
             <i id="btn-menu-header" class="material-symbols-outlined icon-menu solo-mobile" onclick="menu()">menu</i>
         </div>

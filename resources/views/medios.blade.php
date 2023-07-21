@@ -4,6 +4,8 @@
 
 @section('titulo', 'Aliados de tu Ciberseguridad | Servicios para tu empresa')
 
+@section('body', 'medios-body')
+
 <style>
     .title-fondo::before {
         background-image: url('img/portadas/portada_medios.webp');
@@ -11,97 +13,95 @@
 
 </style>
 
-<body id="inicio" class="medios-body">
+<div>
+    <div class="title-fondo">
+        <h1>Nuestra presencia en medios</h1>
+        <p>Conoce el mundo Silent4Business</p>
+    </div>
 
-    <main>
-        <div class="title-fondo">
-            <h1>Nuestra presencia en medios</h1>
-            <p>Conoce el mundo Silent4Business</p>
+    <h2>Videos recientes</h2>
+
+    <content class="content-limit caja-carrusel">
+        <div class="arrow-carrusel-izq">
+            <i class="material-symbols-outlined">arrow_back_ios</i>
         </div>
 
-        <h2>Videos recientes</h2>
-
-        <content class="content-limit caja-carrusel">
-            <div class="arrow-carrusel-izq">
-                <i class="material-symbols-outlined">arrow_back_ios</i>
-            </div>
-
-            <div class="carrusel-infinito">
-                <div class="item-carrusel">
-                    <iframe src="https://www.youtube.com/embed/PrzLJe_McxQ" title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
-                    <div class="info-carrusel">
-                        <h6>SENER <small> Protección Total </small></h6>
-                        <p>
-                            Breve reseña sobre nuestra labor en la migración tecnológica, así como el análisis,
-                            protección, detección y respuesta a amenzas de nuestra entrega de servicios.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="item-carrusel">
-                    <iframe src="https://www.youtube.com/embed/FUqSChUdLVk" title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
-                    <div class="info-carrusel">
-                        <h6>Caso de éxito Industria Minera <small> </small></h6>
-                        <p>
-                            Acompáñanos a revisar como esta Industria Minera alanzó el éxito en ciberseguridad para su
-                            empresa.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="item-carrusel">
-                    <iframe src="https://www.youtube.com/embed/3PZn_41cD24" title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
-                    <div class="info-carrusel">
-                        <h6>SEGURIDAD A LA MEDIDA <small> </small></h6>
-                        <p>
-                            Gestionamos la Seguridad de la Industria Turística por medio de una estrategia integral
-                            multi-marca totalmente personalizada.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="item-carrusel">
-                    <iframe src="https://www.youtube.com/embed/4URF3t6a1Po" title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
-                    <div class="info-carrusel">
-                        <h6> El sector de la ciberseguridad y los retos que enfrenta <small> </small></h6>
-                        <p>
-                            El sector de la ciberseguridad y los retos que se enfrentan.
-                        </p>
-                    </div>
+        <div class="carrusel-infinito">
+            <div class="item-carrusel">
+                <iframe src="https://www.youtube.com/embed/PrzLJe_McxQ" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <div class="info-carrusel">
+                    <h6>SENER <small> Protección Total </small></h6>
+                    <p>
+                        Breve reseña sobre nuestra labor en la migración tecnológica, así como el análisis,
+                        protección, detección y respuesta a amenzas de nuestra entrega de servicios.
+                    </p>
                 </div>
             </div>
 
-            <div class="arrow-carrusel-der">
-                <i class="material-symbols-outlined">arrow_forward_ios</i>
-            </div>
-        </content>
-
-        <content class="content-limit">
-            <hr style="margin-top:50px;">
-            <h2>Notas importantes de S4B</h2>
-            <div class="noticias no-visible">
-                <div class="column-noticias caja-noticias-med">
-                </div>
-                <br style="clear: both;">
-                <div class="column-posts">
-                    <h3>Últimos posts</h3>
-                    <div class="list-noticias-med">
-                    </div>
+            <div class="item-carrusel">
+                <iframe src="https://www.youtube.com/embed/FUqSChUdLVk" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <div class="info-carrusel">
+                    <h6>Caso de éxito Industria Minera <small> </small></h6>
+                    <p>
+                        Acompáñanos a revisar como esta Industria Minera alanzó el éxito en ciberseguridad para su
+                        empresa.
+                    </p>
                 </div>
             </div>
-        </content>
+
+            <div class="item-carrusel">
+                <iframe src="https://www.youtube.com/embed/3PZn_41cD24" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <div class="info-carrusel">
+                    <h6>SEGURIDAD A LA MEDIDA <small> </small></h6>
+                    <p>
+                        Gestionamos la Seguridad de la Industria Turística por medio de una estrategia integral
+                        multi-marca totalmente personalizada.
+                    </p>
+                </div>
+            </div>
+
+            <div class="item-carrusel">
+                <iframe src="https://www.youtube.com/embed/4URF3t6a1Po" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <div class="info-carrusel">
+                    <h6> El sector de la ciberseguridad y los retos que enfrenta <small> </small></h6>
+                    <p>
+                        El sector de la ciberseguridad y los retos que se enfrentan.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="arrow-carrusel-der">
+            <i class="material-symbols-outlined">arrow_forward_ios</i>
+        </div>
+    </content>
+
+    <content class="content-limit">
+        <hr style="margin-top:50px;">
+        <h2>Notas importantes de S4B</h2>
+        <div class="noticias no-visible">
+            <div class="column-noticias caja-noticias-med">
+            </div>
+            <br style="clear: both;">
+            <div class="column-posts">
+                <h3>Últimos posts</h3>
+                <div class="list-noticias-med">
+                </div>
+            </div>
+        </div>
+    </content>
 
 
-    </main>
-</body>
+</div>
+
 @endsection
 
 

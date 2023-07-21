@@ -7,7 +7,7 @@
     @livewireStyles
 </head>
 
-<body>
+<body id="inicio" class="@yield('body')">
 
     <header>
         @include('layouts.complementos.header')
