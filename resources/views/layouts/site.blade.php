@@ -7,7 +7,7 @@
     @livewireStyles
 </head>
 
-<body>
+<body id="inicio" class="@yield('body')">
 
     <header>
         @include('layouts.complementos.header')
@@ -28,7 +28,7 @@
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <x-livewire-alert::scripts />
-
+    @yield('scripts')
 </body>
 
 </html>

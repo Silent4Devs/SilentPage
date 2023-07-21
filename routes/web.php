@@ -28,6 +28,8 @@ Route::view('exito','exito');
 Route::view('medios','medios');
 Route::view('cert','cert');
 Route::view('talento', 'talento');
+Route::get('tendencias/{id}',[TendenciasController::class, 'show']);
+Route::view('contacto','contacto');
 
 Route::middleware([
     'auth:sanctum',

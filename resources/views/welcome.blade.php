@@ -4,6 +4,8 @@
 
 @section('titulo', 'Aliados de tu Ciberseguridad | Servicios para tu empresa')
 
+@section('body', 'body')
+
 <div id="video-inicio" class="caja-video-fondo">
     <video autoplay muted loop>
         <source src="img/fondo.webm" type="video/mp4">

@@ -4,13 +4,15 @@
 
 @section('titulo', 'Aliados de tu Ciberseguridad | Servicios para tu empresa')
 
+@section('body', 'servicios-body')
+
 <style>
     .title-fondo::before {
         background-image: url('img/portadas/portada_servicios.webp');
     }
 </style>
 
-<div id="inicio" class="servicios-body">
+<div>
     <div class="title-fondo">
         <h1>Conoce nuestros servicios</h1>
         <p>Nuestra amplia experiencia en resolver problemas y emergencias nos respalda.</p>
