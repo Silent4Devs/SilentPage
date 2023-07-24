@@ -15,7 +15,7 @@
         </div>
         <div class="header-caja contact-header mobile-none" style="justify-content: right;">
             <a href="" class="d-none" style="margin-right: 50px;">¿Tuviste un incidente?</a>
-            <a href="contacto" class="btn-contact">Contáctanos</a>
+            <a href="{{ url('contacto') }}" class="btn-contact">Contáctanos</a>
         </div>
 
         <div class="caja-flex solo-mobile" style="gap:30px; align-items: center;">

@@ -18,7 +18,7 @@
                 marketing@silent4business
             </p>
         </div>
-        <div class="correo-footer">
+        {{-- <div class="correo-footer">
             <h2>Únete a nuestro Newsletter</h2>
             <p>
                 Suscríbete para estar informado acerca de nuestros servicios, productos y desarrollos en el mundo de la
@@ -32,13 +32,14 @@
                     Envíar
                 </button>
             </form>
-        </div>
+        </div> --}}
+        @livewire('contacto-footer-form-component')
         <div class="menu-footer">
             <h2>Menú</h2>
-            <a href="servicios.php">Servicios</a>
-            <a href="cert.php">CERT</a>
-            <a href="medios.php">Medios</a>
-            <a href="talento.php">Aporta tu talento</a>
+            <a href="{{ url('servicios') }}">Servicios</a>
+            <a href="{{ url('cert') }}">CERT</a>
+            <a href="{{ url('medios') }}">Medios</a>
+            <a href="{{ url('talentos') }}">Aporta tu talento</a>
         </div>
     </div>
     <div class="last-footer">

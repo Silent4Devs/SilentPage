@@ -2,28 +2,28 @@
 
 namespace App\Http\Controllers;
 
+use Carbon\Carbon;
 use Corcel\Model\Post;
 use Illuminate\Http\Request;
 
-
-class TendenciasController extends Controller
+class MediosController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        $posts = Post::taxonomy('category', 'tendencias')
+        $posts = Post::taxonomy('category', 'medios')
         ->type('post')
         ->published()
         ->get();
 
-        $postsRecientes = Post::taxonomy('category', 'tendencias')
+        $postsRecientes = Post::taxonomy('category', 'medios')
         ->type('post')
         ->published()
         ->orderBy('post_date', 'desc')
         ->paginate(5);
-        return view('tendencias', compact('posts', 'postsRecientes'));
+        return view('medios', compact('posts', 'postsRecientes'));
     }
 
     /**
@@ -48,7 +48,7 @@ class TendenciasController extends Controller
     public function show(string $id)
     {
         $post = Post::find($id);
-        return view('tendenciaid', compact('post'));
+        return view('mediosid', compact('post'));
     }
 
     /**

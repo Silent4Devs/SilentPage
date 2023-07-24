@@ -2,9 +2,9 @@
     <content class="content-header">
         <nav>
             <a href="/#alianzas">Alianzas</a>
-            <a href="exito">Casos de éxito</a>
-            <a href="talento">Aporta tu talento</a>
-            <a href="medios">S4B en medios</a>
+            <a href="/exito">Casos de éxito</a>
+            <a href="/talento">Aporta tu talento</a>
+            <a href="/medios">S4B en medios</a>
             <a href="#pie-page">Newsletter</a>
             <a href="https://www.spatial.io/s/Silent-4-Business-Metaverse-640934cccad9bf8793157ca2?share=3130313224200591619" target="_blank">Metaverso</a>
         </nav>

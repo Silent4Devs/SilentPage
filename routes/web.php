@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\MediosController;
 use App\Http\Controllers\TendenciasController;
 use Illuminate\Support\Facades\Route;
 
@@ -25,7 +26,8 @@ Route::view('productos', 'productos');
 Route::view('soluciones', 'soluciones');
 Route::get('tendencias', [TendenciasController::class, 'index']);
 Route::view('exito','exito');
-Route::view('medios','medios');
+Route::get('medios', [MediosController::class, 'index']);
+Route::get('medios/{id}',[MediosController::class, 'show']);
 Route::view('cert','cert');
 Route::view('talento', 'talento');
 Route::get('tendencias/{id}',[TendenciasController::class, 'show']);
