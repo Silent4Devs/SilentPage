@@ -110,7 +110,7 @@
                             <img src={{$postReciente->thumbnail}}>
                         </div>
                         <div>
-                            <small>{{$postReciente->post_date}}</small><br>
+                            <small>{{Carbon\Carbon::parse($post->post_date)->format('d-m-Y')}}</small><br>
                             <h4>{{$postReciente->post_title}}...</h4>
                             <a href={{url("/medios/".$postReciente->ID)}}>Leer más</a>
                         </div>

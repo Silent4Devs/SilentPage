@@ -14,7 +14,11 @@
                 {!! $post->post_content !!}
             </div>
         </div>
+        <div style="margin-top: 15px">
+            <a class="btn-contact" href="/tendencias">Regresar</a>
+        </div>
     </content>
 </div>
 
 @endsection
+
