@@ -31,9 +31,11 @@
                     <div class="card noticia">
                             <img src={{$post->thumbnail}}>
                         <div class="info-noticia">
-                            <small>{{$post->post_date}}</small><br><br>
+                            <small>{{Carbon\Carbon::parse($post->post_date)->format('d-m-Y')}}</small><br><br>
                             <h3>{{ $post->post_title }}</h3><br><br>
-                            <a href={{url("/tendencias/".$post->ID)}}>Leer más</a>
+                            <span>
+                                <a href={{url("/tendencias/".$post->ID)}}>Leer más</a>
+                            </span>
                         </div>
                     </div>
                 @endforeach
@@ -50,9 +52,11 @@
                             <img src={{$postReciente->thumbnail}}>
                         </div>
                         <div>
-                            <small>{{$postReciente->post_date}}</small><br>
+                            <small>{{Carbon\Carbon::parse($post->post_date)->format('d-m-Y')}}</small><br>
                             <h4>{{$postReciente->post_title}}...</h4>
-                            <a href={{url("/tendencias/".$postReciente->ID)}}>Leer más</a>
+                            <span>
+                                <a href={{url("/tendencias/".$postReciente->ID)}}>Leer más</a>
+                            </span>
                         </div>
                     </div>
                     <hr>
