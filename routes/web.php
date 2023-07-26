@@ -32,6 +32,7 @@ Route::view('cert','cert');
 Route::view('talento', 'talento');
 Route::get('tendencias/{id}',[TendenciasController::class, 'show']);
 Route::view('contacto','contacto');
+Route::view('metaverso','metaverso');
 
 Route::middleware([
     'auth:sanctum',

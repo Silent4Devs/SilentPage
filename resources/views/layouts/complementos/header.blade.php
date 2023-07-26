@@ -6,7 +6,7 @@
             <a href="/talento">Aporta tu talento</a>
             <a href="/medios">S4B en medios</a>
             <a href="#pie-page">Newsletter</a>
-            <a href="https://www.spatial.io/s/Silent-4-Business-Metaverse-640934cccad9bf8793157ca2?share=3130313224200591619" target="_blank">Metaverso</a>
+            <a href="/metaverso">Metaverso</a>
         </nav>
         <div class="redes">
             <a href="https://www.instagram.com/team.s4b/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
