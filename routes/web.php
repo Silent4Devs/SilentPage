@@ -34,6 +34,12 @@ Route::get('tendencias/{id}',[TendenciasController::class, 'show']);
 Route::view('contacto','contacto');
 Route::view('metaverso','metaverso');
 
+// servicios --------------------
+Route::view('servicios/soc-noc','servicios/soc-noc');
+Route::view('servicios/ciberinteligencia','servicios/ciberinteligencia');
+Route::view('servicios/consultoria-estrategica ','servicios/consultoria-estrategica');
+Route::view('servicios/otras-soluciones','servicios/otras-soluciones');
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),

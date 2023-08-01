@@ -19,23 +19,20 @@
             <div class="caja-flex no-visible caja-servicios-inicio" style="justify-content: space-between;">
                 <div id="serv-original" class="caja-servicios-text">
                     <h1 class="title-servicios">Conoce Nuestros <br> Servicios</h1>
-                    <p>
-                        Debido a la creciente incidencia de robo de información y demás ciberataques, las compañías
-                        intentan estar preparadas para hacer frente y disminuir los riegos a los que se exponen
-                        diariamente.
+                    <p align="justify">
+                        Debido a la creciente incidencia de robo de información, interrupción de operaciones, cifrado de base de datos, suplantación de identidad y demás ciberataques, las empresas intentan estar preparadas para hacer frente y mitigar los riegos informáticos a los que están expuestos diariamente.
                     </p>
                     <p>
-                        Conoce que servicios podemos ofrecerle a tu organización para proteger su información.
+                        Nuestro portafolio de servicios de ciberseguridad está diseñado para ser tu aliado en alcanzar la integridad, la confidencialidad y disponibilidad de la información dentro de tu empresa.
                     </p>
                 </div>
                 <div id="soc-noc" class="caja-servicios-text d-none">
-                    <h1 class="title-servicios">SOC/NOC</h1>
+                    <h1 class="title-servicios">SOC/NOC (Centro de Operaciones de Ciberseguridad) </h1>
                     <p>
-                        Nuestro SOC de última generación está conformado por profesionistas capacitados y especializados
-                        en el uso de soluciones tecnológicas, enfocadas en brindar servicios de seguridad integral.
+                        Nuestro Centro de Operaciones de Ciberseguridad de última generación (SOC/NOC) está conformado por profesionistas capacitados y especializados en el uso de soluciones tecnológicas de vanguardia, enfocadas en brindarte servicios de seguridad integral, así como monitoreo continuo de la disponibilidad de las redes y operaciones de tu empresa.
                     </p>
                     <div>
-                        <a href="serv_soc_noc.php" class="btn-leer-mas">Leer más</a>
+                        <a href="{{asset('servicios/soc-noc')}}" class="btn-leer-mas">Leer más</a>
                     </div>
 
                     <button onclick="servicio('serv-original')" class="btn-close">
@@ -44,13 +41,16 @@
                 </div>
                 <div id="ciberinteligencia" class="caja-servicios-text d-none">
                     <h1 class="title-servicios">Ciberinteligencia</h1>
-                    <p>
-                        El servicio de ciberinteligencia engloba estrategias proactivas y cognitivas de prevención,
-                        detección e investigación de riesgos de seguridad, vigilancia del ciberespacio e incorporación
-                        de herramientas de inteligencia artificial, y machine learning.
+                    <p align="justify">
+                        El servicio de ciberinteligencia engloba estrategias proactivas y cognitivas de prevención, detección e investigación de riesgos de seguridad, vigilancia del ciberespacio e incorporación de herramientas de inteligencia artificial y machine learning.
+                    <ol>
+                        <li>Pentesting y Análisis de vulnerabilidades</li>
+                        <li>Servicios de Ingeniería Social</li>
+                        <li>Análisis forense</li>
+                    </ol>
                     </p>
                     <div>
-                        <a href="serv_ciber.php" class="btn-leer-mas">Leer más</a>
+                        <a href="{{asset('servicios/ciberinteligencia')}}" class="btn-leer-mas">Leer más</a>
                     </div>
                     <button onclick="servicio('serv-original')" class="btn-close">
                         <i class="material-symbols-outlined">close</i>
@@ -59,28 +59,32 @@
                 <div id="consultoria" class="caja-servicios-text d-none">
                     <h1 class="title-servicios">Consultoría Estratégica</h1>
                     <p>
-                        Acompañamiento y guía en el cumplimiento legal y regulatorio del ciclo de vida de los activos de
-                        información de tu organización a nivel nacional e internacional. Una consultoría implica cambios
-                        y mejoras dentro de una empresa con la finalidad de optimizar su actividad de algún modo, pero
-                        para lograrlos será necesario gestionarla de forma organizada.
+                        Te guiamos en el cumplimiento legal y regulatorio del ciclo de vida de los activos de información de tu empresa basándonos en la normatividad nacional e internacional.
+                    <ol>
+                        <li>Actualización a la nueva versión 2022 de la norma ISO 27001</li>
+                        <li>Análisis de riesgos de seguridad de la información. </li>
+                        <li>Plan de continuidad de negocio (BCP, DRP Y BIA). </li>
+                    </ol>
                     </p>
                     <div>
-                        <a href="serv_consul.php" class="btn-leer-mas">Leer más</a>
+                        <a href="{{asset('servicios/consultoria-estrategica')}}" class="btn-leer-mas">Leer más</a>
                     </div>
                     <button onclick="servicio('serv-original')" class="btn-close">
                         <i class="material-symbols-outlined">close</i>
                     </button>
                 </div>
                 <div id="otra-solucion" class="caja-servicios-text d-none">
-                    <h1 class="title-servicios">Otras soluciones</h1>
+                    <h1 class="title-servicios">Cyber Threat Intelligence (CTI)</h1>
                     <p>
-                        Ofrecemos acompañamiento y guía en el cumplimiento legal y regulatorio de los activos de
-                        información de tu organización, tanto a nivel nacional como internacional. Nuestro servicio de
-                        consultoría tiene como objetivo ayudarte a optimizar tu actividad empresarial y realizar los
-                        cambios y mejoras necesarias. Para lograrlo, te ofrecemos una gestión organizada y efectiva.
+                        Nuestro servicio CTI te permite identificar proactivamente las amenazas a las que se encuentra expuesta tu organización en el ciberespacio, como:
+                        <ol>
+                            <li>Suplantación de marca.</li>
+                            <li>Fuga de información.</li>
+                            <li>Credenciales comprometidas.</li>
+                        </ol>
                     </p>
                     <div>
-                        <a href="serv_otros.php" class="btn-leer-mas ">Leer más</a>
+                        <a href="{{asset('servicios/otras-soluciones')}}" class="btn-leer-mas ">Leer más</a>
                     </div>
                     <button onclick="servicio('serv-original')" class="btn-close">
                         <i class="material-symbols-outlined">close</i>
@@ -101,13 +105,14 @@
                     </button>
                     <button onclick="servicio('otra-solucion')">
                         <img src="img/serv_soluciones.webp">
-                        <p>Otras <br> soluciones</p>
+                        <p>Cyber Threat <br> Intelligence (CTI)</p>
                     </button>
                 </div>
             </div>
         </content>
     </div>
 </section>
+
 <section id="valores">
     <div class="caja-valores">
         <div class="vision">
@@ -189,37 +194,35 @@
     <div class="ciber-ind no-visible">
         <content class="content-limit">
             <div class="caja-btn-group">
-                <a href="soluciones.php#salud">
+                <a href="{{asset('soluciones#salud')}}">
                     <img src="img/serv_escudo.webp">
                     <p>Salud</p>
                 </a>
-                <a href="soluciones.php#financiera">
+                <a href="{{asset('soluciones#financiera')}}">
                     <img src="img/ciber_edificio.webp">
                     <p>Financiera</p>
                 </a>
-                <a href="soluciones.php#manofactura">
+                <a href="{{asset('soluciones#manofactura')}}">
                     <img src="img/ciber_person.webp">
                     <p>Manofactura</p>
                 </a>
-                <a href="soluciones.php#energia">
+                <a href="{{asset('soluciones#energia')}}">
                     <img src="img/ciber_electro.webp">
                     <p>Energética y Recursos</p>
                 </a>
-                <a href="soluciones.php#agro">
+                <a href="{{asset('soluciones#agro')}}">
                     <img src="img/ciber_tubo.webp">
                     <p>Agroindustrial</p>
                 </a>
-                <a href="soluciones.php#academia">
+                <a href="{{asset('soluciones#academia')}}">
                     <img src="img/ciber_graduado.webp">
                     <p>Académica</p>
                 </a>
             </div>
             <div class="caja-industria">
-                <h1>Ciberseguridad en Industrias</h1>
+                <h1>Ciberseguridad en tu sector</h1>
                 <p>
-                    El concepto de ciberseguridad industrial se especializa principalmente en la unión de los principios
-                    de seguridad del entorno de la OT (Tecnología de las Operaciones) y los fundamentos de seguridad del
-                    entorno de la red TI (Tecnologías de la Información).
+                    En la era digital todas las empresas de todos los sectores son vulnerables a un ciberataque o brecha de informació. Debido a esto, nuestros servicios pueden adaptarse a las circunstancias y necesidades de cada sector, inclusive en lo que engloba la unión de los principios: Tecnología de las Operaciones (OT) y Tecnologías de la Información (TI).
                 </p>
             </div>
         </content>
@@ -240,7 +243,7 @@
                     Múltiples publicaciones revelan posible filtración de información sensible de empresas mexicanas.
                 </p>
 
-                <a href="exito.php#cero-extraccion" class="btn-exito">Leer más <i
+                <a href="{{asset('exito.php#cero-extraccion')}}" class="btn-exito">Leer más <i
                         class="fa-solid fa-chevron-right"></i></a>
             </div>
             <div class="exito-text text-caso1">
@@ -459,4 +462,42 @@
     </div>
 </section>
 
+@endsection
+
+@section('scripts')
+    <script type="text/javascript">
+        function servicio(id_servicio) {
+            $('.caja-servicios-text').addClass('d-none');
+            $('#' + id_servicio).removeClass('d-none');
+            $('.nuestros-servicios').addClass('flex-reverse');
+            $('.caja-btn-servicios button').removeClass('serv-active');
+            $('.caja-btn-servicios button:hover').addClass('serv-active');
+
+            if(id_servicio == 'serv-original'){
+                $('.nuestros-servicios').removeClass('flex-reverse');
+            }
+        }
+        function casoUp() {
+            $('.casos-exito').toggleClass('second');
+        }
+
+        function swichtTend() {
+            $('.tend-text').toggleClass('d-none');
+            $('.tend-img').toggleClass('d-none');
+            $('.btn-swivht-tend').toggleClass('second');
+        }
+
+        let back_pos = 0;
+        $(window).scroll(function() {
+            if($(window).scrollTop() > ($('.medios').offset().top - 1000) && $(window).scrollTop() < ($('.medios').offset().top + 1000)){
+                back_pos =(($('.medios').offset().top + 350) - ($(window).scrollTop() ) ) / 15;
+            }
+
+            $('.medios').css('background-position', 'center ' + back_pos + '%');
+        });
+
+        $(document).ready(function() {
+
+        });
+    </script>
 @endsection
