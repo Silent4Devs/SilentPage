@@ -8,7 +8,7 @@
 
 <div id="video-inicio" class="caja-video-fondo">
     <video autoplay muted loop>
-        <source src="img/fondo.webm" type="video/mp4">
+        <source src="img/fondo.mp4" type="video/mp4">
         <img src="img/fondo_img.webp" width="100%">
     </video>
 </div>
