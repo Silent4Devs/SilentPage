@@ -120,7 +120,7 @@
 
         <hr style="width: 500px; border-color:#fff; margin-top:80px;">
 
-        <a href="contacto" class="btn-contact-cert">Contáctanos</a>
+        <a href="{{ url('contacto') }}" class="btn-contact-cert">Contáctanos</a>
 
     </content>
 </div>

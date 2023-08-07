@@ -220,9 +220,9 @@
                 </a>
             </div>
             <div class="caja-industria">
-                <h1>Ciberseguridad en tu sector</h1>
+                <h1>Ciberseguridad en Industrias</h1>
                 <p>
-                    En la era digital todas las empresas de todos los sectores son vulnerables a un ciberataque o brecha de informació. Debido a esto, nuestros servicios pueden adaptarse a las circunstancias y necesidades de cada sector, inclusive en lo que engloba la unión de los principios: Tecnología de las Operaciones (OT) y Tecnologías de la Información (TI).
+                    El concepto de ciberseguridad industrial se especializa principalmente en la unión de los principios de seguridad del entorno de la OT (Tecnología de las Operaciones) y los fundamentos de seguridad del entorno de la red TI (Tecnologías de la Información).
                 </p>
             </div>
         </content>
@@ -243,7 +243,7 @@
                     Múltiples publicaciones revelan posible filtración de información sensible de empresas mexicanas.
                 </p>
 
-                <a href="{{asset('exito.php#cero-extraccion')}}" class="btn-exito">Leer más <i
+                <a href="{{asset('exito#cero-extraccion')}}" class="btn-exito">Leer más <i
                         class="fa-solid fa-chevron-right"></i></a>
             </div>
             <div class="exito-text text-caso1">
@@ -257,7 +257,7 @@
                     La entrega de nuestros servicios está basada en la comunicación continua.
                 </p>
 
-                <a href="exito.php#seguridad-medida" class="btn-exito">Leer más <i
+                <a href="{{asset('exito#seguridad-medida')}}" class="btn-exito">Leer más <i
                         class="fa-solid fa-chevron-right"></i></a>
             </div>
         </div>
@@ -297,7 +297,7 @@
                     Tendencias más importantes y recientes <br> para proteger tus datos personales <br> y prevenir
                     ataques cibernéticos.
                 </p>
-                <a href="tendencias.php" class="btn-tend">Leer más</a>
+                <a href="{{asset('tendencias')}}" class="btn-tend">Leer más</a>
             </div>
 
             <div class="tend-img d-none">
@@ -312,7 +312,7 @@
                     Mantente actualizado sobre las últimas <br> tendencias en ciberseguridad <br> y protege tus datos
                     personales
                 </p>
-                <a href="tendencias.php" class="btn-tend">Leer más</a>
+                <a href="{{asset('tendencias')}}" class="btn-tend">Leer más</a>
             </div>
 
             <button class="btn-swivht-tend" onclick="swichtTend()">
@@ -327,7 +327,7 @@
     <div class="medios">
         <div class="medios-text">
             <h1>Silent4Business</h1>
-            <a href="medios.php">Nuestra presencia en medios</a>
+            <a href="{{asset('medios')}}">Nuestra presencia en medios</a>
         </div>
     </div>
 </section>
@@ -413,7 +413,7 @@
 
 <section>
     <div class="curso no-visible">
-        <a href="contacto.php">
+        <a href="{{asset('contacto')}}">
             <h1>Cursos y capacitaciones</h1>
         </a>
         <p style="font-size: 20px;">Solicita una visita a tu escuela para una capacitación o bien para recibir una
