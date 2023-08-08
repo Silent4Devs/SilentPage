@@ -95,7 +95,9 @@
                     <div class="info-noticia">
                         <small>{{Carbon\Carbon::parse($post->post_date)->format('d-m-Y')}}</small><br><br>
                         <h3>{{ $post->post_title }}</h3><br><br>
-                        <a href={{url("/medios/".$post->ID)}}>Leer más</a>
+                        <span>
+                            <a href={{url("/medios/".$post->ID)}}>Leer más</a>
+                        </span>
                     </div>
                 </div>
                 @endforeach

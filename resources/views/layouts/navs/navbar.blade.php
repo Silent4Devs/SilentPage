@@ -9,8 +9,7 @@
                 <a href="{{ url('productos') }}">Productos</a>
                 <a href="{{ url('soluciones') }}">Soluciones</a>
                 <a href="{{ url('tendencias') }}">Ciber Blog</a>
-                <a href="cert">CERT</a>
-                <a href="test" class="d-none">Test de seguridad</a>
+                <a href="{{ url('cert') }}">CERT</a>
             </nav>
         </div>
         <div class="header-caja contact-header mobile-none" style="justify-content: right;">
@@ -30,21 +29,22 @@
         <nav>
             <a href="{{ url('servicios') }}">Servicios</a>
             <a href="{{ url('productos') }}">Productos</a>
-            <a href="soluciones">Soluciones</a>
-            <a href="test" class="d-none">Test de seguridad</a>
-            <a href="contacto">Contacto</a>
+            <a href="{{ url('soluciones') }}">Soluciones</a>
+            <a href="{{ url('tendencias') }}">Ciber Blog</a>
+            <a href="{{ url('cert') }}">CERT</a>
         </nav>
     </div>
     <div class=menu-blue>
         <nav>
-            <a href="index#alianzas">Alianzas</a>
+            <a href="{{asset('')}}#alianzas">Alianzas</a>
             <a href="exito">Casos de éxito</a>
             <a href="{{ url('talento') }}">Aporta tu talento</a>
             <a href="medios">S4B en medios</a>
             <a href="cert">CERT</a>
             <a href="#pie-page">Newsletter</a>
+            <a href="/metaverso">Metaverso</a>
         </nav>
-        <div class="redes-icons">
+        <div class="redes">
             <a href="https://www.instagram.com/team.s4b/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
             <a href="https://www.linkedin.com/company/silent4business/mycompany/" target="_blank"><i
                     class="fa-brands fa-linkedin"></i></a>

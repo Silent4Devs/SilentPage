@@ -98,36 +98,6 @@ header{
 header:hover{
     top: 0px;
 }
-.first-header nav, .redes-icons{
-    display: flex;
-    align-items: center;
-}
-.redes-icons a{
-    transition: 0.1s !important;
-}
-.first-header nav{
-    margin-left: 185px;
-}
-.first-header nav a{
-    margin-right: 60px;
-    transition: 0.1s;
-}
-.first-header nav a:hover{
-    text-decoration: underline;
-}
-.redes-icons a:hover{
-    transform: scale(1.1);
-}
-.redes-icons{
-    font-size: 18px;
-}
-header .redes-icons a{
-    margin-left: 30px;
-}
-footer .redes-icons a{
-    font-size: 25px;
-    margin-right: 30px;
-}
 .content-header{
     width: 100%;
     max-width: 1450px;
@@ -981,9 +951,6 @@ footer{
 .info-footer p i{
     font-size: 20px;
 }
-.info-footer a:hover{
-    text-decoration: underline;
-}
 .correo-footer{
     width: 100%;
 }
@@ -1056,7 +1023,7 @@ footer button.error{
 .first-header nav{ animation: enter_left 2s; }
 .fixed-header img{ animation: enter_left 1s; }
 .fixed-header .nav-principal { animation: enter_left 1.5s; }
-.first-header .redes-icons{ animation: enter_escala 2.5s; }
+.first-header .redes{ animation: enter_escala 2.5s; }
 .fixed-header .contact-header{ animation: enter_escala 2.5s; }
 @keyframes enter_left{
     0%{
@@ -1178,7 +1145,6 @@ footer button.error{
 body.servicios-body{
     background-color: #F5F5F5;
     color: #646464;
-    font-size: 18px;
 }
 .servicios-body .caja-btn-group{
     width: 100%;
@@ -2448,7 +2414,16 @@ body.admin-medios{
         padding: 17px 15px;
         box-sizing: border-box;
     }
-    .menu-blue .redes-icons{
+    .menu-blue nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu-blue a{
+        width: 100%;
+        padding: 17px 15px;
+        box-sizing: border-box;
+    }
+    .menu-blue .redes{
         display: flex;
         gap: 10px;
         font-size: 20px;
@@ -2523,6 +2498,18 @@ body.admin-medios{
         padding: 0px 70px;
         box-sizing: border-box;
     }
+    .info-footer, .menu-footer{
+        width: 100%;
+        margin: 0px;
+        padding: 0px 70px;
+        box-sizing: border-box;
+    }
+    .redes-icons{
+        width: 70%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+    }
 
     /* servicios */
     .servicios-body .caja-btn-group{
@@ -2533,7 +2520,7 @@ body.admin-medios{
         margin-left: 0px;
         margin-bottom: 0px;
     }
-    .servicios-body p{
+    .servicios-body p.text-prin-serv{
         padding: 0 40px;
         box-sizing: border-box;
     }
@@ -2571,7 +2558,7 @@ body.admin-medios{
         margin-left: 0px;
         width: 50%;
     }
-    .redes-icons{
+    .redes{
         margin-top: calc(100vh - 450px);
     }
 
@@ -2832,7 +2819,7 @@ body.admin-medios{
         padding: 20px;
     }
     .talento-body .caja-flex{
-        flex-direction: column;
+        /* flex-direction: column; */
     }
     .talento-servicios, .talento-form{
         width: 100%;
