@@ -53,11 +53,11 @@ services:
         stdin_open: true
         tty: true
         environment:
-            WORDPRESS_DB_HOST: mysqlwordpress-business
+            WORDPRESS_DB_HOST: mysqlwordpress-business:3030
             WORDPRESS_DB_USER: wordpress
             WORDPRESS_DB_PASSWORD: wordpress
             WORDPRESS_DB_NAME: wordpress
-            WORDPRESS_DB_PORT: 3306
+            WORDPRESS_DB_PORT: 3030
         volumes:
             - wordpress_data:/var/www/html
         networks:
