@@ -55,10 +55,10 @@ services:
         environment:
             WORDPRESS_DB_HOST: mysqlwordpress-business:3030
             WORDPRESS_DB_USER: homestead
-            WORDPRESS_DB_PASSWORD: wordpress
-            WORDPRESS_DB_NAME: wordpress
+            WORDPRESS_DB_PASSWORD: secret
+            WORDPRESS_DB_NAME: ciberblog
             WORDPRESS_DB_PORT: 3030
-            WORDPRESS_DB_DATABASE: ciberblog
+        command: --init-file ./infra/mysql/init.sql
         volumes:
             - wordpress_data:/var/www/html
         networks:
