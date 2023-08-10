@@ -61,6 +61,8 @@ RUN chown -R www-data:www-data /var/www \
 
 WORKDIR /var/www/html
 
+# Copy composer.json and run composer install
+COPY composer.json /var/www/html/composer.json
 RUN composer install
 
 # Healthcheck
