@@ -61,14 +61,7 @@ RUN chown -R www-data:www-data /var/www \
 
 WORKDIR /var/www/html
 
-# Copy package.json and run npm install
-COPY package.json /var/www/html/package.json
-RUN npm install
-
-# Copy the rest of the source code and continue with the build process
-COPY . /var/www/html
-RUN npm run build \
-    && composer install
+RUN composer install
 
 # Healthcheck
 HEALTHCHECK --interval=15m --timeout=3s \
