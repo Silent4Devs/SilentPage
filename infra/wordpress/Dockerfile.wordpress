@@ -1,4 +1,4 @@
-FROM wordpress:latest
+FROM wordpress:apache
 
 COPY ./infra/wordpress/httpd.conf /etc/apache2/conf-available/custom.conf
 RUN ln -s /etc/apache2/conf-available/custom.conf /etc/apache2/conf-enabled/custom.conf
