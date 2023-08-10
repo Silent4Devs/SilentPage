@@ -77,8 +77,6 @@ services:
             MYSQL_USER: "homestead"
             MYSQL_PASSWORD: "secret"
             MYSQL_ROOT_PASSWORD: "secret"
-            SERVICE_TAGS: dev
-            SERVICE_NAME: mysql
         networks:
             - business-network
 
@@ -93,11 +91,9 @@ services:
             - wordbusiness-db:/var/lib/mysql
         environment:
             MYSQL_DATABASE: "ciberblog"
-            MYSQL_USER: "root"
+            MYSQL_USER: "homestead"
             MYSQL_PASSWORD: "secret"
             MYSQL_ROOT_PASSWORD: "secret"
-            SERVICE_TAGS: dev
-            SERVICE_NAME: mysql
         networks:
             - business-network
 

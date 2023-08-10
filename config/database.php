@@ -97,7 +97,7 @@ return [
             'driver'    => 'mysql',
             'host'      => 'mysqlwordpress-business',
             'database'  => 'ciberblog',
-            'username'  => 'root',
+            'username'  => 'homestead',
             'password'  => 'secret',
             'port'      => '3307',
             'charset'   => 'utf8',
