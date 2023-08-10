@@ -41,6 +41,7 @@ services:
         #   replicas: 1 # Set the desired number of replicas
         #   restart_policy:
         #     condition: on-failure
+
     wordpress-business:
         container_name: wordpress-business
         build:
@@ -53,33 +54,18 @@ services:
         stdin_open: true
         tty: true
         environment:
-            WORDPRESS_DB_HOST: mariadb-business
+            WORDPRESS_DB_HOST: mysqlwordpress-business
             WORDPRESS_DB_USER: wordpress
             WORDPRESS_DB_PASSWORD: wordpress
             WORDPRESS_DB_NAME: wordpress
+            WORDPRESS_DB_PORT: 3307
         volumes:
             - wordpress_data:/var/www/html
         networks:
             - business-network
 
-    mariadb-business:
-        container_name: mariadb-business
-        image: mariadb
-        restart: unless-stopped
-        environment:
-            MYSQL_ROOT_PASSWORD: root
-            MYSQL_DATABASE: wordpress
-            MYSQL_USER: wordpress
-            MYSQL_PASSWORD: wordpress
-        ports:
-            - "3306:3306"
-        volumes:
-            - db_data:/var/lib/mysql
-        networks:
-            - business-network
-
     mysql-business:
-        image: mysql:8.0
+        image: mysql:8.1
         container_name: mysql-business
         restart: unless-stopped
         tty: true
@@ -96,12 +82,32 @@ services:
             SERVICE_NAME: mysql
         networks:
             - business-network
+
+    mysqlwordpress-business:
+        image: mysql:8.1
+        container_name: mysqlwordpress-business
+        restart: unless-stopped
+        tty: true
+        ports:
+            - 3307:3306
+        volumes:
+            - wordbusiness-db:/var/lib/mysql
+        environment:
+            MYSQL_DATABASE: "ciberblog"
+            MYSQL_USER: "root"
+            MYSQL_PASSWORD: "secret"
+            MYSQL_ROOT_PASSWORD: "secret"
+            SERVICE_TAGS: dev
+            SERVICE_NAME: mysql
+        networks:
+            - business-network
+
 volumes:
     business-db:
         driver: local
     wordpress_data:
         driver: local
-    db_data:
+    wordbusiness-db:
         driver: local
 
 networks:

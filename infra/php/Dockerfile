@@ -59,6 +59,12 @@ COPY www.conf /usr/local/etc/php-fpm.d/www.conf
 RUN chown -R www-data:www-data /var/www \
     && chmod 755 -R /var/www
 
+WORKDIR /var/www/html
+
+RUN npm install \
+    && npm run build \
+    && composer install
+
 # Healthcheck
 HEALTHCHECK --interval=15m --timeout=3s \
     CMD curl --fail http://localhost/ || exit 1
