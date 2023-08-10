@@ -81,7 +81,7 @@ services:
             - business-network
 
     mysqlwordpress-business:
-        image: mysql:8.1
+        image: mariadb:10.5
         container_name: mysqlwordpress-business
         restart: unless-stopped
         tty: true
