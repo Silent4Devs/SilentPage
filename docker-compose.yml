@@ -58,7 +58,6 @@ services:
             WORDPRESS_DB_PASSWORD: secret
             WORDPRESS_DB_NAME: ciberblog
             WORDPRESS_DB_PORT: 3030
-        command: --init-file ./infra/mysql/init.sql
         volumes:
             - wordpress_data:/var/www/html
         networks:
