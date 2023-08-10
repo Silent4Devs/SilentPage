@@ -36,7 +36,7 @@ services:
         ports:
             - 9000:80
         networks:
-            - tabantajnetwork
+            - businessnetwork
         # deploy:
         #   replicas: 1 # Set the desired number of replicas
         #   restart_policy:
