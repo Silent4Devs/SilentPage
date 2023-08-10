@@ -69,7 +69,7 @@ services:
         restart: unless-stopped
         tty: true
         ports:
-            - 3310:3306
+            - 33069:3306
         volumes:
             - business-db:/var/lib/mysql
         environment:
