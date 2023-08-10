@@ -59,7 +59,7 @@ services:
         volumes:
             - wordpress_data:/var/www/html
         networks:
-            - business-network
+            - businessnetwork
 
     mariadb:
         container_name: mariadb
@@ -73,7 +73,7 @@ services:
         volumes:
             - db_data:/var/lib/mysql
         networks:
-            - business-network
+            - businessnetwork
 
     mysql:
         image: mysql:8.0
