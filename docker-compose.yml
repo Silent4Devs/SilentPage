@@ -46,14 +46,14 @@ services:
         build:
             context: .
             dockerfile: ./infra/wordpress/Dockerfile.wordpress
-        restart: always
+        restart: unless-stopped
         ports:
             - 7006:80 # Expose http and https
             - 8443:443
         stdin_open: true
         tty: true
         environment:
-            WORDPRESS_DB_HOST: mariadb-business:3307
+            WORDPRESS_DB_HOST: mariadb-business
             WORDPRESS_DB_USER: wordpress
             WORDPRESS_DB_PASSWORD: wordpress
             WORDPRESS_DB_NAME: wordpress
@@ -65,14 +65,14 @@ services:
     mariadb-business:
         container_name: mariadb-business
         image: mariadb
-        restart: always
+        restart: unless-stopped
         environment:
             MYSQL_ROOT_PASSWORD: root
             MYSQL_DATABASE: wordpress
             MYSQL_USER: wordpress
             MYSQL_PASSWORD: wordpress
         ports:
-            - "3307:3306"
+            - "3306:3306"
         volumes:
             - db_data:/var/lib/mysql
         networks:
