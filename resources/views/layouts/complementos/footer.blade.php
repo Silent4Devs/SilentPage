@@ -24,7 +24,7 @@
             <a href="{{ url('servicios') }}">Servicios</a>
             <a href="{{ url('cert') }}">CERT</a>
             <a href="{{ url('medios') }}">Medios</a>
-            <a href="{{ url('talentos') }}">Aporta tu talento</a>
+            <a href="{{ url('talento') }}">Aporta tu talento</a>
 
             <div class="redes-icons" style="margin-top: 50px;">
                 <a href="https://www.instagram.com/team.s4b/" target="_blank"><i class="fa-brands fa-instagram"></i></a>

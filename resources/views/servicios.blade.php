@@ -20,24 +20,24 @@
 
     <content class="content-limit">
         <div class="caja-btn-group">
-            <a href="serv_soc_noc.php">
+            <a href="{{asset('servicios/soc-noc')}}">
                 <img src="img/serv_monitor.webp">
                 <p>SOC / NOC</p>
             </a>
-            <a href="serv_ciber.php">
+            <a href="{{asset('servicios/ciberinteligencia')}}">
                 <img src="img/serv_escudo.webp">
                 <p>Ciberinteligencia</p>
             </a>
-            <a href="serv_consul.php">
+            <a href="{{asset('servicios/consultoria-estrategica')}}">
                 <img src="img/serv_global.webp">
                 <p>Consultoría <br> Estratégica</p>
             </a>
-            <a href="serv_otros.php">
+            <a href="{{asset('servicios/otras-soluciones')}}">
                 <img src="img/serv_soluciones.webp">
                 <p>Otras <br> soluciones</p>
             </a>
         </div>
-        <p style="margin-top: 60px;">
+        <p class="text-prin-serv" style="margin-top: 60px; font-size: 18px;">
             Debido a la creciente incidencia de robo de información y demás ciberataques, las compañías intentan estar
             preparadas para hacer frente y disminuir los riegos a los que se exponen diariamente. Conoce que servicios
             podemos ofrecerle a tu organización para proteger su información.
