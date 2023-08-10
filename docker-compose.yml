@@ -18,6 +18,31 @@ services:
         networks:
             - businessnetwork
 
+    php:
+        #uncomment this if you will use only docker compose
+        build:
+            context: "./infra/php/"
+            dockerfile: Dockerfile
+        #     # target: php-production  # Specify the target build stage if applicable
+        #     # args:
+        #     # - BUILD_ENV=production  # Pass any necessary build arguments
+        # #container_name: php-tabantaj
+        #uncomment this if you will use only docker compose
+        #image: johnvo95/tabantaj_php-tabantaj:latest
+        container_name: php-tabantaj
+        restart: unless-stopped
+        tty: true
+        volumes:
+            - .:/var/www/html
+        ports:
+            - 9000:80
+        networks:
+            - tabantajnetwork
+        # deploy:
+        #   replicas: 1 # Set the desired number of replicas
+        #   restart_policy:
+        #     condition: on-failure
+
     wordpress:
         build:
             context: .
