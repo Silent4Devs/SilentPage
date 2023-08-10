@@ -57,7 +57,7 @@ services:
             WORDPRESS_DB_USER: wordpress
             WORDPRESS_DB_PASSWORD: wordpress
             WORDPRESS_DB_NAME: wordpress
-            WORDPRESS_DB_PORT: 33089
+            WORDPRESS_DB_PORT: 3030
         volumes:
             - wordpress_data:/var/www/html
         networks:
@@ -81,12 +81,12 @@ services:
             - business-network
 
     mysqlwordpress-business:
-        image: mariadb:10.5
+        image: mariadb:11
         container_name: mysqlwordpress-business
         restart: unless-stopped
         tty: true
         ports:
-            - 33089:3306
+            - 3030:3306
         volumes:
             - wordbusiness-dba:/var/lib/mysql
         environment:
