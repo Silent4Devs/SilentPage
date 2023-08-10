@@ -53,7 +53,7 @@ services:
         stdin_open: true
         tty: true
         environment:
-            WORDPRESS_DB_HOST: mariadb-business
+            WORDPRESS_DB_HOST: mariadb-business:3307
             WORDPRESS_DB_USER: wordpress
             WORDPRESS_DB_PASSWORD: wordpress
             WORDPRESS_DB_NAME: wordpress
@@ -71,6 +71,8 @@ services:
             MYSQL_DATABASE: wordpress
             MYSQL_USER: wordpress
             MYSQL_PASSWORD: wordpress
+        ports:
+            - "3307:3306"
         volumes:
             - db_data:/var/lib/mysql
         networks:
