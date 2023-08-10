@@ -41,7 +41,6 @@ services:
         #   replicas: 1 # Set the desired number of replicas
         #   restart_policy:
         #     condition: on-failure
-
     wordpress:
         build:
             context: .
@@ -56,25 +55,25 @@ services:
             WORDPRESS_DB_HOST: mariadb
             WORDPRESS_DB_USER: silentUser
             WORDPRESS_DB_PASSWORD: Silent123123123123
-            WORDPRESS_DB_NAME: ciberblog
+            WORDPRESS_DB_NAME: BlogSilent
         volumes:
             - wordpress_data:/var/www/html
         networks:
-            - businessnetwork
+            - business-network
 
     mariadb:
         container_name: mariadb
         image: mariadb
         restart: always
         environment:
-            MYSQL_DATABASE: ciberblog
+            MYSQL_DATABASE: BlogSilent
             MYSQL_USER: silentUser
             MYSQL_PASSWORD: Silent123123123123
             MYSQL_RANDOM_ROOT_PASSWORD: Silent123123123123
         volumes:
             - db_data:/var/lib/mysql
         networks:
-            - businessnetwork
+            - business-network
 
     mysql:
         image: mysql:8.0
