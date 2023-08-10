@@ -56,7 +56,7 @@ services:
             WORDPRESS_DB_HOST: mariadb
             WORDPRESS_DB_USER: silentUser
             WORDPRESS_DB_PASSWORD: Silent123123123123
-            WORDPRESS_DB_NAME: BlogSilent
+            WORDPRESS_DB_NAME: ciberblog
         volumes:
             - wordpress_data:/var/www/html
         networks:
