@@ -99,6 +99,8 @@ volumes:
         driver: local
     wordpress_data:
         driver: local
+    db_data:
+        driver: local
 
 networks:
     businessnetwork:
