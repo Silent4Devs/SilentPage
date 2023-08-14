@@ -1,93 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-  <loc>https://silent4business.com/index#alianzas</loc>
-</url>
-<url>
-  <loc>https://silent4business.com/exito</loc>
-</url>
-<url>
-  <loc>https://silent4business.com/talento</loc>
-</url>
-<url>
-  <loc>https://silent4business.com/medios</loc>
-</url>
-<url>
-  <loc>https://silent4business.com/</loc>
-</url>
-<url>
-  <loc>https://silent4business.com/servicios</loc>
-</url>
-<url>
-  <loc>https://silent4business.com/productos</loc>
-</url>
-<url>
-  <loc>https://silent4business.com/soluciones</loc>
-</url>
-<url>
-  <loc>https://silent4business.com/tendencias</loc>
-</url>
-<url>
-  <loc>https://silent4business.com/cert</loc>
-</url>
-<url>
-  <loc>https://silent4business.com/test</loc>
-</url>
-<url>
-  <loc>https://silent4business.com/contacto</loc>
-</url>
-<url>
-  <loc>https://silent4business.com/serv_soc_noc</loc>
-</url>
-<url>
-  <loc>https://silent4business.com/serv_ciber</loc>
-</url>
-<url>
-  <loc>https://silent4business.com/serv_consul</loc>
-</url>
-<url>
-  <loc>https://silent4business.com/serv_otros</loc>
-</url>
-<url>
-  <loc>https://silent4business.com/soluciones#salud</loc>
-</url>
-<url>
-  <loc>https://silent4business.com/soluciones#financiera</loc>
-</url>
-<url>
-  <loc>https://silent4business.com/soluciones#manofactura</loc>
-</url>
-<url>
-  <loc>https://silent4business.com/soluciones#energia</loc>
-</url>
-<url>
-  <loc>https://silent4business.com/soluciones#agro</loc>
-</url>
-<url>
-  <loc>https://silent4business.com/soluciones#academia</loc>
-</url>
-<url>
-  <loc>https://silent4business.com/exito#cero-extraccion</loc>
-</url>
-<url>
-  <loc>https://silent4business.com/exito#seguridad-medida</loc>
-</url>
-<url>
-  <loc>https://silent4business.com/tel:+525578233000</loc>
-</url>
-<url>
-  <loc>https://silent4business.com/img/exitos/Caso de éxito_Seguridad a la medida.pdf</loc>
-</url>
-<url>
-  <loc>https://silent4business.com/img/exitos/Caso de éxito_Cero Extracción.pdf</loc>
-</url>
-<url>
-  <loc>https://silent4business.com/img/exitos/Caso de éxito_Protección Total.pdf</loc>
-</url>
-<url>
-  <loc>https://silent4business.com/terminos_privacidad</loc>
-</url>
-<url>
-  <loc></loc>
-</url>
+	<url>
+		<loc>
+			https://silent4business.com/index#alianzas
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://silent4business.com/exito
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://silent4business.com/talento
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://silent4business.com/medios
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://silent4business.com/
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://silent4business.com/servicios
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://silent4business.com/productos
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://silent4business.com/soluciones
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://silent4business.com/tendencias
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://silent4business.com/cert
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://silent4business.com/test
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://silent4business.com/contacto
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://silent4business.com/serv_soc_noc
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://silent4business.com/serv_ciber
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://silent4business.com/serv_consul
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://silent4business.com/serv_otros
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://silent4business.com/soluciones#salud
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://silent4business.com/soluciones#financiera
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://silent4business.com/soluciones#manufactura
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://silent4business.com/soluciones#energia
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://silent4business.com/soluciones#agro
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://silent4business.com/soluciones#academia
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://silent4business.com/exito#cero-extraccion
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://silent4business.com/exito#seguridad-medida
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://silent4business.com/tel:+525578233000
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://silent4business.com/img/exitos/Caso de éxito_Seguridad a la medida.pdf
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://silent4business.com/img/exitos/Caso de éxito_Cero Extracción.pdf
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://silent4business.com/img/exitos/Caso de éxito_Protección Total.pdf
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://silent4business.com/terminos_privacidad
+		</loc>
+	</url>
+	<url>
+		<loc>
+		</loc>
+	</url>
 </urlset>

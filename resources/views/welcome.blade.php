@@ -204,7 +204,7 @@
                 </a>
                 <a href="{{asset('soluciones#manofactura')}}">
                     <img src="img/ciber_person.webp">
-                    <p>Manofactura</p>
+                    <p>Manufactura</p>
                 </a>
                 <a href="{{asset('soluciones#energia')}}">
                     <img src="img/ciber_electro.webp">
