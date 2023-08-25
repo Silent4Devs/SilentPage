@@ -33,22 +33,22 @@ class ContactoComercialFormComponent extends Component
 
         try {
             //**Configuracion de smtp del correo */
-        $phpmailer = new PHPMailer(true);
-        $phpmailer->CharSet = 'UTF-8';
-        $phpmailer->SMTPDebug = 3;
-        $phpmailer->isSMTP();
-        $phpmailer->Host = "ssl://smtp.office365.com";
-        $phpmailer->SMTPAuth = true;
-        $phpmailer->Username = "s4b.website@silent4business.com";
-        $phpmailer->Password = "zmpsrmvqqlqksfst";
-        $phpmailer->SMTPSecure = "STARTTLS";
-        $phpmailer->Port = 587;
+            $phpmailer = new PHPMailer(true);
+            $phpmailer->CharSet = 'UTF-8';
+            $phpmailer->SMTPDebug = 3;
+            $phpmailer->isSMTP();
+            $phpmailer->Host = "smtp.office365.com";
+            $phpmailer->SMTPAuth = true;
+            $phpmailer->Username = "s4b.website@silent4business.com";
+            $phpmailer->Password = "zmpsrmvqqlqksfst";
+            $phpmailer->SMTPSecure = "TLS";
+            $phpmailer->Port = 587;
 
-        //Datos del correo
-        $nombre = $validatedData['nombre'];
-        $correo = $validatedData['email'];
-        $telefono = $validatedData['telefono'];
-        $mensaje = $validatedData['mensaje'];
+            //Datos del correo
+            $nombre = $validatedData['nombre'];
+            $correo = $validatedData['email'];
+            $telefono = $validatedData['telefono'];
+            $mensaje = $validatedData['mensaje'];
 
             $body = <<<HTML
                 <div style="width: 90%;

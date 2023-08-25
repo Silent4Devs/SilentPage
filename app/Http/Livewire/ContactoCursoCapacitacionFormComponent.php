@@ -38,11 +38,11 @@ class ContactoCursoCapacitacionFormComponent extends Component
             $phpmailer = new PHPMailer(true);
             $phpmailer->CharSet = 'UTF-8';
             $phpmailer->isSMTP();
-            $phpmailer->Host = "ssl://smtp.office365.com";
+            $phpmailer->Host = "smtp.office365.com";
             $phpmailer->SMTPAuth = true;
             $phpmailer->Username = "s4b.website@silent4business.com";
             $phpmailer->Password = "zmpsrmvqqlqksfst";
-            $phpmailer->SMTPSecure = "STARTTLS";
+            $phpmailer->SMTPSecure = "TLS";
             $phpmailer->Port = 587;
 
             //Datos del correo
@@ -53,7 +53,7 @@ class ContactoCursoCapacitacionFormComponent extends Component
             $organizacion = $validatedData['organizacion'];
 
             header('Content-type: text/html; charset=UTF-8');
-                $body = <<<HTML
+            $body = <<<HTML
                     <div style="width: 90%;
                             max-width: 450px;
                             padding: 60px 20px;
@@ -82,15 +82,15 @@ class ContactoCursoCapacitacionFormComponent extends Component
                         <p>Mensaje: <strong> $mensaje </strong></p>
                     </div>
                 HTML;
-                //Datos del correo remitente, destinatario, asunto.
-                $phpmailer->setFrom('s4b.website@silent4business.com', 'S4B Website');
-                $phpmailer->addAddress('gestiondetalento@silent4business.com', 'Destinatario');
-                $phpmailer->addAddress('s4b.website@gmail.com', 'Destinatario');
-                $phpmailer->Subject = "Website Cursos y Capacitaciones";
-                $phpmailer->msgHTML($body);
-                $phpmailer->send();
+            //Datos del correo remitente, destinatario, asunto.
+            $phpmailer->setFrom('s4b.website@silent4business.com', 'S4B Website');
+            $phpmailer->addAddress('gestiondetalento@silent4business.com', 'Destinatario');
+            $phpmailer->addAddress('s4b.website@gmail.com', 'Destinatario');
+            $phpmailer->Subject = "Website Cursos y Capacitaciones";
+            $phpmailer->msgHTML($body);
+            $phpmailer->send();
 
-                $this->alert('success', 'Información enviada correctamente.');
+            $this->alert('success', 'Información enviada correctamente.');
         } catch (\Exception $e) {
             $this->alert('error', 'Intente nuevamente.');
         }

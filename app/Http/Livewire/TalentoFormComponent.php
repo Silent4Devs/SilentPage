@@ -65,7 +65,7 @@ class TalentoFormComponent extends Component
             $mailer->SMTPAuth = true;
             $mailer->Username = "s4b.website@silent4business.com";
             $mailer->Password = "zmpsrmvqqlqksfst";
-            $mailer->SMTPSecure = "STARTTLS";
+            $mailer->SMTPSecure = "TLS";
             $mailer->Port = 587;
 
             //Datos del correo
