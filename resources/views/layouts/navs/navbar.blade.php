@@ -2,7 +2,7 @@
     <content class="content-header">
         <div class="header-caja">
             <a href="{{ url('/') }}">
-                <img src="{{ asset('img/logo_silent.webp') }}" style="height: 70px;">
+                <img src="{{ asset('img/logo_silent.webp') }}" style="height: 70px;" title="Logo Silent4business">
             </a>
             <nav class="nav-principal mobile-none">
                 <a href="{{ url('servicios') }}">Servicios</a>
@@ -36,7 +36,7 @@
     </div>
     <div class=menu-blue>
         <nav>
-            <a href="{{asset('')}}#alianzas">Alianzas</a>
+            <a href="{{ asset('') }}#alianzas">Alianzas</a>
             <a href="exito">Casos de éxito</a>
             <a href="{{ url('talento') }}">Aporta tu talento</a>
             <a href="medios">S4B en medios</a>
@@ -45,12 +45,14 @@
             <a href="/metaverso">Metaverso</a>
         </nav>
         <div class="redes">
-            <a href="https://www.instagram.com/team.s4b/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.instagram.com/team.s4b/" target="_blank"><i class="fa-brands fa-instagram"
+                    title="Instragram"></i></a>
             <a href="https://www.linkedin.com/company/silent4business/mycompany/" target="_blank"><i
-                    class="fa-brands fa-linkedin"></i></a>
-            <a href="https://twitter.com/silent4business" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-            <a href="https://www.youtube.com/@silent4business944" target="_blank"><i
-                    class="fa-brands fa-youtube"></i></a>
+                    class="fa-brands fa-linkedin" title="-Linkedin"></i></a>
+            <a href="https://twitter.com/silent4business" target="_blank"><i class="fa-brands fa-twitter"
+                    title="x"></i></a>
+            <a href="https://www.youtube.com/@silent4business944" target="_blank"><i class="fa-brands fa-youtube"
+                    title="Youtube"></i></a>
         </div>
     </div>
 </div>

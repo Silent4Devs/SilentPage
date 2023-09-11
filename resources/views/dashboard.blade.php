@@ -13,8 +13,8 @@
         <div class="flex bg-white" style="height:600px;">
             <div class="flex items-center px-8 text-center lg:text-left md:px-12 lg:w-1/2">
                 <div>
-                    <h2 class="text-3xl font-semibold text-gray-800 md:text-4xl">Bienvenido al panel <span
-                            class="text-indigo-600">Admin</span></h2>
+                    <span class="title-second text-3xl font-semibold text-gray-800 md:text-4xl">Bienvenido al panel <span
+                            class="text-indigo-600">Admin</span></span>
                     <p class="mt-2 text-sm text-gray-500 md:text-base">Desde aquí puedes consultar información y
                         realizar movimientos!</p>
                     <div class="flex justify-center mt-6 lg:justify-start">

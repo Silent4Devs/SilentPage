@@ -85,6 +85,25 @@ button{
     padding-left: 50px;
     padding-right: 50px;
 }
+span.title-main, span.title-second, span.title-terd, span.title-for, span.title-five, span.title-six{
+    display: block;
+    font-weight: bolder;
+}
+.title-main{
+    font-size: 2em;
+}
+.title-second{
+    font-size: 1.5em;
+}
+.title-terd{
+    font-size: 1.17em;
+}
+.title-for{
+    font-size: 0.9em;
+}
+.title-five{
+    font-size: 0.6em;
+}
 
 /* header --------------- */
 header{
@@ -368,11 +387,11 @@ header:hover{
 .mision-text{
     bottom: 0;
 }
-.caja-valores h1{
+.caja-valores .title-main{
     margin: 0;
     font-size: 40px;
 }
-.caja-valores h4{
+.caja-valores .title-for{
     font-size: 24px;
     font-weight: lighter;
     margin: 20px 0;
@@ -418,7 +437,7 @@ header:hover{
     margin-right: 70px;
     margin-top: -70px;
 }
-.nivel-seguridad h1{
+.nivel-seguridad .title-main{
     margin: 0;
     color: #2567AE;
     font-size: 40px;
@@ -462,7 +481,7 @@ header:hover{
     width: 50%;
     text-align: right;
 }
-.caja-industria h1{
+.caja-industria .title-main{
     font-size: 40px;
     color: #777777;
 }
@@ -518,18 +537,18 @@ header:hover{
     box-sizing: border-box;
     transition: 0.5s;
 }
-.exito-text h1{
+.exito-text .title-main{
     font-size: 40px;
     font-weight: lighter;
     margin: 0;
 }
-.exito-text h3{
+.exito-text .title-terd{
     font-size: 28px;
     font-weight: lighter;
     margin: 0;
     margin-top: 80px;
 }
-.exito-text h6{
+.exito-text .title-six{
     font-size: 25px;
     font-weight: lighter;
     margin: 0;
@@ -603,7 +622,7 @@ header:hover{
     background-color: #FBFBFB;
     padding: 70px 0px;
 }
-.caja-tendencias h1{
+.caja-tendencias .title-main{
     margin: 0;
     font-size: 40px;
     color: #2567AE;
@@ -644,7 +663,7 @@ header:hover{
 .tend-text{
     margin-left: 70px;
 }
-.tend-text h2{
+.tend-text .title-second{
     color: #2585AE;
     margin: 0;
 }
@@ -689,7 +708,7 @@ header:hover{
     color: #fff;
     margin-left: 100px;
 }
-.medios-text h1{
+.medios-text .title-main{
     margin: 0;
     font-size: 40px;
 }
@@ -706,7 +725,7 @@ header:hover{
     color: #fff;
     background-color: #20869D;
 }
-.caja-alianzas h1{
+.caja-alianzas .title-main{
     font-size: 40px;
     text-align: center;
     margin: 0;
@@ -742,7 +761,7 @@ header:hover{
     padding: 85px 60px;
     box-sizing: border-box;
 }
-.caja-certificaciones h1{
+.caja-certificaciones .title-main{
     text-align: center;
     color: #2567AE;
     font-size: 40px;
@@ -783,7 +802,7 @@ header:hover{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-.curso h1{
+.curso .title-main{
     text-align: center;
     color: #fff;
     text-decoration: underline;
@@ -822,7 +841,7 @@ header:hover{
     background-position: center;
     background-attachment: fixed;
 }
-.caja-jefes h1{
+.caja-jefes .title-main{
     text-align: center;
     font-size: 40px;
     color: #2567AE;
@@ -898,7 +917,7 @@ header:hover{
     justify-content: center;
     align-items: center;
 }
-.info-jefe h3{
+.info-jefe .title-terd{
     color: #fff;
     font-size: 22px;
     margin: 0;
@@ -1077,7 +1096,7 @@ footer button.error{
     background-size: 100% auto;
     background-attachment: fixed;
 }
-.title-fondo h1{
+.title-fondo .title-main{
     margin: 0;
     color: #fff;
     font-size: 34px;
@@ -1115,7 +1134,7 @@ footer button.error{
     justify-content: center;
     align-items: center;
 }
-.caso-exito-complete .caso-info h2{
+.caso-exito-complete .caso-info .title-second{
     font-size: 32px;
     font-weight: normal;
     margin: 0;
@@ -1157,7 +1176,7 @@ body.servicios-body{
 body.talento-body{
     background-color: #F5F5F5;
 }
-.talento-body  .card h2{
+.talento-body  .card .title-second{
     text-align: center;
     color: #2567AE;
     font-size: 24px;
@@ -1307,7 +1326,7 @@ form .caja-flex .form-item:first-child{
     font-size: 16px;
     position: relative;
 }
-.vacante h5{
+.vacante .title-five{
     margin: 0;
     font-size: 18px;
 }
@@ -1322,7 +1341,7 @@ form .caja-flex .form-item:first-child{
 body.terminos-body{
     background-color: #F5F5F5;
 }
-.terminos-body h2{
+.terminos-body .title-second{
     text-align: center;
     color: #2567AE;
     font-size: 24px;
@@ -1446,7 +1465,7 @@ body.terminos-body{
 .cert-valor img{
     width: 240px;
 }
-.cert-valor h5{
+.cert-valor .title-five{
     color: #fff;
     font-size: 28px;
     margin: 0;
@@ -1640,7 +1659,7 @@ body.productos-body{
 .desplazable:first-child{
     margin-left: -100%;
 }
-.contacto-body h2{
+.contacto-body .title-second{
     text-align: center;
     color: #2567AE;
     font-size: 24px;
@@ -1650,7 +1669,7 @@ body.productos-body{
     text-align: center;
     color: #444444;
 }
-.contacto-body h5{
+.contacto-body .title-five{
     color: #2567AE;
     font-size: 16px;
     text-align: center;
@@ -1711,7 +1730,7 @@ body.productos-body{
 }
 .desplazable .btn-form-second{
     width: 150px;
-    height: 48px;
+    height: 44px;
     border: 1px solid #2567AE;
     color: #2567AE;
     display: flex;
@@ -1730,7 +1749,7 @@ body.medios-body{
 body.medios-body .content-limit{
     max-width: 1450px;
 }
-.medios-body h2:not(.tend-descr h2){
+.medios-body .title-second:not(.tend-descr .title-second){
     color: #2567AE;
     text-align: center;
     margin: 45px 0px;
@@ -1787,12 +1806,12 @@ body.medios-body hr{
     padding: 15px;
     box-sizing: border-box;
 }
-.item-carrusel h6{
+.item-carrusel .title-six{
     margin: 0;
     font-size: 14px;
     color: #2567AE;
 }
-.item-carrusel h6 small{
+.item-carrusel .title-six small{
     margin-left: 10px;
     font-weight: lighter;
     font-size: 10px;
@@ -1843,7 +1862,7 @@ body.medios-body hr{
 .info-noticia{
     padding: 17px;
 }
-.info-noticia h3{
+.info-noticia .title-terd{
     font-size: 22px;
     color: #444444;
     margin: 0;
@@ -1877,7 +1896,7 @@ body.medios-body hr{
     position: relative;
     height: 100%;
 }
-.column-posts h4{
+.column-posts .title-for{
     font-size: 16px;
     color: #444444;
     margin: 0;
@@ -1887,7 +1906,7 @@ body.medios-body hr{
 .test-body{
     background-color: #FBFBFB;
 }
-.test-body h2{
+.test-body .title-second{
     text-align: center;
     color: #2567AE;
     font-size: 24px;
@@ -1897,7 +1916,7 @@ body.medios-body hr{
     text-align: center;
     color: #444444;
 }
-.test-body h5{
+.test-body .title-five{
     color: #646464;
     font-size: 16px;
     text-align: center;
@@ -1975,7 +1994,7 @@ body.medios-body hr{
     position: sticky;
     top: 130px;
 }
-.menu-serv-inter h3{
+.menu-serv-inter .title-terd{
     color: #2567AE;
     font-size: 22px;
     margin: 0;
@@ -2003,7 +2022,7 @@ body.medios-body hr{
 .main-serv-inter p,
 .main-serv-inter ul,
 .main-serv-inter img
-.main-serv-inter h1{
+.main-serv-inter .title-main{
     margin-top: 40px;
 }
 
@@ -2033,7 +2052,7 @@ body.admin-medios{
     margin: 30px 0px;
     opacity: 0.2;
 }
-.caja-noticias-admin h4 button{
+.caja-noticias-admin .title-for button{
     font-size: 20px;
     color: #d64e4e;
     margin-left: 20px;
@@ -2078,7 +2097,7 @@ body.admin-medios{
     margin: 30px 0px;
     opacity: 0.2;
 }
-.caja-tendencias-admin h4 button{
+.caja-tendencias-admin .title-for button{
     font-size: 20px;
     color: #d64e4e;
     margin-left: 20px;
@@ -2134,7 +2153,7 @@ body.admin-medios{
 .caja-btn-servicios button:nth-child(2){transition-delay: 0.4s;}
 .caja-btn-servicios button:nth-child(3){transition-delay: 0.6s;}
 .caja-btn-servicios button:nth-child(4){transition-delay: 0.8s;}
-.no-visible .caja-servicios-text h1{
+.no-visible .caja-servicios-text .title-main{
     filter: opacity(0);
     transform: scale(1.1) translate(-50%);
 }
@@ -2149,7 +2168,7 @@ body.admin-medios{
     filter: opacity(0);
     transform: scale(0.5);
 }
-.nivel-seguridad.no-visible h1,
+.nivel-seguridad.no-visible .title-main,
 .nivel-seguridad.no-visible p{
     filter: opacity(0);
     transform: translate(-10%);
@@ -2158,7 +2177,7 @@ body.admin-medios{
     filter: opacity(0);
     transform: translate(-50%);
 }
-.nivel-seguridad h1{transition-delay: 0.2s;}
+.nivel-seguridad .title-main{transition-delay: 0.2s;}
 .nivel-seguridad .ns-p-1{transition-delay: 0.4s;}
 .nivel-seguridad .ns-p-2{transition-delay: 0.6s;}
 .nivel-seguridad button{transition-delay: 0.8s;}
@@ -2167,7 +2186,7 @@ body.admin-medios{
     filter: opacity(0);
     transform: scale(1.1) translate(-100%, -100%);
 }
-.ciber-ind.no-visible h1,
+.ciber-ind.no-visible .title-main,
 .ciber-ind.no-visible p{
     filter: opacity(0);
     transform: translate(10%);
@@ -2178,7 +2197,7 @@ body.admin-medios{
 .ciber-ind a:nth-child(4){transition-delay: 0.4s;}
 .ciber-ind a:nth-child(5){transition-delay: 0.5s;}
 .ciber-ind a:nth-child(6){transition-delay: 0.6s;}
-.ciber-ind .caja-industria h1{transition-delay: 0.7s;}
+.ciber-ind .caja-industria .title-main{transition-delay: 0.7s;}
 .ciber-ind .caja-industria p{transition-delay: 0.8s;}
 
 .logos-alianzas.no-visible img{
@@ -2252,7 +2271,7 @@ body.admin-medios{
 .logos-certificaciones img:nth-child(22){transition-delay: 2.3s;}
 .logos-certificaciones img:nth-child(23){transition-delay: 2.2s;}
 
-.curso.no-visible h1,
+.curso.no-visible .title-main,
 .curso.no-visible p{
     filter: opacity(0);
     transform: scale(0.5);
@@ -2458,10 +2477,10 @@ body.admin-medios{
         padding: 0px 50px;
         box-sizing: border-box;
     }
-    .caja-valores h1{
+    .caja-valores .title-main{
         font-size: 25px;
     }
-    .caja-valores h4{
+    .caja-valores .title-for{
         font-size: 15px;
     }
     .ciber-ind .content-limit{
@@ -2601,10 +2620,10 @@ body.admin-medios{
     .mision-text, .vision-text{
         padding: 0px 10px;
     }
-    .caja-valores h1{
+    .caja-valores .title-main{
         font-size: 20px;
     }
-    .caja-industria h1{
+    .caja-industria .title-main{
         font-size: 30px;
         margin-top: 0px;
     }
@@ -2641,10 +2660,10 @@ body.admin-medios{
     .btn-casos-up{
         right: 38px;
     }
-    .exito-text h1{
+    .exito-text .title-main{
         font-size: 30px;
     }
-    .exito-text h3{
+    .exito-text .title-terd{
         font-size: 25px;
     }
     .card-tend{
@@ -2659,7 +2678,7 @@ body.admin-medios{
     .tend-text{
         padding-right: 10px;
     }
-    .tend-text h2{
+    .tend-text .title-second{
         margin-top: 30px;
     }
     .btn-swivht-tend {
@@ -2674,7 +2693,7 @@ body.admin-medios{
     .caja-alianzas{
         padding: 30px 10px;
     }
-    .caja-alianzas h1{
+    .caja-alianzas .title-main{
         font-size: 30px;
     }
     .caja-alianzas p{
@@ -2689,7 +2708,7 @@ body.admin-medios{
         flex-wrap: wrap;
         justify-content: center;
     }
-    .caja-certificaciones h1{
+    .caja-certificaciones .title-main{
         font-size: 30px;
     }
     .caja-certificaciones p{
@@ -2700,7 +2719,7 @@ body.admin-medios{
         flex-wrap: wrap;
         width: 100%;
     }
-    .curso h1{
+    .curso .title-main{
         font-size: 30px;
     }
     .curso p{
@@ -2737,7 +2756,7 @@ body.admin-medios{
         font-size: 15px;
     }
 
-    .title-fondo h1{
+    .title-fondo .title-main{
         text-align: center;
         font-size: 30px;
     }
@@ -2802,7 +2821,7 @@ body.admin-medios{
         padding: 30px 20px;
         box-sizing: border-box;
     }
-    .caso-exito-complete .caso-info h2,
+    .caso-exito-complete .caso-info .title-second,
     .caso-exito-complete .caso-info p{
         width: 100%;
     }

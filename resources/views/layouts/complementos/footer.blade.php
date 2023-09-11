@@ -1,10 +1,10 @@
 <footer id="pie-page">
     <div class="footer-btn-top">
-        <a href="#inicio"><i class="fa-regular fa-square-caret-up"></i></a>
+        <a href="#inicio"><i class="fa-regular fa-square-caret-up" title="Ir al inicio"></i></a>
     </div>
-    <div class="caja-footer">
+    <div class="caja-footer" style="align-items: center;">
         <div class="info-footer">
-            <img src="{{ asset('img/logo_silent.webp') }}">
+            <img src="{{ asset('img/logo_silent.webp') }}" title="Logo Silent4Business">
             <p>
                 <i class="fa-solid fa-location-dot"></i>
                 <a href="https://goo.gl/maps/DkTtghVWhaFoBKSLA?coh=178573&entry=tt" target="_blank"> Torre Murano
@@ -20,21 +20,25 @@
                     href="mailto:marketing@silent4business.com?Subject=Portal%20S4B%20Contacto">marketing@silent4business.com</a>
             </p>
         </div>
+
         @livewire('contacto-footer-form-component')
+
         <div class="menu-footer">
-            <h2>Menú</h2>
+            <span class="title-second">Menú</span>
             <a href="{{ url('servicios') }}">Servicios</a>
             <a href="{{ url('cert') }}">CERT</a>
             <a href="{{ url('medios') }}">Medios</a>
             <a href="{{ url('talento') }}">Aporta tu talento</a>
 
-            <div class="redes-icons" style="margin-top: 50px;">
-                <a href="https://www.instagram.com/team.s4b/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <div class="redes-icons caja-flex" style="margin-top: 50px; justify-content:space-between;">
+                <a href="https://www.instagram.com/team.s4b/" target="_blank"><i class="fa-brands fa-instagram"
+                        title="Instragram"></i></a>
                 <a href="https://www.linkedin.com/company/silent4business/mycompany/" target="_blank"><i
-                        class="fa-brands fa-linkedin"></i></a>
-                <a href="https://twitter.com/silent4business" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                <a href="https://www.youtube.com/@silent4business944" target="_blank"><i
-                        class="fa-brands fa-youtube"></i></a>
+                        class="fa-brands fa-linkedin" title="-Linkedin"></i></a>
+                <a href="https://twitter.com/silent4business" target="_blank"><i class="fa-brands fa-twitter"
+                        title="x"></i></a>
+                <a href="https://www.youtube.com/@silent4business944" target="_blank"><i class="fa-brands fa-youtube"
+                        title="Youtube"></i></a>
             </div>
         </div>
     </div>

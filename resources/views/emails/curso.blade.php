@@ -67,14 +67,24 @@
         </tr>
         <tr class="tr-content">
             <td>
-                <span class="title-terd"> Newsletter</span>
+                <span class="title-terd"> Cursos y Capacitaciones </span>
 
-                <p style="text-align: center;">
-                    Suscripción a newsletter:
+                <p>
+                    Nombre: <strong>{{ $data['nombre'] }}</strong>
                 </p>
-                <p style="text-align: center; margin-top: 40px;">
-                    <strong> {{ $correo }} </strong>
+                <p>
+                    Email: <strong>{{ $data['email'] }}</strong>
                 </p>
+                <p>
+                    Teléfono: <strong>{{ $data['telefono'] }}</strong>
+                </p>
+                <p>
+                    Escuela o empresa: <strong>{{ $data['organizacion'] }}</strong>
+                </p>
+                <p>
+                    Mensaje:
+                </p>
+                <p>{{ $data['mensaje'] }}</p>
             </td>
         </tr>
         <tr class="tr-footer">

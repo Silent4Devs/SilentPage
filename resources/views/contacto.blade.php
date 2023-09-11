@@ -17,7 +17,7 @@
         <div class="desplazable">
             {{-- <content class="content-limit">
                 <div class="card">
-                    <h2>Contacta con nuestra área comercial</h2>
+                    <span class="title-second">Contacta con nuestra área comercial</span>
                     <p class="parrafo-psolinf">
                         En el siguiente formulario puedes solicitar información de los servicios que ofrecemos en
                         S4B.
@@ -59,13 +59,13 @@
         <div class="desplazable">
             <content class="content-limit">
                 <div class="card">
-                    <h2>Contacto</h2>
+                    <h1 class="title-second">Contacto</h1>
                     <p class="parrafo-psolinf">
                         Puedes solicitar información de los servicios que ofrecemos en S4B o bien puedes hacer una
                         consulta de algún problema en especifico de seguridad.
                     </p>
 
-                    <h5>Elige la opción que necesites.</h5>
+                    <span class="title-five">Elige la opción que necesites.</span>
 
                     <div class="caja-flex">
                         <div class="contact-item">
@@ -84,17 +84,20 @@
                             </button>
                             <p><strong> Cursos y capacitaciones </strong></p>
                             <p class="mobile-none-mini">
-                                Solicita una visita de Silent 4 Business a tu escuela, ya sea a una capacitación o a
+                                Solicita una visita de Silent 4 Business a tu escuela, ya sea a una capacitación
+                                o a
                                 realizar alguna ponencia en ciberseguridad.
                             </p>
                         </div>
                         <div class="solo-mobile-mini" style="margin-top: 30px; color: #2567AE;">
                             <p>
                                 <strong>1.</strong> En está opción podrás ponerte en contacto con nuestra área
-                                comercial para cotizaciones, dudas, preguntas especificas y consultas en general.
+                                comercial para cotizaciones, dudas, preguntas especificas y consultas en
+                                general.
                             </p>
                             <p>
-                                <strong>2.</strong> Solicita una visita de Silent 4 Business a tu escuela, ya sea a
+                                <strong>2.</strong> Solicita una visita de Silent 4 Business a tu escuela, ya
+                                sea a
                                 una capacitación o a realizar alguna ponencia en ciberseguridad.
                             </p>
                         </div>
@@ -105,7 +108,7 @@
         <div class="desplazable">
             {{-- <contetn class="content-limit">
                 <div class="card">
-                    <h2>Cursos y capacitaciones</h2>
+                    <span class="title-second">Cursos y capacitaciones</span>
                     <p class="parrafo-psolinf">
                         En el siguiente formulario puedes solicitar una visita de S4B a tu escuela o empresa. .
                     </p>
@@ -157,5 +160,5 @@
     function desplazar(des_num) {
         $('.desplazable:first-child').css('margin-left', des_num + '%');
     }
-    </script>
+</script>
 @endsection

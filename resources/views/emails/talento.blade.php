@@ -67,13 +67,19 @@
         </tr>
         <tr class="tr-content">
             <td>
-                <span class="title-terd"> Newsletter</span>
+                <span class="title-terd"> Nuevo Talento </span>
 
-                <p style="text-align: center;">
-                    Suscripción a newsletter:
+                <p>
+                    Nombre: <strong>{{ $data['nombre'] }}</strong>
                 </p>
-                <p style="text-align: center; margin-top: 40px;">
-                    <strong> {{ $correo }} </strong>
+                <p>
+                    Perfil: <strong>{{ $data['tipo'] }}</strong>
+                </p>
+                <p>
+                    Email: <strong>{{ $data['email'] }}</strong>
+                </p>
+                <p>
+                    Teléfono: <strong>{{ $data['telefono'] }}</strong>
                 </p>
             </td>
         </tr>
