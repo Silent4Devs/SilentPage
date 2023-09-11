@@ -35,7 +35,7 @@ class ContactoComercialFormComponent extends Component
 
         try {
 
-            Mail::to('benito.lopez.tecno@gmail.com')->send(new Comercial($validatedData));
+            Mail::to('cesar.borre@silent4business.com')->send(new Comercial($validatedData));
 
             $this->alert('success', 'Información enviada correctamente.');
         } catch (\Exception $e) {

@@ -55,7 +55,7 @@ class TalentoFormComponent extends Component
 
             //Datos del correo
 
-            Mail::to('benito.lopez.tecno@gmail.com')->send(new Talento($talent));
+            Mail::to('cesar.borre@silent4business.com')->send(new Talento($talent));
 
             $this->alert('success', 'Nuevo Talento');
         } catch (\Exception $e) {

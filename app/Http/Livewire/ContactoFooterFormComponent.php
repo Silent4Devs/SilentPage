@@ -31,7 +31,7 @@ class ContactoFooterFormComponent extends Component
             //Datos del correo
             $correo = $validatedData['email'];
 
-            Mail::to('benito.lopez.tecno@gmail.com')->send(new Newsletter($correo));
+            Mail::to('cesar.borre@silent4business.com')->send(new Newsletter($correo));
 
 
             $this->alert('success', 'Suscrito correctamente.');

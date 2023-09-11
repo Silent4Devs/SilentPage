@@ -49,7 +49,7 @@
                     title="Instragram"></i></a>
             <a href="https://www.linkedin.com/company/silent4business/mycompany/" target="_blank"><i
                     class="fa-brands fa-linkedin" title="-Linkedin"></i></a>
-            <a href="https://twitter.com/silent4business" target="_blank"><i class="fa-brands fa-twitter"
+            <a href="https://twitter.com/silent4business" target="_blank"><i class="fa-brands fa-x-twitter"
                     title="x"></i></a>
             <a href="https://www.youtube.com/@silent4business944" target="_blank"><i class="fa-brands fa-youtube"
                     title="Youtube"></i></a>
