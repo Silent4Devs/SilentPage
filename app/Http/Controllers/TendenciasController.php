@@ -14,15 +14,15 @@ class TendenciasController extends Controller
     public function index()
     {
         $posts = Post::taxonomy('category', 'tendencias')
-        ->type('post')
-        ->published()
-        ->get();
+            ->type('post')
+            ->published()
+            ->get();
 
         $postsRecientes = Post::taxonomy('category', 'tendencias')
-        ->type('post')
-        ->published()
-        ->orderBy('post_date', 'desc')
-        ->paginate(5);
+            ->type('post')
+            ->published()
+            ->orderBy('post_date', 'desc')
+            ->paginate(5);
         return view('tendencias', compact('posts', 'postsRecientes'));
     }
 
@@ -48,7 +48,7 @@ class TendenciasController extends Controller
     public function show(string $id)
     {
         $post = Post::find($id);
-        return view('tendenciaid', compact('post'));
+        return view('tendenciaId', compact('post'));
     }
 
     /**
