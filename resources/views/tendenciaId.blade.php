@@ -10,7 +10,7 @@
     <content class="content-limit">
         <div class="card" style="margin-top: 70px;">
             <div>
-                <h1>{{ $post->post_title }}</h1>
+                <h1 class="title-main">{{ $post->post_title }}</h1>
                 {!! $post->post_content !!}
             </div>
         </div>
@@ -21,4 +21,3 @@
 </div>
 
 @endsection
-

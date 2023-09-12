@@ -14,7 +14,7 @@
 
 <div>
     <div class="title-fondo">
-        <h1>Nuestros productos</h1>
+        <h1 class="title-main">Nuestros productos</h1>
         <p>
             Desarrollamos soluciones enfocadas en que tu organización pueda alcanzar la eficiencia, agilidad,
             flexibilidad y escalabilidad que necesita para competir en la era digital.
@@ -35,7 +35,7 @@
         </content>
     </div>
 
-    <h2 class="title-produ">Productos S4B</h2>
+    <span class="title-second title-produ">Productos S4B</span>
 
     <div class="productos">
         <content class="content-limit">
@@ -83,7 +83,7 @@
                     </div>
                 </div>
                 <div class="img-product">
-                    <img src="img/product_1.webp">
+                    <img src="img/product_1.webp" title="Producto KAXAN">
                     <hr>
                 </div>
                 <div class="info-product info-der">
@@ -95,7 +95,7 @@
 
                 </div>
                 <div class="img-product">
-                    <img src="img/product_2.webp">
+                    <img src="img/product_2.webp" title="Producto TABANTAJ">
                     <hr>
                 </div>
                 <div class="info-product info-der">
@@ -133,7 +133,7 @@
 
                 </div>
                 <div class="img-product">
-                    <img src="img/product_3.webp">
+                    <img src="img/product_3.webp" title="Producto KATBOL">
                     <hr>
                 </div>
                 <div class="info-product info-der">
@@ -200,7 +200,7 @@
                     </div>
                 </div>
                 <div class="img-product">
-                    <img src="img/product_4.webp" style="transform: scale(0.8);">
+                    <img src="img/product_4.webp" style="width: 215px; padding:0px 25px;" title="Producto KAANS">
                     <hr>
                 </div>
                 <div class="info-product info-der">

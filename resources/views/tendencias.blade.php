@@ -14,7 +14,7 @@
 
 <div>
     <div class="title-fondo">
-        <h1>Tendencias</h1>
+        <h1 class="title-main">Tendencias</h1>
         <p>
             El blog de S4B donde encontrarás la información más relevante en ciberseguridad
         </p>
@@ -23,18 +23,18 @@
 
     <content class="content-limit">
 
-        <h2>Tendencias</h2>
+        <span class="title-second">Tendencias</span>
 
         <div class="noticias no-visible">
             <div class="column-noticias caja-noticias-med">
                 @foreach ($posts as $post)
                     <div class="card noticia">
-                            <img src={{$post->thumbnail}}>
+                        <img src={{ $post->thumbnail }}>
                         <div class="info-noticia">
-                            <small>{{Carbon\Carbon::parse($post->post_date)->format('d-m-Y')}}</small><br><br>
-                            <h3>{{ $post->post_title }}</h3><br><br>
+                            <small>{{ Carbon\Carbon::parse($post->post_date)->format('d-m-Y') }}</small><br><br>
+                            <span class="title-terd">{{ $post->post_title }}</span><br><br>
                             <span>
-                                <a href={{url("/tendencias/".$post->ID)}}>Leer más</a>
+                                <a href={{ url('/tendencias/' . $post->ID) }}>Leer más</a>
                             </span>
                         </div>
                     </div>
@@ -44,22 +44,22 @@
             <br style="clear: both;">
 
             <div class="column-posts">
-                <h3 style="color:#2567AE;">Últimos posts</h3>
+                <span class="title-terd" style="color:#2567AE;">Últimos posts</span>
                 <div class="list-noticias-med">
                     @foreach ($postsRecientes as $postReciente)
-                    <div class="caja-flex">
-                        <div class="img-posts">
-                            <img src={{$postReciente->thumbnail}}>
+                        <div class="caja-flex">
+                            <div class="img-posts">
+                                <img src={{ $postReciente->thumbnail }}>
+                            </div>
+                            <div>
+                                <small>{{ Carbon\Carbon::parse($post->post_date)->format('d-m-Y') }}</small><br>
+                                <span class="title-for">{{ $postReciente->post_title }}...</span>
+                                <span>
+                                    <a href={{ url('/tendencias/' . $postReciente->ID) }}>Leer más</a>
+                                </span>
+                            </div>
                         </div>
-                        <div>
-                            <small>{{Carbon\Carbon::parse($post->post_date)->format('d-m-Y')}}</small><br>
-                            <h4>{{$postReciente->post_title}}...</h4>
-                            <span>
-                                <a href={{url("/tendencias/".$postReciente->ID)}}>Leer más</a>
-                            </span>
-                        </div>
-                    </div>
-                    <hr>
+                        <hr>
                     @endforeach
                 </div>
             </div>
@@ -70,5 +70,3 @@
 </div>
 
 @endsection
-
-

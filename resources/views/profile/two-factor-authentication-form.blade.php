@@ -8,7 +8,7 @@
     </x-slot>
 
     <x-slot name="content">
-        <h3 class="text-lg font-medium text-gray-900">
+        <span class="title-terd text-lg font-medium text-gray-900">
             @if ($this->enabled)
                 @if ($showingConfirmation)
                     {{ __('Finish enabling two factor authentication.') }}
@@ -18,7 +18,7 @@
             @else
                 {{ __('You have not enabled two factor authentication.') }}
             @endif
-        </h3>
+        </span>
 
         <div class="mt-3 max-w-xl text-sm text-gray-600">
             <p>
@@ -52,8 +52,8 @@
                     <div class="mt-4">
                         <x-label for="code" value="{{ __('Code') }}" />
 
-                        <x-input id="code" type="text" name="code" class="block mt-1 w-1/2" inputmode="numeric" autofocus autocomplete="one-time-code"
-                            wire:model.defer="code"
+                        <x-input id="code" type="text" name="code" class="block mt-1 w-1/2"
+                            inputmode="numeric" autofocus autocomplete="one-time-code" wire:model.defer="code"
                             wire:keydown.enter="confirmTwoFactorAuthentication" />
 
                         <x-input-error for="code" class="mt-2" />
@@ -77,7 +77,7 @@
         @endif
 
         <div class="mt-5">
-            @if (! $this->enabled)
+            @if (!$this->enabled)
                 <x-confirms-password wire:then="enableTwoFactorAuthentication">
                     <x-button type="button" wire:loading.attr="disabled">
                         {{ __('Enable') }}

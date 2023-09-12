@@ -14,13 +14,13 @@
 
 <div>
     <div class="title-fondo">
-        <h1>Aporta tu talento</h1>
+        <h1 class="title-main">Aporta tu talento</h1>
         <p>Ingresa tus datos y forma parte de nuestro equipo</p>
     </div>
 
     <contetn class="content-limit">
         <div class="card">
-            <h2>¿Quieres ser parte de Silent4Business?</h2>
+            <h2 class="title-second">¿Quieres ser parte de Silent4Business?</h2>
 
             <p class="parrafo-suec">
                 Somos una empresa comprometida, tenemos más de 5 años de experiencia en seguridad informática.
@@ -37,21 +37,21 @@
                     </p>
                     <div class="caja-flex" style="justify-content: space-between; margin-top: 80px;">
                         <div class="talent-serv">
-                            <img src="img/talent_1.webp">
+                            <img src="img/talent_1.webp" title="Crecimiento continuo">
                             <p>Crecimiento continuo</p>
                         </div>
                         <div class="talent-serv">
-                            <img src="img/talent_2.webp">
+                            <img src="img/talent_2.webp" title="Vacaciones flexibles">
                             <p>Vacaciones flexibles</p>
                         </div>
                     </div>
                     <div class="caja-flex" style="justify-content: space-between; margin-top: 30px;">
                         <div class="talent-serv">
-                            <img src="img/talent_3.webp">
+                            <img src="img/talent_3.webp" title="Eventos de integración">
                             <p>Eventos de integración</p>
                         </div>
                         <div class="talent-serv">
-                            <img src="img/talent_4.webp">
+                            <img src="img/talent_4.webp" title="Capacitaciones constantes">
                             <p>Capacitaciones constantes</p>
                         </div>
                     </div>
@@ -63,12 +63,12 @@
         </div>
 
         <div class="card d-none" style="margin-top: 35px;">
-            <h2 style="text-align: left;">Últimas vacantes</h2>
+            <span class="title-second" style="text-align: left;">Últimas vacantes</span>
 
             <div class="caja-vacantes">
                 <hr>
                 <div class="vacante">
-                    <h5>Desarrrollador</h5>
+                    <span class="title-five">Desarrrollador</span>
                     <i>Jornada completa</i>
                     <p>
                         Estamos en búsqueda de su próximo Consultor de Seguridad (Pentester) Sr. Se busca una
@@ -80,7 +80,7 @@
                 </div>
                 <hr>
                 <div class="vacante">
-                    <h5>Desarrrollador</h5>
+                    <span class="title-five">Desarrrollador</span>
                     <i>Jornada completa</i>
                     <p>
                         Estamos en búsqueda de su próximo Consultor de Seguridad (Pentester) Sr. Se busca una
@@ -92,7 +92,7 @@
                 </div>
                 <hr>
                 <div class="vacante">
-                    <h5>Desarrrollador</h5>
+                    <span class="title-five">Desarrrollador</span>
                     <i>Jornada completa</i>
                     <p>
                         Estamos en búsqueda de su próximo Consultor de Seguridad (Pentester) Sr. Se busca una

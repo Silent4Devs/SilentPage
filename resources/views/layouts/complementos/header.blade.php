@@ -9,10 +9,14 @@
             <a href="/metaverso">Metaverso</a>
         </nav>
         <div class="redes">
-            <a href="https://www.instagram.com/team.s4b/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/company/silent4business/mycompany/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://twitter.com/silent4business" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-            <a href="https://www.youtube.com/@silent4business944" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.instagram.com/team.s4b/" target="_blank"><i class="fa-brands fa-instagram"
+                    title="Instragram"></i></a>
+            <a href="https://www.linkedin.com/company/silent4business/mycompany/" target="_blank"><i
+                    class="fa-brands fa-linkedin" title="-Linkedin"></i></a>
+            <a href="https://twitter.com/silent4business" target="_blank"><i class="fa-brands fa-x-twitter"
+                    title="x"></i></a>
+            <a href="https://www.youtube.com/@silent4business944" target="_blank"><i class="fa-brands fa-youtube"
+                    title="Youtube"></i></a>
         </div>
     </content>
 </div>
