@@ -14,15 +14,16 @@ class MediosController extends Controller
     public function index()
     {
         $posts = Post::taxonomy('category', 'medios')
-        ->type('post')
-        ->published()
-        ->get();
+            ->type('post')
+            ->published()
+            ->orderBy('post_date', 'desc')
+            ->get();
 
         $postsRecientes = Post::taxonomy('category', 'medios')
-        ->type('post')
-        ->published()
-        ->orderBy('post_date', 'desc')
-        ->paginate(5);
+            ->type('post')
+            ->published()
+            ->orderBy('post_date', 'desc')
+            ->paginate(5);
         return view('medios', compact('posts', 'postsRecientes'));
     }
 
