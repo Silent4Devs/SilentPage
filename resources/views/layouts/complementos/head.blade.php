@@ -46,6 +46,38 @@
 <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,200,0,0" />
 
+<!-- Accessibility Code for "silent4business.com" -->
+<script>
+    window.interdeal = {
+        "sitekey": "2722302a642853e246a74ba1264eb045",
+        "Position": "Left",
+        "Menulang": "ES-MX",
+        "domains": {
+            "js": "https://cdn.equalweb.com/",
+            "acc": "https://access.equalweb.com/"
+        },
+        "btnStyle": {
+            "vPosition": ["80%", null],
+            "scale": ["0.8", "0.8"],
+            "icon": {
+                "type": 7,
+                "shape": "semicircle",
+                "outline": false
+            }
+        }
+    };
+    (function(doc, head, body) {
+        var coreCall = doc.createElement('script');
+        coreCall.src = interdeal.domains.js + 'core/4.5.8/accessibility.js';
+        coreCall.defer = true;
+        coreCall.integrity =
+            'sha512-edRZXolhkUWHM/uu0oiEu0tD39SPOhnl5a2KM+62YWIfb4M5oSMjvyl2NPXtGq8McfJl88bKtaxljjViGqQXtA==';
+        coreCall.crossOrigin = 'anonymous';
+        coreCall.setAttribute('data-cfasync', true);
+        body ? body.appendChild(coreCall) : head.appendChild(coreCall);
+    })(document, document.head, document.body);
+</script>
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-5R11XHGHKR"></script>
 <script>
