@@ -4,7 +4,7 @@
     </div>
     <div class="caja-footer" style="align-items: center;">
         <div class="info-footer">
-            <img src="{{ asset('img/logo_silent.webp') }}" title="Logo Silent4Business">
+            <img src="{{ asset('img/logo_silent.webp') }}" alt="Logo Silent4Business">
             <p>
                 <i class="fa-solid fa-location-dot"></i>
                 <a href="https://goo.gl/maps/DkTtghVWhaFoBKSLA?coh=178573&entry=tt" target="_blank"> Torre Murano

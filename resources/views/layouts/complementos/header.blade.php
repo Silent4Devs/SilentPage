@@ -1,12 +1,12 @@
 <div class="first-header mobile-none">
     <content class="content-header">
         <nav>
-            <a href="/#alianzas">Alianzas</a>
-            <a href="/exito">Casos de éxito</a>
-            <a href="/talento">Aporta tu talento</a>
-            <a href="/medios">S4B en medios</a>
+            <a href="{{ url('/#alianzas') }}">Alianzas</a>
+            <a href="{{ url('exito') }}">Casos de éxito</a>
+            <a href="{{ url('talento') }}">Aporta tu talento</a>
+            <a href="{{ url('medios') }}">S4B en medios</a>
             <a href="#pie-page">Newsletter</a>
-            <a href="/metaverso">Metaverso</a>
+            <a href="{{ url('metaverso') }}">Metaverso</a>
         </nav>
         <div class="redes">
             <a href="https://www.instagram.com/team.s4b/" target="_blank"><i class="fa-brands fa-instagram"

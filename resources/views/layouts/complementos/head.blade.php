@@ -1,8 +1,7 @@
 <meta charset="utf-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description"
-    content="Protege tu organización con servicios a la medida: Centro de Operaciones de Seguridad, Pentesting, ISO 27001:2022 y mucho más. Contáctanos.">
+<meta name="description" content="@yield('metaDesc', 'Protege tu organización con servicios a la medida: Centro de Operaciones de Seguridad, Pentesting, ISO 27001:2022 y mucho más. Contáctanos.')">
 <meta name="keywords"
     content="ciberseguridad, empresa, empresas, ciberseguridad empresas, empresas ciberseguridad, empresa de ciberseguridad, servicio, servicios, servicios de ciberseguridad, servicio ciberseguridad, ciberseguridad servicios, información, Seguridad, seguridad de la información, politicas de seguridad de la informacion, seguridad de la información y ciberseguridad, Pentesting, Análisis de vulnerabilidades, monitoreo de redes, analisis de riesgo de una empresa, certificación iso 27001, analisis de riesgos de seguridad, iso seguridad de la información, analisis de riesgo, normatividades iso, iso 27001, Continuidad de Negocio">
 <!-- Facebook Meta Tags -->
@@ -13,11 +12,10 @@
 
 <meta property="og:title" content="Aliados de tu Ciberseguridad">
 
-<meta property="og:description"
-    content="Protege tu organización con servicios a la medida: Centro de Operaciones de Seguridad, Pentesting, ISO 27001:2022 y mucho más.”
+<meta property="og:description" content="@yield('metaDesc', 'Protege tu organización con servicios a la medida: Centro de Operaciones de Seguridad, Pentesting, ISO 27001:2022 y mucho más. Contáctanos.') Descripción: OG”
 
-<meta property="
-    og:image" content="https://www.silent4business.com/img/logo_silent.webp">
+<meta property=" og:image"
+    content="https://www.silent4business.com/img/logo_silent.webp">
 
 <!-- Twitter Meta Tags -->
 <meta name="twitter:card" content="summary_large_image">
@@ -28,8 +26,7 @@
 
 <meta name="twitter:title" content="Aliados de tu Ciberseguridad">
 
-<meta name="twitter:description"
-    content="Protege tu organización con servicios a la medida: Centro de Operaciones de Seguridad, Pentesting, ISO 27001:2022 y mucho más.">
+<meta name="twitter:description" content="@yield('metaDesc', 'Protege tu organización con servicios a la medida: Centro de Operaciones de Seguridad, Pentesting, ISO 27001:2022 y mucho más. Contáctanos.') Descripción: twitter">
 
 <meta name="twitter:image" content="https://www.silent4business.com/img/logo_silent.webp">
 <!-- favicon -->
@@ -39,8 +36,8 @@
 <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
 
 <!-- font awesome -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link
     href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"

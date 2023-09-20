@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\MediosController;
 use App\Http\Controllers\TendenciasController;
+use App\Http\Controllers\XmlController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -25,20 +26,22 @@ Route::view('servicios', 'servicios');
 Route::view('productos', 'productos');
 Route::view('soluciones', 'soluciones');
 Route::get('tendencias', [TendenciasController::class, 'index']);
-Route::view('exito','exito');
+Route::view('exito', 'exito');
 Route::get('medios', [MediosController::class, 'index']);
-Route::get('medios/{id}',[MediosController::class, 'show']);
-Route::view('cert','cert');
+Route::get('medios/{id}', [MediosController::class, 'show']);
+Route::view('cert', 'cert');
 Route::view('talento', 'talento');
-Route::get('tendencias/{id}',[TendenciasController::class, 'show']);
-Route::view('contacto','contacto');
-Route::view('metaverso','metaverso');
+Route::get('tendencias/{id}', [TendenciasController::class, 'show']);
+Route::view('contacto', 'contacto');
+Route::view('metaverso', 'metaverso');
+Route::view('terminos-privacidad', 'terminos-privacidad');
+Route::get('sitemap', [XmlController::class, 'index']);
 
 // servicios --------------------
-Route::view('servicios/soc-noc','servicios/soc-noc');
-Route::view('servicios/ciberinteligencia','servicios/ciberinteligencia');
-Route::view('servicios/consultoria-estrategica ','servicios/consultoria-estrategica');
-Route::view('servicios/otras-soluciones','servicios/otras-soluciones');
+Route::view('servicios/soc-noc', 'servicios/soc-noc');
+Route::view('servicios/ciberinteligencia', 'servicios/ciberinteligencia');
+Route::view('servicios/consultoria-estrategica ', 'servicios/consultoria-estrategica');
+Route::view('servicios/otras-soluciones', 'servicios/otras-soluciones');
 
 Route::middleware([
     'auth:sanctum',

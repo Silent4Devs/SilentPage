@@ -1,21 +1,24 @@
 @extends('layouts.site')
 
-@section('content')
+@section('titulo', 'Contacto Comercial de Ciberseguridad: Cotizaciones, Conferencias y Capacitaciones')
 
-@section('titulo', 'Aliados de tu Ciberseguridad | Servicios para tu empresa')
+@section('metaDesc',
+    '¡Contáctanos hoy mismo para solicitar cotizaciones de proyectos de ciberseguridad! Nuestro equipo
+    está listo para fortalecer las defensas de tu organización.')
 
 @section('body', 'contacto-body')
 
-<style>
-    .title-fondo::before {
-        background-image: url('img/portadas/portada_servicios.png');
-    }
-</style>
+@section('content')
+    <style>
+        .title-fondo::before {
+            background-image: url('img/portadas/portada_servicios.png');
+        }
+    </style>
 
-<div>
-    <div class="desplazador">
-        <div class="desplazable">
-            {{-- <content class="content-limit">
+    <div>
+        <div class="desplazador">
+            <div class="desplazable">
+                {{-- <content class="content-limit">
                 <div class="card">
                     <span class="title-second">Contacta con nuestra área comercial</span>
                     <p class="parrafo-psolinf">
@@ -54,59 +57,59 @@
                     </p>
                 </div>
             </content> --}}
-            @livewire('contacto-comercial-form-component')
-        </div>
-        <div class="desplazable">
-            <content class="content-limit">
-                <div class="card">
-                    <h1 class="title-second">Contacto</h1>
-                    <p class="parrafo-psolinf">
-                        Puedes solicitar información de los servicios que ofrecemos en S4B o bien puedes hacer una
-                        consulta de algún problema en especifico de seguridad.
-                    </p>
+                @livewire('contacto-comercial-form-component')
+            </div>
+            <div class="desplazable">
+                <content class="content-limit">
+                    <div class="card">
+                        <h1 class="title-second">Contacto</h1>
+                        <p class="parrafo-psolinf">
+                            Puedes solicitar información de los servicios que ofrecemos en S4B o bien puedes hacer una
+                            consulta de algún problema en especifico de seguridad.
+                        </p>
 
-                    <span class="title-five">Elige la opción que necesites.</span>
+                        <span class="title-five">Elige la opción que necesites.</span>
 
-                    <div class="caja-flex">
-                        <div class="contact-item">
-                            <button class="card" onclick="desplazar(0)">
-                                <i class="material-symbols-outlined">headset_mic</i>
-                            </button>
-                            <p><strong> General </strong></p>
-                            <p class="mobile-none-mini">
-                                En está opción podrás ponerte en contacto con nuestra área comercial para
-                                cotizaciones, dudas, preguntas especificas y consultas en general.
-                            </p>
-                        </div>
-                        <div class="contact-item">
-                            <button class="card" onclick="desplazar(-200)">
-                                <i class="material-symbols-outlined">school</i>
-                            </button>
-                            <p><strong> Cursos y capacitaciones </strong></p>
-                            <p class="mobile-none-mini">
-                                Solicita una visita de Silent 4 Business a tu escuela, ya sea a una capacitación
-                                o a
-                                realizar alguna ponencia en ciberseguridad.
-                            </p>
-                        </div>
-                        <div class="solo-mobile-mini" style="margin-top: 30px; color: #2567AE;">
-                            <p>
-                                <strong>1.</strong> En está opción podrás ponerte en contacto con nuestra área
-                                comercial para cotizaciones, dudas, preguntas especificas y consultas en
-                                general.
-                            </p>
-                            <p>
-                                <strong>2.</strong> Solicita una visita de Silent 4 Business a tu escuela, ya
-                                sea a
-                                una capacitación o a realizar alguna ponencia en ciberseguridad.
-                            </p>
+                        <div class="caja-flex">
+                            <div class="contact-item">
+                                <button class="card" onclick="desplazar(0)">
+                                    <i class="material-symbols-outlined">headset_mic</i>
+                                </button>
+                                <p><strong> General </strong></p>
+                                <p class="mobile-none-mini">
+                                    En está opción podrás ponerte en contacto con nuestra área comercial para
+                                    cotizaciones, dudas, preguntas especificas y consultas en general.
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <button class="card" onclick="desplazar(-200)">
+                                    <i class="material-symbols-outlined">school</i>
+                                </button>
+                                <p><strong> Cursos y capacitaciones </strong></p>
+                                <p class="mobile-none-mini">
+                                    Solicita una visita de Silent 4 Business a tu escuela, ya sea a una capacitación
+                                    o a
+                                    realizar alguna ponencia en ciberseguridad.
+                                </p>
+                            </div>
+                            <div class="solo-mobile-mini" style="margin-top: 30px; color: #2567AE;">
+                                <p>
+                                    <strong>1.</strong> En está opción podrás ponerte en contacto con nuestra área
+                                    comercial para cotizaciones, dudas, preguntas especificas y consultas en
+                                    general.
+                                </p>
+                                <p>
+                                    <strong>2.</strong> Solicita una visita de Silent 4 Business a tu escuela, ya
+                                    sea a
+                                    una capacitación o a realizar alguna ponencia en ciberseguridad.
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </content>
-        </div>
-        <div class="desplazable">
-            {{-- <contetn class="content-limit">
+                </content>
+            </div>
+            <div class="desplazable">
+                {{-- <contetn class="content-limit">
                 <div class="card">
                     <span class="title-second">Cursos y capacitaciones</span>
                     <p class="parrafo-psolinf">
@@ -148,17 +151,17 @@
                     </p>
                 </div>
             </contetn> --}}
-            @livewire('contacto-curso-capacitacion-form-component')
+                @livewire('contacto-curso-capacitacion-form-component')
+            </div>
         </div>
     </div>
-</div>
 
 @endsection
 
 @section('scripts')
-<script>
-    function desplazar(des_num) {
-        $('.desplazable:first-child').css('margin-left', des_num + '%');
-    }
-</script>
+    <script>
+        function desplazar(des_num) {
+            $('.desplazable:first-child').css('margin-left', des_num + '%');
+        }
+    </script>
 @endsection
