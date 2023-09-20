@@ -177,7 +177,7 @@
             <p style="font-size: 24px;">Antes de Iniciar, es importante darte unas breves instrucciones para que tu
                 experiencia sea más enriquecedora.</p>
             <p class="meta-instruccion">
-                <img src="{{ asset('img/metaverso/paso1.svg') }}" alt="Opción de Avatares"
+                <img src="{{ asset('img/metaverso/paso1.svg') }}" alt="Opción de Avatares" title="Opción de Avatares"
                     style="float:left;width:36.6px;height:36.6px; padding-right:15px">
                 Al ingresar al enlace deberás seleccionar un personaje virtual, selecciona el que más te guste y da clic
                 en continuar.
@@ -185,16 +185,17 @@
         </div>
         <div class="block-2">
             <img src="{{ asset('img/metaverso/metaverso-avatar.webp') }}" alt="Guías interactivas"
-                style="width: 199px; height: 326px;">
+                title="Guías interactivas" style="width: 199px; height: 326px;">
         </div>
     </div>
     <div class="fondo-metaverso" style="background-image: url('img/metaverso/metaverso4.webp');">
         <div class="block-2">
-            <img src="{{ asset('img/metaverso/metaverso-controles.webp') }}" alt="Metaverso" style="width:80%">
+            <img src="{{ asset('img/metaverso/metaverso-controles.webp') }}" alt="Metaverso" title="Metaverso"
+                style="width:80%">
         </div>
         <div class="block-1" style="backdrop-filter: blur(5px); background-image: url('img/metaverso/metaverso2.webp');">
             <p class="meta-instruccion" style="margin-top: 63px;">
-                <img src="{{ asset('img/metaverso/paso2.svg') }}" alt="Metaverso paso dos"
+                <img src="{{ asset('img/metaverso/paso2.svg') }}" alt="Metaverso paso dos" title="Metaverso paso dos"
                     style="float:left;width:36.6px;height:36.6px; padding-right:15px">
                 Ingresarás al metaverso y te aparecerá una guía para mostrarte como navegar.
             </p>
@@ -208,7 +209,7 @@
     <div class="fondo-metaverso" style="background-image: url('img/metaverso/metaverso5.webp');">
         <div class="block-2" style="color:#FFFFFF;">
             <p class="meta-instruccion">
-                <img src="{{ asset('img/metaverso/paso3.svg') }}" alt="metaverso paso tres"
+                <img src="{{ asset('img/metaverso/paso3.svg') }}" alt="metaverso paso tres" title="metaverso paso tres"
                     style="float:left;width:36.6px;height:36.6px; padding-right:15px">
                 Cuando veas a un guía como el de la imagen siguiente, da clic sobre el/ella para que te de información
                 valiosa de
@@ -216,17 +217,18 @@
             </p>
         </div>
         <div class="block-2">
-            <img src="{{ asset('img/metaverso/metaverso-persona.webp') }}" alt="Metaverso usuario"
+            <img src="{{ asset('img/metaverso/metaverso-persona.webp') }}" alt="Metaverso usuario" title="Metaverso usuario"
                 style="width: 248px; height: 382px;" class="responsive">
         </div>
     </div>
     <div class="fondo-metaverso" style="background-image: url('img/metaverso/metaverso6.webp');">
         <div class="block-2">
-            <img src="{{ asset('img/metaverso/metaverso-ciber.webp') }}" alt="Ciberseguridad" style="width: 80%">
+            <img src="{{ asset('img/metaverso/metaverso-ciber.webp') }}" alt="Ciberseguridad" title="Ciberseguridad"
+                style="width: 80%">
         </div>
         <div style="background-image: url('img/metaverso/metaverso2.webp'); color:#FFFFFF;" class="block-2">
             <p class="meta-instruccion">
-                <img src="{{ asset('img/metaverso/paso4.svg') }}" alt="Metaverso paso cuatro"
+                <img src="{{ asset('img/metaverso/paso4.svg') }}" alt="Metaverso paso cuatro" title="Metaverso paso cuatro"
                     style="float:left;width:36.6px;height:36.6px; padding-right:15px">
                 Para reproducir un video o ver de cerca los cuadros de la pared, da clic sobre la lupa que aparece en la
                 esquina.
@@ -236,14 +238,14 @@
     <div class="fondo-metaverso" style="background-image: url('img/metaverso/metaverso5.webp');">
         <div class="block-2" style="color:#FFFFFF;">
             <p class="meta-instruccion">
-                <img src="{{ asset('img/metaverso/paso5.svg') }}" alt="Metaverso paso 5"
+                <img src="{{ asset('img/metaverso/paso5.svg') }}" alt="Metaverso paso 5" title="Metaverso paso 5"
                     style="float:left;width:36.6px;height:36.6px; padding-right:15px">
                 Por último, podrás escribir en el chat para platicar con otras personas que se encuentren en la sala, no
                 olvides ser respetuso.
             </p>
         </div>
         <div class="block-2">
-            <img src="{{ asset('img/metaverso/metaverso-chat.webp') }}" alt="Chat" style="width: 80%;">
+            <img src="{{ asset('img/metaverso/metaverso-chat.webp') }}" alt="Chat" title="Chat" style="width: 80%;">
         </div>
     </div>
     <div class="fondo-metaverso-fin">

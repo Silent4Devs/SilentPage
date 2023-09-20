@@ -61,7 +61,7 @@
     <table class="content">
         <tr class="tr-header">
             <td>
-                <img src="https://tabantaj.silent4business.com/storage/images/Logo%20silent-color.png" alt="">
+                <img src="https://tabantaj.silent4business.com/storage/images/Logo%20silent-color.png" alt="Logo S4B">
                 Portal &nbsp;<strong> Silent4Business</strong>
             </td>
         </tr>

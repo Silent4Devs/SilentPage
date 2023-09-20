@@ -25,19 +25,20 @@
         <content class="content-limit">
             <div class="caja-btn-group">
                 <a href="{{ asset('servicios/soc-noc') }}">
-                    <img src="img/serv_monitor.webp" title="Sección SOC -NOC">
+                    <img src="img/serv_monitor.webp" title="Sección SOC -NOC" alt="Sección SOC -NOC">
                     <p>SOC / NOC</p>
                 </a>
                 <a href="{{ asset('servicios/ciberinteligencia') }}">
-                    <img src="img/serv_escudo.webp" title="Sección Ciberinteligencia">
+                    <img src="img/serv_escudo.webp" title="Sección Ciberinteligencia" alt="Sección Ciberinteligencia">
                     <p>Ciberinteligencia</p>
                 </a>
                 <a href="{{ asset('servicios/consultoria-estrategica') }}">
-                    <img src="img/serv_global.webp" title="Sección Consultoría estratégica">
+                    <img src="img/serv_global.webp" title="Sección Consultoría estratégica"
+                        alt="Sección Consultoría estratégica">
                     <p>Consultoría <br> Estratégica</p>
                 </a>
                 <a href="{{ asset('servicios/otras-soluciones') }}">
-                    <img src="img/serv_soluciones.webp" title="Sección Otras soluciones">
+                    <img src="img/serv_soluciones.webp" title="Sección Otras soluciones" alt="Sección Otras soluciones">
                     <p>Cyber Threat <br> Intelligence (CTI)</p>
                 </a>
             </div>

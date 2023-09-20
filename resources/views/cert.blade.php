@@ -44,13 +44,13 @@
                     </p>
                 </div>
                 <div class="cert-icon">
-                    <img src="img/cert_vision.webp" alt="Misión CERT">
+                    <img src="img/cert_vision.webp" alt="Misión CERT" title="Misión CERT">
                     <h2 class="title-five">Misión</h2>
                 </div>
             </div>
             <div class="cert-valor cert-vision">
                 <div class="cert-icon">
-                    <img src="img/cert_vision.webp" alt="Visión CERT">
+                    <img src="img/cert_vision.webp" alt="Visión CERT" title="Visión CERT">
                     <h2 class="title-five">Visión</h2>
                 </div>
                 <div class="cert-text">
@@ -90,13 +90,15 @@
                 </div>
             </div>
 
-            <img src="img/servicio_cert.webp" class="servicio-img no-visible" alt="Servicios del CERT">
+            <img src="img/servicio_cert.webp" class="servicio-img no-visible" alt="Servicios del CERT"
+                title="Servicios del CERT">
 
             <hr style="width: 500px; border-color:#fff; margin-top:80px;">
 
             <h2 class="title-second title-somm">Somos miembros</h2>
 
-            <img src="img/first.webp" class="first-img no-visible" alt="CERT certificado por FIST">
+            <img src="img/first.webp" class="first-img no-visible" alt="CERT certificado por FIST"
+                title="CERT certificado por FIST">
 
             <content class="content-limit">
                 <p class="parrafo-soes no-visible">
@@ -124,7 +126,7 @@
                     las etiquetas enumeradas en esta norma.
                 </p>
 
-                <img src="img/estandares.webp" class="estandares-img no-visible" alt="Esquema TLP">
+                <img src="img/estandares.webp" class="estandares-img no-visible" alt="Esquema TLP" title="Esquema TLP">
 
                 <hr style="width: 500px; border-color:#fff; margin-top:80px;">
 

@@ -18,7 +18,8 @@
 
     <div>
         <div class="title-fondo">
-            <img src="{{ asset('img/serv_monitor.webp') }}" height="70px" style="filter: brightness(10);" alt="Monitoreo">
+            <img src="{{ asset('img/serv_monitor.webp') }}" height="70px" style="filter: brightness(10);" alt="Monitoreo"
+                title="Monitoreo">
             <h1 class="title-main">SOC / NOC</h1>
             <p style="text-align:center;">
                 Creados para proteger los elementos más importantes de una Institución pública o privada, la información
@@ -59,7 +60,8 @@
                     </ul>
 
                     <div class="img-serv-inter">
-                        <img src="{{ asset('img/soc_noc.webp') }}" width="80%" style="margin: 50px 10%;">
+                        <img src="{{ asset('img/soc_noc.webp') }}" width="80%" style="margin: 50px 10%;" title="Soc Noc"
+                            alt="Soc Noc">
                     </div>
 
                     <span class="title-main title-first-serv">SERVICIOS DE MONITOREO DE INFRAESTRUCTURA (NOC)</span>

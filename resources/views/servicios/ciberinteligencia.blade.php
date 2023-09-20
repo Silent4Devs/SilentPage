@@ -18,8 +18,8 @@
 
     <div>
         <div class="title-fondo">
-            <img src="{{ asset('img/serv_escudo.webp') }}" height="70px" style="filter: brightness(10);"
-                alt="Servicios esucdo">
+            <img src="{{ asset('img/serv_escudo.webp') }}" height="70px" style="filter: brightness(10);" alt="Servicios esucdo"
+                title="Servicios esucdo">
             <h1 class="title-main">Ciberinteligencia</h1>
             <p style="text-align:center;">
                 Es la adquisición y el análisis de información para identificar, rastrear y predecir las capacidades,
@@ -52,7 +52,8 @@
                     </p>
 
                     <div class="img-serv-inter">
-                        <img src="{{ asset('img/csirt.webp') }}" width="90%" style="margin: 50px;" alt="Ciber">
+                        <img src="{{ asset('img/csirt.webp') }}" width="90%" style="margin: 50px;" alt="Ciber"
+                            title="Ciber">
                     </div>
 
                     <span class="title-main title-first-serv">El Equipo Especial Tiger Team se encarga de:</span>
@@ -74,7 +75,7 @@
 
                     <div class="img-serv-inter">
                         <img src="{{ asset('img/ciber_secc.webp') }}" width="100%" style="margin: 50px 0px;"
-                            alt="servicio interno">
+                            alt="servicio interno" title="servicio interno">
                     </div>
 
                     <a href="contacto" class="btn-contact"
