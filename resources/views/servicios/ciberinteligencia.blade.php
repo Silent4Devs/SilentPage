@@ -33,12 +33,12 @@
                     <div class="caja-menu-serv">
                         <span class="title-terd">Servicios</span>
                         <ul>
-                            <li><a href="{{ route('servicios/soc-noc') }}">SOC / NOC</a></li>
-                            <li><a href="{{ asset('servicios/ciberinteligencia') }}" class="active">Ciberinteligencia</a>
+                            <li><a href="{{ url('servicios/soc-noc') }}">SOC / NOC</a></li>
+                            <li><a href="{{ url('servicios/ciberinteligencia') }}" class="active">Ciberinteligencia</a>
                             </li>
-                            <li><a href="{{ asset('servicios/consultoria-estrategica') }}">Consultoría Estratégica</a>
+                            <li><a href="{{ url('servicios/consultoria-estrategica') }}">Consultoría Estratégica</a>
                             </li>
-                            <li><a href="{{ asset('servicios/otras-soluciones') }}">Cyber Threat Intelligence (CTI)</a>
+                            <li><a href="{{ url('servicios/otras-soluciones') }}">Cyber Threat Intelligence (CTI)</a>
                             </li>
                         </ul>
                     </div>
