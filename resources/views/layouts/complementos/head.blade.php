@@ -10,7 +10,7 @@
 
 <meta property="og:type" content="website">
 
-<meta property="og:title" content="Aliados de tu Ciberseguridad">
+<meta property="og:title" content="@yield('title', 'Aliados de tu Ciberseguridad | Servicios para tu empresa')">
 
 <meta property="og:description" content="@yield('metaDesc', 'Protege tu organización con servicios a la medida: Centro de Operaciones de Seguridad, Pentesting, ISO 27001:2022 y mucho más. Contáctanos.') Descripción: OG”
 
@@ -24,7 +24,7 @@
 
 <meta property="twitter:url" content="https://silent4business.com/">
 
-<meta name="twitter:title" content="Aliados de tu Ciberseguridad">
+<meta name="twitter:title" content="@yield('title', 'Aliados de tu Ciberseguridad | Servicios para tu empresa')">
 
 <meta name="twitter:description" content="@yield('metaDesc', 'Protege tu organización con servicios a la medida: Centro de Operaciones de Seguridad, Pentesting, ISO 27001:2022 y mucho más. Contáctanos.') Descripción: twitter">
 
