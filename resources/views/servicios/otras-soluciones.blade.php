@@ -19,7 +19,7 @@
     <div>
         <div class="title-fondo">
             <img src="{{ asset('img/serv_soluciones.webp') }}" height="70px" style="filter: brightness(10);"
-                alt="servicio soluciones">
+                alt="servicio soluciones" title="servicio soluciones">
             <h1 class="title-main">Cyber Threat Intelligence (CTI)</h1>
             <p style="text-align:center;">
                 Identifica a tiempo las amenazas a las que se encuentra expuesta tu organización
@@ -54,7 +54,7 @@
 
                     <div class="img-serv-inter">
                         <img src="{{ asset('img/no_protected.webp') }}" width="60%" style="margin: 10px 20%;"
-                            alt="protected">
+                            alt="protected" title="protected">
                     </div>
 
                     <a href="contacto" class="btn-contact"

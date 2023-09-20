@@ -10,7 +10,7 @@
     <video autoplay muted loop
         title="Video presentación Sielent4Business. Hoy más que nunca debemos contar con la capacidad y las herramientas necesarias para proteger tu información. La seguridad ágil requiere un talento resiliente Somos Silent4businees y estamos listos para ayudarte.">
         <source src="img/fondo.mp4" type="video/mp4">
-        <img src="img/fondo_img.webp" width="100%" alt="Imagen provicional">
+        <img src="img/fondo_img.webp" width="100%" alt="Imagen provicional" title="Imagen provicional">
     </video>
 </div>
 <section id="servicios">
@@ -108,19 +108,22 @@
                 </div>
                 <div class="caja-btn-servicios caja-btn-group no-visible">
                     <button onclick="servicio('soc-noc')">
-                        <img src="img/serv_monitor.webp" alt="Sección SOC- NOC">
+                        <img src="img/serv_monitor.webp" alt="Sección SOC- NOC" title="Sección SOC- NOC">
                         <p>SOC / NOC</p>
                     </button>
                     <button onclick="servicio('ciberinteligencia')">
-                        <img src="img/serv_escudo.webp" alt="Sección Ciberinteligencia">
+                        <img src="img/serv_escudo.webp" alt="Sección Ciberinteligencia"
+                            title="Sección Ciberinteligencia">
                         <p>Ciberinteligencia</p>
                     </button>
                     <button onclick="servicio('consultoria')">
-                        <img src="img/serv_global.webp" alt="Sección Consultoría estraégica">
+                        <img src="img/serv_global.webp" alt="Sección Consultoría estraégica"
+                            title="Sección Consultoría estraégica">
                         <p>Consultoría <br> Estratégica</p>
                     </button>
                     <button onclick="servicio('otra-solucion')">
-                        <img src="img/serv_soluciones.webp" alt="Sección Cyber Threat Intelligence">
+                        <img src="img/serv_soluciones.webp" alt="Sección Cyber Threat Intelligence"
+                            title="Sección Cyber Threat Intelligence">
                         <p>Cyber Threat <br> Intelligence (CTI)</p>
                     </button>
                 </div>
@@ -187,7 +190,7 @@
 
 <section class="d-none">
     <div class="nivel-seguridad no-visible">
-        <img src="img/escudo.webp" alt="escudo">
+        <img src="img/escudo.webp" alt="escudo" title="escudo">
         <div>
             <h2 class="title-main">¿Conoces tu nivel de seguridad?</h2>
             <p class="ns-p-1" style="margin-top: 13px; font-size: 24px;">
@@ -210,27 +213,27 @@
         <content class="content-limit">
             <div class="caja-btn-group">
                 <a href="{{ asset('soluciones#salud') }}">
-                    <img src="{{ asset('img/serv_escudo.webp') }}" alt="Salud">
+                    <img src="{{ asset('img/serv_escudo.webp') }}" alt="Salud" title="Salud">
                     <p>Salud</p>
                 </a>
                 <a href="{{ asset('soluciones#financiera') }}">
-                    <img src="img/ciber_edificio.webp" alt="Financiera">
+                    <img src="img/ciber_edificio.webp" alt="Financiera" title="Financiera">
                     <p>Financiera</p>
                 </a>
                 <a href="{{ asset('soluciones#manofactura') }}">
-                    <img src="img/ciber_person.webp" alt="Manufactura">
+                    <img src="img/ciber_person.webp" alt="Manufactura" title="Manufactura">
                     <p>Manufactura</p>
                 </a>
                 <a href="{{ asset('soluciones#energia') }}">
-                    <img src="img/ciber_electro.webp" alt="Energética y Recursos">
+                    <img src="img/ciber_electro.webp" alt="Energética y Recursos" title="Energética y Recursos">
                     <p>Energética y Recursos</p>
                 </a>
                 <a href="{{ asset('soluciones#agro') }}">
-                    <img src="img/ciber_tubo.webp" alt="Agroindustrial">
+                    <img src="img/ciber_tubo.webp" alt="Agroindustrial" title="Agroindustrial">
                     <p>Agroindustrial</p>
                 </a>
                 <a href="{{ asset('soluciones#academia') }}">
-                    <img src="img/ciber_graduado.webp" alt="Académica">
+                    <img src="img/ciber_graduado.webp" alt="Académica" title="Académica">
                     <p>Académica</p>
                 </a>
             </div>
@@ -303,7 +306,7 @@
 
         <div class="card-tend">
             <div class="tend-img">
-                <img src="img/tend_polonium.webp" alt="malware">
+                <img src="img/tend_polonium.webp" alt="malware" title="malware">
             </div>
             <div class="tend-text">
                 <h3 class"title-second">Protección Online <br> Confiable</h3>
@@ -318,7 +321,7 @@
             </div>
 
             <div class="tend-img d-none">
-                <img src="img/tend_lilisbot.webp" alt="Malware">
+                <img src="img/tend_lilisbot.webp" alt="Malware" title="Malware">
             </div>
             <div class="tend-text d-none">
                 <h3 class"title-second">Tendencias de Ciberseguridad <br> Actualizadas</h3>
@@ -356,41 +359,41 @@
         <p>Cada uno de nuestros aliados potencia nuestra capacidad para diseñar y proveer seguridad ágil.</p>
 
         <div class="logos-alianzas no-visible">
-            <img src="img/alianzas/alianza_1.webp" alt="Logo Allot">
-            <img src="img/alianzas/alianza_2.webp" alt="BlackBag">
-            <img src="img/alianzas/alianza_3.webp" alt="Check Point">
-            <img src="img/alianzas/alianza_4.webp" alt="Logo Cyberark">
-            <img src="img/alianzas/alianza_5.webp" alt="Logo Dell">
-            <img src="img/alianzas/alianza_6.webp" alt="Logo Eset">
-            <img src="img/alianzas/alianza_7.webp" alt="Logo Exabeam">
-            {{-- <img src="img/alianzas/alianza_8.webp" alt="Logo F5"> --}}
-            <img src="img/alianzas/alianza_9.webp" alt="Logo Rthreat">
-            <img src="img/alianzas/alianza_10.webp" alt="Logo Forcepoint">
-            <img src="img/alianzas/alianza_11.webp" alt="Logo Fortinet">
-            <img src="img/alianzas/alianza_12.webp" alt="Logo Huawei">
-            <img src="img/alianzas/alianza_13.webp" alt="Logo IBM Security">
-            <img src="img/alianzas/alianza_14.webp" alt="Logo Infoblox">
-            <img src="img/alianzas/alianza_15.webp" alt="Logo imperva">
-            <img src="img/alianzas/alianza_16.webp" alt="Logo Kaspersky">
-            <img src="img/alianzas/alianza_17.webp" alt="Logo LogRhythm">
-            <img src="img/alianzas/alianza_18.webp" alt="Logo Orchestra">
-            <img src="img/alianzas/alianza_19.webp" alt="Logo MicroFocus">
-            <img src="img/alianzas/alianza_20.webp" alt="Logo Paloalto">
-            <img src="img/alianzas/alianza_21.webp" alt="Logo Picus">
-            <img src="img/alianzas/alianza_22.webp" alt="Logo radware">
-            <img src="img/alianzas/alianza_23.webp" alt="Logo RSA">
-            <img src="img/alianzas/alianza_24.webp" alt="Logo Sailpoint">
-            <img src="img/alianzas/alianza_25.webp" alt="Logo Sophos">
-            <img src="img/alianzas/alianza_26.webp" alt="Logo Sonic Wall">
-            <img src="img/alianzas/alianza_27.webp" alt="Logo Tenable">
-            <img src="img/alianzas/alianza_28.webp" alt="Logo Thales">
-            <img src="img/alianzas/alianza_29.webp" alt="Logo Trapx">
-            <img src="img/alianzas/alianza_30.webp" alt="Logo Wandera">
-            <img src="img/alianzas/alianza_31.webp" alt="Logo Trellix">
-            <img src="img/alianzas/alianza_32.webp" alt="Logo Trend">
-            <img src="img/alianzas/alianza_33.webp" alt="Logo Hillstone">
-            <img src="img/alianzas/alianza_34.webp" alt="Logo Microsoft">
-            <img src="img/alianzas/alianza_35.webp" alt="Logo Blanco">
+            <img src="img/alianzas/alianza_1.webp" alt="Logo Allot" title="=Logo Allot">
+            <img src="img/alianzas/alianza_2.webp" alt="BlackBag" title="BlackBag">
+            <img src="img/alianzas/alianza_3.webp" alt="Check Point" title="Check Point">
+            <img src="img/alianzas/alianza_4.webp" alt="Logo Cyberark" title="Logo Cyberark">
+            <img src="img/alianzas/alianza_5.webp" alt="Logo Dell" title="Logo Dell">
+            <img src="img/alianzas/alianza_6.webp" alt="Logo Eset" title="Logo Eset">
+            <img src="img/alianzas/alianza_7.webp" alt="Logo Exabeam" title="Logo Exabeam">
+            {{-- <img src="img/alianzas/alianza_8.webp" alt="Logo F5" title="Logo F5"> --}}
+            <img src="img/alianzas/alianza_9.webp" alt="Logo Rthreat" title="Logo Rthreat">
+            <img src="img/alianzas/alianza_10.webp" alt="Logo Forcepoint" title="Logo Forcepoint">
+            <img src="img/alianzas/alianza_11.webp" alt="Logo Fortinet" title="Logo Fortinet">
+            <img src="img/alianzas/alianza_12.webp" alt="Logo Huawei" title="Logo Huawei">
+            <img src="img/alianzas/alianza_13.webp" alt="Logo IBM Security" title="Logo IBM Security">
+            <img src="img/alianzas/alianza_14.webp" alt="Logo Infoblox" title="Logo Infoblox">
+            <img src="img/alianzas/alianza_15.webp" alt="Logo imperva" title="Logo imperva">
+            <img src="img/alianzas/alianza_16.webp" alt="Logo Kaspersky" title="Logo Kaspersky">
+            <img src="img/alianzas/alianza_17.webp" alt="Logo LogRhythm" title="Logo LogRhythm">
+            <img src="img/alianzas/alianza_18.webp" alt="Logo Orchestra" title="Logo Orchestra">
+            <img src="img/alianzas/alianza_19.webp" alt="Logo MicroFocus" title="Logo MicroFocus">
+            <img src="img/alianzas/alianza_20.webp" alt="Logo Paloalto" title="Logo Paloalto">
+            <img src="img/alianzas/alianza_21.webp" alt="Logo Picus" title="Logo Picus">
+            <img src="img/alianzas/alianza_22.webp" alt="Logo radware" title="Logo radware">
+            <img src="img/alianzas/alianza_23.webp" alt="Logo RSA" title="Logo RSA">
+            <img src="img/alianzas/alianza_24.webp" alt="Logo Sailpoint" title="Logo Sailpoint">
+            <img src="img/alianzas/alianza_25.webp" alt="Logo Sophos" title="Logo Sophos">
+            <img src="img/alianzas/alianza_26.webp" alt="Logo Sonic Wall" title="Logo Sonic Wall">
+            <img src="img/alianzas/alianza_27.webp" alt="Logo Tenable" title="Logo Tenable">
+            <img src="img/alianzas/alianza_28.webp" alt="Logo Thales" title="Logo Thales">
+            <img src="img/alianzas/alianza_29.webp" alt="Logo Trapx" title="Logo Trapx">
+            <img src="img/alianzas/alianza_30.webp" alt="Logo Wandera" title="Logo Wandera">
+            <img src="img/alianzas/alianza_31.webp" alt="Logo Trellix" title="Logo Trellix">
+            <img src="img/alianzas/alianza_32.webp" alt="Logo Trend" title="Logo Trend">
+            <img src="img/alianzas/alianza_33.webp" alt="Logo Hillstone" title="Logo Hillstone">
+            <img src="img/alianzas/alianza_34.webp" alt="Logo Microsoft" title="Logo Microsoft">
+            <img src="img/alianzas/alianza_35.webp" alt="Logo Blanco" title="Logo Blanco">
         </div>
     </div>
 </section>
@@ -401,29 +404,29 @@
         <p>Buscamos siempre las mejores practicas para poder ofrecer la mejor calidad en nuestros servicios</p>
 
         <div class="logos-certificaciones no-visible">
-            <img src="img/certificaciones/cert_1.webp" alt="Logo SGI">
-            <img src="img/certificaciones/cert_2.webp" alt="Logo COBIT">
-            <img src="img/certificaciones/cert_3.webp" alt="Logo ITIL">
-            <img src="img/certificaciones/cert_4.webp" alt="Logo CISA">
-            <img src="img/certificaciones/cert_5.webp" alt="Logo CRISC">
-            <img src="img/certificaciones/cert_6.webp" alt="Logo CISM">
-            <img src="img/certificaciones/cert_7.webp" alt="Logo Marketing Digital">
-            <img src="img/certificaciones/cert_8.webp" alt="Logo Security">
-            <img src="img/certificaciones/cert_9.webp" alt="Logo ESR">
-            <img src="img/certificaciones/cert_10.webp" alt="Logo EXIN">
-            <img src="img/certificaciones/cert_11.webp" alt="Logo CISSP">
-            <img src="img/certificaciones/cert_12.webp" alt="Logo PMI">
-            <img src="img/certificaciones/cert_13.webp" alt="Logo ECIH">
-            <img src="img/certificaciones/cert_14.webp" alt="Logo ECSA">
-            <img src="img/certificaciones/cert_15.webp" alt="Logo CEH">
-            <img src="img/certificaciones/cert_16.webp" alt="Logo CHIFI">
-            <img src="img/certificaciones/cert_17.webp" alt="Logo ECSP">
-            <img src="img/certificaciones/cert_18.webp" alt="Logo CISCO">
-            <img src="img/certificaciones/cert_19.webp" alt="Logo Security">
-            <img src="img/certificaciones/cert_20.webp" alt="Logo GPEN">
-            <img src="img/certificaciones/cert_21.webp" alt="Logo GCIH">
-            <img src="img/certificaciones/cert_22.webp" alt="Logo GREM">
-            <img src="img/certificaciones/cert_23.webp" alt="Logo First">
+            <img src="img/certificaciones/cert_1.webp" alt="Logo SGI" title="Logo SGI">
+            <img src="img/certificaciones/cert_2.webp" alt="Logo COBIT" title="Logo COBIT">
+            <img src="img/certificaciones/cert_3.webp" alt="Logo ITIL" title="Logo ITIL">
+            <img src="img/certificaciones/cert_4.webp" alt="Logo CISA" title="Logo CISA">
+            <img src="img/certificaciones/cert_5.webp" alt="Logo CRISC" title="Logo CRISC">
+            <img src="img/certificaciones/cert_6.webp" alt="Logo CISM" title="Logo CISM">
+            <img src="img/certificaciones/cert_7.webp" alt="Logo Marketing Digital" title="Logo Marketing Digital">
+            <img src="img/certificaciones/cert_8.webp" alt="Logo Security" title="Logo Security">
+            <img src="img/certificaciones/cert_9.webp" alt="Logo ESR" title="Logo ESR">
+            <img src="img/certificaciones/cert_10.webp" alt="Logo EXIN" title="Logo EXIN">
+            <img src="img/certificaciones/cert_11.webp" alt="Logo CISSP" title="Logo CISSP">
+            <img src="img/certificaciones/cert_12.webp" alt="Logo PMI" title="Logo PMI">
+            <img src="img/certificaciones/cert_13.webp" alt="Logo ECIH" title="Logo ECIH">
+            <img src="img/certificaciones/cert_14.webp" alt="Logo ECSA" title="Logo ECSA">
+            <img src="img/certificaciones/cert_15.webp" alt="Logo CEH" title="Logo CEH">
+            <img src="img/certificaciones/cert_16.webp" alt="Logo CHIFI" title="Logo CHIFI">
+            <img src="img/certificaciones/cert_17.webp" alt="Logo ECSP" title="Logo ECSP">
+            <img src="img/certificaciones/cert_18.webp" alt="Logo CISCO" title="Logo CISCO">
+            <img src="img/certificaciones/cert_19.webp" alt="Logo Security" title="Logo Security">
+            <img src="img/certificaciones/cert_20.webp" alt="Logo GPEN" title="Logo GPEN">
+            <img src="img/certificaciones/cert_21.webp" alt="Logo GCIH" title="Logo GCIH">
+            <img src="img/certificaciones/cert_22.webp" alt="Logo GREM" title="Logo GREM">
+            <img src="img/certificaciones/cert_23.webp" alt="Logo First" title="Logo First">
             <br style="clear: both;">
         </div>
     </div>
@@ -449,7 +452,7 @@
     <div class="jefes-cards no-visible">
         <div class="card-jefe lay">
             <div class="img-jefe">
-                <img src="img/jefe_lay.webp" alt="CEO Layla Delgadillo">
+                <img src="img/jefe_lay.webp" alt="CEO Layla Delgadillo" title="CEO Layla Delgadillo">
             </div>
             <div class="info-jefe">
                 <h3 class="title-terd">Layla Delgadillo</h3>
@@ -465,7 +468,8 @@
 
         <div class="card-jefe gera">
             <div class="img-jefe">
-                <img src="img/jefe_gerardo.webp" alt="Director Comercial Gerardo Garibay">
+                <img src="img/jefe_gerardo.webp" alt="Director Comercial Gerardo Garibay"
+                    title="Director Comercial Gerardo Garibay">
             </div>
             <div class="info-jefe">
                 <h3 class="title-terd">Gerardo Garibay</h3>

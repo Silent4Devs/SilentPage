@@ -62,10 +62,11 @@
         <div class="form-item input-acepto">
             <input type="checkbox" required wire:model.lazy="terminos" name="terminos" id="terminos" value="1"
                 title="Acepto los términos de privacidad">
-            <label for="terminos"><a href="{{ url('terminos-privacidad') }}" target="_blanck"> Acepto los términos
-                    de
-                    privacidad
-                </a></label>
+            <label for="terminos">
+                <a href="{{ url('terminos-privacidad') }}" target="_blanck">
+                    Acepto los términos de privacidad
+                </a>
+            </label>
         </div>
         <div class="form-item caja-flex" style="justify-content: end; margin-top: 60px;">
             <button type="submit" wire:loading.class="pre">

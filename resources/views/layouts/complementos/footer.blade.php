@@ -4,20 +4,24 @@
     </div>
     <div class="caja-footer" style="align-items: center;">
         <div class="info-footer">
-            <img src="{{ asset('img/logo_silent.webp') }}" alt="Logo Silent4Business">
+            <img src="{{ asset('img/logo_silent.webp') }}" alt="Logo Silent4Business" title="Logo Silent4Business">
             <p>
-                <i class="fa-solid fa-location-dot"></i>
+                <i class="fa-solid fa-location-dot" title="Icono locacion"></i>
                 <a href="https://goo.gl/maps/DkTtghVWhaFoBKSLA?coh=178573&entry=tt" target="_blank"> Torre Murano
                     Insurgentes Sur #2453 </a>
             </p>
             <p>
-                <i class="fa-solid fa-phone"></i>
+                <i class="fa-solid fa-phone" title="Icono telefono"></i>
                 <a href="tel:+525578233000"> 55 7823 3000</a>
             </p>
             <p>
-                <i class="fa-regular fa-envelope"></i>
+                <i class="fa-regular fa-envelope" title="Icono correo"></i>
                 <a
                     href="mailto:marketing@silent4business.com?Subject=Portal%20S4B%20Contacto">marketing@silent4business.com</a>
+            </p>
+            <p>
+                <i class="fa-solid fa-file-circle-check" title="Icono términos de privacidad"></i>
+                <a href="{{ url('terminos-privacidad') }}" target="_blanck">Acepto los términos de privacidad</a>
             </p>
         </div>
 

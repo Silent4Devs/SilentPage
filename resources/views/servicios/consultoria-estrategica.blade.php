@@ -18,7 +18,8 @@
 
     <div>
         <div class="title-fondo">
-            <img src="{{ asset('img/serv_global.webp') }}" height="70px" style="filter: brightness(10);" alt="servicio global">
+            <img src="{{ asset('img/serv_global.webp') }}" height="70px" style="filter: brightness(10);" alt="servicio global"
+                title="servicio global">
             <h1 class="title-main">Consultoría estratégica</h1>
             <p style="text-align:center;">
                 Asesoramos a la dirección general de tu empresa en el desarrollo de su estrategia y de su modelo de
@@ -53,8 +54,8 @@
                     </p>
 
                     <div class="img-serv-inter">
-                        <img src="{{ asset('img/consul.webp') }}" width="60%" style="margin: 50px 20%;"
-                            alt="Consultoria">
+                        <img src="{{ asset('img/consul.webp') }}" width="60%" style="margin: 50px 20%;" alt="Consultoria"
+                            title="Consultoria">
                     </div>
 
                     <a href="contacto" class="btn-contact"
