@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="es">
-<title>@yield('title', 'Aliados de tu Ciberseguridad | Servicios para tu empresa')</title>
+<title>@yield('titulo', 'Aliados de tu Ciberseguridad | Servicios para tu empresa')</title>
 
 <head>
     @include('layouts.complementos.head')
