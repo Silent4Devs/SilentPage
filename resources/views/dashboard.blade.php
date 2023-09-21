@@ -5,7 +5,7 @@
             <div class="items-center justify-between px-8 py-2 md:flex md:px-12">
                 <div class="flex items-center justify-between">
                     <div class="text-2xl font-bold text-gray-800 md:text-3xl">
-                        <img src="https://silent4business.com/img/logo_silent.webp">
+                        <img src="https://silent4business.com/img/logo_silent.webp" alt="Logo S4B">
                     </div>
                 </div>
             </div>
@@ -13,8 +13,8 @@
         <div class="flex bg-white" style="height:600px;">
             <div class="flex items-center px-8 text-center lg:text-left md:px-12 lg:w-1/2">
                 <div>
-                    <span class="title-second text-3xl font-semibold text-gray-800 md:text-4xl">Bienvenido al panel <span
-                            class="text-indigo-600">Admin</span></span>
+                    <span class="title-second text-3xl font-semibold text-gray-800 md:text-4xl">Bienvenido al panel
+                        <span class="text-indigo-600">Admin</span></span>
                     <p class="mt-2 text-sm text-gray-500 md:text-base">Desde aquí puedes consultar información y
                         realizar movimientos!</p>
                     <div class="flex justify-center mt-6 lg:justify-start">
