@@ -6,6 +6,8 @@
     content="ciberseguridad, empresa, empresas, ciberseguridad empresas, empresas ciberseguridad, empresa de ciberseguridad, servicio, servicios, servicios de ciberseguridad, servicio ciberseguridad, ciberseguridad servicios, información, Seguridad, seguridad de la información, politicas de seguridad de la informacion, seguridad de la información y ciberseguridad, Pentesting, Análisis de vulnerabilidades, monitoreo de redes, analisis de riesgo de una empresa, certificación iso 27001, analisis de riesgos de seguridad, iso seguridad de la información, analisis de riesgo, normatividades iso, iso 27001, Continuidad de Negocio">
 <!-- Facebook Meta Tags -->
 
+<link rel="canonical" href="https://silent4business.com/">
+
 <meta property="og:url" content="https://silent4business.com/">
 
 <meta property="og:type" content="website">
@@ -28,7 +30,7 @@
 
 <meta name="twitter:description" content="@yield('metaDesc', 'Protege tu organización con servicios a la medida: Centro de Operaciones de Seguridad, Pentesting, ISO 27001:2022 y mucho más. Contáctanos.') Descripción: twitter">
 
-<meta name="twitter:image" content="https://www.silent4business.com/img/logo_silent.webp">
+<meta name="twitter:image" content="https://silent4business.com/img/logo_silent.webp">
 <!-- favicon -->
 <link rel="shortcut icon" href="{{ asset('img/logo_silent.webp') }}" type="image/png" />
 

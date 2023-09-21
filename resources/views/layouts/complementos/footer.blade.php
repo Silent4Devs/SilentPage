@@ -21,7 +21,7 @@
             </p>
             <p>
                 <i class="fa-solid fa-file-circle-check" title="Icono términos de privacidad"></i>
-                <a href="{{ url('terminos-privacidad') }}" target="_blanck">Términos de privacidad</a>
+                <a href="{{ url('terminos-privacidad') }}" target="_blanck">Aviso de privacidad</a>
             </p>
         </div>
 

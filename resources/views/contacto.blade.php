@@ -1,6 +1,6 @@
 @extends('layouts.site')
 
-@section('titulo', 'Contacto Comercial de Ciberseguridad: Cotizaciones, Conferencias y Capacitaciones')
+@section('titulo', 'Contactanos')
 
 @section('metaDesc',
     '¡Contáctanos hoy mismo para solicitar cotizaciones de proyectos de ciberseguridad! Nuestro equipo

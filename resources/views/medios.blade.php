@@ -1,6 +1,6 @@
 @extends('layouts.site')
 
-@section('titulo', 'Aliados de tu Ciberseguridad | Servicios para tu empresa')
+@section('titulo', 'S4B en medios ')
 
 @section('metaDesc',
     'Descubre cómo Silent4Business brilla en los medios, digital y tradicionalmente. Nuestra huella en

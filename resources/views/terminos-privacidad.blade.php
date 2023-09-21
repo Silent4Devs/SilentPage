@@ -1,6 +1,8 @@
 @extends('layouts.site')
 
-@section('titulo', 'Aliados de tu Ciberseguridad | Servicios para tu empresa')
+@section('titulo', 'AVISO DE PRIVACIDAD')
+
+@section('metaDesc', 'Aviso de privacidad.')
 
 @section('body', 'terminos-body')
 
