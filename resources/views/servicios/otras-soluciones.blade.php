@@ -31,15 +31,7 @@
                 <div class="menu-serv-inter">
                     <div class="caja-menu-serv">
                         <span class="title-terd"> Servicios</span>
-                        <ul>
-                            <li><a href="{{ route('servicios/soc-noc') }}">SOC / NOC</a></li>
-                            <li><a href="{{ route('servicios/ciberinteligencia') }}">Ciberinteligencia</a></li>
-                            <li><a href="{{ route('servicios/consultoria-estrategica') }}">Consultoría Estratégica</a>
-                            </li>
-                            <li><a href="{{ route('servicios/otras-soluciones') }}" class="active">Cyber Threat
-                                    Intelligence
-                                    (CTI)</a></li>
-                        </ul>
+                        @include('servicios.menu-servicios')
                     </div>
                 </div>
                 <div class="main-serv-inter">
