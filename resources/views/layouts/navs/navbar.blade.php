@@ -19,7 +19,7 @@
         </div>
 
         <div class="caja-flex solo-mobile" style="gap:30px; align-items: center;">
-            <a href="contacto" class="btn-contact solo-mobile">Contáctanos</a>
+            <a href="{{ route('contacto') }}" class="btn-contact solo-mobile">Contáctanos</a>
             <i id="btn-menu-header" class="material-symbols-outlined icon-menu solo-mobile" onclick="menu()">menu</i>
         </div>
     </content>

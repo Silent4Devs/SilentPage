@@ -38,10 +38,10 @@ Route::view('terminos-privacidad', 'terminos-privacidad')->name('terminos-privac
 Route::get('sitemap', [XmlController::class, 'index']);
 
 // servicios --------------------
-Route::view('servicios/soc-noc', 'servicios/soc-noc')->name('servicios/soc-noc');
-Route::view('servicios/ciberinteligencia', 'servicios/ciberinteligencia')->name('servicios/ciberinteligencia');
-Route::view('servicios/consultoria-estrategica', 'servicios/consultoria-estrategica')->name('servicios/consultoria-estrategica');
-Route::view('servicios/otras-soluciones', 'servicios/otras-soluciones')->name('servicios/otras-soluciones');
+Route::view('servicios/soc-noc', 'servicios/soc-noc')->name('servicios.soc-noc');
+Route::view('servicios/ciberinteligencia', 'servicios/ciberinteligencia')->name('servicios.ciberinteligencia');
+Route::view('servicios/consultoria-estrategica', 'servicios/consultoria-estrategica')->name('servicios.consultoria-estrategica');
+Route::view('servicios/otras-soluciones', 'servicios/otras-soluciones')->name('servicios.otras-soluciones');
 
 Route::middleware([
     'auth:sanctum',
