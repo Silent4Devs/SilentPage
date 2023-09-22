@@ -22,26 +22,26 @@ Route::get('/', function () {
 
 Route::view('solicitantes', 'admin.solicitantes')->name('solicitantes');
 
-Route::view('servicios', 'servicios');
-Route::view('productos', 'productos');
-Route::view('soluciones', 'soluciones');
-Route::get('tendencias', [TendenciasController::class, 'index']);
-Route::view('exito', 'exito');
-Route::get('medios', [MediosController::class, 'index']);
+Route::view('servicios', 'servicios')->name('servicios');
+Route::view('productos', 'productos')->name('productos');
+Route::view('soluciones', 'soluciones')->name('soluciones');
+Route::get('tendencias', [TendenciasController::class, 'index'])->name('tendencias');
+Route::view('exito', 'exito')->name('exito');
+Route::get('medios', [MediosController::class, 'index'])->name('medios');
 Route::get('medios/{id}', [MediosController::class, 'show']);
-Route::view('cert', 'cert');
-Route::view('talento', 'talento');
+Route::view('cert', 'cert')->name('cert');
+Route::view('talento', 'talento')->name('talento');
 Route::get('tendencias/{id}', [TendenciasController::class, 'show']);
-Route::view('contacto', 'contacto');
-Route::view('metaverso', 'metaverso');
-Route::view('terminos-privacidad', 'terminos-privacidad');
+Route::view('contacto', 'contacto')->name('contacto');
+Route::view('metaverso', 'metaverso')->name('metaverso');
+Route::view('terminos-privacidad', 'terminos-privacidad')->name('terminos-privacidad');
 Route::get('sitemap', [XmlController::class, 'index']);
 
 // servicios --------------------
-Route::view('servicios/soc-noc', 'servicios/soc-noc');
-Route::view('servicios/ciberinteligencia', 'servicios/ciberinteligencia');
-Route::view('servicios/consultoria-estrategica ', 'servicios/consultoria-estrategica');
-Route::view('servicios/otras-soluciones', 'servicios/otras-soluciones');
+Route::view('servicios/soc-noc', 'servicios/soc-noc')->name('servicios/soc-noc');
+Route::view('servicios/ciberinteligencia', 'servicios/ciberinteligencia')->name('servicios/ciberinteligencia');
+Route::view('servicios/consultoria-estrategica', 'servicios/consultoria-estrategica')->name('servicios/consultoria-estrategica');
+Route::view('servicios/otras-soluciones', 'servicios/otras-soluciones')->name('servicios/otras-soluciones');
 
 Route::middleware([
     'auth:sanctum',

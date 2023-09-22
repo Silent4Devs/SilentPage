@@ -63,7 +63,7 @@
             <input type="checkbox" required wire:model.lazy="terminos" name="terminos" id="terminos" value="1"
                 title="Acepto los términos de privacidad">
             <label for="terminos">
-                <a href="{{ url('terminos-privacidad') }}" target="_blanck">
+                <a href="{{ route('terminos-privacidad') }}" target="_blanck">
                     Acepto los términos de privacidad
                 </a>
             </label>

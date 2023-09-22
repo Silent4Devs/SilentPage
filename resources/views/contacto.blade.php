@@ -11,7 +11,7 @@
 @section('content')
     <style>
         .title-fondo::before {
-            background-image: url('img/portadas/portada_servicios.png');
+            background-image: url('');
         }
     </style>
 

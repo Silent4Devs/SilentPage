@@ -41,21 +41,24 @@
                         </p>
                         <div class="caja-flex" style="justify-content: space-between; margin-top: 80px;">
                             <div class="talent-serv">
-                                <img src="img/talent_1.webp" title="Crecimiento continuo" alt="Crecimiento continuo">
+                                <img src="{{ asset('img/talent_1.webp') }}" title="Crecimiento continuo"
+                                    alt="Crecimiento continuo">
                                 <p>Crecimiento continuo</p>
                             </div>
                             <div class="talent-serv">
-                                <img src="img/talent_2.webp" title="Vacaciones flexibles" alt="Vacaciones flexibles">
+                                <img src="{{ asset('img/talent_2.webp') }}" title="Vacaciones flexibles"
+                                    alt="Vacaciones flexibles">
                                 <p>Vacaciones flexibles</p>
                             </div>
                         </div>
                         <div class="caja-flex" style="justify-content: space-between; margin-top: 30px;">
                             <div class="talent-serv">
-                                <img src="img/talent_3.webp" title="Eventos de integración" alt="Eventos de integración">
+                                <img src="{{ asset('img/talent_3.webp') }}" title="Eventos de integración"
+                                    alt="Eventos de integración">
                                 <p>Eventos de integración</p>
                             </div>
                             <div class="talent-serv">
-                                <img src="img/talent_4.webp" title="Capacitaciones constantes"
+                                <img src="{{ asset('img/talent_4.webp') }}" title="Capacitaciones constantes"
                                     alt="Capacitaciones constantes">
                                 <p>Capacitaciones constantes</p>
                             </div>

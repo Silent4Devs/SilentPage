@@ -6,16 +6,16 @@
                     alt="Logo Silent4business">
             </a>
             <nav class="nav-principal mobile-none">
-                <a href="{{ url('servicios') }}">Servicios</a>
-                <a href="{{ url('productos') }}">Productos</a>
-                <a href="{{ url('soluciones') }}">Soluciones</a>
-                <a href="{{ url('tendencias') }}">Ciber Blog</a>
-                <a href="{{ url('cert') }}">CERT</a>
+                <a href="{{ route('servicios') }}">Servicios</a>
+                <a href="{{ route('productos') }}">Productos</a>
+                <a href="{{ route('soluciones') }}">Soluciones</a>
+                <a href="{{ route('tendencias') }}">Ciber Blog</a>
+                <a href="{{ route('cert') }}">CERT</a>
             </nav>
         </div>
         <div class="header-caja contact-header mobile-none" style="justify-content: right;">
-            <a href="" class="d-none" style="margin-right: 50px;">¿Tuviste un incidente?</a>
-            <a href="{{ url('contacto') }}" class="btn-contact">Contáctanos</a>
+            {{-- <a href="" class="" style="margin-right: 50px;">¿Tuviste un incidente?</a> --}}
+            <a href="{{ route('contacto') }}" class="btn-contact">Contáctanos</a>
         </div>
 
         <div class="caja-flex solo-mobile" style="gap:30px; align-items: center;">
@@ -28,22 +28,22 @@
 <div class="menu-mobile solo-mobile d-none">
     <div class="menu-blanck">
         <nav>
-            <a href="{{ url('servicios') }}">Servicios</a>
-            <a href="{{ url('productos') }}">Productos</a>
-            <a href="{{ url('soluciones') }}">Soluciones</a>
-            <a href="{{ url('tendencias') }}">Ciber Blog</a>
-            <a href="{{ url('cert') }}">CERT</a>
+            <a href="{{ route('servicios') }}">Servicios</a>
+            <a href="{{ route('productos') }}">Productos</a>
+            <a href="{{ route('soluciones') }}">Soluciones</a>
+            <a href="{{ route('tendencias') }}">Ciber Blog</a>
+            <a href="{{ route('cert') }}">CERT</a>
         </nav>
     </div>
     <div class=menu-blue>
         <nav>
-            <a href="{{ asset('') }}#alianzas">Alianzas</a>
-            <a href="exito">Casos de éxito</a>
-            <a href="{{ url('talento') }}">Aporta tu talento</a>
-            <a href="medios">S4B en medios</a>
-            <a href="cert">CERT</a>
+            <a href="{{ url('/') }}#alianzas">Alianzas</a>
+            <a href="{{ route('exito') }}">Casos de éxito</a>
+            <a href="{{ route('talento') }}">Aporta tu talento</a>
+            <a href="{{ route('medios') }}">S4B en medios</a>
+            <a href="{{ route('cert') }}">CERT</a>
             <a href="#pie-page">Newsletter</a>
-            <a href="/metaverso">Metaverso</a>
+            <a href="{{ route('metaverso') }}">Metaverso</a>
         </nav>
         <div class="redes">
             <a href="https://www.instagram.com/team.s4b/" target="_blank"><i class="fa-brands fa-instagram"

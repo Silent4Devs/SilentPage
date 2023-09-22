@@ -135,7 +135,7 @@
 @endsection
 
 @section('scripts')
-    <script>
+    {{-- <script>
         document.addEventListener('DOMContentLoaded', function() {
             let rigth_space = 0;
             $('.arrow-carrusel-izq').click(function() {
@@ -202,5 +202,5 @@
             }
             getNoticias();
         });
-    </script>
+    </script> --}}
 @endsection

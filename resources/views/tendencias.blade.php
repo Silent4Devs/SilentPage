@@ -33,7 +33,7 @@
                 <div class="column-noticias caja-noticias-med">
                     @foreach ($posts as $post)
                         <div class="card noticia">
-                            <img src={{ $post->thumbnail }}>
+                            <img src={{ asset($post->thumbnail) }}>
                             <div class="info-noticia">
                                 <small>{{ Carbon\Carbon::parse($post->post_date)->format('d-m-Y') }}</small><br><br>
                                 <span class="title-terd">{{ $post->post_title }}</span><br><br>
@@ -53,7 +53,7 @@
                         @foreach ($postsRecientes as $postReciente)
                             <div class="caja-flex">
                                 <div class="img-posts">
-                                    <img src={{ $postReciente->thumbnail }}>
+                                    <img src={{ asset($postReciente->thumbnail) }}>
                                 </div>
                                 <div>
                                     <small>{{ Carbon\Carbon::parse($post->post_date)->format('d-m-Y') }}</small><br>

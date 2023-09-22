@@ -19,7 +19,7 @@
                 </div>
             </div>
             <div style="margin-top: 15px">
-                <a class="btn-contact" href="{{ url('/medios') }}">Regresar</a>
+                <a class="btn-contact" href="{{ route('medios') }}">Regresar</a>
             </div>
         </content>
     </div>

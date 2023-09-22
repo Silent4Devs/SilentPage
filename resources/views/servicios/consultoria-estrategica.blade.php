@@ -12,7 +12,7 @@
 
     <style>
         .title-fondo::before {
-            background-image: url('../img/portadas/portada_servicios_inter.webp');
+            background-image: url('{{ asset('img/portadas/portada_servicios_inter.webp') }}');
         }
     </style>
 
@@ -33,11 +33,11 @@
                     <div class="caja-menu-serv">
                         <span class="title-terd"> Servicios</span>
                         <ul>
-                            <li><a href="{{ asset('servicios/soc-noc') }}">SOC / NOC</a></li>
-                            <li><a href="{{ asset('servicios/ciberinteligencia') }}">Ciberinteligencia</a></li>
-                            <li><a href="{{ asset('servicios/consultoria-estrategica') }}" class="active">Consultoría
+                            <li><a href="{{ route('servicios/soc-noc') }}">SOC / NOC</a></li>
+                            <li><a href="{{ route('servicios/ciberinteligencia') }}">Ciberinteligencia</a></li>
+                            <li><a href="{{ route('servicios/consultoria-estrategica') }}" class="active">Consultoría
                                     Estratégica</a></li>
-                            <li><a href="{{ asset('servicios/otras-soluciones') }}">Cyber Threat Intelligence (CTI)</a>
+                            <li><a href="{{ route('servicios/otras-soluciones') }}">Cyber Threat Intelligence (CTI)</a>
                             </li>
                         </ul>
                     </div>
@@ -58,7 +58,7 @@
                             title="Consultoria">
                     </div>
 
-                    <a href="contacto" class="btn-contact"
+                    <a href="{{ route('contacto') }}" class="btn-contact"
                         style="margin: auto; margin-top: 100px; transform: scale(1.3);">Contáctanos</a>
                 </div>
             </div>

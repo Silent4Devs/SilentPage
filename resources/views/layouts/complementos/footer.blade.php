@@ -21,7 +21,7 @@
             </p>
             <p>
                 <i class="fa-solid fa-file-circle-check" title="Icono términos de privacidad"></i>
-                <a href="{{ url('terminos-privacidad') }}" target="_blanck">Aviso de privacidad</a>
+                <a href="{{ route('terminos-privacidad') }}" target="_blanck">Aviso de privacidad</a>
             </p>
         </div>
 
@@ -29,10 +29,10 @@
 
         <div class="menu-footer">
             <span class="title-second">Menú</span>
-            <a href="{{ url('servicios') }}">Servicios</a>
-            <a href="{{ url('cert') }}">CERT</a>
-            <a href="{{ url('medios') }}">Medios</a>
-            <a href="{{ url('talento') }}">Aporta tu talento</a>
+            <a href="{{ route('servicios') }}">Servicios</a>
+            <a href="{{ route('cert') }}">CERT</a>
+            <a href="{{ route('medios') }}">Medios</a>
+            <a href="{{ route('talento') }}">Aporta tu talento</a>
 
             <div class="redes-icons caja-flex" style="margin-top: 50px; justify-content:space-between;">
                 <a href="https://www.instagram.com/team.s4b/" target="_blank"><i class="fa-brands fa-instagram"
