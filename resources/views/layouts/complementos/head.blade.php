@@ -50,7 +50,7 @@
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,200,0,0" />
 
 <!-- Accessibility Code for "silent4business.com" -->
-{{-- <script>
+<script>
     window.interdeal = {
         "sitekey": "2722302a642853e246a74ba1264eb045",
         "Position": "Left",
@@ -79,7 +79,7 @@
         coreCall.setAttribute('data-cfasync', true);
         body ? body.appendChild(coreCall) : head.appendChild(coreCall);
     })(document, document.head, document.body);
-</script> --}}
+</script>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-5R11XHGHKR"></script>
