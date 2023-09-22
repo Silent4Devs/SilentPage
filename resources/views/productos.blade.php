@@ -28,7 +28,7 @@
         <div class="blue-compu">
             <content class="content-limit">
                 <div class="caja-flex" style="align-items: center;">
-                    <img src="img/logo_silent.webp" alt="Logo Silent4business" title="Logo Silent4business">
+                    <img src="{{ asset('img/logo_silent.webp') }}" alt="Logo Silent4business" title="Logo Silent4business">
                     <p>
                         <font style="font-size: 24px;">Somos Silent4Business </font> A través de un equipo especializado,
                         ser un referente confiable en materia de investigación, asistencia y difusión en actividades de
@@ -87,7 +87,7 @@
                         </div>
                     </div>
                     <div class="img-product">
-                        <img src="img/product_1.webp" title="Producto KAXAN" alt="Producto KAXAN">
+                        <img src="{{ asset('img/product_1.webp') }}" title="Producto KAXAN" alt="Producto KAXAN">
                         <hr>
                     </div>
                     <div class="info-product info-der">
@@ -99,7 +99,7 @@
 
                     </div>
                     <div class="img-product">
-                        <img src="img/product_2.webp" title="Producto TABANTAJ" alt="Producto TABANTAJ">
+                        <img src="{{ asset('img/product_2.webp') }}" title="Producto TABANTAJ" alt="Producto TABANTAJ">
                         <hr>
                     </div>
                     <div class="info-product info-der">
@@ -137,7 +137,7 @@
 
                     </div>
                     <div class="img-product">
-                        <img src="img/product_3.webp" title="Producto KATBOL" alt="Producto KATBOL">
+                        <img src="{{ asset('img/product_3.webp') }}" title="Producto KATBOL" alt="Producto KATBOL">
                         <hr>
                     </div>
                     <div class="info-product info-der">
@@ -204,8 +204,8 @@
                         </div>
                     </div>
                     <div class="img-product">
-                        <img src="img/product_4.webp" style="width: 215px; padding:0px 25px;" title="Producto KAANS"
-                            alt="Producto KAANS">
+                        <img src="{{ asset('img/product_4.webp') }}" style="width: 215px; padding:0px 25px;"
+                            title="Producto KAANS" alt="Producto KAANS">
                         <hr>
                     </div>
                     <div class="info-product info-der">

@@ -33,12 +33,12 @@
                     <div class="caja-menu-serv">
                         <span class="title-terd">Servicios</span>
                         <ul>
-                            <li><a href="{{ url('servicios/soc-noc') }}">SOC / NOC</a></li>
-                            <li><a href="{{ url('servicios/ciberinteligencia') }}" class="active">Ciberinteligencia</a>
+                            <li><a href="{{ route('servicios/soc-noc') }}">SOC / NOC</a></li>
+                            <li><a href="{{ route('servicios/ciberinteligencia') }}" class="active">Ciberinteligencia</a>
                             </li>
-                            <li><a href="{{ url('servicios/consultoria-estrategica') }}">Consultoría Estratégica</a>
+                            <li><a href="{{ route('servicios/consultoria-estrategica') }}">Consultoría Estratégica</a>
                             </li>
-                            <li><a href="{{ url('servicios/otras-soluciones') }}">Cyber Threat Intelligence (CTI)</a>
+                            <li><a href="{{ route('servicios/otras-soluciones') }}">Cyber Threat Intelligence (CTI)</a>
                             </li>
                         </ul>
                     </div>
@@ -78,7 +78,7 @@
                             alt="servicio interno" title="servicio interno">
                     </div>
 
-                    <a href="contacto" class="btn-contact"
+                    <a href="{{ route('contacto') }}" class="btn-contact"
                         style="margin: auto; margin-top: 100px; transform: scale(1.3);">Contáctanos</a>
                 </div>
             </div>

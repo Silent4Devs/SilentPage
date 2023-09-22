@@ -12,7 +12,7 @@
 
     <style>
         .title-fondo::before {
-            background-image: url('img/portadas/portada_productos.webp');
+            background-image: url('{{ asset('img/portadas/portada_productos.webp') }}');
         }
     </style>
 
@@ -28,7 +28,8 @@
         <content class="content-limit">
             <div class="caja-soluciones">
                 <div id="salud" class="solucion">
-                    <img src="img/sol-salud.webp" class="img-solucion" title="Solución SALUD" alt="Solución SALUD">
+                    <img src="{{ asset('img/sol-salud.webp') }}" class="img-solucion" title="Solución SALUD"
+                        alt="Solución SALUD">
                     <p>
                         Los sistemas de salud están redefiniendo la forma en cómo se realiza la atención médica,
                         incrementando el uso de la medicina virtual y promoviendo alianzas entre distintos jugadores
@@ -37,7 +38,7 @@
                     </p>
                 </div>
                 <div id="financiera" class="solucion">
-                    <img src="img/sol-financiera.webp" class="img-solucion" title="Solución FINANCIERA"
+                    <img src="{{ asset('img/sol-financiera.webp') }}" class="img-solucion" title="Solución FINANCIERA"
                         alt="Solución FINANCIERA">
                     <p>
                         Nos adaptamos a la constante evolución de las exigencias de los clientes que buscan servicios
@@ -45,7 +46,7 @@
                     </p>
                 </div>
                 <div id="manofactura" class="solucion">
-                    <img src="img/sol-manofactura.webp" class="img-solucion" title="Solución MANOFACTURA"
+                    <img src="{{ asset('img/sol-manufactura.webp') }}" class="img-solucion" title="Solución MANOFACTURA"
                         alt="Solución MANOFACTURA">
                     <p>
                         La manufactura está en un proceso de transformación constante. Aprovechamos esta nueva ventana
@@ -54,8 +55,8 @@
                     </p>
                 </div>
                 <div id="energia" class="solucion">
-                    <img src="img/sol-energia.webp" class="img-solucion" title="Solución ENERGÉTICA Y RECURSOS"
-                        alt="Solución ENERGÉTICA Y RECURSOS">
+                    <img src="{{ asset('img/sol-energia.webp') }}" class="img-solucion"
+                        title="Solución ENERGÉTICA Y RECURSOS" alt="Solución ENERGÉTICA Y RECURSOS">
                     <p>
                         En un mundo en constante cambio, las compañías energéticas y de recursos enfrentan retos
                         tecnológicos importantes. Por esta razón implementamos estrategias eficaces a lo largo de la
@@ -64,7 +65,7 @@
                     </p>
                 </div>
                 <div id="agro" class="solucion">
-                    <img src="img/sol-agro.webp" class="img-solucion" title="Solución AGROINDUSTRIAL"
+                    <img src="{{ asset('img/sol-agro.webp') }}" class="img-solucion" title="Solución AGROINDUSTRIAL"
                         alt="Solución AGROINDUSTRIAL">
                     <p>
                         El uso de nuevas tecnologías con el objetivo de mejorar el rendimiento, la eficacia y la
@@ -74,7 +75,7 @@
                     </p>
                 </div>
                 <div id="academia" class="solucion">
-                    <img src="img/sol-academia.webp" class="img-solucion" title="Solución ACADEMICA"
+                    <img src="{{ asset('img/sol-academia.webp') }}" class="img-solucion" title="Solución ACADEMICA"
                         alt="Solución ACADEMICA">
                     <p>
                         Las organizaciones educativas están redefiniendo la forma en cómo se gestiona y lleva a cabo la

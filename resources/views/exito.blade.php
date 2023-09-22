@@ -12,7 +12,7 @@
 
     <style>
         .title-fondo::before {
-            background-image: url('img/portadas/portada_exito.webp');
+            background-image: url('{{ asset('img/portadas/portada_exito.webp') }}');
         }
     </style>
 
