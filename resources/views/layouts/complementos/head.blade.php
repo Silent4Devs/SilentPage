@@ -6,7 +6,8 @@
     content="ciberseguridad, empresa, empresas, ciberseguridad empresas, empresas ciberseguridad, empresa de ciberseguridad, servicio, servicios, servicios de ciberseguridad, servicio ciberseguridad, ciberseguridad servicios, información, Seguridad, seguridad de la información, politicas de seguridad de la informacion, seguridad de la información y ciberseguridad, Pentesting, Análisis de vulnerabilidades, monitoreo de redes, analisis de riesgo de una empresa, certificación iso 27001, analisis de riesgos de seguridad, iso seguridad de la información, analisis de riesgo, normatividades iso, iso 27001, Continuidad de Negocio">
 <!-- Facebook Meta Tags -->
 
-<link rel="canonical" href="https://silent4business.com/">
+{{-- canonical --}}
+<link rel="canonical" href="{{ url()->current() }}">
 
 <meta property="og:url" content="https://silent4business.com/">
 
