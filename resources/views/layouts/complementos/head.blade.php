@@ -7,7 +7,7 @@
 <!-- Facebook Meta Tags -->
 
 {{-- canonical --}}
-<link rel="canonical" href="{{ url()->current() }}">
+<link rel="canonical" href="https://silent4business.com/">
 
 <meta property="og:url" content="https://silent4business.com/">
 
