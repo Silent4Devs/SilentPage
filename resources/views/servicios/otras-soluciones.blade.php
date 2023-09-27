@@ -8,14 +8,15 @@
 
 @section('body', 'serv-inter-body')
 
-@section('content')
-
+@section('head')
     <style>
         .title-fondo::before {
             background-image: url('{{ asset('img/portadas/portada_servicios_inter.webp') }}');
         }
     </style>
+@endsection
 
+@section('content')
     <div>
         <div class="title-fondo">
             <img src="{{ asset('img/serv_soluciones.webp') }}" height="70px" style="filter: brightness(10);"

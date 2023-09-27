@@ -6,21 +6,21 @@
 
 @section('body', 'terminos-body')
 
-@section('content')
-
+@section('head')
     <style>
         .title-fondo::before {
-            background-image: url('img/portadas/portada_talento.webp');
+            background-image: url('{{ asset('img/portadas/portada_talento.webp') }}');
         }
     </style>
+@endsection
 
+@section('content')
     <div>
-
         <contetn class="content-limit">
             <div style="text-align: right;"><i class="material-symbols-outlined btn-regresar"
                     onclick="window.close()">arrow_back_ios_new</i></div>
             <div class="card">
-                <h2>AVISO DE PRIVACIDAD</h2>
+                <h1 class="title-main">AVISO DE PRIVACIDAD</h1>
 
                 <p>
                     AVISO DE PRIVACIDAD <br>
@@ -83,11 +83,11 @@
                         http://help.opera.com/Windows/11.50/es-ES/cookies.html; </a>
                 </p>
                 <p>
-                    Safari para IPAD, IPHONE Y IPOD TOUCH: <a href="https://support.apple.com/es-es/HT201265;">
+                    Safari para IPAD, IPHONE Y IPOD TOUCH: <a href="https://support.apple.com">
                         https://support.apple.com/es-es/HT201265; </a>
                 </p>
                 <p>
-                    Safari para MAC: <a href="https://support.apple.com/kb/ph21411?locale=es_MX;">
+                    Safari para MAC: <a href="https://support.apple.com">
                         https://support.apple.com/kb/ph21411?locale=es_MX;</a> y
                 </p>
                 <p>

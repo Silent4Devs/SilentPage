@@ -3,7 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="@yield('metaDesc', 'Protege tu organización con servicios a la medida: Centro de Operaciones de Seguridad, Pentesting, ISO 27001:2022 y mucho más. Contáctanos.')">
 <meta name="keywords"
-    content="ciberseguridad, empresa, empresas, ciberseguridad empresas, empresas ciberseguridad, empresa de ciberseguridad, servicio, servicios, servicios de ciberseguridad, servicio ciberseguridad, ciberseguridad servicios, información, Seguridad, seguridad de la información, politicas de seguridad de la informacion, seguridad de la información y ciberseguridad, Pentesting, Análisis de vulnerabilidades, monitoreo de redes, analisis de riesgo de una empresa, certificación iso 27001, analisis de riesgos de seguridad, iso seguridad de la información, analisis de riesgo, normatividades iso, iso 27001, Continuidad de Negocio">
+    content="Keyword, ciberseguridad, seguridad de información, informacion de la seguridad, seguridad perimetral, ciberinteligencia, seguridad en la informacion, la ciberseguridad, empresas de ciberseguridad, ciberseguridad empresas, empresa de ciberseguridad, servicios de seguridad informática, lider en ciberseguridad, Empresas de seguridad informática, Seguridad de la información, Seguridad informática, Seguridad en redes, Seguridad perimetral, Programa para bloquear páginas, Firewall, Internet Security, Pentesting, Análisis de vulnerabilidades, monitoreo de redes, analisis de riesgo de una empresa, certificación iso 27001, DLP, firewalls, SIEM, analisis de riesgos de seguridad, iso seguridad de la información, analisis de riesgo, normatividades iso, iso 27001, iso 27001:2022, Continuidad de Negocio. SPEI, SPID">
 <!-- Facebook Meta Tags -->
 
 {{-- canonical --}}
@@ -50,84 +50,16 @@
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,200,0,0" />
 
 <!-- Accessibility Code for "silent4business.com" -->
-<script>
-    window.interdeal = {
-        "sitekey": "2722302a642853e246a74ba1264eb045",
-        "Position": "Left",
-        "Menulang": "ES-MX",
-        "domains": {
-            "js": "https://cdn.equalweb.com/",
-            "acc": "https://access.equalweb.com/"
-        },
-        "btnStyle": {
-            "vPosition": ["80%", null],
-            "scale": ["0.8", "0.8"],
-            "icon": {
-                "type": 7,
-                "shape": "semicircle",
-                "outline": false
-            }
-        }
-    };
-    (function(doc, head, body) {
-        var coreCall = doc.createElement('script');
-        coreCall.src = interdeal.domains.js + 'core/4.5.8/accessibility.js';
-        coreCall.defer = true;
-        coreCall.integrity =
-            'sha512-edRZXolhkUWHM/uu0oiEu0tD39SPOhnl5a2KM+62YWIfb4M5oSMjvyl2NPXtGq8McfJl88bKtaxljjViGqQXtA==';
-        coreCall.crossOrigin = 'anonymous';
-        coreCall.setAttribute('data-cfasync', true);
-        body ? body.appendChild(coreCall) : head.appendChild(coreCall);
-    })(document, document.head, document.body);
-</script>
+<script src="{{ asset('js/head/accesibilidad.js') }}"></script>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-5R11XHGHKR"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'G-5R11XHGHKR');
-</script>
-
-<!-- Google Tag Manager -->
-<script>
-    (function(w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-            'gtm.start': new Date().getTime(),
-            event: 'gtm.js'
-        });
-        var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s),
-            dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src =
-            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-KS5GLC8');
-</script><!-- End Google Tag Manager -->
+<script src="{{ asset('js/head/google_manager.js') }}"></script>
+<!-- End Google Tag Manager -->
 
 <!-- Hotjar Tracking Code for https://silent4business.com/ -->
-<script>
-    (function(h, o, t, j, a, r) {
-        h.hj = h.hj || function() {
-            (h.hj.q = h.hj.q || []).push(arguments)
-        };
-        h._hjSettings = {
-            hjid: 3251092,
-            hjsv: 6
-        };
-        a = o.getElementsByTagName('head')[0];
-        r = o.createElement('script');
-        r.async = 1;
-        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-</script>
-
+<script src="{{ asset('js/head/hotjar.js') }}"></script>
 
 <meta name="csrf-token" content="{{ csrf_token() }}">
+
+@yield('head')
