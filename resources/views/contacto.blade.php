@@ -9,12 +9,6 @@
 @section('body', 'contacto-body')
 
 @section('content')
-    <style>
-        .title-fondo::before {
-            background-image: url('');
-        }
-    </style>
-
     <div>
         <div class="desplazador">
             <div class="desplazable">
@@ -159,9 +153,5 @@
 @endsection
 
 @section('scripts')
-    <script>
-        function desplazar(des_num) {
-            $('.desplazable:first-child').css('margin-left', des_num + '%');
-        }
-    </script>
+    <script src="{{ asset('js/contacto.js') }}"></script>
 @endsection

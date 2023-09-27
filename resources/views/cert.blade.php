@@ -8,14 +8,15 @@
 
 @section('body', 'cert-body')
 
-@section('content')
-
+@section('head')
     <style>
         .title-fondo::before {
             background-image: url('{{ asset('img/portadas/portada_cert.webp') }}');
         }
     </style>
+@endsection
 
+@section('content')
     <div>
         <div class="title-fondo">
             <h1 class="title-main">S4B CERT</h1>

@@ -8,14 +8,15 @@
 
 @section('body', 'soluciones-body')
 
-@section('content')
-
+@section('head')
     <style>
         .title-fondo::before {
-            background-image: url('{{ asset('img/portadas/portada_productos.webp') }}');
+            background-image: url('{{ asset('img/portadas/portada_soluciones.webp') }}');
         }
     </style>
+@endsection
 
+@section('content')
     <div>
         <div class="title-fondo">
             <h1 class="title-main">Soluciones</h1>

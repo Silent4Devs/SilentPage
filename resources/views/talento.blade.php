@@ -8,14 +8,15 @@
 
 @section('body', 'talento-body')
 
-@section('content')
-
+@section('head')
     <style>
         .title-fondo::before {
-            background-image: url('img/portadas/portada_talento.webp');
+            background-image: url('{{ asset('img/portadas/portada_talento.webp') }}');
         }
     </style>
+@endsection
 
+@section('content')
     <div>
         <div class="title-fondo">
             <h1 class="title-main">Aporta tu talento</h1>

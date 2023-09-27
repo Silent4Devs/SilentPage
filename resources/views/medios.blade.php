@@ -8,14 +8,15 @@
 
 @section('body', 'medios-body')
 
-@section('content')
-
+@section('head')
     <style>
         .title-fondo::before {
-            background-image: url('img/portadas/portada_medios.webp');
+            background-image: url('{{ asset('img/portadas/portada_medios.webp') }}');
         }
     </style>
+@endsection
 
+@section('content')
     <div>
         <div class="title-fondo">
             <h1 class="title-main">Nuestra presencia en medios</h1>
@@ -132,75 +133,4 @@
 
     </div>
 
-@endsection
-
-@section('scripts')
-    {{-- <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            let rigth_space = 0;
-            $('.arrow-carrusel-izq').click(function() {
-                if (rigth_space < 0) {
-                    rigth_space += 200;
-                }
-                $('.item-carrusel:first').css('margin-left', rigth_space + 'px');
-            });
-            $('.arrow-carrusel-der').click(function() {
-                console.log($('.item-carrusel').length * 400);
-                if (rigth_space >
-                    -(($('.item-carrusel').length * 200))) {
-                    rigth_space -= 300;
-                }
-                console.log(rigth_space);
-                $('.item-carrusel:first').css('margin-left', rigth_space + 'px');
-            });
-
-            // cargar noticias
-            const xhr = new XMLHttpRequest();
-
-            function getNoticias() {
-                xhr.open('GET', 'complementos/medios/medios.json');
-                xhr.send();
-
-                xhr.onreadystatechange = function() {
-                    if (this.readyState === 4 && this.status === 200) {
-                        const data = JSON.parse(this.responseText);
-                        let html_noticia = ``;
-                        data.noticias.forEach(element => {
-                            html_noticia += `
-        <div class="card noticia">
-            <img src="img/noticias/${element.imagen}">
-            <div class="info-noticia">
-                <small>${element.fecha}</small><br><br>
-                <span class="title-terd">${element.titulo}</span>
-                <p>
-                    ${element.descripcion}
-                </p>
-            </div>
-        </div>
-        `;
-                            document.querySelector('.caja-noticias-med').innerHTML = html_noticia;
-                        });
-
-                        let html_noticia_list = ``;
-                        data.noticias.forEach(element => {
-                            html_noticia_list += `
-        <div class="caja-flex">
-            <div class="img-posts">
-                <img src="img/noticias/${element.imagen}">
-            </div>
-            <div>
-                <small>${element.fecha}</small><br>
-                <span class="title-for">${element.descripcion.substring(0, 60,)}...</span>
-            </div>
-        </div>
-        <hr>
-        `;
-                            document.querySelector('.list-noticias-med').innerHTML = html_noticia_list;
-                        });
-                    }
-                };
-            }
-            getNoticias();
-        });
-    </script> --}}
 @endsection
