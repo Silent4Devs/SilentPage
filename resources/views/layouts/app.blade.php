@@ -44,6 +44,7 @@
 
     @livewireScripts
     @yield('scripts')
+    {{--  Aqui va el bot  --}}
     <script type="text/javascript" data-cfasync="false" src="https://humanchat.net/build/js/hb_latest.js?v=1.5.10"
         crossorigin="anonymous"></script>
 
