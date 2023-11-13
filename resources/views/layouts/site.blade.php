@@ -34,6 +34,17 @@
     <x-livewire-alert::scripts />
 
     @yield('scripts')
+
+    <script type="text/javascript" data-cfasync="false" src="https://humanchat.net/build/js/hb_latest.js?v=1.5.10"
+        crossorigin="anonymous"></script>
+
+    <script>
+        var aiBot = new AiBot({
+            embedId: '5uFdLzTdqmcq',
+            remoteBaseUrl: 'https://humanchat.net/',
+            version: '1.5.10'
+        });
+    </script>
 </body>
 
 </html>
