@@ -23,6 +23,14 @@
 
     @include('layouts.complementos.footer')
 
+    <script>
+        var aiBot = new AiBot({
+            embedId: '5uFdLzTdqmcq',
+            remoteBaseUrl: 'https://humanchat.net/',
+            version: '1.5.10'
+        });
+    </script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
     <script src="{{ asset('js/animaciones.js') }}"></script>
@@ -37,14 +45,6 @@
 
     <script type="text/javascript" data-cfasync="false" src="https://humanchat.net/build/js/hb_latest.js?v=1.5.10"
         crossorigin="anonymous"></script>
-
-    <script>
-        var aiBot = new AiBot({
-            embedId: '5uFdLzTdqmcq',
-            remoteBaseUrl: 'https://humanchat.net/',
-            version: '1.5.10'
-        });
-    </script>
 </body>
 
 </html>
