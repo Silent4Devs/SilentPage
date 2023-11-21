@@ -23,6 +23,9 @@
 
     @include('layouts.complementos.footer')
 
+    <script type="text/javascript" data-cfasync="false" src="https://humanchat.net/build/js/hb_latest.js?v=1.5.10"
+        crossorigin="anonymous"></script>
+
     <script>
         var aiBot = new AiBot({
             embedId: '5uFdLzTdqmcq',
@@ -43,8 +46,7 @@
 
     @yield('scripts')
 
-    <script type="text/javascript" data-cfasync="false" src="https://humanchat.net/build/js/hb_latest.js?v=1.5.10"
-        crossorigin="anonymous"></script>
+
 </body>
 
 </html>
