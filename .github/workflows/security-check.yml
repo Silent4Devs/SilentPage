@@ -12,8 +12,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout del código
-        uses: actions/checkout@v2
+      - name: Install PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: 8.2
+
+      - name: Check out repository code
+        uses: actions/checkout@v3
+
+      - name: Install composer dependencies
+        run: composer install
+
+      - name: Find security vulnerabilities in your PHP
+        uses: psalm/psalm-github-security-scan@1.2.1
+
+      - name: Checks composer.json for known vulnerabilities
+        uses: symfonycorp/security-checker-action@v4
+        with:
+          lock: ./composer.lock
 
       - name: Configurar entorno
         run: |
@@ -33,22 +49,3 @@ jobs:
         run: |
           # Puedes agregar comandos para notificar el éxito del despliegue
           # Esto puede ser útil para enviar mensajes a Slack, correo electrónico, etc.
-
-      - name: Install PHP
-        uses: shivammathur/setup-php@v2
-        with:
-          php-version: 8.2
-
-      - name: Check out repository code
-        uses: actions/checkout@v3
-
-      - name: Install composer dependencies
-        run: composer install
-
-      - name: Find security vulnerabilities in your PHP
-        uses: psalm/psalm-github-security-scan@1.2.1
-
-      - name: Checks composer.json for known vulnerabilities
-        uses: symfonycorp/security-checker-action@v4
-        with:
-          lock: ./composer.lock
