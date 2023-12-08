@@ -36,7 +36,9 @@ jobs:
           mkdir -p ~/.ssh
           echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa || (echo "Error al escribir la clave privada" && exit 1)
           chmod 600 ~/.ssh/id_rsa || (echo "Error al cambiar los permisos de la clave privada" && exit 1)
-          ssh-keyscan 192.168.9.53 >> ~/.ssh/known_hosts || (echo "Error al agregar la entrada al archivo known_hosts" && exit 1)
+
+          # Agregar la entrada al archivo known_hosts usando el fingerprint obtenido
+          echo "192.168.9.53 ssh-rsa AAAAB3N...RRGJ80jh9grh3Q6v5J8GFkA5pdrpvhDbYV5BPaMD88I" >> ~/.ssh/known_hosts || (echo "Error al agregar la entrada al archivo known_hosts" && exit 1)
         shell: /usr/bin/bash -e {0}
         env:
           COMPOSER_PROCESS_TIMEOUT: 0
