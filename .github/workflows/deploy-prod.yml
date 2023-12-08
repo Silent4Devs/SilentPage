@@ -1,4 +1,4 @@
-name: Deploy to produ
+name: Deploy to produc
 run-name: ${{ github.actor }} run deploy to prod
 on:
   push:
