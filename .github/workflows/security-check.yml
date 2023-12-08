@@ -31,7 +31,7 @@ jobs:
         with:
           lock: ./composer.lock
 
-      - name: Configurar entorno
+      - name: Configurar entornoo
         run: |
           mkdir -p ~/.ssh
           echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa || (echo "Error al escribir la clave privada" && exit 1)
