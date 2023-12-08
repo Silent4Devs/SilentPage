@@ -31,22 +31,11 @@ jobs:
         with:
           lock: ./composer.lock
 
-      - name: Configurar entornoo
-        run: |
-          # Agregar la entrada al archivo known_hosts usando el fingerprint obtenido
-          echo "192.168.9.53 ssh-rsa RRGJ80jh9grh3Q6v5J8GFkA5pdrpvhDbYV5BPaMD88I" >> ~/.ssh/known_hosts || (echo "Error al agregar la entrada al archivo known_hosts" && exit 1)
-        shell: /usr/bin/bash -e {0}
-        env:
-          COMPOSER_PROCESS_TIMEOUT: 0
-          COMPOSER_NO_INTERACTION: 1
-          COMPOSER_NO_AUDIT: 1
-
       - name: Construir y desplegar
         run: |
           # Comandos para construir y desplegar la aplicación
           # Por ejemplo, puedes usar rsync, scp u otros comandos según tus necesidades
-          # Ejemplo con rsync:
-          rsync -r --delete-after --quiet $GITHUB_WORKSPACE/ desarrollo@192.168.9.53:/ruta/del/despliegue
+          scp -r $GITHUB_WORKSPACE/* desarrollo@192.168.9.78:/var/contenedor/silentPage/
 
       - name: Notificar éxito de despliegue
         run: |
