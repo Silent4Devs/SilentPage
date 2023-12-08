@@ -10,15 +10,11 @@ pipeline {
 
         stage('Deploy via SSH') {
             steps {
-               script {
-                sshagent(['/root/.ssh/id_rsa.pub']) {
-                    sh '''
-                        ssh -o StrictHostKeyChecking=no desarrollo@192.168.9.53 "echo 'Connection successful'; ls -l /var/contenedor/silentpage/"
-                        scp -o StrictHostKeyChecking=no -r $WORKSPACE/* desarrollo@192.168.9.53:/var/contenedor/silentpage/
-                    '''
+                script {
+                    sshagent(['/home/desarrollo/.ssh/id_rsa.pub']) {
+                        sh 'scp -r $WORKSPACE/* desarrollo@192.168.9.53:/var/contenedor/silentpage/'
+                    }
                 }
-            }
-
             }
         }
 
