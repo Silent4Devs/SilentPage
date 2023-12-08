@@ -31,12 +31,13 @@ jobs:
         with:
           lock: ./composer.lock
 
-      - name: Construir y desplegar
+      - name: Verificar conexión SSH
         run: |
-          # Comandos para construir y desplegar la aplicación
-          # Por ejemplo, puedes usar rsync, scp u otros comandos según tus necesidades
-          ssh desarrollo@192.168.9.53
-          scp -o ConnectTimeout=100 -r $GITHUB_WORKSPACE/* desarrollo@192.168.9.53:/var/contenedor/silentpage/
+          ssh desarrollo@192.168.9.53 || (echo "Error en la conexión SSH" && exit 1)
+
+      - name: Copiar archivos con SCP
+        run: |
+          scp -o ConnectTimeout=100 -r $GITHUB_WORKSPACE/* desarrollo@192.168.9.53:/var/contenedor/silentpage/ || (echo "Error al copiar archivos con SCP" && exit 1)
 
       - name: Notificar éxito de despliegue
         run: |
