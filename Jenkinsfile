@@ -7,7 +7,6 @@ pipeline {
             }
         }
 
-
         stage('Build') {
             steps {
                 script {
@@ -25,7 +24,6 @@ pipeline {
             }
         }
 
-
         stage('Deploy via SSH') {
             steps {
                 script {
@@ -35,7 +33,6 @@ pipeline {
                 }
             }
         }
-
 
         stage('Jenkis2 - Stage 1') {
             steps {
