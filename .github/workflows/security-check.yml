@@ -33,10 +33,15 @@ jobs:
 
       - name: Configurar entorno
         run: |
-          # Configurar la clave SSH para la conexión al servidor
+          mkdir -p ~/.ssh
           echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan 192.168.9.53 >> ~/.ssh/known_hosts
+        shell: /usr/bin/bash -e {0}
+        env:
+          COMPOSER_PROCESS_TIMEOUT: 0
+          COMPOSER_NO_INTERACTION: 1
+          COMPOSER_NO_AUDIT: 1
 
       - name: Construir y desplegar
         run: |
