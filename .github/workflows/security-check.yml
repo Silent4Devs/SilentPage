@@ -30,3 +30,29 @@ jobs:
         uses: symfonycorp/security-checker-action@v4
         with:
           lock: ./composer.lock
+
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout del código
+        uses: actions/checkout@v2
+
+      - name: Configurar entorno
+        run: |
+          # Configurar la clave SSH para la conexión al servidor
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan 192.168.9.53 >> ~/.ssh/known_hosts
+
+      - name: Construir y desplegar
+        run: |
+          # Comandos para construir y desplegar la aplicación
+          # Por ejemplo, puedes usar rsync, scp u otros comandos según tus necesidades
+          # Ejemplo con rsync:
+          rsync -r --delete-after --quiet $GITHUB_WORKSPACE/ desarrollo@192.168.9.53:/ruta/del/despliegue
+
+      - name: Notificar éxito de despliegue
+        run: |
+          # Puedes agregar comandos para notificar el éxito del despliegue
+          # Esto puede ser útil para enviar mensajes a Slack, correo electrónico, etc.
