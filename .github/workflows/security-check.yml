@@ -31,6 +31,9 @@ jobs:
         with:
           lock: ./composer.lock
 
+      - name: Debug SSH_PRIVATE_KEY
+        run: echo "$SSH_PRIVATE_KEY"
+
       - name: Configurar entorno
         run: |
           mkdir -p ~/.ssh
