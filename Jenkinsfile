@@ -11,7 +11,7 @@ pipeline {
         stage('Deploy via SSH') {
             steps {
                 script {
-                    sshagent(['/home/desarrollo/.ssh/id_rsa.pub']) {
+                    sshagent(['/root/.ssh/id_rsa']) {
                         sh 'scp -r $WORKSPACE/* desarrollo@192.168.9.53:/var/contenedor/silentpage/'
                     }
                 }
