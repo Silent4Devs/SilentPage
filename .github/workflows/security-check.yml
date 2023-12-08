@@ -35,8 +35,7 @@ jobs:
         run: |
           # Comandos para construir y desplegar la aplicación
           # Por ejemplo, puedes usar rsync, scp u otros comandos según tus necesidades
-          ping 192.168.9.53
-          ssh -vvv desarrollo@192.168.9.53
+          ssh desarrollo@192.168.9.53
           scp -o ConnectTimeout=100 -r $GITHUB_WORKSPACE/* desarrollo@192.168.9.53:/var/contenedor/silentpage/
 
       - name: Notificar éxito de despliegue
