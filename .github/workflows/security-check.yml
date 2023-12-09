@@ -31,14 +31,6 @@ jobs:
         with:
           lock: ./composer.lock
 
-      - name: Verificar conexión SSH
-        run: |
-          ssh desarrollo@192.168.9.53 || (echo "Error en la conexión SSH" && exit 1)
-
-      - name: Copiar archivos con SCP
-        run: |
-          scp -o ConnectTimeout=100 -r $GITHUB_WORKSPACE/* desarrollo@192.168.9.53:/var/contenedor/silentpage/ || (echo "Error al copiar archivos con SCP" && exit 1)
-
       - name: Notificar éxito de despliegue
         run: |
           # Puedes agregar comandos para notificar el éxito del despliegue
