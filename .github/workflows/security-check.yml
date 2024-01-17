@@ -4,12 +4,9 @@ on:
   push:
     branches:
       - develop
-      - main
   pull_request:
     branches:
       - develop
-      - main
-
 jobs:
   Security-checks:
     runs-on: ubuntu-latest
@@ -24,7 +21,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Install composer dependencies
-        run: composer install --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
+        run: composer install
 
       - name: Find security vulnerabilities in your PHP
         uses: psalm/psalm-github-security-scan@1.2.1
@@ -33,3 +30,8 @@ jobs:
         uses: symfonycorp/security-checker-action@v4
         with:
           lock: ./composer.lock
+
+      - name: Notificar éxito de despliegue
+        run: |
+          # Puedes agregar comandos para notificar el éxito del despliegue
+          # Esto puede ser útil para enviar mensajes a Slack, correo electrónico, etc.

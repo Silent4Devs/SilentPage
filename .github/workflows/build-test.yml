@@ -1,14 +1,17 @@
-name: Build and Test
+name: Build and Tes
 run-name: ${{ github.actor }} Build and Test
 on:
   push:
     branches:
       - develop
-      - main
   pull_request:
     branches:
       - develop
-      - main
+      - feature/*
+      - hotfix/*
+      - release/*
+      - fix/*
+      - refactor/*
 
 jobs:
   build_and_check:
@@ -72,10 +75,6 @@ jobs:
       - name: Copy .env
         run: php -r "file_exists('.env') || copy('.env.ci', '.env');"
 
-      - name: Install Dependencies
-        if: steps.vendor-cache.outputs.cache-hit != 'true'
-        run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
-
       - name: Update Dependencies with latest stable
         if: matrix.dependency-stability == 'prefer-stable'
         run: composer update --prefer-stable
@@ -83,20 +82,12 @@ jobs:
         if: matrix.dependency-stability == 'prefer-lowest'
         run: composer update --prefer-stable --prefer-lowest
 
-      - name: Generate key
-        run: php artisan key:generate
+      - name: Install Dependencies
+        if: steps.vendor-cache.outputs.cache-hit != 'true'
+        run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
+
       - name: Directory Permissions
         run: chmod -R 777 storage bootstrap/cache
-      - name: Run Migrations
-        # Set environment
-        env:
-          DB_CONNECTION: pgsql
-          DB_DATABASE: homestead
-          DB_PORT: 5432
-          DB_USERNAME: postgres
-          DB_PASSWORD: secret
-
-        run: php artisan migrate
 
       - name: Show dir
         run: pwd
