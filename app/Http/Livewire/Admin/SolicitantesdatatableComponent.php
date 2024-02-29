@@ -11,15 +11,16 @@ class SolicitantesdatatableComponent extends Component
     use WithPagination;
 
     public $search = '';
+
     public $loading = false;
 
     public function render()
     {
         $this->loading = true;
 
-        $solicitudes = SolicitudesPostulacion::where('nombre', 'like', '%' . $this->search . '%')
-            ->orWhere('email', 'like', '%' . $this->search . '%')
-            ->orWhere('telefono', 'like', '%' . $this->search . '%')
+        $solicitudes = SolicitudesPostulacion::where('nombre', 'like', '%'.$this->search.'%')
+            ->orWhere('email', 'like', '%'.$this->search.'%')
+            ->orWhere('telefono', 'like', '%'.$this->search.'%')
             ->paginate(10);
 
         $this->loading = false;
@@ -29,6 +30,6 @@ class SolicitantesdatatableComponent extends Component
 
     public function export($path)
     {
-        return response()->download(storage_path('app/public/' . $path));
+        return response()->download(storage_path('app/public/'.$path));
     }
 }

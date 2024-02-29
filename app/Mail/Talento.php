@@ -3,7 +3,6 @@
 namespace App\Mail;
 
 use Illuminate\Bus\Queueable;
-use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
@@ -16,14 +15,13 @@ class Talento extends Mailable
     /**
      * Create a new message instance.
      */
-
     public $data;
 
     public function __construct($data)
     {
         $this->data = $data;
 
-        $this->attach('storage/' . $data->cv);
+        $this->attach('storage/'.$data->cv);
     }
 
     /**

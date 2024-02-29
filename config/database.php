@@ -94,17 +94,17 @@ return [
         ],
 
         'wordpress' => [ // for WordPress database (used by Corcel)
-            'driver'    => 'mysql',
-            'host'      => 'mysqlwordpress-business',
-            'database'  => 'ciberblog',
-            'username'  => 'homestead',
-            'password'  => 'secret',
-            'port'      => '3306',
-            'charset'   => 'utf8',
+            'driver' => 'mysql',
+            'host' => 'mysqlwordpress-business',
+            'database' => 'ciberblog',
+            'username' => 'homestead',
+            'password' => 'secret',
+            'port' => '3306',
+            'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
-            'prefix'    => 'wp_',
-            'strict'    => false,
-            'engine'    => null,
+            'prefix' => 'wp_',
+            'strict' => false,
+            'engine' => null,
         ],
 
     ],
@@ -139,7 +139,7 @@ return [
 
         'options' => [
             'cluster' => env('REDIS_CLUSTER', 'redis'),
-            'prefix' => env('REDIS_PREFIX', Str::slug(env('APP_NAME', 'laravel'), '_') . '_database_'),
+            'prefix' => env('REDIS_PREFIX', Str::slug(env('APP_NAME', 'laravel'), '_').'_database_'),
         ],
 
         'default' => [
