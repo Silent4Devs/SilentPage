@@ -3030,7 +3030,8 @@ body.admin-medios {
     overflow: auto;
 }
 
-* {
+/* animaciones ------- */
+/* * {
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
@@ -3744,7 +3745,8 @@ body.admin-medios {
     -webkit-transform: scale(0.9);
     -ms-transform: scale(0.9);
     transform: scale(0.9);
-}
+} */
+/* fin animaciones --------------- */
 
 .solo-mobile {
     display: none;
