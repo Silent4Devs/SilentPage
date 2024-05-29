@@ -1093,16 +1093,17 @@ header:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    align-items: center;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 80px;
 }
 
 .logos-alianzas img {
-    width: 200px;
+    height: 50px;
     -webkit-transition: 0.1s;
     -o-transition: 0.1s;
     transition: 0.1s;
