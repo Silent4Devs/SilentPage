@@ -364,42 +364,35 @@
             <p>Cada uno de nuestros aliados potencia nuestra capacidad para diseñar y proveer seguridad ágil.</p>
 
             <div class="logos-alianzas no-visible">
-                <img src="{{ asset('img/alianzas/alianza_1.webp') }}" alt="Logo Allot" title="=Logo Allot">
-                <img src="{{ asset('img/alianzas/alianza_2.webp') }}" alt="BlackBag" title="BlackBag">
-                <img src="{{ asset('img/alianzas/alianza_3.webp') }}" alt="Check Point" title="Check Point">
-                <img src="{{ asset('img/alianzas/alianza_4.webp') }}" alt="Logo Cyberark" title="Logo Cyberark">
-                <img src="{{ asset('img/alianzas/alianza_5.webp') }}" alt="Logo Dell" title="Logo Dell">
-                <img src="{{ asset('img/alianzas/alianza_6.webp') }}" alt="Logo Eset" title="Logo Eset">
-                <img src="{{ asset('img/alianzas/alianza_7.webp') }}" alt="Logo Exabeam" title="Logo Exabeam">
-                {{-- <img src="{{asset('img/alianzas/alianza_8.webp')}}" alt="Logo F5" title="Logo F5"> --}}
-                <img src="{{ asset('img/alianzas/alianza_9.webp') }}" alt="Logo Rthreat" title="Logo Rthreat">
-                <img src="{{ asset('img/alianzas/alianza_10.webp') }}" alt="Logo Forcepoint" title="Logo Forcepoint">
-                <img src="{{ asset('img/alianzas/alianza_11.webp') }}" alt="Logo Fortinet" title="Logo Fortinet">
-                <img src="{{ asset('img/alianzas/alianza_12.webp') }}" alt="Logo Huawei" title="Logo Huawei">
-                <img src="{{ asset('img/alianzas/alianza_13.webp') }}" alt="Logo IBM Security"
-                    title="Logo IBM Security">
-                <img src="{{ asset('img/alianzas/alianza_14.webp') }}" alt="Logo Infoblox" title="Logo Infoblox">
-                <img src="{{ asset('img/alianzas/alianza_15.webp') }}" alt="Logo imperva" title="Logo imperva">
-                <img src="{{ asset('img/alianzas/alianza_16.webp') }}" alt="Logo Kaspersky" title="Logo Kaspersky">
-                <img src="{{ asset('img/alianzas/alianza_17.webp') }}" alt="Logo LogRhythm" title="Logo LogRhythm">
-                <img src="{{ asset('img/alianzas/alianza_18.webp') }}" alt="Logo Orchestra" title="Logo Orchestra">
-                <img src="{{ asset('img/alianzas/alianza_19.webp') }}" alt="Logo MicroFocus" title="Logo MicroFocus">
-                <img src="{{ asset('img/alianzas/alianza_20.webp') }}" alt="Logo Paloalto" title="Logo Paloalto">
-                <img src="{{ asset('img/alianzas/alianza_21.webp') }}" alt="Logo Picus" title="Logo Picus">
-                <img src="{{ asset('img/alianzas/alianza_22.webp') }}" alt="Logo radware" title="Logo radware">
-                <img src="{{ asset('img/alianzas/alianza_23.webp') }}" alt="Logo RSA" title="Logo RSA">
-                <img src="{{ asset('img/alianzas/alianza_24.webp') }}" alt="Logo Sailpoint" title="Logo Sailpoint">
-                <img src="{{ asset('img/alianzas/alianza_25.webp') }}" alt="Logo Sophos" title="Logo Sophos">
-                <img src="{{ asset('img/alianzas/alianza_26.webp') }}" alt="Logo Sonic Wall" title="Logo Sonic Wall">
-                <img src="{{ asset('img/alianzas/alianza_27.webp') }}" alt="Logo Tenable" title="Logo Tenable">
-                <img src="{{ asset('img/alianzas/alianza_28.webp') }}" alt="Logo Thales" title="Logo Thales">
-                <img src="{{ asset('img/alianzas/alianza_29.webp') }}" alt="Logo Trapx" title="Logo Trapx">
-                <img src="{{ asset('img/alianzas/alianza_30.webp') }}" alt="Logo Wandera" title="Logo Wandera">
-                <img src="{{ asset('img/alianzas/alianza_31.webp') }}" alt="Logo Trellix" title="Logo Trellix">
-                <img src="{{ asset('img/alianzas/alianza_32.webp') }}" alt="Logo Trend" title="Logo Trend">
-                <img src="{{ asset('img/alianzas/alianza_33.webp') }}" alt="Logo Hillstone" title="Logo Hillstone">
-                <img src="{{ asset('img/alianzas/alianza_34.webp') }}" alt="Logo Microsoft" title="Logo Microsoft">
-                <img src="{{ asset('img/alianzas/alianza_35.webp') }}" alt="Logo Blanco" title="Logo Blanco">
+                <img src="{{ asset('img/alianzas/alianza_1.png') }}" alt="Logo Allot" title="=Logo Allot">
+                <img src="{{ asset('img/alianzas/alianza_2.png') }}" alt="BlackBag" title="BlackBag">
+                <img src="{{ asset('img/alianzas/alianza_3.png') }}" alt="Check Point" title="Check Point">
+                <img src="{{ asset('img/alianzas/alianza_6.png') }}" alt="Logo Eset" title="Logo Eset">
+                <img src="{{ asset('img/alianzas/alianza_7.png') }}" alt="Logo Exabeam" title="Logo Exabeam">
+                <img src="{{ asset('img/alianzas/alianza_8.png') }}" alt="Logo F5" title="Logo F5">
+                <img src="{{ asset('img/alianzas/alianza_10.png') }}" alt="Logo Forcepoint" title="Logo Forcepoint">
+                <img src="{{ asset('img/alianzas/alianza_11.png') }}" alt="Logo Fortinet" title="Logo Fortinet">
+                <img src="{{ asset('img/alianzas/alianza_13.png') }}" alt="Logo IBM Security" title="Logo IBM Security">
+                <img src="{{ asset('img/alianzas/alianza_14.png') }}" alt="Logo Infoblox" title="Logo Infoblox">
+                <img src="{{ asset('img/alianzas/alianza_15.png') }}" alt="Logo imperva" title="Logo imperva">
+                <img src="{{ asset('img/alianzas/alianza_16.png') }}" alt="Logo Kaspersky" title="Logo Kaspersky">
+                <img src="{{ asset('img/alianzas/alianza_17.png') }}" alt="Logo LogRhythm" title="Logo LogRhythm">
+                <img src="{{ asset('img/alianzas/alianza_18.png') }}" alt="Logo Orchestra" title="Logo Orchestra">
+                <img src="{{ asset('img/alianzas/alianza_19.png') }}" alt="Logo MicroFocus" title="Logo MicroFocus">
+                <img src="{{ asset('img/alianzas/alianza_20.png') }}" alt="Logo Paloalto" title="Logo Paloalto">
+                <img src="{{ asset('img/alianzas/alianza_24.png') }}" alt="Logo Sailpoint" title="Logo Sailpoint">
+                <img src="{{ asset('img/alianzas/alianza_25.png') }}" alt="Logo Sophos" title="Logo Sophos">
+                <img src="{{ asset('img/alianzas/alianza_26.png') }}" alt="Logo Sonic Wall" title="Logo Sonic Wall">
+                <img src="{{ asset('img/alianzas/alianza_27.png') }}" alt="Logo Tenable" title="Logo Tenable">
+                <img src="{{ asset('img/alianzas/alianza_28.png') }}" alt="Logo Thales" title="Logo Thales">
+                <img src="{{ asset('img/alianzas/alianza_29.png') }}" alt="Logo Trapx" title="Logo Trapx">
+                <img src="{{ asset('img/alianzas/alianza_31.png') }}" alt="Logo Trellix" title="Logo Trellix">
+                <img src="{{ asset('img/alianzas/alianza_33.png') }}" alt="Logo Hillstone" title="Logo Hillstone">
+                <img src="{{ asset('img/alianzas/alianza_34.png') }}" alt="Logo Microsoft" title="Logo Microsoft">
+                <img src="{{ asset('img/alianzas/alianza_35.png') }}" alt="Logo Blanco" title="Logo Blanco">
+                <img src="{{ asset('img/alianzas/alianza_37.png') }}" alt="Logo Blanco" title="Logo Blanco">
+                <img src="{{ asset('img/alianzas/alianza_38.png') }}" alt="Logo Blanco" title="Logo Blanco">
+                <img src="{{ asset('img/alianzas/alianza_39.png') }}" alt="Logo Blanco" title="Logo Blanco">
             </div>
         </div>
     </section>
