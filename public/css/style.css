@@ -1113,6 +1113,7 @@ header:hover {
     -webkit-transition: 0.2s;
     -o-transition: 0.2s;
     transition: 0.2s;
+    transform: scale(1.1);
 }
 
 .caja-certificaciones {
