@@ -2,19 +2,23 @@
 
 namespace App\Http\Livewire;
 
-use Livewire\Component;
-use Jantinnerezo\LivewireAlert\LivewireAlert;
 use App\Mail\Curso;
 use Illuminate\Support\Facades\Mail;
+use Jantinnerezo\LivewireAlert\LivewireAlert;
+use Livewire\Component;
 
 class ContactoCursoCapacitacionFormComponent extends Component
 {
     use LivewireAlert;
 
     public $nombre;
+
     public $email;
+
     public $telefono;
+
     public $mensaje;
+
     public $organizacion;
 
     protected $rules = [

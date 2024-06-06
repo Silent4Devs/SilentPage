@@ -20,16 +20,15 @@ use Illuminate\Database\Eloquent\SoftDeletes;
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
  * @property string|null $deleted_at
- *
- * @package App\Models
  */
 class SolicitudesPostulacion extends Model
 {
     use SoftDeletes;
+
     protected $table = 'solicitudes_postulacion';
 
     protected $casts = [
-        'terminos' => 'bool'
+        'terminos' => 'bool',
     ];
 
     protected $fillable = [
@@ -39,6 +38,6 @@ class SolicitudesPostulacion extends Model
         'telefono',
         'laborando',
         'cv',
-        'terminos'
+        'terminos',
     ];
 }

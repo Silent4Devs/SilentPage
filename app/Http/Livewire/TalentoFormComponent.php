@@ -2,14 +2,13 @@
 
 namespace App\Http\Livewire;
 
-use App\Models\SolicitudesPostulacion;
-use Illuminate\Contracts\Support\ValidatedData;
-use Livewire\Component;
-use Illuminate\Support\Facades\DB;
-use Jantinnerezo\LivewireAlert\LivewireAlert;
-use Livewire\WithFileUploads;
 use App\Mail\Talento;
+use App\Models\SolicitudesPostulacion;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Mail;
+use Jantinnerezo\LivewireAlert\LivewireAlert;
+use Livewire\Component;
+use Livewire\WithFileUploads;
 
 class TalentoFormComponent extends Component
 {
@@ -17,11 +16,17 @@ class TalentoFormComponent extends Component
     use WithFileUploads;
 
     public $tipo;
+
     public $nombre;
+
     public $email;
+
     public $telefono;
+
     public $laborando;
+
     public $cv;
+
     public $terminos;
 
     protected $rules = [

@@ -2,10 +2,10 @@
 
 namespace App\Http\Livewire;
 
-use Livewire\Component;
-use Jantinnerezo\LivewireAlert\LivewireAlert;
 use App\Mail\Newsletter;
 use Illuminate\Support\Facades\Mail;
+use Jantinnerezo\LivewireAlert\LivewireAlert;
+use Livewire\Component;
 
 class ContactoFooterFormComponent extends Component
 {
@@ -32,7 +32,6 @@ class ContactoFooterFormComponent extends Component
             $correo = $validatedData['email'];
 
             Mail::to('cesar.borre@silent4business.com')->send(new Newsletter($correo));
-
 
             $this->alert('success', 'Suscrito correctamente.');
         } catch (\Exception $e) {
