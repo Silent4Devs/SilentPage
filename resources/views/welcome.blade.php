@@ -365,10 +365,10 @@
 
             <div class="logos-alianzas no-visible">
                 <img src="{{ asset('img/alianzas/alianza_1.png') }}" alt="Logo Allot" title="=Logo Allot">
-                <img src="{{ asset('img/alianzas/alianza_2.png') }}" alt="BlackBag" title="BlackBag">
                 <img src="{{ asset('img/alianzas/alianza_3.png') }}" alt="Check Point" title="Check Point">
                 <img src="{{ asset('img/alianzas/alianza_6.png') }}" alt="Logo Eset" title="Logo Eset">
-                <img src="{{ asset('img/alianzas/alianza_7.png') }}" alt="Logo Exabeam" title="Logo Exabeam">
+                <img src="{{ asset('img/alianzas/alianza_7.png') }}" alt="Logo Exabeam" title="Logo Exabeam"
+                    style="height: 100px;">
                 <img src="{{ asset('img/alianzas/alianza_8.png') }}" alt="Logo F5" title="Logo F5">
                 <img src="{{ asset('img/alianzas/alianza_10.png') }}" alt="Logo Forcepoint" title="Logo Forcepoint">
                 <img src="{{ asset('img/alianzas/alianza_11.png') }}" alt="Logo Fortinet" title="Logo Fortinet">
@@ -393,6 +393,11 @@
                 <img src="{{ asset('img/alianzas/alianza_37.png') }}" alt="Logo Blanco" title="Logo Blanco">
                 <img src="{{ asset('img/alianzas/alianza_38.png') }}" alt="Logo Blanco" title="Logo Blanco">
                 <img src="{{ asset('img/alianzas/alianza_39.png') }}" alt="Logo Blanco" title="Logo Blanco">
+                <img src="{{ asset('img/alianzas/alianza_40.png') }}" alt="Logo Blanco" title="Logo Blanco">
+                <img src="{{ asset('img/alianzas/alianza_41.png') }}" alt="Logo Blanco" title="Logo Blanco">
+                <img src="{{ asset('img/alianzas/alianza_42.png') }}" alt="Logo Blanco" title="Logo Blanco">
+                <img src="{{ asset('img/alianzas/alianza_43.png') }}" alt="Logo Blanco" title="Logo Blanco">
+                <img src="{{ asset('img/alianzas/alianza_44.png') }}" alt="Logo Blanco" title="Logo Blanco">
             </div>
         </div>
     </section>
