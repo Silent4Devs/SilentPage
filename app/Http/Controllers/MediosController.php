@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Carbon\Carbon;
 use Corcel\Model\Post;
 use Illuminate\Http\Request;
 
@@ -14,15 +13,16 @@ class MediosController extends Controller
     public function index()
     {
         $posts = Post::taxonomy('category', 'medios')
-        ->type('post')
-        ->published()
-        ->get();
+            ->type('post')
+            ->published()
+            ->get();
 
         $postsRecientes = Post::taxonomy('category', 'medios')
-        ->type('post')
-        ->published()
-        ->orderBy('post_date', 'desc')
-        ->paginate(5);
+            ->type('post')
+            ->published()
+            ->orderBy('post_date', 'desc')
+            ->paginate(5);
+
         return view('medios', compact('posts', 'postsRecientes'));
     }
 
@@ -48,6 +48,7 @@ class MediosController extends Controller
     public function show(string $id)
     {
         $post = Post::find($id);
+
         return view('mediosid', compact('post'));
     }
 

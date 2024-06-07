@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use Corcel\Model\Post;
 use Illuminate\Http\Request;
 
-
 class TendenciasController extends Controller
 {
     /**
@@ -23,6 +22,7 @@ class TendenciasController extends Controller
             ->published()
             ->orderBy('post_date', 'desc')
             ->paginate(5);
+
         return view('tendencias', compact('posts', 'postsRecientes'));
     }
 
@@ -48,6 +48,7 @@ class TendenciasController extends Controller
     public function show(string $id)
     {
         $post = Post::find($id);
+
         return view('tendenciaId', compact('post'));
     }
 

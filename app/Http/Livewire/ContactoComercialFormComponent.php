@@ -2,19 +2,21 @@
 
 namespace App\Http\Livewire;
 
-use Livewire\Component;
-use PHPMailer\PHPMailer\PHPMailer;
-use Jantinnerezo\LivewireAlert\LivewireAlert;
 use App\Mail\Comercial;
 use Illuminate\Support\Facades\Mail;
+use Jantinnerezo\LivewireAlert\LivewireAlert;
+use Livewire\Component;
 
 class ContactoComercialFormComponent extends Component
 {
     use LivewireAlert;
 
     public $nombre;
+
     public $email;
+
     public $telefono;
+
     public $mensaje;
 
     protected $rules = [
