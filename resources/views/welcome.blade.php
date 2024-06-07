@@ -398,6 +398,7 @@
                 <img src="{{ asset('img/alianzas/alianza_42.png') }}" alt="Logo Blanco" title="Logo Blanco">
                 <img src="{{ asset('img/alianzas/alianza_43.png') }}" alt="Logo Blanco" title="Logo Blanco">
                 <img src="{{ asset('img/alianzas/alianza_44.png') }}" alt="Logo Blanco" title="Logo Blanco">
+                <img src="{{ asset('img/alianzas/alianza_45.png') }}" alt="Logo Blanco" title="Logo Blanco">
             </div>
         </div>
     </section>
