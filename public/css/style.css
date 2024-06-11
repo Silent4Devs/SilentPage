@@ -1107,6 +1107,7 @@ header:hover {
     -webkit-transition: 0.1s;
     -o-transition: 0.1s;
     transition: 0.1s;
+    filter: grayscale(50%) brightness(10);
 }
 
 .logos-alianzas img:hover {
@@ -3206,8 +3207,8 @@ body.admin-medios {
 }
 
 .logos-alianzas.no-visible img {
-    -webkit-filter: opacity(0);
-    filter: opacity(0);
+
+    opacity: 0;
     -webkit-transform: scale(0.5) translate(-100%, -170%);
     -ms-transform: scale(0.5) translate(-100%, -170%);
     transform: scale(0.5) translate(-100%, -170%);
