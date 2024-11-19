@@ -37,7 +37,7 @@
                     </div>
                 </div>
                 <div class="main-serv-inter">
-                    <span class="title-main title-first-serv">CONSULTORÍA ESTRATÉGICA</span>
+                    <span class="title-main title-first-serv ">CONSULTORÍA ESTRATÉGICA</span>
                     <p style="margin-top: 50px;">
                         Acompañamiento y guía en el cumplimiento legal y regulatorio del ciclo de vida de los activos de
                         información de tu organización a nivel nacional e internacional. Una consultoría implica cambios
