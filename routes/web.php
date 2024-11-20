@@ -36,6 +36,9 @@ Route::view('contacto', 'contacto')->name('contacto');
 Route::view('metaverso', 'metaverso')->name('metaverso');
 Route::view('terminos-privacidad', 'terminos-privacidad')->name('terminos-privacidad');
 Route::get('sitemap', [XmlController::class, 'index']);
+Route::get('atlassian-domain-verification-05cjccb2-j17a-1875-71kc-21725a698cc3.html', function () {
+    return response()->file(public_path('atlassian-domain-verification-05cjccb2-j17a-1875-71kc-21725a698cc3.html'));
+});
 
 // servicios --------------------
 Route::view('servicios/soc-noc', 'servicios/soc-noc')->name('servicios/soc-noc');
