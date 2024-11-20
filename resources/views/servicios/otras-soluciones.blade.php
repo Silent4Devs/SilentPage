@@ -36,7 +36,7 @@
                     </div>
                 </div>
                 <div class="main-serv-inter">
-                    <span class="title-main title-first-serv">Es momento de ser vigilantes</span>
+                    <span class="title-main title-first-serv ">Es momento de ser vigilantes</span>
                     <p style="margin-top: 50px;">
                         Nuestro servicio CTI te brindará la información de valor con la que podrás tomar decisiones
                         críticas
