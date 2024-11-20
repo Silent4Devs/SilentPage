@@ -37,45 +37,109 @@
                     </div>
                 </div>
                 <div class="main-serv-inter">
-                    <span class="title-main title-first-serv">¿Qué hace el servicio de ciberinteligencia?</span>
-                    <p style="margin-top: 50px;">
-                        El servicio de ciberinteligencia engloba/implementa estrategias proactivas y cognitivas de
-                        prevención, detección e investigación de riesgos de seguridad, vigilancia del ciberespacio e
-                        incorporación de herramientas de inteligencia artificial, y machine learning.
-                    </p>
-
-                    <div class="img-serv-inter">
-                        <img src="{{ asset('img/csirt.webp') }}" width="90%" style="margin: 50px;" alt="Ciber"
-                            title="Ciber">
+                    <div class="flex-serv">
+                        <img src="" alt="">
+                        <div>
+                            <span class="title-main title-first-serv ">¿Cómo proteger tu organización con
+                                ciberinteligencia?</span>
+                            <p>
+                                Con el aumento de las ciberamenazas, es crucial contar con herramientas y estrategias que
+                                permitan proteger los activos digitales. La ciberinteligencia juega un papel fundamental en
+                                este contexto, proporcionando una defensa proactiva y reactiva contra los ciberataques.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex-serv">
+                        <img src="" alt="">
+                        <div>
+                            <span class="title-main title-first-serv ">¿Qué ofrece nuestro servicio de ciberinteligencia y
+                                para qué sirve?</span>
+                            <p>
+                                La ciberinteligencia es un servicio avanzado que implementa estrategias proactivas para la
+                                prevención, detección e investigación de incidentes de seguridad. Este enfoque incluye la
+                                vigilancia constante del ciberespacio, utilizando herramientas de inteligencia artificial y
+                                machine learning para identificar y mitigar amenazas de manera eficiente. La
+                                ciberinteligencia no solo se centra en reaccionar ante incidentes, sino también en
+                                anticiparlos y prevenirlos.
+                            </p>
+                            <p>
+                                En Silent4Business, nuestros servicios de ciberinteligencia se desarrollan a través de un
+                                equipo especializado conocido como CSIRT (Centro de Respuesta a Incidentes de Seguridad
+                                Informática), que incluye:
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box-servs-ciber-rep">
+                        <img src="" alt="">
+                        <img src="" alt="">
+                        <img src="" alt="">
+                        <img src="" alt="">
                     </div>
 
-                    <span class="title-main title-first-serv">El Equipo Especial Tiger Team se encarga de:</span>
-                    <p>
-                        Realizar pruebas de penetración y análisis de vulnerabilidades en sistemas informáticos y
-                        redes
-                        empresariales, para identificar posibles puntos débiles en la seguridad y tomar medidas
-                        preventivas
-                        antes de que ocurran incidentes. Gracias a su experiencia y conocimientos especializados, el
-                        equipo
-                        puede detectar vulnerabilidades en sistemas y aplicaciones, evaluar el riesgo de posibles
-                        ataques y
-                        proporcionar recomendaciones para mejorar la seguridad. Además, también pueden ayudar a
-                        desarrollar
-                        planes de contingencia y respuesta ante incidentes de seguridad, para minimizar el impacto
-                        de
-                        posibles ataques y garantizar la continuidad del negocio.
+                    <p style="font-size: 16px;">
+                        Con la implementación de ciberinteligencia, proporcionamos una defensa robusta y adaptada a las
+                        necesidades específicas de cada organización. De esta manera, tu empresa podrá:
                     </p>
-
-                    <div class="img-serv-inter">
-                        <img src="{{ asset('img/ciber_secc.webp') }}" width="100%" style="margin: 50px 0px;"
-                            alt="servicio interno" title="servicio interno">
+                    <div class="box-ciber-defens">
+                        <img src="" alt="">
+                        <img src="" alt="">
+                        <img src="" alt="">
+                        <img src="" alt="">
+                        <img src="" alt="">
                     </div>
-
-                    <a href="{{ route('contacto') }}" class="btn-contact"
-                        style="margin: auto; margin-top: 100px; transform: scale(1.3);">Contáctanos</a>
                 </div>
             </div>
         </content>
+    </div>
+
+    <div class="micro-servs">
+        <div class="content-limit">
+
+            <p class="title-main title-first-serv ">
+                Espera, aún hay más en Ciberinteligencia
+            </p>
+
+            <div class="btns-pestañas-servicios">
+                <button>Pruebas de penetración</button>
+                <button>Análisis de vulnerabilidades</button>
+                <button>Análisis forense</button>
+            </div>
+
+            <div class="">
+                <div class="flex-serv">
+                    <div>
+                        <p class="title-main title-first-serv ">
+                            ¿Has escuchado hablar sobre las pruebas de penetración?
+                        </p>
+                        <p>
+                            Consisten en simular un ciberataque para identificar vulnerabilidades en un sistema informático
+                            y corregirlas antes de que puedan ser explotadas por los ciberdelincuentes. Estas pruebas
+                            proporcionan una visión detallada de las debilidades de un sistema, permitiendo a las
+                            organizaciones tomar medidas preventivas y correctivas.
+
+                        </p>
+                        <p>
+                            Beneficios de nuestras pruebas de penetración: Planificación y reconocimiento: Identificación de
+                            los objetivos y alcance del pentest, así como la recopilación de información relevante.
+                        </p>
+                        <p>
+                            Escaneo: Análisis de la red y los sistemas para identificar posibles puntos de entrada.
+                            Obtención de acceso: Intento de explotar vulnerabilidades para acceder a los sistemas.
+                        </p>
+                        <p>
+                            Mantenimiento del acceso: Estimación de la capacidad de los ciberdelincuentes para mantener el
+                            acceso a los sistemas comprometidos.
+                        </p>
+                        <p>
+                            Análisis y reporte: Documentación detallada de las vulnerabilidades encontradas y
+                            recomendaciones para mitigarlas. Contamos con las siguientes pruebas para poder ayudarte según
+                            tus objetivos
+                        </p>
+                    </div>
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
     </div>
 
 @endsection

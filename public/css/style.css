@@ -699,6 +699,31 @@ header:hover {
     justify-content: center;
 }
 
+.box-servs-ciber-rep{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.box-servs-ciber-rep img{
+    width: 100%;
+}
+
+.box-ciber-defens{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.box-ciber-defens img{
+    width: 100%;
+}
+
+.btns-pestañas-servicios{
+    width: ;
+}
+
 .caja-btn-group {
     width: 50%;
     display: -webkit-box;
@@ -2397,6 +2422,26 @@ body.productos-body {
     justify-content: center;
 }
 
+.title-conoce-product{
+    width: 100%;
+    text-align: center;
+    color: #2567AE;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.box-flex-conoce-product{
+    width: 100%;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.box-flex-conoce-product img{
+    height: 150px;
+}
+
 .contacto-body {
     background-color: #fbfbfb;
 }
@@ -2873,7 +2918,7 @@ body.medios-body hr {
     max-width: 1450px;
 }
 
-.title-first-serv {
+.title-first-serv  {
     color: #2567ae;
     font-size: 32px;
 }
@@ -2932,6 +2977,12 @@ body.medios-body hr {
 .main-serv-inter ul,
 .main-serv-inter img .main-serv-inter .title-main {
     margin-top: 40px;
+}
+
+.flex-serv{
+    width: 100%;
+    display: flex;
+    gap: 40px;
 }
 
 .ingresa-admin {
@@ -3032,7 +3083,7 @@ body.admin-medios {
 }
 
 /* animaciones ------- */
-/* * {
+* {
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
@@ -3746,7 +3797,7 @@ body.admin-medios {
     -webkit-transform: scale(0.9);
     -ms-transform: scale(0.9);
     transform: scale(0.9);
-} */
+}
 /* fin animaciones --------------- */
 
 .solo-mobile {
@@ -4537,8 +4588,8 @@ body.admin-medios {
         margin-left: 0;
     }
 
-    .title-first-serv,
-    .title-first-serv {
+    .title-first-serv ,
+    .title-first-serv  {
         font-size: 20px;
     }
 

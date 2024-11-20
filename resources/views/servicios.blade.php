@@ -50,7 +50,11 @@
                 preparadas para hacer frente y disminuir los riegos a los que se exponen diariamente. Conoce que servicios
                 podemos ofrecerle a tu organización para proteger su información.
             </p>
+
+            <hr style="margin: 100px 0px;">
+            @include('servicios.conoce-productos')
         </content>
     </div>
+
 
 @endsection
