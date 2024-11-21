@@ -45,10 +45,10 @@
                         Aunque ambos centros trabajan para el buen funcionamiento de las empresas, sus funciones y objetivos
                         son diferentes.
                     </p>
-                    <img src="" alt="">
+                    <img src="{{ asset('img/soc-noc-office.png') }}" alt="oficinas">
 
                     <div class="flex-serv">
-                        <img src="" alt="">
+                        <img src="{{ asset('img/soc-noc-monitoreo.png') }}" alt="Monitoreo">
                         <div>
                             <span class="title-main title-first-serv ">
                                 Con nuestro servicio de SOC, las empresas pueden esperar:
@@ -78,12 +78,12 @@
                                 En esencia, el SOC brinda a las empresas una capa adicional de protección, asegurando que
                                 las amenazas sean detectadas y gestionadas antes de que puedan causar daños significativos.
                             </p>
-                            <img src="" alt="" style="width: 100%;">
+                            <img src="{{ asset('img/soc-noc-funciones.png') }}" alt="" style="width: 100%;">
                         </div>
                     </div>
 
                     <div class="flex-serv">
-                        <img src="" alt="">
+                        <img src="{{ asset('img/soc-noc-supervision.png') }}" alt="">
                         <div>
                             <span class="title-main title-first-serv ">
                                 Las funciones clave de nuestro servicio de NOC incluyen:
@@ -119,12 +119,13 @@
                                 permitiendo a la empresa mantener su productividad y eficiencia.
                             </p>
 
-                            <img src="" alt="" style="width: 100%;">
+                            <img src="{{ asset('img/soc-noc-beneficios.png') }}" alt="Beneficios soc noc"
+                                style="width: 100%;">
                         </div>
                     </div>
 
                     <div class="flex-serv">
-                        <img src="" alt="">
+                        <img src="{{ asset('img/soc-noc-work-complete.png') }}" alt="Work">
                         <div>
                             <span class="title-main title-first-serv ">
                                 Características para que tu empresa esté más segura y conectada

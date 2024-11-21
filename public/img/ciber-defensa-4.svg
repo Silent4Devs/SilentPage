@@ -1,0 +1,26 @@
+<svg id="Grupo_3175" data-name="Grupo 3175" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="309.196" height="169.719" viewBox="0 0 309.196 169.719">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4588c9"/>
+      <stop offset="1" stop-color="#a27ee9"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_4533" data-name="Rectángulo 4533" width="309.196" height="169.719" fill="url(#linear-gradient)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectángulo_4534" data-name="Rectángulo 4534" width="54.496" height="54.496" fill="none" stroke="#fff" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_3169" data-name="Grupo 3169" transform="translate(0 0)">
+    <g id="Grupo_3160" data-name="Grupo 3160" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <path id="Unión_13" data-name="Unión 13" d="M0,95.88H.017C.007,95.633,0,95.387,0,95.141V32.088C0,14.441,26.71,0,59.352,0h.376V0H309.2V95.141c0,17.649-26.706,32.09-59.343,32.09H71.956L0,169.722Z" transform="translate(-0.003 -0.002)" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+  <text id="Monitorear_amenazas_como_malware_listas_negras_kits_de_exploits_y_sitios_de_phishing._" data-name="Monitorear amenazas como malware, listas negras, kits de exploits y sitios de phishing. " transform="translate(100.151 18.096)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="15">Monitorear amenazas como </tspan><tspan x="0" y="34">malware, listas negras, kits </tspan><tspan x="0" y="53">de exploits y sitios de </tspan><tspan x="0" y="72">phishing. </tspan></text>
+  <g id="Grupo_3171" data-name="Grupo 3171" transform="translate(25.4 38.673)">
+    <g id="Grupo_3162" data-name="Grupo 3162" transform="translate(0 0)" clip-path="url(#clip-path-2)">
+      <path id="Trazado_1393" data-name="Trazado 1393" d="M54.5,27.249A27.248,27.248,0,1,1,27.249,0,27.247,27.247,0,0,1,54.5,27.249" transform="translate(0 0)" fill="none" stroke="#fff" stroke-width="1"/>
+    </g>
+  </g>
+  <path id="computer_24dp_5F6368_FILL0_wght200_GRAD0_opsz24" d="M70.77-761.871v-1.311H97.6v1.311Zm3.732-2.623a2.052,2.052,0,0,1-1.512-.606,2.052,2.052,0,0,1-.606-1.512v-12.81a2.052,2.052,0,0,1,.606-1.512,2.052,2.052,0,0,1,1.512-.606H93.868a2.052,2.052,0,0,1,1.512.606,2.052,2.052,0,0,1,.606,1.512v12.81a2.052,2.052,0,0,1-.606,1.512,2.052,2.052,0,0,1-1.512.606Zm0-1.311H93.868a.771.771,0,0,0,.555-.252.771.771,0,0,0,.252-.555v-12.81a.772.772,0,0,0-.252-.555.771.771,0,0,0-.555-.252H74.5a.771.771,0,0,0-.555.252.772.772,0,0,0-.252.555v12.81a.771.771,0,0,0,.252.555A.771.771,0,0,0,74.5-765.8Zm-.807,0v0Z" transform="translate(-30.516 837.627)" fill="#fff"/>
+</svg>

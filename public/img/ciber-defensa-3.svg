@@ -1,0 +1,26 @@
+<svg id="Grupo_3174" data-name="Grupo 3174" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="309.196" height="169.719" viewBox="0 0 309.196 169.719">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4588c9"/>
+      <stop offset="1" stop-color="#a27ee9"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_4533" data-name="Rectángulo 4533" width="309.196" height="169.719" fill="url(#linear-gradient)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectángulo_4534" data-name="Rectángulo 4534" width="54.496" height="54.496" fill="none" stroke="#fff" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_3166" data-name="Grupo 3166" transform="translate(0 0)">
+    <g id="Grupo_3160" data-name="Grupo 3160" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <path id="Unión_13" data-name="Unión 13" d="M0,95.88H.017C.007,95.633,0,95.387,0,95.141V32.088C0,14.441,26.71,0,59.351,0h.376V0H309.2V95.141c0,17.649-26.706,32.09-59.343,32.09H71.956L0,169.722Z" transform="translate(-0.002 -0.002)" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+  <text id="Identificar_fugas_de_información." data-name="Identificar fugas de información." transform="translate(93.399 39.169)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="15">Identificar fugas de </tspan><tspan x="0" y="34">información.</tspan></text>
+  <g id="Grupo_3167" data-name="Grupo 3167" transform="translate(25.4 39.169)">
+    <g id="Grupo_3162" data-name="Grupo 3162" transform="translate(0 0)" clip-path="url(#clip-path-2)">
+      <path id="Trazado_1393" data-name="Trazado 1393" d="M54.5,27.249A27.248,27.248,0,1,1,27.249,0,27.247,27.247,0,0,1,54.5,27.249" transform="translate(0 0)" fill="none" stroke="#fff" stroke-width="1"/>
+    </g>
+  </g>
+  <path id="info_24dp_5F6368_FILL0_wght200_GRAD0_opsz24" d="M131.146-822.3h1.311v-7.212h-1.311Zm.656-9.078a.781.781,0,0,0,.575-.232.781.781,0,0,0,.232-.575.781.781,0,0,0-.232-.575.781.781,0,0,0-.575-.232.781.781,0,0,0-.575.232.781.781,0,0,0-.232.575.781.781,0,0,0,.232.575A.781.781,0,0,0,131.8-831.376Zm0,14.978a11.5,11.5,0,0,1-4.6-.929,11.927,11.927,0,0,1-3.749-2.521,11.908,11.908,0,0,1-2.524-3.746,11.476,11.476,0,0,1-.93-4.6,11.5,11.5,0,0,1,.929-4.6,11.928,11.928,0,0,1,2.522-3.749,11.908,11.908,0,0,1,3.746-2.524,11.475,11.475,0,0,1,4.6-.93,11.5,11.5,0,0,1,4.6.929,11.927,11.927,0,0,1,3.749,2.522,11.908,11.908,0,0,1,2.524,3.746,11.476,11.476,0,0,1,.93,4.6,11.5,11.5,0,0,1-.929,4.6,11.929,11.929,0,0,1-2.522,3.749,11.909,11.909,0,0,1-3.746,2.524A11.476,11.476,0,0,1,131.806-816.4Zm0-1.311a10.124,10.124,0,0,0,7.441-3.049,10.124,10.124,0,0,0,3.049-7.441,10.124,10.124,0,0,0-3.049-7.441,10.124,10.124,0,0,0-7.441-3.049,10.124,10.124,0,0,0-7.441,3.049,10.124,10.124,0,0,0-3.049,7.441,10.124,10.124,0,0,0,3.049,7.441A10.124,10.124,0,0,0,131.8-817.709ZM131.8-828.2Z" transform="translate(-79.154 894.616)" fill="#fff"/>
+</svg>

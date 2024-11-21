@@ -38,7 +38,7 @@
                 </div>
                 <div class="main-serv-inter">
                     <div class="flex-serv">
-                        <img src="" alt="">
+                        <img src="{{ asset('img/ciber-workers.png') }}" alt="">
                         <div>
                             <span class="title-main title-first-serv ">¿Cómo proteger tu organización con
                                 ciberinteligencia?</span>
@@ -50,7 +50,7 @@
                         </div>
                     </div>
                     <div class="flex-serv">
-                        <img src="" alt="">
+                        <img src="{{ asset('img/ciber-person-tec.png') }}" alt="">
                         <div>
                             <span class="title-main title-first-serv ">¿Qué ofrece nuestro servicio de ciberinteligencia y
                                 para qué sirve?</span>
@@ -70,22 +70,22 @@
                         </div>
                     </div>
                     <div class="box-servs-ciber-rep">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
+                        <img src="{{ asset('img/ciber-serv-1.png') }}" alt="">
+                        <img src="{{ asset('img/ciber-serv-2.png') }}" alt="">
+                        <img src="{{ asset('img/ciber-serv-3.png') }}" alt="">
+                        <img src="{{ asset('img/ciber-serv-4.png') }}" alt="">
                     </div>
 
-                    <p style="font-size: 16px;">
+                    <p style="font-size: 16px; margin-top: 50px;">
                         Con la implementación de ciberinteligencia, proporcionamos una defensa robusta y adaptada a las
                         necesidades específicas de cada organización. De esta manera, tu empresa podrá:
                     </p>
                     <div class="box-ciber-defens">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
+                        <img src="{{ asset('img/ciber-defensa-1.svg') }}" alt="">
+                        <img src="{{ asset('img/ciber-defensa-2.svg') }}" alt="">
+                        <img src="{{ asset('img/ciber-defensa-3.svg') }}" alt="">
+                        <img src="{{ asset('img/ciber-defensa-4.svg') }}" alt="">
+                        <img src="{{ asset('img/ciber-defensa-5.svg') }}" alt="">
                     </div>
                 </div>
             </div>
@@ -95,9 +95,9 @@
     <div class="micro-servs">
         <div class="content-limit">
 
-            <p class="title-main title-first-serv ">
+            <span class="title-main title-first-serv" style="text-align: center;">
                 Espera, aún hay más en Ciberinteligencia
-            </p>
+            </span>
 
             <div class="btns-pestañas-servicios">
                 <button>Pruebas de penetración</button>
@@ -106,11 +106,11 @@
             </div>
 
             <div class="">
-                <div class="flex-serv">
+                <div class="flex-serv" style="max-width: 1000px; margin: auto;">
                     <div>
-                        <p class="title-main title-first-serv ">
+                        <span class="title-main title-first-serv ">
                             ¿Has escuchado hablar sobre las pruebas de penetración?
-                        </p>
+                        </span>
                         <p>
                             Consisten en simular un ciberataque para identificar vulnerabilidades en un sistema informático
                             y corregirlas antes de que puedan ser explotadas por los ciberdelincuentes. Estas pruebas
@@ -136,7 +136,7 @@
                             tus objetivos
                         </p>
                     </div>
-                    <img src="" alt="">
+                    <img src="{{ asset('img/ciber-pruebas.svg') }}" alt="">
                 </div>
             </div>
         </div>
