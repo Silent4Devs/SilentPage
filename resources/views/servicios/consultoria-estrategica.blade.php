@@ -183,6 +183,39 @@
                     </div>
                     <img src="{{ asset('img/consul-impact.png') }}" alt="">
                 </div>
+                <div class="box-serv-monitor">
+                    <img src="{{ asset('img/servs-monitor.png') }}" style="width: 100%;" alt="">
+                    <div class="serv-monitor-info">
+                        <span style="font-size: 40px;">Características de una empresa con un mejor complimiento
+                            normativo</span>
+                        <div style="width: 50%;">
+                            <p style="margin-top: 40px;">
+                                Ayudamos a tu empresa a adaptarse y responder de manera eficiente a los desafíos
+                                empresariales y
+                                de seguridad, fortaleciendo su resiliencia y competitividad.
+                            </p>
+                            <ul>
+                                <li>
+                                    Mejor toma de decisiones: Alinea la tecnología y procesos con los objetivos
+                                    estratégicos de
+                                    la
+                                    empresa.
+                                </li>
+                                <li>
+                                    Fortalecimiento de la seguridad: Implementa sistemas y prácticas para proteger los
+                                    activos
+                                    digitales y garantizar la continuidad del negocio.
+                                </li>
+                                <li>
+                                    Reputación de marca: Asegura que la organización cumpla con regulaciones
+                                    internacionales y
+                                    estándares de la industria.
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
     </div>

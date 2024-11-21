@@ -1,9 +1,9 @@
 @extends('layouts.site')
 
-@section('titulo', 'Cyber Threat Intelligence (CTI) para Proteger tu Organización')
+@section('titulo', 'Soluciones Tecnológicas para Proteger tu Organización')
 
 @section('metaDesc',
-    'Descubre cómo nuestra Cyber Threat Intelligence (CTI) identifica y previene las amenazas a las que
+    'Descubre cómo nuestra Soluciones Tecnológicas identifica y previene las amenazas a las que
     está expuesta tu organización en el ciberespacio.s')
 
 @section('body', 'serv-inter-body')
@@ -21,9 +21,10 @@
         <div class="title-fondo">
             <img src="{{ asset('img/serv_soluciones.webp') }}" height="70px" style="filter: brightness(10);"
                 alt="servicio soluciones" title="servicio soluciones">
-            <h1 class="title-main">Cyber Threat Intelligence (CTI)</h1>
+            <h1 class="title-main">Soluciones Tecnológicas</h1>
             <p style="text-align:center;">
-                Identifica a tiempo las amenazas a las que se encuentra expuesta tu organización
+                En Silent4Business, nos especializamos en ofrecer soluciones tecnológicas adaptadas a las necesidades de
+                ciberseguridad de tu empresa.
             </p>
         </div>
 
@@ -36,22 +37,38 @@
                     </div>
                 </div>
                 <div class="main-serv-inter">
-                    <span class="title-main title-first-serv ">Es momento de ser vigilantes</span>
-                    <p style="margin-top: 50px;">
-                        Nuestro servicio CTI te brindará la información de valor con la que podrás tomar decisiones
-                        críticas
-                        en beneficio de la seguridad de tu organización.
-                    </p>
+                    <div class="micro-servs">
+                        <div class="content-limit">
 
-                    <span class="title-terd" style="margin-top: 50px; text-align: center;">¿Qué incluye?</span>
+                            <p class="text-center" style="font-size: 20px;">
+                                Nuestro enfoque agnóstico nos permite trabajar con las mejores herramientas disponibles en
+                                el mercado, sin estar limitados a una sola marca o proveedor. De esta manera, garantizamos
+                                la protección de tu infraestructura digital contra las amenazas cibernéticas más avanzadas.
+                            </p>
+                            <span style="font-size: 30px;">Estas sólo son algunas de las soluciones que podemos
+                                integrar:</span>
 
-                    <div class="img-serv-inter">
-                        <img src="{{ asset('img/no_protected.webp') }}" width="60%" style="margin: 10px 20%;"
-                            alt="protected" title="protected">
+                            <div class="btns-pestañas-servicios">
+                                <button>Pruebas de penetración</button>
+                                <button>Análisis de vulnerabilidades</button>
+                                <button>Análisis forense</button>
+                            </div>
+
+                            <div class="">
+                                <span class="title-main title-first-serv ">
+                                    Soluciones Avanzadas en Ciberseguridad
+                                </span>
+
+                                <p class="text-center" style="font-size: 20px;">
+                                    Las soluciones avanzadas son esenciales para proteger los entornos corporativos frente a
+                                    los ataques más complejos y dirigidos. En Silent4Business, ofrecemos un conjunto de
+                                    tecnologías diseñadas para salvaguardar la integridad de los datos, optimizar el acceso
+                                    a los sistemas y reforzar la seguridad en todos los niveles.
+                                </p>
+
+                            </div>
+                        </div>
                     </div>
-
-                    <a href="{{ route('contacto') }}" class="btn-contact"
-                        style="margin: auto; margin-top: 100px; transform: scale(1.3);">Contáctanos</a>
                 </div>
             </div>
         </content>
