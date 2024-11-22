@@ -45,7 +45,7 @@
                         Aunque ambos centros trabajan para el buen funcionamiento de las empresas, sus funciones y objetivos
                         son diferentes.
                     </p>
-                    <img src="{{ asset('img/soc-noc-office.png') }}" alt="oficinas">
+                    <img src="{{ asset('img/soc-noc-office.png') }}" alt="oficinas" style="width: 100%;">
 
                     <div class="flex-serv">
                         <img src="{{ asset('img/soc-noc-monitoreo.png') }}" alt="Monitoreo">
@@ -165,14 +165,12 @@
 
                         </div>
                     </div>
-
-                    @include('servicios.conoce-productos')
-
                 </div>
             </div>
         </content>
     </div>
-
+    
+    @include('servicios.conoce-productos')
 
 
 @endsection

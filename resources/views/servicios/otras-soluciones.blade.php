@@ -37,7 +37,7 @@
                     </div>
                 </div>
                 <div class="main-serv-inter">
-                    <div class="micro-servs">
+                    <div class="micro-servs" style="margin-top: 0px;">
                         <div class="content-limit">
 
                             <p class="text-center" style="font-size: 20px;">
@@ -45,7 +45,7 @@
                                 el mercado, sin estar limitados a una sola marca o proveedor. De esta manera, garantizamos
                                 la protección de tu infraestructura digital contra las amenazas cibernéticas más avanzadas.
                             </p>
-                            <span style="font-size: 30px;">Estas sólo son algunas de las soluciones que podemos
+                            <span class="text-center" style="font-size: 30px;">Estas sólo son algunas de las soluciones que podemos
                                 integrar:</span>
 
                             <div class="btns-pestañas-servicios">
@@ -55,7 +55,7 @@
                             </div>
 
                             <div class="">
-                                <span class="title-main title-first-serv ">
+                                <span class="title-main title-first-serv text-center">
                                     Soluciones Avanzadas en Ciberseguridad
                                 </span>
 
@@ -66,6 +66,42 @@
                                     a los sistemas y reforzar la seguridad en todos los niveles.
                                 </p>
 
+                                <div class="box-solucion-niveles">
+                                    <img src="{{asset('img/solucion-nivel-1.png')}}" alt="">
+                                    <div class="info-solucion-nivel">
+                                        <strong>DLP (Prevención de Pérdida de Datos)</strong>
+                                        <p>
+                                            Clave para evitar filtraciones de datos que puedan comprometer la seguridad de tu organización.
+                                        </p>
+                                    </div>    
+                                </div>
+                                <div class="box-solucion-niveles">
+                                    <div class="info-solucion-nivel">
+                                        <strong>SSO (Inicio de Sesión Único)</strong>
+                                        <p>
+                                            Simplifica la gestión de credenciales, permitiendo a los usuarios acceder a múltiples aplicaciones con una sola autenticación
+                                        </p>
+                                    </div>
+                                    <img src="{{asset('img/solucion-nivel-2.png')}}" alt="">
+                                </div>
+                                <div class="box-solucion-niveles">
+                                    <img src="{{asset('img/solucion-nivel-3.png')}}" alt="">
+                                    <div class="info-solucion-nivel">
+                                        <strong>Identity and Access Management (IAM)</strong>
+                                        <p>
+                                            Controla quién tiene acceso a qué dentro de la organización y minimiza los riesgos de accesos no autorizados a datos sensibles.
+                                        </p>
+                                    </div>    
+                                </div>
+                                <div class="box-solucion-niveles">
+                                    <div class="info-solucion-nivel">
+                                        <strong>Zero Trust Security</strong>
+                                        <p>
+                                            Adoptamos el enfoque de Zero Trust, donde no se confía en ningún usuario o dispositivo por defecto, incluso si se encuentran dentro de la red corporativa.
+                                        </p>
+                                    </div>
+                                    <img src="{{asset('img/solucion-nivel-4.png')}}" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>

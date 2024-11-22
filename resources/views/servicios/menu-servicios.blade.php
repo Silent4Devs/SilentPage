@@ -21,8 +21,7 @@
     <li>
         <a href="{{ route('servicios/otras-soluciones') }}"
             class="{{ url()->current() === route('servicios/otras-soluciones') ? 'active' : '' }}">
-            Cyber Threat
-            Intelligence (CTI)
+            Soluciones Tecnológicas
         </a>
     </li>
 </ul>
