@@ -12,17 +12,23 @@ class TendenciasController extends Controller
      */
     public function index()
     {
-        $posts = Post::taxonomy('category', 'tendencias')
-            ->type('post')
-            ->published()
-            ->get();
+        try {
+            //code...
+            $posts = Post::taxonomy('category', 'tendencias')
+                ->type('post')
+                ->published()
+                ->get();
 
-        $postsRecientes = Post::taxonomy('category', 'tendencias')
-            ->type('post')
-            ->published()
-            ->orderBy('post_date', 'desc')
-            ->paginate(5);
+            $postsRecientes = Post::taxonomy('category', 'tendencias')
+                ->type('post')
+                ->published()
+                ->orderBy('post_date', 'desc')
+                ->paginate(5);
 
+            } catch (\Throwable $th) {
+                $posts = [];
+                $postsRecientes = [];
+            }
         return view('tendencias', compact('posts', 'postsRecientes'));
     }
 

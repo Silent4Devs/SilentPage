@@ -1,0 +1,26 @@
+<svg id="Grupo_3173" data-name="Grupo 3173" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="309.12" height="169.719" viewBox="0 0 309.12 169.719">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_4533" data-name="Rectángulo 4533" width="309.12" height="169.719" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4588c9"/>
+      <stop offset="1" stop-color="#a27ee9"/>
+    </linearGradient>
+    <clipPath id="clip-path-2">
+      <rect id="Rectángulo_4534" data-name="Rectángulo 4534" width="54.496" height="54.496" fill="none" stroke="#fff" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_3161" data-name="Grupo 3161" transform="translate(0 0)">
+    <g id="Grupo_3160" data-name="Grupo 3160" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <path id="Unión_13" data-name="Unión 13" d="M0,95.88H.015Q0,95.511,0,95.142V32.087C0,14.441,26.7,0,59.335,0h.377V0H309.12V95.142c0,17.648-26.7,32.089-59.328,32.089H71.937L0,169.722Z" transform="translate(0 -0.002)" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+  <text id="Conocer_las_amenazas_a_las_que_están_expuestas_mediante_un_monitoreo_continuo._" data-name="Conocer las amenazas a las que están expuestas mediante un monitoreo continuo. " transform="translate(97.9 32.605)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="15">Conocer las amenazas a las </tspan><tspan x="0" y="34">que están expuestas mediante </tspan><tspan x="0" y="53">un monitoreo continuo. </tspan></text>
+  <g id="Grupo_3163" data-name="Grupo 3163" transform="translate(25.4 41.486)">
+    <g id="Grupo_3162" data-name="Grupo 3162" transform="translate(0 0)" clip-path="url(#clip-path-2)">
+      <path id="Trazado_1393" data-name="Trazado 1393" d="M54.5,27.249A27.248,27.248,0,1,1,27.249,0,27.247,27.247,0,0,1,54.5,27.249" transform="translate(0 0)" fill="none" stroke="#fff" stroke-width="1"/>
+    </g>
+  </g>
+  <path id="bug_report_24dp_5F6368_FILL0_wght200_GRAD0_opsz24" d="M209.179-778.842a5.051,5.051,0,0,0,3.7-1.541,5.051,5.051,0,0,0,1.541-3.7v-5.245a5.051,5.051,0,0,0-1.541-3.7,5.051,5.051,0,0,0-3.7-1.541,5.051,5.051,0,0,0-3.7,1.541,5.051,5.051,0,0,0-1.541,3.7v5.245a5.051,5.051,0,0,0,1.541,3.7A5.051,5.051,0,0,0,209.179-778.842Zm-2.219-4.589H211.4v-1.311H206.96Zm0-5.245H211.4v-1.311H206.96ZM209.179-786.709Zm0,9.179a6.358,6.358,0,0,1-3.269-.873,6.591,6.591,0,0,1-2.389-2.406H200v-1.311h2.955a6.888,6.888,0,0,1-.316-1.954q-.016-1-.016-1.979H200v-1.311h2.622q0-1.009-.009-2a5.305,5.305,0,0,1,.342-1.929H200v-1.311h3.52a6.4,6.4,0,0,1,1.2-1.523,6.025,6.025,0,0,1,1.618-1.084l-2.35-2.365.878-.878,2.769,2.769a5.577,5.577,0,0,1,1.541-.219,5.579,5.579,0,0,1,1.541.219l2.834-2.769.878.878-2.365,2.365a5.8,5.8,0,0,1,1.6,1.081,6.5,6.5,0,0,1,1.179,1.527h3.52v1.311H215.4a5.305,5.305,0,0,1,.342,1.929q-.009,1-.009,2h2.622v1.311h-2.622q0,.983-.016,1.979a6.89,6.89,0,0,1-.316,1.954h2.955v1.311h-3.52a6.591,6.591,0,0,1-2.389,2.406A6.358,6.358,0,0,1,209.179-777.531Z" transform="translate(-156.531 855.393)" fill="#fff"/>
+</svg>
