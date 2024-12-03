@@ -28,11 +28,11 @@
         @livewire('contacto-footer-form-component')
 
         <div class="menu-footer">
-            <span class="title-second">Menú</span>
-            <a href="{{ route('servicios') }}">Servicios</a>
-            <a href="{{ route('cert') }}">CERT</a>
-            <a href="{{ route('medios') }}">Medios</a>
-            <a href="{{ route('talento') }}">Aporta tu talento</a>
+            <span class="title-second">{{ __('nav.menu') }}</span>
+            <a href="{{ route('servicios') }}">{{ __('nav.servicios') }}</a>
+            <a href="{{ route('cert') }}">{{ __('nav.cert') }}</a>
+            <a href="{{ route('medios') }}">{{ __('nav.medios') }}</a>
+            <a href="{{ route('talento') }}">{{ __('nav.talento') }}</a>
 
             <div class="redes-icons caja-flex" style="margin-top: 50px; justify-content:space-between;">
                 <a href="https://www.instagram.com/team.s4b/" target="_blank"><i class="fa-brands fa-instagram"
@@ -47,7 +47,7 @@
         </div>
     </div>
     <div class="last-footer">
-        @2023 Silent4business - Todos los derechos reservados
+        {{ __('nav.derechos') }}
     </div>
     <script>
         function loadScript(a) {
