@@ -12,6 +12,7 @@ return [
     'metaverso' => 'metaverso',
     'terminos_privacidad' => 'terminos-privacidad',
     'cert' => 'cert',
+    'talento' => 'talento',
     'servicios_soc_noc' => 'servicios_soc_noc',
     'servicios_ciberinteligencia' => 'servicios_ciberinteligencia',
     'servicios_consultoria_estrategica' => 'servicios_consultoria_estrategica',
