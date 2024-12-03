@@ -470,5 +470,42 @@
 @endsection
 
 @section('scripts')
-    <script src="{{ asset('js/welcome.js') }}"></script>
+    {{-- <script src="{{ asset('js/welcome.js') }}"></script> --}}
+
+    <script>
+        function servicio(id_servicio) {
+            $(".caja-servicios-text").addClass("d-none");
+            $("#" + id_servicio).removeClass("d-none");
+            $(".nuestros-servicios").addClass("flex-reverse");
+            $(".caja-btn-servicios button").removeClass("serv-active");
+            $(".caja-btn-servicios button:hover").addClass("serv-active");
+            if (id_servicio == "serv-original") {
+                $(".nuestros-servicios").removeClass("flex-reverse");
+            }
+        }
+
+        function casoUp() {
+            $(".casos-exito").toggleClass("second");
+        }
+
+        function swichtTend() {
+            $(".tend-text").toggleClass("d-none");
+            $(".tend-img").toggleClass("d-none");
+            $(".btn-swivht-tend").toggleClass("second");
+        }
+        let back_pos = 0;
+        $(window).scroll(function() {
+            if ($(window).scrollTop() > $(".medios").offset().top - 1000 && $(window).scrollTop() < $(".medios")
+                .offset().top + 1000) {
+                back_pos = ($(".medios").offset().top + 350 - $(window).scrollTop()) / 15;
+            }
+            $(".medios").css("background-position", "center " + back_pos + "%");
+        });
+        $("#video-inicio video").mouseenter(function() {
+            $("#video-inicio video").attr("controls", true);
+        });
+        $("#video-inicio video").mouseleave(function(e) {
+            $("#video-inicio video").attr("controls", false);
+        });
+    </script>
 @endsection
