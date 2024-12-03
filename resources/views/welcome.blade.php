@@ -349,8 +349,7 @@
                     style="height: 100px;">
                 <img src="{{ asset('img/alianzas/alianza_8.png') }}" alt="Logo F5" title="Logo F5">
                 <img src="{{ asset('img/alianzas/alianza_11.png') }}" alt="Logo Fortinet" title="Logo Fortinet">
-                <img src="{{ asset('img/alianzas/alianza_13.png') }}" alt="Logo IBM Security"
-                    title="Logo IBM Security">
+                <img src="{{ asset('img/alianzas/alianza_13.png') }}" alt="Logo IBM Security" title="Logo IBM Security">
                 <img src="{{ asset('img/alianzas/alianza_14.png') }}" alt="Logo Infoblox" title="Logo Infoblox">
                 <img src="{{ asset('img/alianzas/alianza_15.png') }}" alt="Logo imperva" title="Logo imperva">
                 <img src="{{ asset('img/alianzas/alianza_16.png') }}" alt="Logo Kaspersky" title="Logo Kaspersky">
