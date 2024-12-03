@@ -12,4 +12,6 @@ return [
     'talento' => 'Contribute Your Talent',
     'medios' => 'S4B in Media',
     'meta' => 'Metaverse',
+    'menu' => 'Menu',
+    'derechos' => '@2023 Silent4business - All rights reserved'
 ];

@@ -1,15 +1,14 @@
 <div class="correo-footer">
-    <span class="title-second">Únete a nuestro Newsletter</span>
+    <span class="title-second">{{ __('newsletter.title') }}</span>
     <p>
-        Suscríbete para estar informado acerca de nuestros servicios, productos y desarrollos en el mundo de la
-        Ciberseguridad
+        {{ __('newsletter.meta_desc') }}
     </p>
     <form id="form-newsletter" wire:submit.prevent="submitForm" enctype="multipart/form-data">
-        <input id="email-newsletter" required type="email" name="email" maxlength="255" placeholder="Dirección de correo"
-            wire:model.lazy="email">
-        <button title="Envíar Correo" wire:loading.class="pre">
+        <input id="email-newsletter" required type="email" name="email" maxlength="255"
+            placeholder="{{ __('newsletter.title') }}" wire:model.lazy="email">
+        <button title="{{ __('newsletter.enviar_correo') }}" wire:loading.class="pre">
             <i class="fa-solid fa-circle-notch fa-spin"></i>
-            Envíar
+            {{ __('newsletter.enviar_correo') }}
         </button>
     </form>
 </div>
