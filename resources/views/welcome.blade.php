@@ -13,7 +13,7 @@
     <div id="video-inicio" class="caja-video-fondo">
         <video autoplay muted loop
             title="Video presentación Sielent4Business. Hoy más que nunca debemos contar con la capacidad y las herramientas necesarias para proteger tu información. La seguridad ágil requiere un talento resiliente Somos Silent4businees y estamos listos para ayudarte.">
-            <source src="img/fondo.mp4" type="video/mp4">
+            <source src="{{ asset(__('welcome.video_intro')) }}" type="video/mp4">
             <img src="{{ asset(__('welcome.video_intro')) }}" width="100%" alt="Imagen provicional"
                 title="Imagen provicional">
         </video>
@@ -349,7 +349,8 @@
                     style="height: 100px;">
                 <img src="{{ asset('img/alianzas/alianza_8.png') }}" alt="Logo F5" title="Logo F5">
                 <img src="{{ asset('img/alianzas/alianza_11.png') }}" alt="Logo Fortinet" title="Logo Fortinet">
-                <img src="{{ asset('img/alianzas/alianza_13.png') }}" alt="Logo IBM Security" title="Logo IBM Security">
+                <img src="{{ asset('img/alianzas/alianza_13.png') }}" alt="Logo IBM Security"
+                    title="Logo IBM Security">
                 <img src="{{ asset('img/alianzas/alianza_14.png') }}" alt="Logo Infoblox" title="Logo Infoblox">
                 <img src="{{ asset('img/alianzas/alianza_15.png') }}" alt="Logo imperva" title="Logo imperva">
                 <img src="{{ asset('img/alianzas/alianza_16.png') }}" alt="Logo Kaspersky" title="Logo Kaspersky">
