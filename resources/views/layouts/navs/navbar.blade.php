@@ -44,6 +44,12 @@
             <a href="{{ route('cert') }}">{{ __('nav.cert') }}</a>
             <a href="#pie-page">Newsletter</a>
             <a href="{{ route('metaverso') }}">{{ __('nav.meta') }}</a>
+            <div class="language-switcher">
+                <a href="{{ LaravelLocalization::getLocalizedURL('en') }}" class="language-link">EN</a>
+                <span>|</span>
+                <a href="{{ LaravelLocalization::getLocalizedURL('es') }}" class="language-link">ES</a>
+            </div>
+
         </nav>
         <div class="redes">
             <a href="https://www.instagram.com/team.s4b/" target="_blank"><i class="fa-brands fa-instagram"
