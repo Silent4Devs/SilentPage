@@ -31,15 +31,15 @@ Route::group(
         Route::get(LaravelLocalization::transRoute('routes.tendencias'), [TendenciasController::class, 'index'])->name('tendencias');
         Route::view(LaravelLocalization::transRoute('routes.exito'), 'exito')->name('exito');
         Route::get(LaravelLocalization::transRoute('routes.medios'), [MediosController::class, 'index'])->name('medios');
-        Route::get(LaravelLocalization::transRoute('routes.medios').'/{id}', [MediosController::class, 'show']);
+        Route::get(LaravelLocalization::transRoute('routes.medios') . '/{id}', [MediosController::class, 'show']);
         Route::view(LaravelLocalization::transRoute('routes.contacto'), 'contacto')->name('contacto');
         Route::view(LaravelLocalization::transRoute('routes.metaverso'), 'metaverso')->name('metaverso');
         Route::view(LaravelLocalization::transRoute('routes.terminos_privacidad'), 'terminos-privacidad')->name('terminos-privacidad');
         Route::view(LaravelLocalization::transRoute('routes.cert'), 'cert')->name('cert');
+        Route::view(LaravelLocalization::transRoute('routes.talento'), 'talento')->name('talento');
     }
 );
 
-Route::view('talento', 'talento')->name('talento');
 Route::get('tendencias/{id}', [TendenciasController::class, 'show']);
 Route::get('sitemap', [XmlController::class, 'index']);
 Route::get('atlassian-domain-verification-05cjccb2-j17a-1875-71kc-21725a698cc3.html', function () {

@@ -12,4 +12,5 @@ return [
     'metaverso' => 'metaverse',
     'terminos_privacidad' => 'privacy-policy',
     'cert' => 'cert',
+    'talento' => 'talent,'
 ];
