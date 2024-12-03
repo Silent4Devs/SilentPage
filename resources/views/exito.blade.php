@@ -39,7 +39,7 @@
             </content>
         </div>
 
-        <div id="cero-extraccion" class="caso-exito-complete no-visible" style="background-color: #f3f3f3;">
+        <div id="cero-extraccion" class="caso-exito-complete --no-visible" style="background-color: #f3f3f3;">
             <content class="content-limit">
                 <div class="caso-info">
                     <h2 class="title-second">{{ __('exito.title_zero') }}</h2>
@@ -59,7 +59,7 @@
             </content>
         </div>
 
-        <div id="proteccion-total" class="caso-exito-complete no-visible" style="background-color: #F3F5FF;">
+        <div id="proteccion-total" class="caso-exito-complete --no-visible" style="background-color: #F3F5FF;">
             <content class="content-limit">
                 <div class="caso-img" style="background-image: url('img/exito_caso_3.webp');" title="SENER"></div>
                 <div class="caso-info">
