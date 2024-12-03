@@ -12,4 +12,8 @@ return [
     'metaverso' => 'metaverso',
     'terminos_privacidad' => 'terminos-privacidad',
     'cert' => 'cert',
+    'servicios_soc_noc' => 'servicios_soc_noc',
+    'servicios_ciberinteligencia' => 'servicios_ciberinteligencia',
+    'servicios_consultoria_estrategica' => 'servicios_consultoria_estrategica',
+    'servicios_otras_soluciones' => 'servicios_otras_soluciones',
 ];

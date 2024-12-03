@@ -13,4 +13,7 @@ return [
                         mejoras dentro de una empresa con la finalidad de optimizar su actividad de algún modo, pero
                         para
                         lograrlos será necesario gestionarla de forma organizada.',
+    'ciberinteligencia' => 'Ciberinteligencia',
+    'ce' => 'Consultoría Estratégica',
+    'soluciones' => 'Soluciones Tecnológicas',
 ];

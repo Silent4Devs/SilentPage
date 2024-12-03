@@ -36,6 +36,11 @@ Route::group(
         Route::view(LaravelLocalization::transRoute('routes.metaverso'), 'metaverso')->name('metaverso');
         Route::view(LaravelLocalization::transRoute('routes.terminos_privacidad'), 'terminos-privacidad')->name('terminos-privacidad');
         Route::view(LaravelLocalization::transRoute('routes.cert'), 'cert')->name('cert');
+
+        Route::view(LaravelLocalization::transRoute('routes.servicios_soc_noc'), 'servicios/soc-noc')->name('servicios/soc-noc');
+        Route::view(LaravelLocalization::transRoute('routes.servicios_ciberinteligencia'), 'servicios/ciberinteligencia')->name('servicios/ciberinteligencia');
+        Route::view(LaravelLocalization::transRoute('routes.servicios_consultoria_estrategica'), 'servicios/consultoria-estrategica')->name('servicios/consultoria-estrategica');
+        Route::view(LaravelLocalization::transRoute('routes.servicios_otras_soluciones'), 'servicios/otras-soluciones')->name('servicios/otras-soluciones');
     }
 );
 
@@ -47,10 +52,10 @@ Route::get('atlassian-domain-verification-05cjccb2-j17a-1875-71kc-21725a698cc3.h
 });
 
 // servicios --------------------
-Route::view('servicios/soc-noc', 'servicios/soc-noc')->name('servicios/soc-noc');
-Route::view('servicios/ciberinteligencia', 'servicios/ciberinteligencia')->name('servicios/ciberinteligencia');
-Route::view('servicios/consultoria-estrategica', 'servicios/consultoria-estrategica')->name('servicios/consultoria-estrategica');
-Route::view('servicios/otras-soluciones', 'servicios/otras-soluciones')->name('servicios/otras-soluciones');
+// Route::view('servicios/soc-noc', 'servicios/soc-noc')->name('servicios/soc-noc');
+// Route::view('servicios/ciberinteligencia', 'servicios/ciberinteligencia')->name('servicios/ciberinteligencia');
+// Route::view('servicios/consultoria-estrategica', 'servicios/consultoria-estrategica')->name('servicios/consultoria-estrategica');
+// Route::view('servicios/otras-soluciones', 'servicios/otras-soluciones')->name('servicios/otras-soluciones');
 
 Route::middleware([
     'auth:sanctum',
