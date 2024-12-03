@@ -1,10 +1,8 @@
 @extends('layouts.site')
 
-@section('titulo', 'Soluciones Digitales para la Eficiencia Empresarial')
+@section('titulo', __('productos.title'))
 
-@section('metaDesc',
-    'Descubre cómo nuestras soluciones impulsan la eficiencia, agilidad y escalabilidad que necesitas
-    en el mundo digital.')
+@section('metaDesc', __('productos.meta_desc'))
 
 @section('body', 'productos-body')
 
@@ -19,10 +17,9 @@
 @section('content')
     <div>
         <div class="title-fondo">
-            <h1 class="title-main">Nuestros productos</h1>
+            <h1 class="title-main">{{ __('productos.header_title') }}</h1>
             <p>
-                Desarrollamos soluciones enfocadas en que tu organización pueda alcanzar la eficiencia, agilidad,
-                flexibilidad y escalabilidad que necesita para competir en la era digital.
+                {{ __('productos.header_desc') }}
             </p>
         </div>
 
@@ -31,16 +28,14 @@
                 <div class="caja-flex" style="align-items: center;">
                     <img src="{{ asset('img/logo_silent.webp') }}" alt="Logo Silent4business" title="Logo Silent4business">
                     <p>
-                        <font style="font-size: 24px;">Somos Silent4Business </font> A través de un equipo especializado,
-                        ser un referente confiable en materia de investigación, asistencia y difusión en actividades de
-                        atención y respuesta a incidentes de seguridad. A través de un equipo especializado, ser un
-                        referente confiable en materia de investigación.
+                        <font style="font-size: 24px;">{{ __('productos.header_weare') }} </font>
+                        {{ __('productos.header_weare_desc') }}
                     </p>
                 </div>
             </content>
         </div>
 
-        <span class="title-second title-produ">Productos S4B</span>
+        <span class="title-second title-produ">{{ __('productos.products_title') }}</span>
 
         <div class="productos">
             <content class="content-limit">
@@ -48,10 +43,7 @@
                     <div class="info-product info-izq">
                         <div class="caja-flex">
                             <p>
-                                Nuestra plataforma está especializada en el monitoreo y protección del ciberespacio para
-                                las diversas industrias en México, ayudando a identificar las amenazas que pudieran
-                                causar afectaciones económicas, reputacionales y operacionales en cualquier
-                                organización.
+                                {{ __('productos.product_1.description') }}
                             </p>
                         </div>
                         <div class="caja-flex">
@@ -60,10 +52,9 @@
                         </div>
                         <div class="caja-flex">
                             <p>
-                                IOCs mundiales <br>
-                                IOCs regionales <br>
-                                Análisis y detección entre fuentes de <br>
-                                inteligencia e IOCs
+                                {{ __('productos.product_1.features1.one') }}<br>
+                                {{ __('productos.product_1.features1.two') }}<br>
+                                {{ __('productos.product_1.features1.three') }}
                             </p>
                             <i class="material-symbols-outlined">problem</i>
                         </div>
@@ -106,26 +97,24 @@
                     <div class="info-product info-der">
                         <div class="caja-flex">
                             <p>
-                                Nuestro SGN provee la capacidad de resguardar, generar, revisar, gestionar y automatizar
-                                la documentación y procesos requeridos en el ciclo de vida de mejores prácticas y
-                                estándares internacionales.
+                                {{ __('productos.product_2.description') }}
                             </p>
                         </div>
                         <div class="caja-flex">
                             <i class="material-symbols-outlined">overview</i>
-                            <p> Documenta tus procesos </p>
+                            <p> {{ __('productos.product_2.document') }} </p>
                         </div>
                         <div class="caja-flex">
                             <i class="material-symbols-outlined">screen_search_desktop</i>
-                            <p> Monitorea el Sistema de Gestión</p>
+                            <p> {{ __('productos.product_2.monitor') }}</p>
                         </div>
                         <div class="caja-flex">
                             <i class="material-symbols-outlined">problem</i>
-                            <p> Determina y evalúa riesgos </p>
+                            <p> {{ __('productos.product_2.determ') }} </p>
                         </div>
                         <div class="caja-flex">
                             <i class="material-symbols-outlined">feed</i>
-                            <p> Registra y controla información relevante </p>
+                            <p> {{ __('productos.product_2.register') }} </p>
                         </div>
                         <div class="br-space">
                             <br><br><br><br><br><br><br><br><br><br>
@@ -144,33 +133,28 @@
                     <div class="info-product info-der">
                         <div class="caja-flex">
                             <p>
-                                Nuestro Software CLMS (Contract Lifecycle Management Software) está diseñado para una
-                                gestión contractual integral, totalmente transparente. Funciona a través de una
-                                plataforma web con un modelo SaaS (Software as a Service) que permite sistematizar los
-                                procesos contractuales, abarcando el ciclo de vida de los contratos en su totalidad.
-                                Mejora la eficiencia, colaboración, trazabilidad y calidad en los procesos de generación
-                                de contratos.
+                                {{ __('productos.product_3.description') }}
                             </p>
                         </div>
                         <div class="caja-flex">
                             <i class="material-symbols-outlined">event</i>
-                            <p> Controla los hitos y fechas clave </p>
+                            <p> {{ __('productos.product_3.control') }} </p>
                         </div>
                         <div class="caja-flex">
                             <i class="material-symbols-outlined">screen_search_desktop</i>
-                            <p> Monitorea los contratos en sus diferentes fases</p>
+                            <p>{{ __('productos.product_3.monitor') }} </p>
                         </div>
                         <div class="caja-flex">
                             <i class="material-symbols-outlined">document_scanner</i>
-                            <p> Centraliza la información de contratos </p>
+                            <p> {{ __('productos.product_3.centra') }} </p>
                         </div>
                         <div class="caja-flex">
                             <i class="material-symbols-outlined">other_admission</i>
-                            <p> Obtén reportes y niveles de servicio </p>
+                            <p> {{ __('productos.product_3.ob') }} </p>
                         </div>
                         <div class="caja-flex">
                             <i class="material-symbols-outlined">inventory</i>
-                            <p> Agiliza los procesos de aprobación </p>
+                            <p> {{ __('productos.product_3.ag') }} </p>
                         </div>
                         <div class="br-space">
                             <br><br><br><br><br>
@@ -182,25 +166,23 @@
                     <div class="info-product info-izq">
                         <div class="caja-flex">
                             <p>
-                                Nuestro Learning Management System (LMS) está basado en el modelo SaaS para la creación
-                                de cursos empresariales en formato digital. De esta forma, tus colaboradores podrán
-                                capacitarse de forma presencial o remota.
+                                {{ __('productos.product_4.description') }}
                             </p>
                         </div>
                         <div class="caja-flex">
-                            <p> Gestiona tus cursos </p>
+                            <p> {{ __('productos.product_4.one') }} </p>
                             <i class="material-symbols-outlined">play_lesson</i>
                         </div>
                         <div class="caja-flex">
-                            <p> Plataforma personalizable</p>
+                            <p> {{ __('productos.product_4.dos') }}</p>
                             <i class="material-symbols-outlined">flowsheet</i>
                         </div>
                         <div class="caja-flex">
-                            <p> Seguimiento de plan de educación </p>
+                            <p> {{ __('productos.product_4.tres') }} </p>
                             <i class="material-symbols-outlined">school</i>
                         </div>
                         <div class="caja-flex">
-                            <p> Reportes y estadísticas detalladas </p>
+                            <p> {{ __('productos.product_4.cuatro') }} </p>
                             <i class="material-symbols-outlined">dashboard_customize</i>
                         </div>
                     </div>
