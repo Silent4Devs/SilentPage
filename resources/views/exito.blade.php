@@ -1,10 +1,8 @@
 @extends('layouts.site')
 
-@section('titulo', 'Casos de Éxito | Ciberseguridad en Minería, Turismo y Gobierno')
+@section('titulo', __('exito.title'))
 
-@section('metaDesc',
-    'Descubre cómo nuestra empresa de ciberseguridad ha fortalecido con éxito la ciberseguridad de
-    nuestros clientes en las industrias minera, turística y gobierno.')
+@section('metaDesc', __('exito.metaDesc'))
 
 @section('body', 'body')
 
@@ -19,8 +17,8 @@
 @section('content')
     <div>
         <div class="title-fondo">
-            <h1 class="title-main">Casos de éxito</h1>
-            <p>En S4B brindamos las mejores soluciones</p>
+            <h1 class="title-main">{{ __('exito.title_main') }}</h1>
+            <p>{{ __('exito.title_slogan') }}</p>
         </div>
 
         <div id="seguridad-medida" class="caso-exito-complete" style="background-color: #F3F5FF; margin-top: 100px;">
@@ -28,17 +26,14 @@
                 <div class="caso-img" style="background-image: url('img/exito_caso_1.webp');" title="Industria turística">
                 </div>
                 <div class="caso-info">
-                    <h2 class="title-second">Seguridad a la medida</h2>
-                    <p style="font-size: 24px;">Industria turística</p>
+                    <h2 class="title-second">{{ __('exito.title_security') }}</h2>
+                    <p style="font-size: 24px;">{{ __('exito.title_security_case_1') }}</p>
                     <p style="margin-top: 20px;">
-                        La entrega de nuestros servicios está basada en la
-                        <br>
-                        comunicación continua.
+                        {{ __('exito.title_security_case_2_1') }} <br> {{ __('exito.title_security_case_2_2') }}
                     </p>
                     <p>
                         <a href="{{ asset('img/exitos/Caso de éxito_Seguridad a la medida.pdf') }}" target="_blank"
-                            class="btn-tend">Leer
-                            más</a>
+                            class="btn-tend">{{ __('exito.title_read_more') }}</a>
                     </p>
                 </div>
             </content>
@@ -47,16 +42,14 @@
         <div id="cero-extraccion" class="caso-exito-complete no-visible" style="background-color: #f3f3f3;">
             <content class="content-limit">
                 <div class="caso-info">
-                    <h2 class="title-second">Cero extracción</h2>
-                    <p style="font-size: 24px;">Industria minera</p>
+                    <h2 class="title-second">{{ __('exito.title_zero') }}</h2>
+                    <p style="font-size: 24px;">{{ __('exito.title_zero_case_1') }}</p>
                     <p style="margin-top: 20px;">
-                        Implementamos alertas de amenazas de una forma más
-                        rápida para que su estudio fuera inmediato.
+                        {{ __('exito.title_zero_case_2') }}
                     </p>
                     <p>
                         <a href="{{ asset('img/exitos/Caso de éxito_Cero Extracción.pdf') }}" target="_blank"
-                            class="btn-tend">Leer
-                            más</a>
+                            class="btn-tend">{{ __('exito.title_read_more') }}</a>
                     </p>
                 </div>
                 <div class="caso-img"
@@ -70,16 +63,14 @@
             <content class="content-limit">
                 <div class="caso-img" style="background-image: url('img/exito_caso_3.webp');" title="SENER"></div>
                 <div class="caso-info">
-                    <h2 class="title-second">Protección total</h2>
-                    <p style="font-size: 24px;">SENER</p>
+                    <h2 class="title-second">{{ __('exito.title_proteccion') }}</h2>
+                    <p style="font-size: 24px;">{{ __('exito.title_proteccion_case_1') }}</p>
                     <p style="margin-top: 20px;">
-                        Un proyecto multimarca como este, nos exigió la entrega
-                        total de nuestras capacidades.
+                        {{ __('exito.title_proteccion_case_2') }}
                     </p>
                     <p>
                         <a href="{{ asset('img/exitos/Caso de éxito_Protección Total.pdf') }}" target="_blank"
-                            class="btn-tend">Leer
-                            más</a>
+                            class="btn-tend">{{ __('exito.title_read_more') }}</a>
                     </p>
                 </div>
             </content>
