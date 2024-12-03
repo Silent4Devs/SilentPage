@@ -93,7 +93,7 @@
         <content class="content-limit">
             <hr style="margin-top:50px;">
             <span class="title-second">Notas importantes de S4B</span>
-            <div class="noticias no-visible">
+            <div class="noticias --no-visible">
                 <div class="column-noticias caja-noticias-med">
                     @foreach ($posts as $post)
                         <div class="card noticia">
