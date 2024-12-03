@@ -102,19 +102,19 @@
                         </div>
                         <div class="caja-flex">
                             <i class="material-symbols-outlined">overview</i>
-                            <p> Documenta tus procesos </p>
+                            <p> {{ __('productos.product_2.document') }} </p>
                         </div>
                         <div class="caja-flex">
                             <i class="material-symbols-outlined">screen_search_desktop</i>
-                            <p> Monitorea el Sistema de Gestión</p>
+                            <p> {{ __('productos.product_2.monitor') }}</p>
                         </div>
                         <div class="caja-flex">
                             <i class="material-symbols-outlined">problem</i>
-                            <p> Determina y evalúa riesgos </p>
+                            <p> {{ __('productos.product_2.determ') }} </p>
                         </div>
                         <div class="caja-flex">
                             <i class="material-symbols-outlined">feed</i>
-                            <p> Registra y controla información relevante </p>
+                            <p> {{ __('productos.product_2.register') }} </p>
                         </div>
                         <div class="br-space">
                             <br><br><br><br><br><br><br><br><br><br>
@@ -133,33 +133,28 @@
                     <div class="info-product info-der">
                         <div class="caja-flex">
                             <p>
-                                Nuestro Software CLMS (Contract Lifecycle Management Software) está diseñado para una
-                                gestión contractual integral, totalmente transparente. Funciona a través de una
-                                plataforma web con un modelo SaaS (Software as a Service) que permite sistematizar los
-                                procesos contractuales, abarcando el ciclo de vida de los contratos en su totalidad.
-                                Mejora la eficiencia, colaboración, trazabilidad y calidad en los procesos de generación
-                                de contratos.
+                                {{ __('productos.product_3.description') }}
                             </p>
                         </div>
                         <div class="caja-flex">
                             <i class="material-symbols-outlined">event</i>
-                            <p> Controla los hitos y fechas clave </p>
+                            <p> {{ __('productos.product_3.control') }} </p>
                         </div>
                         <div class="caja-flex">
                             <i class="material-symbols-outlined">screen_search_desktop</i>
-                            <p> Monitorea los contratos en sus diferentes fases</p>
+                            <p>{{ __('productos.product_3.monitor') }} </p>
                         </div>
                         <div class="caja-flex">
                             <i class="material-symbols-outlined">document_scanner</i>
-                            <p> Centraliza la información de contratos </p>
+                            <p> {{ __('productos.product_3.centra') }} </p>
                         </div>
                         <div class="caja-flex">
                             <i class="material-symbols-outlined">other_admission</i>
-                            <p> Obtén reportes y niveles de servicio </p>
+                            <p> {{ __('productos.product_3.ob') }} </p>
                         </div>
                         <div class="caja-flex">
                             <i class="material-symbols-outlined">inventory</i>
-                            <p> Agiliza los procesos de aprobación </p>
+                            <p> {{ __('productos.product_3.ag') }} </p>
                         </div>
                         <div class="br-space">
                             <br><br><br><br><br>
@@ -171,25 +166,23 @@
                     <div class="info-product info-izq">
                         <div class="caja-flex">
                             <p>
-                                Nuestro Learning Management System (LMS) está basado en el modelo SaaS para la creación
-                                de cursos empresariales en formato digital. De esta forma, tus colaboradores podrán
-                                capacitarse de forma presencial o remota.
+                                {{ __('productos.product_4.description') }}
                             </p>
                         </div>
                         <div class="caja-flex">
-                            <p> Gestiona tus cursos </p>
+                            <p> {{ __('productos.product_4.one') }} </p>
                             <i class="material-symbols-outlined">play_lesson</i>
                         </div>
                         <div class="caja-flex">
-                            <p> Plataforma personalizable</p>
+                            <p> {{ __('productos.product_4.dos') }}</p>
                             <i class="material-symbols-outlined">flowsheet</i>
                         </div>
                         <div class="caja-flex">
-                            <p> Seguimiento de plan de educación </p>
+                            <p> {{ __('productos.product_4.tres') }} </p>
                             <i class="material-symbols-outlined">school</i>
                         </div>
                         <div class="caja-flex">
-                            <p> Reportes y estadísticas detalladas </p>
+                            <p> {{ __('productos.product_4.cuatro') }} </p>
                             <i class="material-symbols-outlined">dashboard_customize</i>
                         </div>
                     </div>

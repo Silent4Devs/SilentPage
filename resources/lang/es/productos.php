@@ -28,11 +28,32 @@ return [
         'description' => 'Nuestro SGN provee la capacidad de resguardar, generar, revisar, gestionar y automatizar
                                 la documentación y procesos requeridos en el ciclo de vida de mejores prácticas y
                                 estándares internacionales.',
+        'document' => 'Documenta tus procesos',
+        'monitor' => 'Monitorea el Sistema de Gestión',
+        'determ' => 'Determina y evalúa riesgos',
+        'register' => 'Registra y controla información relevante',
     ],
     'product_3' => [
-        'description' => 'Nuestro Software CLMS (Contract Lifecycle Management Software)...',
+        'description' => 'Nuestro Software CLMS (Contract Lifecycle Management Software) está diseñado para una
+                                gestión contractual integral, totalmente transparente. Funciona a través de una
+                                plataforma web con un modelo SaaS (Software as a Service) que permite sistematizar los
+                                procesos contractuales, abarcando el ciclo de vida de los contratos en su totalidad.
+                                Mejora la eficiencia, colaboración, trazabilidad y calidad en los procesos de generación
+                                de contratos.',
+        'control' => 'Controla los hitos y fechas clave',
+        'monitor' => 'Monitorea los contratos en sus diferentes fases',
+        'centra' => 'Centraliza la información de contratos',
+        'ob' => 'Obtén reportes y niveles de servicio',
+        'ag' => 'Agiliza los procesos de aprobación',
+
     ],
     'product_4' => [
-        'description' => 'Nuestro Learning Management System (LMS) está basado en el modelo SaaS...',
+        'description' => 'Nuestro Learning Management System (LMS) está basado en el modelo SaaS para la creación
+                                de cursos empresariales en formato digital. De esta forma, tus colaboradores podrán
+                                capacitarse de forma presencial o remota.',
+        'one' => 'Gestiona tus cursos',
+        'dos' => 'Plataforma personalizable',
+        'tres' => 'Seguimiento de plan de educación',
+        'cuatro' => 'Reportes y estadísticas detalladas',
     ],
 ];
