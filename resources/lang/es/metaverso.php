@@ -1,15 +1,15 @@
 <?php
 
 return [
-    'title' => 'Metaverso S4B: Ciberseguridad y Realidad Virtual' ,
-    'meta_desc' => 'Sumérgete en un viaje digital donde ciberseguridad y realidad virtual se fusionan para explorar las últimas innovaciones en protección cibernética.' ,
+    'title' => 'Metaverso S4B: Ciberseguridad y Realidad Virtual',
+    'meta_desc' => 'Sumérgete en un viaje digital donde ciberseguridad y realidad virtual se fusionan para explorar las últimas innovaciones en protección cibernética.',
     'title_1' => '¿Listo para embarcarte en esta emocionante aventura en el metaverso de Silent 4 Business?',
     'desc_1' => 'al metaverso de Silent 4 Business, donde la realidad virtual y la ciberseguridad se fusionan para ofrecerte una experiencia única. Sumérgete en un mundo digital, donde podrás dar un recorrido por nuestro espacio virtual, conocer más acerca de nuestros servicios y explorar las últimas innovaciones en protección cibernética.',
     'title_button' => 'Ingresar al Metaverso',
     'title_2' => 'Instrucciones',
     'desc_2' => [
         'desc_1' => 'Antes de Iniciar, es importante darte unas breves instrucciones para que tu experiencia sea más enriquecedora.',
-        'desc_2' => 'Al ingresar al enlace deberás seleccionar un personaje virtual, selecciona el que más te guste y da clic en continuar.'
+        'desc_2' => 'Al ingresar al enlace deberás seleccionar un personaje virtual, selecciona el que más te guste y da clic en continuar.',
     ],
     'title_3' => 'Ingresarás al metaverso y te aparecerá una guía para mostrarte como navegar.',
     'desc_3' => [
