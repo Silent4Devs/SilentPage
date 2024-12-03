@@ -11,4 +11,5 @@ return [
     'contacto' => 'contact',
     'metaverso' => 'metaverse',
     'terminos_privacidad' => 'privacy-policy',
+    'cert' => 'cert',
 ];
