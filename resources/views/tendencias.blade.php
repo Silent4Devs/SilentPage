@@ -2,9 +2,7 @@
 
 @section('titulo', __('tendencias.title'))
 
-@section('metaDesc',
-    'Explora las últimas tendencias en ciberseguridad y tecnología que están moldeando el futuro.
-    Mantente al tanto de las novedades de la mano de nuestros expertos.')
+@section('metaDesc', __('tendencias.meta_desc'))
 
 @section('body', 'medios-body')
 
