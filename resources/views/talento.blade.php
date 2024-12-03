@@ -11,6 +11,25 @@
         .title-fondo::before {
             background-image: url('{{ asset('img/portadas/portada_talento.webp') }}');
         }
+
+        input[type="file"]::-webkit-file-upload-button {
+            display: none;
+            /* Oculta el botón interno en navegadores WebKit */
+        }
+
+        input[type="file"]::file-selector-button {
+            display: none;
+            /* Oculta el botón interno en navegadores modernos */
+        }
+
+        input[type="file"] {
+            border: 1px solid #ccc;
+            padding: 5px;
+            border-radius: 5px;
+            width: 100%;
+            /* Ajusta el ancho como necesites */
+            font-size: 14px;
+        }
     </style>
 @endsection
 
