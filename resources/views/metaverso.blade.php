@@ -1,10 +1,8 @@
 @extends('layouts.site')
 
-@section('titulo', 'Metaverso S4B: Ciberseguridad y Realidad Virtual')
+@section('titulo', __('metaverso.title'))
 
-@section('metaDesc',
-    'Sumérgete en un viaje digital donde ciberseguridad y realidad virtual se
-    fusionan para explorar las últimas innovaciones en protección cibernética.')
+@section('metaDesc', __('metaverso.meta_desc'))
 
 @section('body', 'metaverso-body')
 
@@ -158,29 +156,21 @@
         justify-content:center;
         aling-content:center;
         ">
-            <h1 class="title-second">¿Listo para embarcarte en esta emocionante aventura en el metaverso de Silent 4
-                Business?</h1>
-            <p><strong> al metaverso de Silent 4 Business, donde la realidad virtual y la ciberseguridad se fusionan
-                    para ofrecerte
-                    una experiencia única. Sumérgete en un mundo digital, donde podrás dar un recorrido por nuestro
-                    espacio virtual, conocer
-                    más acerca de nuestros servicios y explorar las últimas innovaciones en protección
-                    cibernética.</strong></p>
+            <h1 class="title-second">{{__('metaverso.title_1')}}</h1>
+            <p><strong>{{__('metaverso.desc_1')}}</strong></p>
             <div style="display:flex; justify-content:center; "></div>
             <a href="https://www.spatial.io/s/Silent-4-Business-Metaverse-640934cccad9bf8793157ca2?share=3130313224200591619"
-                target="_blank" class="btn-metaverso">Ingresar al Metaverso</a>
+                target="_blank" class="btn-metaverso">{{__('metaverso.title_button')}}</a>
         </div>
     </div>
     <div class="fondo-metaverso" style="background-image: url('img/metaverso/metaverso3.webp');">
         <div class="block-1">
-            <span class="title-second">Instrucciones</span>
-            <p style="font-size: 24px;">Antes de Iniciar, es importante darte unas breves instrucciones para que tu
-                experiencia sea más enriquecedora.</p>
+            <span class="title-second">{{__('metaverso.title_2')}}</span>
+            <p style="font-size: 24px;">{{__('metaverso.desc_2.desc_1')}}</p>
             <p class="meta-instruccion">
                 <img src="{{ asset('img/metaverso/paso1.svg') }}" alt="Opción de Avatares" title="Opción de Avatares"
                     style="float:left;width:36.6px;height:36.6px; padding-right:15px">
-                Al ingresar al enlace deberás seleccionar un personaje virtual, selecciona el que más te guste y da clic
-                en continuar.
+                    {{__('metaverso.desc_2.desc_2')}}
             </p>
         </div>
         <div class="block-2">
@@ -197,13 +187,13 @@
             <p class="meta-instruccion" style="margin-top: 63px;">
                 <img src="{{ asset('img/metaverso/paso2.svg') }}" alt="Metaverso paso dos" title="Metaverso paso dos"
                     style="float:left;width:36.6px;height:36.6px; padding-right:15px">
-                Ingresarás al metaverso y te aparecerá una guía para mostrarte como navegar.
+                    {{__('metaverso.title_3')}}
             </p>
-            <p style="margin-top: 21px;">En resumen: W, A, S y D: Teclas para moverte en diferentes direcciones.</p>
-            <p>SHIFT: Tecla para correr si la combinas con las teclas W, A, S y D.</p>
-            <p>SPACE BAR: Tecla para brincar FLECHAS: Teclas para girar la cámara.</p>
-            <p>CLIC con mouse: Podrás teletransportarte al lugar seleccionado.</p>
-            <p>Números del 1 al 5: Podrás expresarte en el multiverso, aplaudir, saludar, aprobar o bailar.</p>
+            <p style="margin-top: 21px;">{{__('metaverso.desc_3.step_1')}}</p>
+            <p>{{__('metaverso.desc_3.step_2')}}</p>
+            <p>{{__('metaverso.desc_3.step_3')}}</p>
+            <p>{{__('metaverso.desc_3.step_4')}}</p>
+            <p>{{__('metaverso.desc_3.step_5')}}</p>
         </div>
     </div>
     <div class="fondo-metaverso" style="background-image: url('img/metaverso/metaverso5.webp');">
@@ -211,9 +201,7 @@
             <p class="meta-instruccion">
                 <img src="{{ asset('img/metaverso/paso3.svg') }}" alt="metaverso paso tres" title="metaverso paso tres"
                     style="float:left;width:36.6px;height:36.6px; padding-right:15px">
-                Cuando veas a un guía como el de la imagen siguiente, da clic sobre el/ella para que te de información
-                valiosa de
-                Silent.
+                    {{__('metaverso.title_4')}}
             </p>
         </div>
         <div class="block-2">
@@ -230,8 +218,7 @@
             <p class="meta-instruccion">
                 <img src="{{ asset('img/metaverso/paso4.svg') }}" alt="Metaverso paso cuatro" title="Metaverso paso cuatro"
                     style="float:left;width:36.6px;height:36.6px; padding-right:15px">
-                Para reproducir un video o ver de cerca los cuadros de la pared, da clic sobre la lupa que aparece en la
-                esquina.
+                    {{__('metaverso.title_5')}}
             </p>
         </div>
     </div>
@@ -240,8 +227,7 @@
             <p class="meta-instruccion">
                 <img src="{{ asset('img/metaverso/paso5.svg') }}" alt="Metaverso paso 5" title="Metaverso paso 5"
                     style="float:left;width:36.6px;height:36.6px; padding-right:15px">
-                Por último, podrás escribir en el chat para platicar con otras personas que se encuentren en la sala, no
-                olvides ser respetuso.
+                    {{__('metaverso.title_6')}}
             </p>
         </div>
         <div class="block-2">
@@ -249,10 +235,8 @@
         </div>
     </div>
     <div class="fondo-metaverso-fin">
-        <span class="title-second">¡Ya estás listo para disfrutar del Metaverso de Silent 4 Business!, ingresa dando clic en
-            el siguiente
-            botón:</span>
+        <span class="title-second">{{__('metaverso.finish')}}</span>
         <a href="https://www.spatial.io/s/Silent-4-Business-Metaverse-640934cccad9bf8793157ca2?share=3130313224200591619"
-            target="_blank" class="btn-metaverso">Ingresar al Metaverso</a>
+            target="_blank" class="btn-metaverso">{{__('metaverso.title_button')}}</a>
     </div>
 @endsection
