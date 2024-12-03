@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'video_intro' => 'img/fondo_img.webp',
     'title_conoce_servicios' => 'Conoce Nuestros Servicios',
 
     'debido_a_la_creciente' => 'Debido a la creciente incidencia de robo de información, interrupción de operaciones, cifrado de base de datos, suplantación de identidad y demás ciberataques, las empresas intentan estar preparadas para hacer frente y mitigar los riegos informáticos a los que están expuestos diariamente.',
