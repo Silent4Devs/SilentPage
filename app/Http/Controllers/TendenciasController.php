@@ -25,10 +25,11 @@ class TendenciasController extends Controller
                 ->orderBy('post_date', 'desc')
                 ->paginate(5);
 
-            } catch (\Throwable $th) {
-                $posts = [];
-                $postsRecientes = [];
-            }
+        } catch (\Throwable $th) {
+            $posts = [];
+            $postsRecientes = [];
+        }
+
         return view('tendencias', compact('posts', 'postsRecientes'));
     }
 

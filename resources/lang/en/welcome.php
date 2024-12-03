@@ -42,4 +42,3 @@ return [
     'leer_más' => 'Read more',
 
 ];
-
