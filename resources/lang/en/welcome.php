@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'video_intro' => 'img/fondo_ingles.mp4',
     'title_conoce_servicios' => 'Discover Our Services',
 
     'debido_a_la_creciente' => 'Due to the increasing incidence of information theft, operational disruptions, database encryption, identity theft, and other cyberattacks, companies strive to be prepared to face and mitigate the cybersecurity risks they are exposed to daily.',
@@ -41,5 +42,11 @@ return [
 
     'leer_más' => 'Read more',
 
+    'cursosycapacitaciones' => 'Courses and Training',
+    'cursoscap_desc' => 'Request a visit to your school for a training session or to receive a cybersecurity presentation.',
+    'cursoscap_desc1' => 'As a socially responsible company, we care about being part of the development of young minds.',
+    'gideas' => 'Generating Ideas',
+    'gideas_desc' => 'Meet the professionals serving your security needs',
+    'ceo' => 'Founder & CEO',
+    'com' => 'Commercial Director',
 ];
-

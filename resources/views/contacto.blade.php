@@ -1,10 +1,8 @@
 @extends('layouts.site')
 
-@section('titulo', 'Contactanos')
+@section('titulo', __('contacto.title'))
 
-@section('metaDesc',
-    '¡Contáctanos hoy mismo para solicitar cotizaciones de proyectos de ciberseguridad! Nuestro equipo
-    está listo para fortalecer las defensas de tu organización.')
+@section('metaDesc', __('contacto.meta_desc'))
 
 @section('body', 'contacto-body')
 
@@ -56,13 +54,12 @@
             <div class="desplazable">
                 <content class="content-limit">
                     <div class="card">
-                        <h1 class="title-second">Contacto</h1>
+                        <h1 class="title-second">{{ __('contacto.title') }}</h1>
                         <p class="parrafo-psolinf">
-                            Puedes solicitar información de los servicios que ofrecemos en S4B o bien puedes hacer una
-                            consulta de algún problema en especifico de seguridad.
+                            {{ __('contacto.desc') }}
                         </p>
 
-                        <span class="title-five">Elige la opción que necesites.</span>
+                        <span class="title-five"> {{ __('contacto.elig') }}</span>
 
                         <div class="caja-flex">
                             <div class="contact-item">
@@ -71,31 +68,24 @@
                                 </button>
                                 <p><strong> General </strong></p>
                                 <p class="mobile-none-mini">
-                                    En está opción podrás ponerte en contacto con nuestra área comercial para
-                                    cotizaciones, dudas, preguntas especificas y consultas en general.
+                                    {{ __('contacto.general') }}
                                 </p>
                             </div>
                             <div class="contact-item">
                                 <button class="card" onclick="desplazar(-200)">
                                     <i class="material-symbols-outlined">school</i>
                                 </button>
-                                <p><strong> Cursos y capacitaciones </strong></p>
+                                <p><strong> {{ __('contacto.cursos') }} </strong></p>
                                 <p class="mobile-none-mini">
-                                    Solicita una visita de Silent 4 Business a tu escuela, ya sea a una capacitación
-                                    o a
-                                    realizar alguna ponencia en ciberseguridad.
+                                    {{ __('contacto.cursos_desc') }}
                                 </p>
                             </div>
                             <div class="solo-mobile-mini" style="margin-top: 30px; color: #2567AE;">
                                 <p>
-                                    <strong>1.</strong> En está opción podrás ponerte en contacto con nuestra área
-                                    comercial para cotizaciones, dudas, preguntas especificas y consultas en
-                                    general.
+                                    <strong>1.</strong> {{ __('contacto.desc1') }}
                                 </p>
                                 <p>
-                                    <strong>2.</strong> Solicita una visita de Silent 4 Business a tu escuela, ya
-                                    sea a
-                                    una capacitación o a realizar alguna ponencia en ciberseguridad.
+                                    <strong>2.</strong> {{ __('contacto.desc2') }}
                                 </p>
                             </div>
                         </div>

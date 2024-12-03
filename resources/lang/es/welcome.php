@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'video_intro' => 'img/fondo_img.webp',
     'title_conoce_servicios' => 'Conoce Nuestros Servicios',
 
     'debido_a_la_creciente' => 'Debido a la creciente incidencia de robo de información, interrupción de operaciones, cifrado de base de datos, suplantación de identidad y demás ciberataques, las empresas intentan estar preparadas para hacer frente y mitigar los riegos informáticos a los que están expuestos diariamente.',
@@ -41,29 +42,13 @@ return [
 
     'leer_más' => 'Leer más',
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    'cursosycapacitaciones' => 'Cursos y capacitaciones',
+    'cursoscap_desc' => 'Solicita una visita a tu escuela para una capacitación o bien para recibir una
+                ponencia en ciberseguridad.',
+    'cursoscap_desc1' => 'Como empresa socialmente responsable nos importa ser parte de la formación de mentes
+                jovenes.',
+    'gideas' => 'Generando Ideas',
+    'gideas_desc' => 'Conoce a los profesionales al servicio de tu seguridad',
+    'ceo' => 'Fundadora & CEO',
+    'com' => 'Director Comercial',
 ];
-
