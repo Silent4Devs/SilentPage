@@ -14,7 +14,8 @@
         <video autoplay muted loop
             title="Video presentación Sielent4Business. Hoy más que nunca debemos contar con la capacidad y las herramientas necesarias para proteger tu información. La seguridad ágil requiere un talento resiliente Somos Silent4businees y estamos listos para ayudarte.">
             <source src="img/fondo.mp4" type="video/mp4">
-            <img src="{{ asset('img/fondo_img.webp') }}" width="100%" alt="Imagen provicional" title="Imagen provicional">
+            <img src="{{ asset(__('welcome.video_intro')) }}" width="100%" alt="Imagen provicional"
+                title="Imagen provicional">
         </video>
     </div>
     <section id="servicios">
@@ -418,19 +419,17 @@
     <section>
         <div class="curso --no-visible">
             <a href="{{ route('contacto') }}">
-                <h2 class="title-main">Cursos y capacitaciones</h2>
+                <h2 class="title-main">{{ __('welcome.cursosycapacitaciones') }}</h2>
             </a>
-            <p style="font-size: 20px;">Solicita una visita a tu escuela para una capacitación o bien para recibir una
-                ponencia en ciberseguridad.</p>
-            <p style="font-size:14px;">Como empresa socialmente responsable nos importa ser parte de la formación de mentes
-                jovenes.</p>
+            <p style="font-size: 20px;">{{ __('welcome.cursoscap_desc') }}</p>
+            <p style="font-size:14px;">{{ __('welcome.cursoscap_desc1') }}</p>
         </div>
     </section>
 
     <section>
         <div class="caja-jefes">
-            <h2 class="title-main">Generando Ideas</h2>
-            <p>Conoce a los profesionales al servicio de tu seguridad</p>
+            <h2 class="title-main">{{ __('welcome.gideas') }}</h2>
+            <p>{{ __('welcome.gideas_desc') }}</p>
         </div>
         <div class="jefes-cards --no-visible">
             <div class="card-jefe lay">
@@ -440,7 +439,7 @@
                 </div>
                 <div class="info-jefe">
                     <h3 class="title-terd">Layla Delgadillo</h3>
-                    <p>Fundadora & CEO</p>
+                    <p>{{ __('welcome.ceo') }}</p>
                     <div class="redes-jefe">
                         <a href="https://twitter.com/laylad81" target="_blanck"><i class="fa-brands fa-twitter"
                                 title="X Layla Delgadillo"></i></a>
@@ -457,7 +456,7 @@
                 </div>
                 <div class="info-jefe">
                     <h3 class="title-terd">Gerardo Garibay</h3>
-                    <p>Director Comercial</p>
+                    <p>{{ __('welcome.com') }}</p>
                     <div class="redes-jefe">
                         <a href="https://twitter.com/GaribayGerardo" target="_blanck"><i class="fa-brands fa-twitter"
                                 title="X Gerardo Garibay"></i></a>

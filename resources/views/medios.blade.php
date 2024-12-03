@@ -1,10 +1,8 @@
 @extends('layouts.site')
 
-@section('titulo', 'S4B en medios ')
+@section('titulo', __('medios.title'))
 
-@section('metaDesc',
-    'Descubre cómo Silent4Business brilla en los medios, digital y tradicionalmente. Nuestra huella en
-    el mundo de la seguridad cibernética.')
+@section('metaDesc', __('medios.meta_desc'))
 
 @section('body', 'medios-body')
 
@@ -19,11 +17,11 @@
 @section('content')
     <div>
         <div class="title-fondo">
-            <h1 class="title-main">Nuestra presencia en medios</h1>
-            <p>Conoce el mundo Silent4Business</p>
+            <h1 class="title-main">{{__('medios.header_title')}}</h1>
+            <p>{{__('medios.header_desc')}}</p>
         </div>
 
-        <span class="title-second">Videos recientes</span>
+        <span class="title-second">{{__('medios.title_second')}}</span>
 
         <content class="content-limit caja-carrusel">
             <div class="arrow-carrusel-izq">
@@ -36,10 +34,9 @@
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
                     <div class="info-carrusel">
-                        <span class="title-six">SENER <small> Protección Total </small></span>
+                        <span class="title-six">{{__('medios.news.new1.title')}} <small> {{__('medios.news.new1.title_2')}} </small></span>
                         <p>
-                            Breve reseña sobre nuestra labor en la migración tecnológica, así como el análisis,
-                            protección, detección y respuesta a amenzas de nuestra entrega de servicios.
+                            {{__('medios.news.new1.desc')}}
                         </p>
                     </div>
                 </div>
@@ -49,11 +46,9 @@
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
                     <div class="info-carrusel">
-                        <span class="title-six">Caso de éxito Industria Minera <small> </small></span>
+                        <span class="title-six">{{__('medios.news.new2.title')}} <small> </small></span>
                         <p>
-                            Acompáñanos a revisar como esta Industria Minera alanzó el éxito en ciberseguridad para
-                            su
-                            empresa.
+                            {{__('medios.news.new2.desc')}}
                         </p>
                     </div>
                 </div>
@@ -63,10 +58,9 @@
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
                     <div class="info-carrusel">
-                        <span class="title-six">SEGURIDAD A LA MEDIDA <small> </small></span>
+                        <span class="title-six">{{__('medios.news.new3.title')}} <small> </small></span>
                         <p>
-                            Gestionamos la Seguridad de la Industria Turística por medio de una estrategia integral
-                            multi-marca totalmente personalizada.
+                            {{__('medios.news.new3.desc')}}
                         </p>
                     </div>
                 </div>
@@ -76,10 +70,10 @@
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
                     <div class="info-carrusel">
-                        <span class="title-six"> El sector de la ciberseguridad y los retos que enfrenta <small>
+                        <span class="title-six"> {{__('medios.news.new4.title')}} <small>
                             </small></span>
                         <p>
-                            El sector de la ciberseguridad y los retos que se enfrentan.
+                            {{__('medios.news.new4.desc')}}
                         </p>
                     </div>
                 </div>
@@ -92,8 +86,8 @@
 
         <content class="content-limit">
             <hr style="margin-top:50px;">
-            <span class="title-second">Notas importantes de S4B</span>
-            <div class="noticias --no-visible">
+            <span class="title-second">{{__('medios.notes')}}</span>
+            <div class="noticias no-visible">
                 <div class="column-noticias caja-noticias-med">
                     @foreach ($posts as $post)
                         <div class="card noticia">
@@ -102,7 +96,7 @@
                                 <small>{{ Carbon\Carbon::parse($post->post_date)->format('d-m-Y') }}</small><br><br>
                                 <span class="title-terd">{{ $post->post_title }}</span><br><br>
                                 <span>
-                                    <a href={{ url('/medios/' . $post->ID) }}>Leer más</a>
+                                    <a href={{ url('/medios/' . $post->ID) }}>{{__('medios.more_info')}}</a>
                                 </span>
                             </div>
                         </div>
@@ -110,7 +104,7 @@
                 </div>
                 <br style="clear: both;">
                 <div class="column-posts">
-                    <span class="title-terd" style="color:#2567AE;">Últimos posts</span>
+                    <span class="title-terd" style="color:#2567AE;">{{__('medios.last_post')}}</span>
                     <div class="list-noticias-med">
                         @foreach ($postsRecientes as $postReciente)
                             <div class="caja-flex">
@@ -121,7 +115,7 @@
                                 <div>
                                     <small>{{ Carbon\Carbon::parse($post->post_date)->format('d-m-Y') }}</small><br>
                                     <span class="title-for">{{ $postReciente->post_title }}...</span>
-                                    <a href={{ url('/medios/' . $postReciente->ID) }}>Leer más</a>
+                                    <a href={{ url('/medios/' . $postReciente->ID) }}>{{__('medios.more_info')}}</a>
                                 </div>
                             </div>
                             <hr>

@@ -29,7 +29,7 @@
                     <img src="{{ asset('img/logo_silent.webp') }}" alt="Logo Silent4business" title="Logo Silent4business">
                     <p>
                         <font style="font-size: 24px;">{{ __('productos.header_weare') }} </font>
-                        {{ __('productos.header_weare_desc') }}
+                        {{ __('productos.header_weare_desc')}}
                     </p>
                 </div>
             </content>
@@ -64,16 +64,12 @@
                         </div>
                         <div class="caja-flex">
                             <p>
-                                Rougue Apps <br>
-                                Certificados SSL <br>
-                                Phishing <br>
-                                Defacements/Hacktivismo <br>
-                                Correos <br>
-                                Archivos <br>
-                                Credenciales comprometidas <br>
-                                Cyber Threat Alert <br>
-                                Vulnerabilidades <br>
-                                Notificaciones tecnología Notificaciones industria
+                                {{ __('productos.product_1.features2.one') }}<br>
+                                {{ __('productos.product_1.features2.two') }}<br>
+                                {{ __('productos.product_1.features2.three') }}<br>
+                                {{ __('productos.product_1.features2.four') }}<br>
+                                {{ __('productos.product_1.features2.five') }}<br>
+                                {{ __('productos.product_1.features2.six') }}
                             </p>
                             <i class="material-symbols-outlined">bug_report</i>
                         </div>
