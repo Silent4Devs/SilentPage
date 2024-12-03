@@ -1,18 +1,18 @@
 <?php
 
 return [
-    'title' => 'PRIVACY NOTICE',
-    'meta_desc' => 'Privacy notice.',
+    'title' => 'PRIVACY POLICY',
+    'meta_desc' => 'Privacy policy.',
     'company_name' => 'SILENT4BUSINESS. S.A. DE C.V.',
     'body_class' => 'terms-body',
-    'header_title' => 'PRIVACY NOTICE',
+    'header_title' => 'PRIVACY POLICY',
     'header_desc' => 'SILENT4BUSINESS, S.A. DE C.V. is committed to protecting your privacy and the security of your personal data. Below, you will find relevant information on how we handle your personal data.',
 
     'contenido' => [
         'introduccion' => [
             'title' => 'The protection of your personal data is very important to SILENT4BUSINESS.',
             'paragraphs' => [
-                'parrafo' => 'The protection of your personal data is very important to SILENT4BUSINESS, S.A. DE C.V., (hereinafter referred to as “S4B”) with its address at Insurgentes Sur No. 2453, Fourth Floor, Colonia San Ángel, Delegación Álvaro Obregón, C.P. 01109 in Mexico City, and website www.silent4business.com, which makes available this PRIVACY NOTICE. Its purpose is to inform you about the type of personal data (“Personal Data”) we may collect from you, how we use, handle, and benefit from it; in compliance with the Federal Law on Protection of Personal Data Held by Private Parties and its regulations (the “Law”).',
+                'parrafo' => 'The protection of your personal data is very important to SILENT4BUSINESS, S.A. DE C.V., (hereinafter referred to as “S4B”) with its address at Insurgentes Sur No. 2453, Fourth Floor, Colonia San Ángel, Delegación Álvaro Obregón, C.P. 01109 in Mexico City, and website www.silent4business.com, which makes available this PRIVACY POLICY. Its purpose is to inform you about the type of personal data (“Personal Data”) we may collect from you, how we use, handle, and benefit from it; in compliance with the Federal Law on Protection of Personal Data Held by Private Parties and its regulations (the “Law”).',
                 'parrafo2' => 'Our clients provide Personal Data to “S4B” directly, indirectly, personally, or through their subsidiaries, affiliates, parent companies, and/or business partners, through offices and at “S4B” locations; by email; phone, or website, which may include:'
             ],
         ],
@@ -45,7 +45,7 @@ return [
         'otros' => [
             'title' => 'Additional Information on Personal Data Handling',
             'paragraphs' => [
-                'parrafo1' => 'We understand that the personal data of third parties (such as personal and/or commercial references) that you provide us already have the authorization of their holder to be delivered and processed by us in accordance with this privacy notice.',
+                'parrafo1' => 'We understand that the personal data of third parties (such as personal and/or commercial references) that you provide us already have the authorization of their holder to be delivered and processed by us in accordance with this privacy policy.',
                 'parrafo2' => 'The primary purposes applicable to Personal Data (“Primary Purposes”) will be: to identify you as a client or supplier; to draft documents, contracts, agreements, invoices, receipts, and/or documentation related to the relationship; to receive and/or process payments; storage; and compliance with the terms and conditions we have established with you.',
                 'parrafo3' => 'The secondary purposes applicable to Personal Data (“Secondary Purposes”) will be: statistics; marketing and prospecting.',
                 'parrafo4' => 'Personal Data and its confidentiality are protected by administrative, technical, and/or physical security measures to prevent damage, loss, alteration, destruction, misuse, access, or improper disclosure. For instance, Personal Data is stored in an internal database, managed through access keys that are periodically changed, and restricted to authorized personnel; confidentiality agreements with staff, among others.',
@@ -56,7 +56,7 @@ return [
                 'parrafo9' => 'All documentation must be sent in a readable and complete PDF file format for “S4B” to address the Request. If acting through a representative for any of the requests mentioned above, the existence of representation must be proven through a public instrument or a power of attorney signed before two witnesses, as applicable, and also send a simple copy of the representative’s official ID.',
                 'parrafo10' => 'If you believe your right to personal data protection has been violated by “S4B” or suspect that there is any breach of the provisions in the Law in the handling of your Personal Data, you may file a complaint or report to the National Institute for Transparency, Access to Information, and Protection of Personal Data (INAI) (www.inafai.orggob.mx), within 15 (fifteen) days from the date you receive “S4B’s” response or from the conclusion of the 20 (twenty) days counted from the date of acknowledgment of receipt of the ARCO Rights Request.',
                 'parrafo11' => '“S4B” is a company dedicated to information services in the area of technical and scientific research, conducting all types of investigations and studies on market potential and trends, as well as providing consultancy services. Consequently, Personal Data may be transferred to subsidiary, affiliate, parent companies, and/or business partners within the national territory for the same purposes cited. It may also be shared with the following entities: legal, accounting, and/or tax advisors, tax authorities, and any other necessary party to fulfill the purposes for which you contacted us.',
-                'parrafo12' => 'Important: Any modification to this PRIVACY NOTICE will be made known on this same website: www.silent4business.com located at the bottom left of the homepage in the PRIVACY NOTICE section, without the need to notify you individually. Last update: 02/27/2018 | Personal Data Protection.'
+                'parrafo12' => 'Important: Any modification to this PRIVACY POLICY will be made known on this same website: www.silent4business.com located at the bottom left of the homepage in the PRIVACY POLICY section, without the need to notify you individually. Last update: 02/27/2018 | Personal Data Protection.'
             ],
         ],
     ],
