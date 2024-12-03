@@ -131,11 +131,10 @@
                 <div class="vision-1">
 
                     <div class="vision-text">
-                        <span class="title-main">¿Cómo se puede enriquecer nuestro entorno?</span>
-                        <span class="title-for">Nuestra visión</span>
+                        <span class="title-main">{{ __('welcome.cómo_se_puede') }}</span>
+                        <span class="title-for">{{ __('welcome.nuestra_visión') }}</span>
                         <p>
-                            A través de un equipo especializado, ser un referente confiable en materia de investigación,
-                            asistencia y difusión en actividades de atención y respuesta a incidentes de ciberseguridad.
+                            {{ __('welcome.a_través_de_un') }}
                         </p>
                     </div>
                     <div class="img-vision"></div>
@@ -143,12 +142,10 @@
                 <div class="vision-2">
 
                     <div class="vision-text">
-                        <h2 class="title-main">Nuestra filosofía</h2>
+                        <h2 class="title-main">{{ __('welcome.nuestra_filosofía') }}</h2>
                         <span class="title-for"></span>
                         <p>
-                            Está basada en la configuración del futuro, donde las organizaciones cuenten con la tecnología
-                            que les permita alcanzar sus objetivos y desarrollar todo su potencial en un ambiente
-                            informático seguro, integro y confidencial.
+                            {{ __('welcome.está_basada_en_la') }}
                         </p>
                     </div>
                     <div class="img-vision"></div>
@@ -157,22 +154,19 @@
             <div class="mision">
                 <div class="mision-1">
                     <div class="mision-text">
-                        <h2 class="title-main">Lo solucionamos por ti</h2>
-                        <h3 class="title-for">Nuestra misión</h3>
+                        <h2 class="title-main">{{ __('welcome.lo_solucionamos_por') }}</h2>
+                        <h3 class="title-for">{{ __('welcome.nuestra_misión') }}</h3>
                         <p>
-                            Proveer soluciones integrales que salvaguarden la seguridad de la información a través de la
-                            aplicación de estándares normativos y tecnológicos de vanguardia y recursos altamente
-                            especializados, contribuyendo así a los objetivos y estrategias de nuestros clientes globales.
+                            {{ __('welcome.proveer_soluciones_integrales') }}
                         </p>
                     </div>
                     <div class="img-mision"></div>
                 </div>
                 <div class="mision-2">
                     <div class="mision-text">
-                        <h2 class="title-main">Mejora continua</h2>
+                        <h2 class="title-main">{{ __('welcome.mejora_continua') }}</h2>
                         <p>
-                            Nuestra entrega de servicios está sujeta a un proceso de mejora continua, totalmente adecuado a
-                            las necesidades de nuestros clientes y enfocado a impactar positivamente su experiencia.
+                            {{ __('welcome.nuestra_entrega_de') }}
                         </p>
                     </div>
                     <div class="img-mision"></div>
@@ -181,7 +175,7 @@
         </div>
     </section>
 
-    <section class="d-none">
+    {{-- <section class="d-none">
         <div class="nivel-seguridad --no-visible">
             <img src="{{ asset('img/escudo.webp') }}" alt="escudo" title="escudo">
             <div>
@@ -199,7 +193,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <section>
         <div class="ciber-ind --no-visible">
@@ -207,36 +201,34 @@
                 <div class="caja-btn-group">
                     <a href="{{ route('soluciones') }}#salud">
                         <img src="{{ asset('img/serv_escudo.webp') }}" alt="Salud" title="Salud">
-                        <p>Salud</p>
+                        <p>{{ __('welcome.salud') }}</p>
                     </a>
                     <a href="{{ route('soluciones') }}#financiera">
                         <img src="{{ asset('img/ciber_edificio.webp') }}" alt="Financiera" title="Financiera">
-                        <p>Financiera</p>
+                        <p>{{ __('welcome.financiera') }}</p>
                     </a>
                     <a href="{{ route('soluciones') }}#manofactura">
                         <img src="{{ asset('img/ciber_person.webp') }}" alt="Manufactura" title="Manufactura">
-                        <p>Manufactura</p>
+                        <p>{{ __('welcome.manufactura') }}</p>
                     </a>
                     <a href="{{ route('soluciones') }}#energia">
                         <img src="{{ asset('img/ciber_electro.webp') }}" alt="Energética y Recursos"
                             title="Energética y Recursos">
-                        <p>Energética y Recursos</p>
+                        <p>{{ __('welcome.energética_y_recursos') }}</p>
                     </a>
                     <a href="{{ route('soluciones') }}#agro">
                         <img src="{{ asset('img/ciber_tubo.webp') }}" alt="Agroindustrial" title="Agroindustrial">
-                        <p>Agroindustrial</p>
+                        <p>{{ __('welcome.agroindustrial') }}</p>
                     </a>
                     <a href="{{ route('soluciones') }}#academia">
                         <img src="{{ asset('img/ciber_graduado.webp') }}" alt="Académica" title="Académica">
-                        <p>Académica</p>
+                        <p>{{ __('welcome.académica') }}</p>
                     </a>
                 </div>
                 <div class="caja-industria">
-                    <h2 class="title-main">Ciberseguridad en Industrias</h2>
+                    <h2 class="title-main">{{ __('welcome.ciberseguridad_en_industrias') }}</h2>
                     <p>
-                        El concepto de ciberseguridad industrial se especializa principalmente en la unión de los principios
-                        de seguridad del entorno de la OT (Tecnología de las Operaciones) y los fundamentos de seguridad del
-                        entorno de la red TI (Tecnologías de la Información).
+                        {{ __('welcome.el_concepto_de') }}
                     </p>
                 </div>
             </content>
@@ -247,31 +239,31 @@
         <div class="casos-exito">
             <div class="caja-exito-text">
                 <div class="exito-text text-caso2">
-                    <h2 class="title-main">Casos de éxito</h2>
+                    <h2 class="title-main">{{ __('welcome.casos_de_éxito') }}</h2>
 
-                    <h3 class="title-terd">Cero Extracción</h3>
+                    <h3 class="title-terd">{{ __('welcome.cero_extracción') }}</h3>
 
-                    <h4 class="title-six">Industria minera</h4>
+                    <h4 class="title-six">{{ __('welcome.industria_minera') }}</h4>
 
                     <p>
-                        Múltiples publicaciones revelan posible filtración de información sensible de empresas mexicanas.
+                        {{ __('welcome.múltiples_publicaciones') }}
                     </p>
 
-                    <a href="{{ route('exito') }}#cero-extraccion" class="btn-exito">Leer más <i
+                    <a href="{{ route('exito') }}#cero-extraccion" class="btn-exito">{{ __('welcome.leer_más') }}<i
                             class="fa-solid fa-chevron-right"></i></a>
                 </div>
                 <div class="exito-text text-caso1">
-                    <h2 class="title-main">Casos de éxito</h2>
+                    <h2 class="title-main">{{ __('welcome.casos_de_éxito') }}</h2>
 
-                    <h3 class="title-terd">Seguridad a la medida</h3>
+                    <h3 class="title-terd">{{ __('welcome.seguridad_a_la_medida') }}</h3>
 
-                    <h4 class="title-six">Industria turística</h4>
+                    <h4 class="title-six">{{ __('welcome.industria_turística') }}</h4>
 
                     <p>
-                        La entrega de nuestros servicios está basada en la comunicación continua.
+                        {{ __('welcome.la_entrega_de_nuestros') }}
                     </p>
 
-                    <a href="{{ route('exito') }}#seguridad-medida" class="btn-exito">Leer más <i
+                    <a href="{{ route('exito') }}#seguridad-medida" class="btn-exito">{{ __('welcome.leer_más') }}<i
                             class="fa-solid fa-chevron-right"></i></a>
                 </div>
             </div>
@@ -293,41 +285,38 @@
 
     <section>
         <div class="caja-tendencias">
-            <h2 class="title-main">Tendencias</h2>
+            <h2 class="title-main">{{ __('welcome.tendencias') }}</h2>
             <p>
-                Noticias relevantes sobre Ciberseguridad
+                {{ __('welcome.noticias_relevantes') }}
             </p>
 
             <div class="card-tend">
                 <div class="tend-img">
                     <img src="{{ asset('img/tend_polonium.webp') }}" alt="malware" title="malware">
                 </div>
-                <div class="tend-text">
-                    <h3 class"title-second">Protección Online <br> Confiable</h3>
+                <div class="tend-text" style="width: 300px;">
+                    <h3 class="title-second">{{ __('welcome.proteccion_online') }}</h3>
                     <p style="color: #2585AE;">
-                        Ciberespionaje
+                        {{ __('welcome.ciberespionaje') }}
                     </p>
                     <p style="margin-top: 20px; color:#666;">
-                        Tendencias más importantes y recientes <br> para proteger tus datos personales <br> y prevenir
-                        ataques cibernéticos.
+                        {{ __('welcome.tendencias_importantes') }}
                     </p>
-                    <a href="{{ route('tendencias') }}" class="btn-tend">Leer más</a>
+                    <a href="{{ route('tendencias') }}" class="btn-tend">{{ __('welcome.leer_más') }}</a>
                 </div>
 
                 <div class="tend-img d-none">
                     <img src="{{ asset('img/tend_lilisbot.webp') }}" alt="Malware" title="Malware">
                 </div>
-                <div class="tend-text d-none">
-                    <h3 class"title-second">Tendencias de Ciberseguridad <br> Actualizadas</h3>
+                <div class="tend-text d-none" style="width: 300px;">
+                    <h3 class="title-second">{{ __('welcome.proteccion_online') }}</h3>
                     <p style="color: #2585AE;">
                         Malware
                     </p>
                     <p style="margin-top: 20px; color:#666;">
-                        Mantente actualizado sobre las últimas <br> tendencias en ciberseguridad <br> y protege tus
-                        datos
-                        personales
+                        {{ __('welcome.mantente_actualizado') }}
                     </p>
-                    <a href="{{ route('tendencias') }}" class="btn-tend">Leer más</a>
+                    <a href="{{ route('tendencias') }}" class="btn-tend">{{ __('welcome.leer_más') }}</a>
                 </div>
 
                 <button class="btn-swivht-tend" onclick="swichtTend()">
@@ -342,15 +331,15 @@
         <div class="medios">
             <div class="medios-text">
                 <h2 class="title-main">Silent4Business</h2>
-                <a href="{{ route('medios') }}">Nuestra presencia en medios</a>
+                <a href="{{ route('medios') }}">{{ __('welcome.nuestra_presencia') }} </a>
             </div>
         </div>
     </section>
 
     <section id="alianzas">
         <div class="caja-alianzas">
-            <h2 class="title-main">Nuestro ecosistema de alianzas</h2>
-            <p>Cada uno de nuestros aliados potencia nuestra capacidad para diseñar y proveer seguridad ágil.</p>
+            <h2 class="title-main">{{ __('welcome.nuestro_ecosistema') }} </h2>
+            <p>{{ __('welcome.capacidad_aliados') }} </p>
 
             <div class="logos-alianzas --no-visible">
                 <img src="{{ asset('img/alianzas/alianza_1.png') }}" alt="Logo Allot" title="=Logo Allot">
@@ -393,8 +382,9 @@
 
     <section id="certificaciones">
         <div class="caja-certificaciones">
-            <h2 class="title-main">Nuestras certificaciones</h2>
-            <p>Buscamos siempre las mejores practicas para poder ofrecer la mejor calidad en nuestros servicios</p>
+            <h2 class="title-main">{{ __('welcome.nuestras_certificaciones') }} </h2>
+            <p>{{ __('welcome.mejores_practicas') }}
+            </p>
 
             <div class="logos-certificaciones --no-visible">
                 <img src="{{ asset('img/certificaciones/cert_1.webp') }}" alt="Logo SGI" title="Logo SGI">
