@@ -41,4 +41,13 @@ return [
 
     'leer_más' => 'Leer más',
 
+    'cursosycapacitaciones' => 'Cursos y capacitaciones',
+    'cursoscap_desc' => 'Solicita una visita a tu escuela para una capacitación o bien para recibir una
+                ponencia en ciberseguridad.',
+    'cursoscap_desc1' => 'Como empresa socialmente responsable nos importa ser parte de la formación de mentes
+                jovenes.',
+    'gideas' => 'Generando Ideas',
+    'gideas_desc' => 'Conoce a los profesionales al servicio de tu seguridad',
+    'ceo' => 'Fundadora & CEO',
+    'com' => 'Director Comercial',
 ];

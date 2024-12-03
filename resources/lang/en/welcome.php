@@ -41,4 +41,11 @@ return [
 
     'leer_más' => 'Read more',
 
+    'cursosycapacitaciones' => 'Courses and Training',
+    'cursoscap_desc' => 'Request a visit to your school for a training session or to receive a cybersecurity presentation.',
+    'cursoscap_desc1' => 'As a socially responsible company, we care about being part of the development of young minds.',
+    'gideas' => 'Generating Ideas',
+    'gideas_desc' => 'Meet the professionals serving your security needs',
+    'ceo' => 'Founder & CEO',
+    'com' => 'Commercial Director',
 ];
