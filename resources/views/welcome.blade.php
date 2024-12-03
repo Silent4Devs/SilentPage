@@ -20,34 +20,23 @@
     <section id="servicios">
         <div class="nuestros-servicios">
             <content class="content-limit">
-                <div class="caja-flex no-visible caja-servicios-inicio" style="justify-content: space-between;">
+                <div class="caja-flex --no-visible caja-servicios-inicio" style="justify-content: space-between;">
                     <div id="serv-original" class="caja-servicios-text">
-                        <h1 class="title-servicios title-main">Conoce Nuestros <br> Servicios</h1>
+                        <h1 class="title-servicios title-main">{{ __('welcome.title_conoce_servicios') }}</h1>
                         <p align="justify">
-                            Debido a la creciente incidencia de robo de información, interrupción de operaciones,
-                            cifrado de
-                            base de datos, suplantación de identidad y demás ciberataques, las empresas intentan estar
-                            preparadas para hacer frente y mitigar los riegos informáticos a los que están expuestos
-                            diariamente.
+                            {{ __('welcome.debido_a_la_creciente') }}
                         </p>
                         <p>
-                            Nuestro portafolio de servicios de ciberseguridad está diseñado para ser tu aliado en
-                            alcanzar
-                            la integridad, la confidencialidad y disponibilidad de la información dentro de tu empresa.
+                            {{ __('welcome.nuestro_portafolio_de_servicios') }}
                         </p>
                     </div>
                     <div id="soc-noc" class="caja-servicios-text d-none">
-                        <span class="title-servicios title-main">SOC/NOC (Centro de Operaciones de Ciberseguridad) </span>
+                        <span class="title-servicios title-main">{{ __('welcome.title_soc_noc') }} </span>
                         <p>
-                            Nuestro Centro de Operaciones de Ciberseguridad de última generación (SOC/NOC) está
-                            conformado
-                            por profesionistas capacitados y especializados en el uso de soluciones tecnológicas de
-                            vanguardia, enfocadas en brindarte servicios de seguridad integral, así como monitoreo
-                            continuo
-                            de la disponibilidad de las redes y operaciones de tu empresa.
+                            {{ __('welcome.nuestro_centro_de_operaciones') }}
                         </p>
                         <div>
-                            <a href="{{ route('servicios/soc-noc') }}" class="btn-leer-mas">Leer más</a>
+                            <a href="{{ route('servicios/soc-noc') }}" class="btn-leer-mas">{{ __('welcome.leer_más') }}</a>
                         </div>
 
                         <button onclick="servicio('serv-original')" class="btn-close">
@@ -55,38 +44,36 @@
                         </button>
                     </div>
                     <div id="ciberinteligencia" class="caja-servicios-text d-none">
-                        <span class="title-servicios title-main">Ciberinteligencia</span>
+                        <span class="title-servicios title-main">{{ __('welcome.title_Ciberinteligencia') }}</span>
                         <p align="justify">
-                            El servicio de ciberinteligencia engloba estrategias proactivas y cognitivas de prevención,
-                            detección e investigación de riesgos de seguridad, vigilancia del ciberespacio e
-                            incorporación
-                            de herramientas de inteligencia artificial y machine learning.
+                            {{ __('welcome.el_servicio_de_ciberinteligencia') }}
                         <ol>
-                            <li>Pentesting y Análisis de vulnerabilidades</li>
-                            <li>Servicios de Ingeniería Social</li>
-                            <li>Análisis forense</li>
+                            <li>{{ __('welcome.pentesting_y_análisis') }}</li>
+                            <li>{{ __('welcome.servicios_de_ingeniería') }}</li>
+                            <li>{{ __('welcome.Análisis_forense') }}</li>
                         </ol>
                         </p>
                         <div>
-                            <a href="{{ route('servicios/ciberinteligencia') }}" class="btn-leer-mas">Leer más</a>
+                            <a href="{{ route('servicios/ciberinteligencia') }}"
+                                class="btn-leer-mas">{{ __('welcome.leer_más') }}</a>
                         </div>
                         <button onclick="servicio('serv-original')" class="btn-close">
                             <i class="material-symbols-outlined" title="Cerrar sección">close</i>
                         </button>
                     </div>
                     <div id="consultoria" class="caja-servicios-text d-none">
-                        <span class="title-servicios title-main">Consultoría Estratégica</span>
+                        <span class="title-servicios title-main">{{ __('welcome.title_consultoría_estratégica') }}</span>
                         <p>
-                            Te guiamos en el cumplimiento legal y regulatorio del ciclo de vida de los activos de
-                            información de tu empresa basándonos en la normatividad nacional e internacional.
+                            {{ __('welcome.te_guiamos_en_el_cumplimiento') }}
                         <ol>
-                            <li>Actualización a la nueva versión 2022 de la norma ISO 27001</li>
-                            <li>Análisis de riesgos de seguridad de la información. </li>
-                            <li>Plan de continuidad de negocio (BCP, DRP Y BIA). </li>
+                            <li>{{ __('welcome.actualización_a_la_nueva') }}</li>
+                            <li>{{ __('welcome.análisis_de_riesgos_de') }}</li>
+                            <li>{{ __('welcome.plan_de_continuidad') }}</li>
                         </ol>
                         </p>
                         <div>
-                            <a href="{{ route('servicios/consultoria-estrategica') }}" class="btn-leer-mas">Leer más</a>
+                            <a href="{{ route('servicios/consultoria-estrategica') }}"
+                                class="btn-leer-mas">{{ __('welcome.leer_más') }}</a>
                         </div>
                         <button onclick="servicio('serv-original')" class="btn-close">
                             <i class="material-symbols-outlined" title="Cerrar sección">close</i>
@@ -95,35 +82,36 @@
                     <div id="otra-solucion" class="caja-servicios-text d-none">
                         <span class="title-servicios title-main">Cyber Threat Intelligence (CTI)</span>
                         <p>
-                            Nuestro servicio CTI te permite identificar proactivamente las amenazas a las que se
-                            encuentra expuesta tu organización en el ciberespacio, como:
+                            {{ __('welcome.nuestro_servicio_CTI') }}
                         </p>
                         <ol>
-                            <li>Suplantación de marca.</li>
-                            <li>Fuga de información.</li>
-                            <li>Credenciales comprometidas.</li>
+                            <li>{{ __('welcome.suplantación_de_marca') }}</li>
+                            <li>{{ __('welcome.fuga_de_información') }}</li>
+                            <li>{{ __('welcome.credenciales_comprometidas') }}</li>
                         </ol>
                         <div>
-                            <a href="{{ route('servicios/otras-soluciones') }}" class="btn-leer-mas ">Leer más</a>
+                            <a href="{{ route('servicios/otras-soluciones') }}"
+                                class="btn-leer-mas ">{{ __('welcome.leer_más') }}</a>
                         </div>
                         <button onclick="servicio('serv-original')" class="btn-close">
                             <i class="material-symbols-outlined" title="Cerrar sección">close</i>
                         </button>
                     </div>
-                    <div class="caja-btn-servicios caja-btn-group no-visible">
+                    <div class="caja-btn-servicios caja-btn-group --no-visible">
                         <button onclick="servicio('soc-noc')">
-                            <img src="{{ asset('img/serv_monitor.webp') }}" alt="Sección SOC- NOC" title="Sección SOC- NOC">
+                            <img src="{{ asset('img/serv_monitor.webp') }}" alt="Sección SOC- NOC"
+                                title="Sección SOC- NOC">
                             <p>SOC / NOC</p>
                         </button>
                         <button onclick="servicio('ciberinteligencia')">
                             <img src="{{ asset('img/serv_escudo.webp') }}" alt="Sección Ciberinteligencia"
                                 title="Sección Ciberinteligencia">
-                            <p>Ciberinteligencia</p>
+                            <p>{{ __('welcome.title_Ciberinteligencia') }}</p>
                         </button>
                         <button onclick="servicio('consultoria')">
                             <img src="{{ asset('img/serv_global.webp') }}" alt="Sección Consultoría estraégica"
                                 title="Sección Consultoría estraégica">
-                            <p>Consultoría <br> Estratégica</p>
+                            <p>{{ __('welcome.title_consultoría_estratégica') }}</p>
                         </button>
                         <button onclick="servicio('otra-solucion')">
                             <img src="{{ asset('img/serv_soluciones.webp') }}" alt="Sección Cyber Threat Intelligence"
@@ -193,7 +181,7 @@
     </section>
 
     <section class="d-none">
-        <div class="nivel-seguridad no-visible">
+        <div class="nivel-seguridad --no-visible">
             <img src="{{ asset('img/escudo.webp') }}" alt="escudo" title="escudo">
             <div>
                 <h2 class="title-main">¿Conoces tu nivel de seguridad?</h2>
@@ -213,7 +201,7 @@
     </section>
 
     <section>
-        <div class="ciber-ind no-visible">
+        <div class="ciber-ind --no-visible">
             <content class="content-limit">
                 <div class="caja-btn-group">
                     <a href="{{ route('soluciones') }}#salud">
@@ -363,7 +351,7 @@
             <h2 class="title-main">Nuestro ecosistema de alianzas</h2>
             <p>Cada uno de nuestros aliados potencia nuestra capacidad para diseñar y proveer seguridad ágil.</p>
 
-            <div class="logos-alianzas no-visible">
+            <div class="logos-alianzas --no-visible">
                 <img src="{{ asset('img/alianzas/alianza_1.png') }}" alt="Logo Allot" title="=Logo Allot">
                 <img src="{{ asset('img/alianzas/alianza_3.png') }}" alt="Check Point" title="Check Point">
                 <img src="{{ asset('img/alianzas/alianza_6.png') }}" alt="Logo Eset" title="Logo Eset">
@@ -407,7 +395,7 @@
             <h2 class="title-main">Nuestras certificaciones</h2>
             <p>Buscamos siempre las mejores practicas para poder ofrecer la mejor calidad en nuestros servicios</p>
 
-            <div class="logos-certificaciones no-visible">
+            <div class="logos-certificaciones --no-visible">
                 <img src="{{ asset('img/certificaciones/cert_1.webp') }}" alt="Logo SGI" title="Logo SGI">
                 <img src="{{ asset('img/certificaciones/cert_2.webp') }}" alt="Logo COBIT" title="Logo COBIT">
                 <img src="{{ asset('img/certificaciones/cert_3.webp') }}" alt="Logo ITIL" title="Logo ITIL">
@@ -438,7 +426,7 @@
     </section>
 
     <section>
-        <div class="curso no-visible">
+        <div class="curso --no-visible">
             <a href="{{ route('contacto') }}">
                 <h2 class="title-main">Cursos y capacitaciones</h2>
             </a>
@@ -454,10 +442,11 @@
             <h2 class="title-main">Generando Ideas</h2>
             <p>Conoce a los profesionales al servicio de tu seguridad</p>
         </div>
-        <div class="jefes-cards no-visible">
+        <div class="jefes-cards --no-visible">
             <div class="card-jefe lay">
                 <div class="img-jefe">
-                    <img src="{{ asset('img/jefe_lay.webp') }}" alt="CEO Layla Delgadillo" title="CEO Layla Delgadillo">
+                    <img src="{{ asset('img/jefe_lay.webp') }}" alt="CEO Layla Delgadillo"
+                        title="CEO Layla Delgadillo">
                 </div>
                 <div class="info-jefe">
                     <h3 class="title-terd">Layla Delgadillo</h3>

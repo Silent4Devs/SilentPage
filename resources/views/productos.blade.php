@@ -39,7 +39,7 @@
 
         <div class="productos">
             <content class="content-limit">
-                <div class="producto no-visible">
+                <div class="producto --no-visible">
                     <div class="info-product info-izq">
                         <div class="caja-flex">
                             <p>
@@ -86,7 +86,7 @@
                     </div>
                 </div>
 
-                <div class="producto no-visible">
+                <div class="producto --no-visible">
                     <div class="info-product info-izq">
 
                     </div>
@@ -122,7 +122,7 @@
                     </div>
                 </div>
 
-                <div class="producto no-visible">
+                <div class="producto --no-visible">
                     <div class="info-product info-izq">
 
                     </div>
@@ -162,7 +162,7 @@
                     </div>
                 </div>
 
-                <div class="producto no-visible">
+                <div class="producto --no-visible">
                     <div class="info-product info-izq">
                         <div class="caja-flex">
                             <p>
