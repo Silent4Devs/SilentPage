@@ -1,10 +1,8 @@
 @extends('layouts.site')
 
-@section('titulo', 'Tu talento es nuestra fortaleza | Sé parte de nuestro equipo')
+@section('titulo', __('talento.titulo'))
 
-@section('metaDesc',
-    'Forma parte del equipo de profesionales apasionados y dedicados que conforman Silent4Business.
-    Juntos, somos la ciberseguridad de las personas.')
+@section('metaDesc', __('talento.metaDesc'))
 
 @section('body', 'talento-body')
 
@@ -19,49 +17,45 @@
 @section('content')
     <div>
         <div class="title-fondo">
-            <h1 class="title-main">Aporta tu talento</h1>
-            <p>Ingresa tus datos y forma parte de nuestro equipo</p>
+            <h1 class="title-main">{{ __('talento.title_main') }}</h1>
+            <p>{{ __('talento.title_info') }}</p>
         </div>
 
         <contetn class="content-limit">
             <div class="card">
-                <h2 class="title-second">¿Quieres ser parte de Silent4Business?</h2>
+                <h2 class="title-second">{{ __('talento.title_second') }}</h2>
 
                 <p class="parrafo-suec">
-                    Somos una empresa comprometida, tenemos más de 5 años de experiencia en seguridad informática.
-                    Contamos con las certificaciones más importantes a nivel internacional para la operación de un CSOC
-                    y nuestro personal está altamente especializado en análisis de seguridad y ciberinteligencia.
+                    {{ __('talento.parrafo_suec') }}
                 </p>
 
                 <div class="caja-flex" style="justify-content: space-between; margin-top: 50px;">
                     <div class="talento-servicios">
                         <p class="parrafo-nedp">
-                            Nos encargamos de proveer un servicio de excelencia, en constante perfeccionamiento. Con el
-                            fin de obtener crecimiento continuo, apoyamos a nuestros colaboradores para que se
-                            certifiquen en cursos, estudiando una maestría, diplomado o especialidad.
+                            {{ __('talento.parrafo_nedp') }}
                         </p>
                         <div class="caja-flex" style="justify-content: space-between; margin-top: 80px;">
                             <div class="talent-serv">
                                 <img src="{{ asset('img/talent_1.webp') }}" title="Crecimiento continuo"
                                     alt="Crecimiento continuo">
-                                <p>Crecimiento continuo</p>
+                                <p>{{ __('talento.advantages_1') }}</p>
                             </div>
                             <div class="talent-serv">
                                 <img src="{{ asset('img/talent_2.webp') }}" title="Vacaciones flexibles"
                                     alt="Vacaciones flexibles">
-                                <p>Vacaciones flexibles</p>
+                                <p>{{ __('talento.advantages_2') }}</p>
                             </div>
                         </div>
                         <div class="caja-flex" style="justify-content: space-between; margin-top: 30px;">
                             <div class="talent-serv">
                                 <img src="{{ asset('img/talent_3.webp') }}" title="Eventos de integración"
                                     alt="Eventos de integración">
-                                <p>Eventos de integración</p>
+                                <p>{{ __('talento.advantages_3') }}</p>
                             </div>
                             <div class="talent-serv">
                                 <img src="{{ asset('img/talent_4.webp') }}" title="Capacitaciones constantes"
                                     alt="Capacitaciones constantes">
-                                <p>Capacitaciones constantes</p>
+                                <p>{{ __('talento.advantages_4') }}</p>
                             </div>
                         </div>
                     </div>
@@ -72,43 +66,40 @@
             </div>
 
             <div class="card d-none" style="margin-top: 35px;">
-                <span class="title-second" style="text-align: left;">Últimas vacantes</span>
+                <span class="title-second" style="text-align: left;">{{ __('talento.last_vacancy') }}</span>
 
                 <div class="caja-vacantes">
                     <hr>
                     <div class="vacante">
-                        <span class="title-five">Desarrrollador</span>
-                        <i>Jornada completa</i>
+                        <span class="title-five">{{ __('talento.developer') }}</span>
+                        <i>{{ __('talento.whole_time') }}</i>
                         <p>
-                            Estamos en búsqueda de su próximo Consultor de Seguridad (Pentester) Sr. Se busca una
-                            persona que este motivada y abierta al aprendizaje continuo, con experiencia.
+                            {{ __('talento.pentester') }}
                         </p>
                         <p>
-                            Experiencia media SOA, WEB-SERVICES, SVN, GITHUB, SQL Y MATERIAL DESIGN
-                        </p>
-                    </div>
-                    <hr>
-                    <div class="vacante">
-                        <span class="title-five">Desarrrollador</span>
-                        <i>Jornada completa</i>
-                        <p>
-                            Estamos en búsqueda de su próximo Consultor de Seguridad (Pentester) Sr. Se busca una
-                            persona que este motivada y abierta al aprendizaje continuo, con experiencia.
-                        </p>
-                        <p>
-                            Experiencia media SOA, WEB-SERVICES, SVN, GITHUB, SQL Y MATERIAL DESIGN
+                            {{ __('talento.pentester_experience') }}
                         </p>
                     </div>
                     <hr>
                     <div class="vacante">
-                        <span class="title-five">Desarrrollador</span>
-                        <i>Jornada completa</i>
+                        <span class="title-five">{{ __('talento.developer') }}</span>
+                        <i>{{ __('talento.whole_time') }}</i>
                         <p>
-                            Estamos en búsqueda de su próximo Consultor de Seguridad (Pentester) Sr. Se busca una
-                            persona que este motivada y abierta al aprendizaje continuo, con experiencia.
+                            {{ __('talento.pentester') }}
                         </p>
                         <p>
-                            Experiencia media SOA, WEB-SERVICES, SVN, GITHUB, SQL Y MATERIAL DESIGN
+                            {{ __('talento.pentester_experience') }}
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="vacante">
+                        <span class="title-five">{{ __('talento.developer') }}</span>
+                        <i>{{ __('talento.whole_time') }}</i>
+                        <p>
+                            {{ __('talento.pentester') }}
+                        </p>
+                        <p>
+                            {{ __('talento.pentester_experience') }}
                         </p>
                     </div>
                 </div>

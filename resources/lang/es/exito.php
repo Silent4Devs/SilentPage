@@ -17,9 +17,9 @@ return [
     'title_zero_case_1' => 'Industria minera',
     'title_zero_case_2' => 'Implementamos alertas de amenazas de una forma más rápida para que su estudio fuera inmediato.',
 
-    'title_security' => 'Protección total',
-    'title_security_case_1' => 'SENER',
-    'title_security_case_2' => 'Un proyecto multimarca como este, nos exigió la entrega total de nuestras capacidades.',
+    'title_proteccion' => 'Protección total',
+    'title_proteccion_case_1' => 'SENER',
+    'title_proteccion_case_2' => 'Un proyecto multimarca como este, nos exigió la entrega total de nuestras capacidades.',
 
     'title_read_more' => 'Leer más',
 
