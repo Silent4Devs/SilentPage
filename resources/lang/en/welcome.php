@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'video_intro' => 'img/fondo_ingles.mp4',
     'title_conoce_servicios' => 'Discover Our Services',
 
     'debido_a_la_creciente' => 'Due to the increasing incidence of information theft, operational disruptions, database encryption, identity theft, and other cyberattacks, companies strive to be prepared to face and mitigate the cybersecurity risks they are exposed to daily.',
