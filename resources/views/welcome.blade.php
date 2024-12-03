@@ -13,7 +13,7 @@
     <div id="video-inicio" class="caja-video-fondo">
         <video autoplay muted loop
             title="Video presentación Sielent4Business. Hoy más que nunca debemos contar con la capacidad y las herramientas necesarias para proteger tu información. La seguridad ágil requiere un talento resiliente Somos Silent4businees y estamos listos para ayudarte.">
-            <source src="img/fondo.mp4" type="video/mp4">
+            <source src="{{ asset(__('welcome.video_intro')) }}" type="video/mp4">
             <img src="{{ asset(__('welcome.video_intro')) }}" width="100%" alt="Imagen provicional"
                 title="Imagen provicional">
         </video>
