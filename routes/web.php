@@ -35,10 +35,10 @@ Route::group(
         Route::view(LaravelLocalization::transRoute('routes.contacto'), 'contacto')->name('contacto');
         Route::view(LaravelLocalization::transRoute('routes.metaverso'), 'metaverso')->name('metaverso');
         Route::view(LaravelLocalization::transRoute('routes.terminos_privacidad'), 'terminos-privacidad')->name('terminos-privacidad');
+        Route::view(LaravelLocalization::transRoute('routes.cert'), 'cert')->name('cert');
     }
 );
 
-Route::view('cert', 'cert')->name('cert');
 Route::view('talento', 'talento')->name('talento');
 Route::get('tendencias/{id}', [TendenciasController::class, 'show']);
 Route::get('sitemap', [XmlController::class, 'index']);
