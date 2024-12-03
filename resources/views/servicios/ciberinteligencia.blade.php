@@ -1,10 +1,8 @@
 @extends('layouts.site')
 
-@section('titulo', 'Ciberinteligencia Estratégica | Protegiendo tu Negocio')
+@section('titulo',  __('ciberinteligencia.title'))
 
-@section('metaDesc',
-    'Descubre cómo nuestra ciberinteligencia estratégica puede ayudarte a anticipar amenazas, proteger tus
-    activos digitales y tomar decisiones informadas.')
+@section('metaDesc', __('ciberinteligencia.meta_desc'))
 
 @section('body', 'serv-inter-body')
 
@@ -21,10 +19,9 @@
         <div class="title-fondo">
             <img src="{{ asset('img/serv_escudo.webp') }}" height="70px" style="filter: brightness(10);" alt="Servicios esucdo"
                 title="Servicios esucdo">
-            <h1 class="title-main">Ciberinteligencia</h1>
+            <h1 class="title-main">{{__('ciberinteligencia.header_title')}}</h1>
             <p style="text-align:center;">
-                Es la adquisición y el análisis de información para identificar, rastrear y predecir las capacidades,
-                intenciones y actividades cibernéticas que apoyen la toma de decisiones
+                {{__('ciberinteligencia.header_desc')}}
             </p>
         </div>
 
@@ -32,16 +29,14 @@
             <div class="caja-serv-inter">
                 <div class="menu-serv-inter">
                     <div class="caja-menu-serv">
-                        <span class="title-terd">Servicios</span>
+                        <span class="title-terd">{{__('ciberinteligencia.title_secound')}}</span>
                         @include('servicios.menu-servicios')
                     </div>
                 </div>
                 <div class="main-serv-inter">
-                    <span class="title-main title-first-serv">¿Qué hace el servicio de ciberinteligencia?</span>
+                    <span class="title-main title-first-serv">{{__('ciberinteligencia.title_serv')}}</span>
                     <p style="margin-top: 50px;">
-                        El servicio de ciberinteligencia engloba/implementa estrategias proactivas y cognitivas de
-                        prevención, detección e investigación de riesgos de seguridad, vigilancia del ciberespacio e
-                        incorporación de herramientas de inteligencia artificial, y machine learning.
+                        {{__('ciberinteligencia.desc_serv')}}
                     </p>
 
                     <div class="img-serv-inter">
@@ -49,21 +44,9 @@
                             title="Ciber">
                     </div>
 
-                    <span class="title-main title-first-serv">El Equipo Especial Tiger Team se encarga de:</span>
+                    <span class="title-main title-first-serv">{{__('ciberinteligencia.desc1_serv')}}</span>
                     <p>
-                        Realizar pruebas de penetración y análisis de vulnerabilidades en sistemas informáticos y
-                        redes
-                        empresariales, para identificar posibles puntos débiles en la seguridad y tomar medidas
-                        preventivas
-                        antes de que ocurran incidentes. Gracias a su experiencia y conocimientos especializados, el
-                        equipo
-                        puede detectar vulnerabilidades en sistemas y aplicaciones, evaluar el riesgo de posibles
-                        ataques y
-                        proporcionar recomendaciones para mejorar la seguridad. Además, también pueden ayudar a
-                        desarrollar
-                        planes de contingencia y respuesta ante incidentes de seguridad, para minimizar el impacto
-                        de
-                        posibles ataques y garantizar la continuidad del negocio.
+                        {{__('ciberinteligencia.desc2_serv')}}
                     </p>
 
                     <div class="img-serv-inter">
@@ -72,7 +55,7 @@
                     </div>
 
                     <a href="{{ route('contacto') }}" class="btn-contact"
-                        style="margin: auto; margin-top: 100px; transform: scale(1.3);">Contáctanos</a>
+                        style="margin: auto; margin-top: 100px; transform: scale(1.3);">{{__('ciberinteligencia.contac')}}</a>
                 </div>
             </div>
         </content>
