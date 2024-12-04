@@ -7,7 +7,10 @@
     @livewireStyles
 </head>
 
+@cookieconsentscripts
+
 <body id="inicio" class="@yield('body')">
+    @cookieconsentview
 
     <header>
         @include('layouts.complementos.header')
