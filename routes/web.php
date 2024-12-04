@@ -20,10 +20,11 @@ use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 Route::group(
     ['prefix' => LaravelLocalization::setLocale()],
     function () {
-        Route::get('/', function () {
-            return view('welcome');
-        });
+        // Route::get('/', function () {
+        //     return view('welcome');
+        // });
 
+        Route::view(LaravelLocalization::transRoute('/'), 'welcome')->name('home');
         Route::view(LaravelLocalization::transRoute('routes.solicitantes'), 'admin.solicitantes')->name('solicitantes');
         Route::view(LaravelLocalization::transRoute('routes.servicios'), 'servicios')->name('servicios');
         Route::view(LaravelLocalization::transRoute('routes.productos'), 'productos')->name('productos');
