@@ -17,4 +17,5 @@ return [
     'servicios_ciberinteligencia' => 'servicios_ciberinteligencia',
     'servicios_consultoria_estrategica' => 'servicios_consultoria_estrategica',
     'servicios_otras_soluciones' => 'servicios_otras_soluciones',
+    '/' => 'inicio',
 ];

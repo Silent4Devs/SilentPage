@@ -14,4 +14,5 @@ return [
     'meta' => 'Metaverse',
     'menu' => 'Menu',
     'derechos' => '@2023 Silent4business - All rights reserved',
+    'home' => '/en',
 ];
