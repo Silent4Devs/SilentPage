@@ -21,4 +21,6 @@ return [
     'miembros' => 'We are members',
     'miembros_desc' => 'Forum of Security and Incident Response Teams: Exchange of information and cooperation on mutual interests, such as new vulnerabilities or large-scale attacks, especially on critical systems like DNS servers or the Internet as critical infrastructure itself.',
     'tlp_desc' => 'It was created to facilitate greater exchange of potentially confidential information and more effective collaboration. The exchange of information occurs from a source to one or more recipients. TLP is a set of four labels used to indicate sharing restrictions that recipients must follow. FIRST only considers valid the labels listed in this standard.',
+    'img_servicios' => 'servicio_cert_ingles',
+    'img_estandares' => 'estandares_ingles',
 ];
