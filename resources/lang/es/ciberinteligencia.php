@@ -27,4 +27,8 @@ return [
                         de
                         posibles ataques y garantizar la continuidad del negocio.',
     'contac' => 'Contáctanos',
+
+    'img_csirt' => 'csirt',
+    'img_ciber_secc' => 'ciber_secc',
+
 ];

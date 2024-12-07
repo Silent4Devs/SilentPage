@@ -16,7 +16,8 @@
     "livewire/livewire": "^2.11",
     "mcamara/laravel-localization": "^2.2",
     "phpmailer/phpmailer": "^6.8",
-    "spatie/laravel-responsecache": "^7.4"
+    "spatie/laravel-responsecache": "^7.4",
+    "whitecube/laravel-cookie-consent": "^1.2"
   },
   "require-dev": {
     "fakerphp/faker": "^1.9.1",

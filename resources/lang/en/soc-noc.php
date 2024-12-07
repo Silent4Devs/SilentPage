@@ -39,4 +39,6 @@ return [
 ],
 'contac' => 'Contact Us',
 
+'img_soc_noc' => 'soc_noc_ingles',
+
 ];

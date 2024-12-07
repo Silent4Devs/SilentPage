@@ -44,4 +44,7 @@ return [
                     indicar los límites de uso compartido que deben aplicar los destinatarios. FIRST solo considera
                     válidas
                     las etiquetas enumeradas en esta norma.',
+
+    'img_servicios' => 'servicio_cert',
+    'img_estandares' => 'estandares',
 ];

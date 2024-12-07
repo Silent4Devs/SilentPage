@@ -78,4 +78,7 @@ return [
                         dispositivos dañados o comprometidos en un incidente de ciberseguridad.',
     ],
     'contac' => 'Contáctanos',
+
+    'img_soc_noc' => 'soc_noc',
+
 ];

@@ -79,8 +79,8 @@
                 </div>
             </div>
 
-            <img src="{{ asset('img/servicio_cert.webp') }}" class="servicio-img --no-visible" alt="Servicios del CERT"
-                title="Servicios del CERT">
+            <img src="{{ asset('img/' . __('cert.img_servicios') . '.webp') }}" class="servicio-img --no-visible"
+                alt="Servicios del CERT" title="Servicios del CERT">
 
             <hr style="width: 500px; border-color:#fff; margin-top:80px;">
 
@@ -105,8 +105,8 @@
                 </p>
                 </p>
 
-                <img src="{{ asset('img/estandares.webp') }}" class="estandares-img --no-visible" alt="Esquema TLP"
-                    title="Esquema TLP">
+                <img src="{{ asset('img/' . __('cert.img_estandares') . '.webp') }}" class="estandares-img --no-visible"
+                    alt="Esquema TLP" title="Esquema TLP">
 
                 <hr style="width: 500px; border-color:#fff; margin-top:80px;">
 
