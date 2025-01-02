@@ -4,9 +4,7 @@ return [
     'title' => 'Servicios SOC/NOC | Protección y Monitoreo 24/7',
     'meta_desc' => 'Nuestros servicios administrados de SOC/NOC trabajan en conjunto para mantener tu negocio seguro y operativo 24/7. ¡Descubre cómo protegemos tu empresa!',
     'header_title' => 'SOC / NOC',
-    'header_desc' => 'Creados para proteger los elementos más importantes de una Institución pública o privada, la información
-                y su gente, teniendo como objetivo principal, Monitorear los Sistemas de Seguridad para así tenerlos
-                lejos de amenazas o riesgos innecesarios.',
+    'header_desc' => 'Creados para proteger los elementos más importantes de una Institución pública o privada, la información y su gente, teniendo como objetivo principal, Monitorear los Sistemas de Seguridad para así tenerlos lejos de amenazas o riesgos innecesarios.',
     'title_second' => 'Servicios',
     'menu' => [
         'option1' => 'SOC / NOC',
@@ -14,71 +12,38 @@ return [
         'option3' => 'Consultoría Estratégica',
         'option4' => 'Soluciones Tecnológicas',
     ],
-    'title_serv' => '¿Por qué instalar un SOC?',
-    'desc_serv' => 'Porque brinda a las empresas e instituciones protección, detección temprana, respuesta proactiva y seguimiento ante cualquier amenaza que se presente en la infraestructura corporativa.',
-    'list_serv' => [
-        'item1' => 'Seguridad administrada de soluciones multi-marca.',
-        'item2' => 'Correlación Híbrida. Detección de actividad sospechosa y anómala.',
-        'item3' => 'Soporte Especializado de soluciones de seguridad.',
-        'item4' => 'Reportes de Seguridad.',
-    ],
-    'title_secound_serv' => 'SERVICIOS DE MONITOREO DE INFRAESTRUCTURA (NOC)',
-    'desc_secound_serv' => 'Nos encargamos del monitoreo proactivo y continuo de la disponibilidad y rendimiento de la
-                        infraestructura de nuestros clientes, así como proporcionar, de ser necesario, la
-                        infraestructura de
-                        red.',
-    'list_secound_serv' => [
-        'item1' => 'Mapeo de redes.',
-        'item2' => 'Aprovisionamiento de infraestructura de red.',
-        'item3' => 'Monitoreo de rendimiento.',
-        'item4' => 'Monitoreo de aplicaciones.',
-        'item5' => 'Informes de monitoreo.',
-    ],
-    'title_3_serv' => 'Miembros clave del equipo del Centro
-                        de
-                        operaciones de seguridad (SOC)',
-    'desc_3_serv' => [
-        'desc1' => 'En general, los roles principales en un equipo SOC incluyen: ',
-        'desc2' => '• El administrador del SOC, que dirige el equipo, supervisa todas las operaciones de
-                        seguridad e
-                        informa al CISO (director de seguridad de la información) de la organización.',
-        'desc3' => '• Ingenieros de seguridad, que construyen y administran la arquitectura de seguridad de
-                        la
-                        organización. Gran parte de este trabajo implica evaluar, probar, recomendar,
-                        implementar y mantener
-                        herramientas y tecnologías de seguridad. Los ingenieros de seguridad también trabajan
-                        con equipos de
-                        desarrollo o DevOps/DevSecOps para asegurarse de que la arquitectura de seguridad de la
-                        organización
-                        incluya ciclos de desarrollo de aplicaciones.',
-        'desc4' => '• Analistas de seguridad, también llamados investigadores de seguridad o de respuesta
-                        ante
-                        incidentes, que son esencialmente los primeros en responder a las amenazas o incidentes
-                        de seguridad
-                        cibernética. Los analistas detectan, investigan y clasifican (priorizan) las amenazas;
-                        luego
-                        identifican los hosts, puntos finales y usuarios afectados, y toman las medidas
-                        apropiadas para
-                        mitigar y contener el impacto, la amenaza o el incidente. (En algunas organizaciones,
-                        los
-                        investigadores y los respondedores de incidentes son roles separados clasificados como
-                        analistas de
-                        Nivel 1 y Nivel 2, respectivamente).',
-        'desc5' => '• Los cazadores de amenazas (también llamados analistas de seguridad expertos) se
-                        especializan en
-                        detectar y contener amenazas avanzadas: nuevas amenazas o variantes de amenazas que
-                        logran pasar las
-                        defensas automatizadas. El equipo SOC puede incluir otros especialistas, según el tamaño
-                        de la
-                        organización o la industria en la que opera. Las empresas más grandes pueden incluir un
-                        Director de
-                        Respuesta a Incidentes, responsable de comunicar y coordinar la respuesta a incidentes.
-                        Y algunos
-                        SOC incluyen investigadores forenses, que se especializan en recuperar datos (pistas) de
-                        dispositivos dañados o comprometidos en un incidente de ciberseguridad.',
-    ],
-    'contac' => 'Contáctanos',
 
-    'img_soc_noc' => 'soc_noc',
-
+    "title_main"=> "¿SOC y NOC qué son y cómo te podemos ayudar?",
+    "intro_paragraph"=> "Los Centros de Operaciones de Ciberseguridad (SOC) y los Centros de Operaciones de Redes (NOC) juegan roles importantes en asegurar y optimizar la infraestructura de TI de las organizaciones. Aunque ambos centros trabajan para el buen funcionamiento de las empresas, sus funciones y objetivos son diferentes.",
+    "soc_services_title"=> "Con nuestro servicio de SOC, las empresas pueden esperar:",
+    "soc_service_1_title"=> "· Seguridad administrada de soluciones de multi-marca:",
+    "soc_service_1_desc"=> "Conjunto de soluciones que incluye una supervisión continua, detección y respuesta.",
+    "soc_service_2_title"=> "· Correlación híbrida:",
+    "soc_service_2_desc"=> "Esta técnica permite la detección de actividad sospechosa y anómala al combinar datos de diversas fuentes para identificar patrones de amenaza.",
+    "soc_service_3_title"=> "· Soporte especializado:",
+    "soc_service_3_desc"=> "Los analistas del SOC proporcionan soporte técnico experto en soluciones de seguridad, ayudando a resolver problemas complejos de manera eficiente.",
+    "soc_service_4_title"=> "· Reportes de seguridad:",
+    "soc_service_4_desc"=> "Informes detallados sobre el estado de la seguridad y las amenazas detectadas ayudan a las organizaciones a comprender mejor su postura de seguridad y a tomar decisiones informadas.",
+    "soc_services_summary"=> "En esencia, el SOC brinda a las empresas una capa adicional de protección, asegurando que las amenazas sean detectadas y gestionadas antes de que puedan causar daños significativos.",
+    "noc_services_title"=> "Las funciones clave de nuestro servicio de NOC incluyen:",
+    "noc_service_1_title"=> "· Mapeo de redes:",
+    "noc_service_1_desc"=> "Crear y mantener un mapa detallado de la infraestructura de red, identificando todos los componentes y conexiones.",
+    "noc_service_2_title"=> "· Aprovisionamiento de infraestructura:",
+    "noc_service_2_desc"=> "Gestionar la instalación, configuración y mantenimiento de equipos de red y servicios relacionados.",
+    "noc_service_3_title"=> "· Monitoreo de rendimiento:",
+    "noc_service_3_desc"=> "Supervisar constantemente el rendimiento de la red para identificar y resolver problemas antes de que afecten a los usuarios finales.",
+    "noc_service_4_title"=> "· Monitoreo de aplicaciones:",
+    "noc_service_4_desc"=> "Asegurarse de que las aplicaciones críticas funcionen correctamente y respondan a las necesidades de los usuarios.",
+    "noc_service_5_title"=> "· Informes de monitoreo:",
+    "noc_service_5_desc"=> "Proporcionar informes detallados sobre el estado de la red y su rendimiento, permitiendo a las organizaciones tomar decisiones basadas en datos precisos.",
+    "noc_services_summary"=> "El NOC garantiza que la infraestructura de red esté operativa y funcione a niveles óptimos, permitiendo a la empresa mantener su productividad y eficiencia.",
+    "features_title"=> "Características para que tu empresa esté más segura y conectada",
+    "features_intro_title"=> "Contar con un SOC/NOC es crucial para mantener la seguridad y operatividad de su infraestructura de TI de tu empresa:",
+    "features_intro_desc"=> "",
+    "feature_1_title"=> "· Seguridad integral:",
+    "feature_1_desc"=> "Mientras el NOC se asegura de que la red funcione correctamente, el SOC protege contra amenazas externas e internas. Juntos, brindan una cobertura completa de la infraestructura de TI.",
+    "feature_2_title"=> "· Respuesta rápida a incidentes:",
+    "feature_2_desc"=> "Con un NOC, cualquier problema de red se identifica y resuelve rápidamente. Con un SOC, cualquier amenaza de seguridad se detecta y se maneja de manera eficaz. Esta combinación asegura que cualquier problema, ya sea técnico o de seguridad, se gestione con rapidez y precisión.",
+    "feature_3_title"=> "· Optimización de recursos:",
+    "feature_3_desc"=> "Al tener ambos centros, una organización puede optimizar sus recursos de TI, asegurando que tanto la operatividad como la seguridad se gestionen eficientemente."
 ];

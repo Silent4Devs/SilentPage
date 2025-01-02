@@ -4,31 +4,52 @@ return [
     'title' => 'Ciberinteligencia Estratégica | Protegiendo tu Negocio',
     'meta_desc' => 'Descubre cómo nuestra ciberinteligencia estratégica puede ayudarte a anticipar amenazas, proteger tus
     activos digitales y tomar decisiones informadas.',
-    'header_title' => 'Ciberinteligencia',
-    'header_desc' => 'Es la adquisición y el análisis de información para identificar, rastrear y predecir las capacidades,
-                intenciones y actividades cibernéticas que apoyen la toma de decisiones',
-    'title_secound' => 'Servicios',
-    'title_serv' => '¿Qué hace el servicio de ciberinteligencia?',
-    'desc_serv' => 'El servicio de ciberinteligencia engloba/implementa estrategias proactivas y cognitivas de
-                        prevención, detección e investigación de riesgos de seguridad, vigilancia del ciberespacio e
-                        incorporación de herramientas de inteligencia artificial, y machine learning.',
-    'desc1_serv' => 'El Equipo Especial Tiger Team se encarga de:',
-    'desc2_serv' => 'Realizar pruebas de penetración y análisis de vulnerabilidades en sistemas informáticos y
-                        redes
-                        empresariales, para identificar posibles puntos débiles en la seguridad y tomar medidas
-                        preventivas
-                        antes de que ocurran incidentes. Gracias a su experiencia y conocimientos especializados, el
-                        equipo
-                        puede detectar vulnerabilidades en sistemas y aplicaciones, evaluar el riesgo de posibles
-                        ataques y
-                        proporcionar recomendaciones para mejorar la seguridad. Además, también pueden ayudar a
-                        desarrollar
-                        planes de contingencia y respuesta ante incidentes de seguridad, para minimizar el impacto
-                        de
-                        posibles ataques y garantizar la continuidad del negocio.',
-    'contac' => 'Contáctanos',
 
-    'img_csirt' => 'csirt',
-    'img_ciber_secc' => 'ciber_secc',
+    'serv_escudo_alt' => 'Servicios escudo',
+    'serv_escudo_title' => 'Servicios escudo',
+    'title' => 'Ciberinteligencia',
+    'description' => 'Es la adquisición y el análisis de información para identificar, rastrear y predecir las capacidades, intenciones y actividades cibernéticas que apoyen la toma de decisiones',
+    'services_title' => 'Servicios',
+    'how_to_protect_title' => '¿Cómo proteger tu organización con ciberinteligencia?',
+    'how_to_protect_description' => 'Con el aumento de las ciberamenazas, es crucial contar con herramientas y estrategias que permitan proteger los activos digitales. La ciberinteligencia juega un papel fundamental en este contexto, proporcionando una defensa proactiva y reactiva contra los ciberataques.',
+    'what_we_offer_title' => '¿Qué ofrece nuestro servicio de ciberinteligencia y para qué sirve?',
+    'what_we_offer_description_1' => 'La ciberinteligencia es un servicio avanzado que implementa estrategias proactivas para la prevención, detección e investigación de incidentes de seguridad.',
+    'what_we_offer_description_2' => 'En Silent4Business, nuestros servicios de ciberinteligencia se desarrollan a través de un equipo especializado conocido como CSIRT.',
+    'img_workers_alt' => 'Trabajadores ciberinteligencia',
+    'img_person_tec_alt' => 'Persona con tecnología',
+    'img_serv_1_alt' => 'Servicio 1',
+    'img_serv_2_alt' => 'Servicio 2',
+    'img_serv_3_alt' => 'Servicio 3',
+    'img_serv_4_alt' => 'Servicio 4',
+    'implementation_description' => 'Con la implementación de ciberinteligencia, proporcionamos una defensa robusta y adaptada a las necesidades específicas de cada organización.',
+    'img_defense_1_alt' => 'Defensa 1',
+    'img_defense_2_alt' => 'Defensa 2',
+    'img_defense_3_alt' => 'Defensa 3',
+    'img_defense_4_alt' => 'Defensa 4',
+    'img_defense_5_alt' => 'Defensa 5',
+
+    'title_main_1' => 'Espera, aún hay más en Ciberinteligencia',
+    'pentesting_title' => 'Pruebas de penetración',
+    'vulnerability_analysis_title' => 'Análisis de vulnerabilidades',
+    'forensic_analysis_title' => 'Análisis forense',
+    'pentesting_description' => 'Consisten en simular un ciberataque para identificar vulnerabilidades en un sistema informático y corregirlas antes de que puedan ser explotadas por los ciberdelincuentes. Estas pruebas proporcionan una visión detallada de las debilidades de un sistema, permitiendo a las organizaciones tomar medidas preventivas y correctivas.',
+    'pentesting_benefits' => 'Beneficios de nuestras pruebas de penetración: Planificación y reconocimiento: Identificación de los objetivos y alcance del pentest, así como la recopilación de información relevante.',
+    'pentesting_process' => 'Escaneo: Análisis de la red y los sistemas para identificar posibles puntos de entrada. Obtención de acceso: Intento de explotar vulnerabilidades para acceder a los sistemas.',
+    'pentesting_access' => 'Mantenimiento del acceso: Estimación de la capacidad de los ciberdelincuentes para mantener el acceso a los sistemas comprometidos.',
+    'pentesting_report' => 'Análisis y reporte: Documentación detallada de las vulnerabilidades encontradas y recomendaciones para mitigarlas.',
+    'vulnerability_analysis' => 'El análisis de vulnerabilidades es un proceso crítico que consiste en identificar y priorizar las debilidades de las aplicaciones y sistemas.',
+    'vulnerability_identification' => 'Identificación de vulnerabilidades: Uso de herramientas automatizadas y manuales para detectar debilidades en sistemas y aplicaciones.',
+    'vulnerability_evaluation' => 'Evaluación de riesgos: Análisis de la severidad de las vulnerabilidades y su impacto potencial en la organización.',
+    'vulnerability_prioritization' => 'Priorización de vulnerabilidades: Clasificación de las vulnerabilidades según su riesgo y la urgencia de su corrección.',
+    'vulnerability_recommendation' => 'Recomendar soluciones: Recomendar las medidas para mitigar o eliminar las vulnerabilidades identificadas.',
+    'forensic_analysis_description' => 'Nuestro análisis forense en ciberseguridad te permite buscar y recuperar datos ocultos, dañados o eliminados, proporcionándote una comprensión detallada de los incidentes de seguridad y ayudando a identificar la causa raíz de los ataques.',
+    'forensic_process' => 'Recopilación de datos: Recolección de evidencia digital de sistemas comprometidos. Preservación de la evidencia: Protección de que los datos recolectados no sean alterados durante el proceso de análisis.',
+    'forensic_analysis_details' => 'Análisis de la evidencia: Uso de herramientas especializadas para examinar la evidencia digital y descubrir cómo ocurrió el incidente.',
+    'forensic_report' => 'Documentación y reporte: Creación de informes detallados que describen los hallazgos y proporcionan recomendaciones para prevenir futuros incidentes.',
+    'monitoring_features' => 'Características de una empresa más segura',
+    'monitoring_description' => 'Ayudamos a tu empresa a adaptarse y responder de manera eficiente a los desafíos empresariales y de seguridad, fortaleciendo su resiliencia y competitividad.',
+    'monitoring_benefit_1' => 'Monitoreo constante y proactivo: La ciberinteligencia permite la vigilancia continua para identificar y mitigar amenazas antes de que causen daño.',
+    'monitoring_benefit_2' => 'Prevención y detección avanzada: Utiliza inteligencia artificial y machine learning para anticipar ataques y proteger los sistemas de manera más efectiva.',
+    'monitoring_benefit_3' => 'Análisis y respuesta rápida: Ofrece investigación forense y respuesta inmediata ante incidentes para minimizar el impacto en la organización.',
 
 ];

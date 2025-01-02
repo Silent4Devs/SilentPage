@@ -19,7 +19,7 @@
         <div class="title-fondo">
             <img src="{{ asset('img/serv_monitor.webp') }}" height="70px" style="filter: brightness(10);" alt="Monitoreo"
                 title="Monitoreo">
-            <h1 class="title-main">{{ __('soc-noc.header_title') }}</h1>
+            <h1 class="title-main">SOC / NOC</h1>
             <p style="text-align:center;">
                 {{ __('soc-noc.header_desc') }}
             </p>
@@ -34,53 +34,109 @@
                     </div>
                 </div>
                 <div class="main-serv-inter">
-                    <span class="title-main title-first-serv">{{ __('soc-noc.title_serv') }}</span>
+                    <span class="title-main title-first-serv ">{{ __('soc-noc.title_main') }}</span>
                     <p style="margin-top: 50px;">
-                        {{ __('soc-noc.desc_serv') }}
+                        {{ __('soc-noc.intro_paragraph') }}
                     </p>
-                    <p>
-                    </p>
-                    <ul>
-                        <li> {{ __('soc-noc.list_serv.item1') }} </li>
-                        <li> {{ __('soc-noc.list_serv.item2') }} </li>
-                        <li> {{ __('soc-noc.list_serv.item3') }} </li>
-                        <li> {{ __('soc-noc.list_serv.item4') }}</li>
-                    </ul>
+                    <img src="{{ asset('img/soc-noc-office.png') }}" alt="oficinas" style="width: 100%;">
 
-                    <div class="img-serv-inter">
-                        <img src="{{ asset('img/' . __('soc-noc.img_soc_noc') . '.webp') }}" width="80%"
-                            style="margin: 50px 10%;" title="Soc Noc" alt="Soc Noc">
+                    <div class="flex-serv">
+                        <img src="{{ asset('img/soc-noc-monitoreo.png') }}" alt="Monitoreo">
+                        <div>
+                            <span class="title-main title-first-serv ">
+                                {{ __('soc-noc.soc_services_title') }}
+                            </span>
+                            <p>
+                                <strong>{{ __('soc-noc.soc_service_1_title') }}</strong>
+                                {{ __('soc-noc.soc_service_1_desc') }}
+                            </p>
+                            <p>
+                                <strong>{{ __('soc-noc.soc_service_2_title') }}</strong>
+                                {{ __('soc-noc.soc_service_2_desc') }}
+                            </p>
+                            <p>
+                                <strong>{{ __('soc-noc.soc_service_3_title') }}</strong>
+                                {{ __('soc-noc.soc_service_3_desc') }}
+                            </p>
+                            <p>
+                                <strong>{{ __('soc-noc.soc_service_4_title') }}</strong>
+                                {{ __('soc-noc.soc_service_4_desc') }}
+                            </p>
+                            <p>
+                                {{ __('soc-noc.soc_services_summary') }}
+                            </p>
+                            <img src="{{ asset('img/soc-noc-funciones.png') }}" alt="" style="width: 100%;">
+                        </div>
                     </div>
 
-                    <span class="title-main title-first-serv">{{ __('soc-noc.title_secound_serv') }}</span>
-                    <p>
-                        {{ __('soc-noc.desc_secound_serv') }}
-                    </p>
+                    <div class="flex-serv">
+                        <img src="{{ asset('img/soc-noc-supervision.png') }}" alt="">
+                        <div>
+                            <span class="title-main title-first-serv ">
+                                {{ __('soc-noc.noc_services_title') }}
+                            </span>
 
-                    <ul>
-                        <li> {{ __('soc-noc.list_secound_serv.item1') }} </li>
-                        <li> {{ __('soc-noc.list_secound_serv.item2') }} </li>
-                        <li> {{ __('soc-noc.list_secound_serv.item3') }} </li>
-                        <li> {{ __('soc-noc.list_secound_serv.item4') }} </li>
-                        <li> {{ __('soc-noc.list_secound_serv.item5') }}</li>
-                    </ul>
+                            <p>
+                                <strong>{{ __('soc-noc.noc_service_1_title') }}</strong>
+                                {{ __('soc-noc.noc_service_1_desc') }}
+                            </p>
+                            <p>
+                                <strong>{{ __('soc-noc.noc_service_2_title') }}</strong>
+                                {{ __('soc-noc.noc_service_2_desc') }}
+                            </p>
+                            <p>
+                                <strong>{{ __('soc-noc.noc_service_3_title') }}</strong>
+                                {{ __('soc-noc.noc_service_3_desc') }}
+                            </p>
+                            <p>
+                                <strong>{{ __('soc-noc.noc_service_4_title') }}</strong>
+                                {{ __('soc-noc.noc_service_4_desc') }}
+                            </p>
+                            <p>
+                                <strong>{{ __('soc-noc.noc_service_5_title') }}</strong>
+                                {{ __('soc-noc.noc_service_5_desc') }}
+                            </p>
+                            <p>
+                                {{ __('soc-noc.noc_services_summary') }}
+                            </p>
 
-                    <span class="title-main title-first-serv"
-                        style="margin-top: 50px;">{{ __('soc-noc.title_3_serv') }}</span>
+                            <img src="{{ asset('img/soc-noc-beneficios.png') }}" alt="Beneficios soc noc"
+                                style="width: 100%;">
+                        </div>
+                    </div>
 
-                    <p>
-                        {{ __('soc-noc.desc_3_serv.desc1') }} <br><br>
-                        {{ __('soc-noc.desc_3_serv.desc2') }} <br> <br>
-                        {{ __('soc-noc.desc_3_serv.desc3') }} <br> <br>
-                        {{ __('soc-noc.desc_3_serv.desc4') }} <br> <br>
-                        {{ __('soc-noc.desc_3_serv.desc5') }}
-                    </p>
+                    <div class="flex-serv">
+                        <img src="{{ asset('img/soc-noc-work-complete.png') }}" alt="Work">
+                        <div>
+                            <span class="title-main title-first-serv ">
+                                {{ __('soc-noc.features_title') }}
+                            </span>
 
-                    <a href="{{ route('contacto') }}" class="btn-contact"
-                        style="margin: auto; margin-top: 100px; transform: scale(1.3);">{{ __('soc-noc.contac') }}</a>
+                            <p>
+                                <strong>{{ __('soc-noc.features_intro_title') }}</strong>
+                                {{ __('soc-noc.features_intro_desc') }}
+                            </p>
+
+                            <p>
+                                <strong>{{ __('soc-noc.feature_1_title') }}</strong> {{ __('soc-noc.feature_1_desc') }}
+                            </p>
+
+                            <p>
+                                <strong>{{ __('soc-noc.feature_2_title') }}</strong> {{ __('soc-noc.feature_2_desc') }}
+                            </p>
+
+                            <p>
+                                <strong>{{ __('soc-noc.feature_3_title') }}</strong> {{ __('soc-noc.feature_3_desc') }}
+                            </p>
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </content>
     </div>
+
+    @include('servicios.conoce-productos')
+
 
 @endsection
