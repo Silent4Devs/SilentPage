@@ -99,7 +99,7 @@ return [
             'database' => 'ciberblog',
             'username' => 'homestead',
             'password' => 'secret',
-            'port' => '3030',
+            'port' => '3306',
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix' => 'wp_',
