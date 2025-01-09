@@ -65,8 +65,10 @@
                         <img src="{{ asset('img/ciber-serv-4.png') }}" alt="{{ __('ciberinteligencia.img_serv_4_alt') }}">
                     </div>
 
-                    <p style="font-size: 16px; margin-top: 50px;">
-                        {{ __('ciberinteligencia.implementation_description') }}
+                    <p style="margin: 80px 0px;">
+                        <strong>
+                            {{ __('ciberinteligencia.implementation_description') }}
+                        </strong>
                     </p>
                     <div class="box-ciber-defens">
                         <img src="{{ asset('img/ciber-defensa-1.svg') }}"
@@ -122,6 +124,9 @@
                         <p>
                             {{ __('ciberinteligencia.pentesting_report') }}
                         </p>
+                        <p>
+                            {{ __('ciberinteligencia.contamos_con') }}
+                        </p>
                     </div>
                     <img src="{{ asset('img/ciber-pruebas.svg') }}" alt="">
                 </div>
@@ -147,6 +152,9 @@
                         </p>
                         <p>
                             {{ __('ciberinteligencia.vulnerability_recommendation') }}
+                        </p>
+                        <p>
+                            {{ __('ciberinteligencia.el_analisis_de_vulnera') }}
                         </p>
                     </div>
                     <img src="{{ asset('img/ciber-gestion.png') }}" alt="">

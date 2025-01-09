@@ -731,6 +731,8 @@ header:hover {
 
 .content-microsite{
     display: none;
+    font-size: 18px;
+    color: #454545;
 }
 .content-microsite.active{
     display: block;
@@ -760,6 +762,7 @@ header:hover {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-top: 1px solid #0f1c37;
+    color: #454545;
     display: block;
 }
 
@@ -2502,7 +2505,7 @@ body.productos-body {
 
 .box-escencial-servs{
     width: 100%;
-    padding: 60px;
+    padding: 150px 0px;
     box-sizing: border-box;
     text-align: center;
     display: flex;
@@ -3950,6 +3953,10 @@ body.admin-medios {
     -webkit-transform: scale(0.9);
     -ms-transform: scale(0.9);
     transform: scale(0.9);
+}
+
+*:hover{
+    transition-delay: 0s !important;
 }
 /* fin animaciones --------------- */
 

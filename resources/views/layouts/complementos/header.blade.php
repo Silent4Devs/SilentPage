@@ -5,8 +5,6 @@
             <a href="{{ route('exito') }}">{{ __('nav.casosexito') }}</a>
             <a href="{{ route('talento') }}">{{ __('nav.talento') }}</a>
             <a href="{{ route('medios') }}">{{ __('nav.medios') }}</a>
-            <a href="{{ route('cert') }}">{{ __('nav.cert') }}</a>
-            <a href="#pie-page">Newsletter</a>
             <a href="{{ route('metaverso') }}">{{ __('nav.meta') }}</a>
         </nav>
         <div class="language-switcher">
