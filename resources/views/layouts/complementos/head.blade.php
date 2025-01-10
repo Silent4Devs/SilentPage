@@ -36,7 +36,7 @@
 <link rel="shortcut icon" href="{{ asset('img/logo_silent.webp') }}" type="image/png" />
 
 <!-- css inerno -->
-<link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}?v=1.1">
+<link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}?v=1.2">
 
 <!-- font awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
