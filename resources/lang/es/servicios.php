@@ -10,7 +10,7 @@ return [
         'card2' => 'Ciberinteligencia',
         'card3' => [
             'title1' => 'Consultoría',
-            'title2' >= 'Estratégica',
+            'title2' => 'Estratégica',
         ],
         'card4' => [
             'title1' => 'Cyber Threat',

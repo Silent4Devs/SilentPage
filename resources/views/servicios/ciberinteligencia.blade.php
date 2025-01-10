@@ -107,28 +107,28 @@
                 <div class="flex-serv" style="max-width: 1000px; margin: auto;">
                     <div>
                         <span class="title-main title-first-serv ">
-                            {{ __('ciberinteligencia.pentesting_title') }}
+                            {!! __('ciberinteligencia.pentesting_title') !!}
                         </span>
                         <p>
-                            {{ __('ciberinteligencia.pentesting_description') }}
+                            {!! __('ciberinteligencia.pentesting_description') !!}
                         </p>
                         <p>
-                            {{ __('ciberinteligencia.pentesting_benefits') }}
+                            {!! __('ciberinteligencia.pentesting_benefits') !!}
                         </p>
                         <p>
-                            {{ __('ciberinteligencia.pentesting_process') }}
+                            {!! __('ciberinteligencia.pentesting_process') !!}
                         </p>
                         <p>
-                            {{ __('ciberinteligencia.pentesting_access') }}
+                            {!! __('ciberinteligencia.pentesting_access') !!}
                         </p>
                         <p>
-                            {{ __('ciberinteligencia.pentesting_report') }}
+                            {!! __('ciberinteligencia.pentesting_report') !!}
                         </p>
                         <p>
-                            {{ __('ciberinteligencia.contamos_con') }}
+                            {!! __('ciberinteligencia.contamos_con') !!}
                         </p>
                     </div>
-                    <img src="{{ asset('img/ciber-pruebas.svg') }}" alt="">
+                    <img src="{{ asset('img/ciber-pruebas.png') }}" alt="Pruebas de penetracion">
                 </div>
             </div>
 
@@ -136,25 +136,25 @@
                 <div class="flex-serv" style="max-width: 1000px; margin: auto;">
                     <div>
                         <span class="title-main title-first-serv ">
-                            {{ __('ciberinteligencia.vulnerability_analysis_title') }}
+                            {!! __('ciberinteligencia.vulnerability_analysis_title') !!}
                         </span>
                         <p>
-                            {{ __('ciberinteligencia.vulnerability_analysis') }}
+                            {!! __('ciberinteligencia.vulnerability_analysis') !!}
                         </p>
                         <p>
-                            {{ __('ciberinteligencia.vulnerability_identification') }}
+                            {!! __('ciberinteligencia.vulnerability_identification') !!}
                         </p>
                         <p>
-                            {{ __('ciberinteligencia.vulnerability_evaluation') }}
+                            {!! __('ciberinteligencia.vulnerability_evaluation') !!}
                         </p>
                         <p>
-                            {{ __('ciberinteligencia.vulnerability_prioritization') }}
+                            {!! __('ciberinteligencia.vulnerability_prioritization') !!}
                         </p>
                         <p>
-                            {{ __('ciberinteligencia.vulnerability_recommendation') }}
+                            {!! __('ciberinteligencia.vulnerability_recommendation') !!}
                         </p>
                         <p>
-                            {{ __('ciberinteligencia.el_analisis_de_vulnera') }}
+                            {!! __('ciberinteligencia.el_analisis_de_vulnera') !!}
                         </p>
                     </div>
                     <img src="{{ asset('img/ciber-gestion.png') }}" alt="">
@@ -165,19 +165,19 @@
                 <div class="flex-serv" style="max-width: 1000px; margin: auto;">
                     <div>
                         <span class="title-main title-first-serv ">
-                            {{ __('ciberinteligencia.forensic_analysis_title') }}
+                            {!! __('ciberinteligencia.forensic_analysis_title') !!}
                         </span>
                         <p>
-                            {{ __('ciberinteligencia.forensic_analysis_description') }}
+                            {!! __('ciberinteligencia.forensic_analysis_description') !!}
                         </p>
                         <p>
-                            {{ __('ciberinteligencia.forensic_process') }}
+                            {!! __('ciberinteligencia.forensic_process') !!}
                         </p>
                         <p>
-                            {{ __('ciberinteligencia.forensic_analysis_details') }}
+                            {!! __('ciberinteligencia.forensic_analysis_details') !!}
                         </p>
                         <p>
-                            {{ __('ciberinteligencia.forensic_report') }}
+                            {!! __('ciberinteligencia.forensic_report') !!}
                         </p>
                     </div>
                     <img src="{{ asset('img/ciber-forense.png') }}" alt="">
@@ -193,9 +193,9 @@
                             {{ __('ciberinteligencia.monitoring_description') }}
                         </p>
                         <ul>
-                            <li>{{ __('ciberinteligencia.monitoring_benefit_1') }}</li>
-                            <li>{{ __('ciberinteligencia.monitoring_benefit_2') }}</li>
-                            <li>{{ __('ciberinteligencia.monitoring_benefit_3') }}</li>
+                            <li>{!! __('ciberinteligencia.monitoring_benefit_1') !!}</li>
+                            <li>{!! __('ciberinteligencia.monitoring_benefit_2') !!}</li>
+                            <li>{!! __('ciberinteligencia.monitoring_benefit_3') !!}</li>
                         </ul>
                     </div>
                 </div>

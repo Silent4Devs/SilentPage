@@ -282,24 +282,40 @@ header:hover {
     transform: scale(1.06);
 }
 
+header .menu-desplegable-itmes{
+    position: absolute;
+    background-color: #fff;
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+    display: none;
+}
+header .menu-desplegable-itmes li{
+    padding: 10px;
+}
+
+a:hover ~ .menu-desplegable-itmes, .menu-desplegable-itmes:hover{
+    display: block !important;
+}
+
 .nav-principal {
     margin-left: 70px;
 }
 
-.nav-principal a {
+.nav-principal > a {
     margin-right: 25px;
     position: relative;
     padding: 18px 15px;
 }
 
-.nav-principal a:hover {
+.nav-principal > a:hover {
     color: #2a909b;
     -webkit-transition: 0.2s;
     -o-transition: 0.2s;
     transition: 0.2s;
 }
 
-.nav-principal a::before {
+.nav-principal > a::before {
     content: "";
     width: 120%;
     height: 2px;
@@ -317,7 +333,7 @@ header:hover {
     transition: 0.2s;
 }
 
-.nav-principal a:hover::before {
+.nav-principal > a:hover::before {
     background-color: #2a909b;
     -webkit-transform: scaleX(1);
     -ms-transform: scaleX(1);
@@ -337,7 +353,7 @@ header:hover {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    background-color: #ff4a4a;
+    background-color: #5AA664;
     color: #fff;
     border-radius: 6px;
     -webkit-transition: 0.1s;
@@ -347,8 +363,8 @@ header:hover {
 }
 
 .btn-contact:hover {
-    color: #ff4a4a;
-    border: 1px solid #ff4a4a;
+    color: #5AA664;
+    border: 1px solid #5AA664;
     background-color: transparent;
 }
 
@@ -2596,6 +2612,11 @@ body.productos-body {
     margin: 0;
 }
 
+.contacto-body footer .title-second{
+    color: #fff;
+    text-align: left;
+}
+
 .parrafo-psolinf {
     text-align: center;
     color: #444;
@@ -3110,21 +3131,40 @@ body.medios-body hr {
     margin-top: 40px;
 }
 
+.flex-p-icon{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 45px;
+    gap: 20px;
+}
+.flex-p-icon img{
+    width: 40px;
+}
+.flex-p-icon p{
+    width: 100%;
+    margin: 0px;
+}
+
 .box-serv-monitor{
     position: relative;
     margin-top: 50px !important;
     overflow: hidden;
     border-radius: 25px;
-    background-color: #0f1c37;
+    background-color: #0039b0;
 }
 
-.box-serv-monitor img{
+.box-serv-monitor .img-fondo-pc{
     position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
     z-index: 0;
     opacity: 0.5;
+}
+
+.box-serv-monitor .icon{
+    filter: grayscale(100%) brightness(100);
 }
 
 .serv-monitor-info{

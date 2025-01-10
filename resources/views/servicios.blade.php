@@ -40,7 +40,7 @@
                 <a href="{{ route('servicios/otras-soluciones') }}">
                     <img src="{{ asset('img/serv_soluciones.webp') }}" title="Sección Otras soluciones"
                         alt="Sección Otras soluciones">
-                    <p>{{ __('servicios.cards.card4.title1') }} <br> {{ __('servicios.cards.card4.title2') }}</p>
+                    <p>{{ __('welcome.soluciones_tecno') }}</p>
                 </a>
             </div>
             <p class="text-prin-serv" style="margin-top: 60px; font-size: 18px;">

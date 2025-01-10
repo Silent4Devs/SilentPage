@@ -81,7 +81,7 @@
                         </button>
                     </div>
                     <div id="otra-solucion" class="caja-servicios-text d-none">
-                        <span class="title-servicios title-main">Cyber Threat Intelligence (CTI)</span>
+                        <span class="title-servicios title-main">{{ __('welcome.soluciones_tecno') }}</span>
                         <p>
                             {{ __('welcome.nuestro_servicio_CTI') }}
                         </p>
@@ -117,7 +117,7 @@
                         <button onclick="servicio('otra-solucion')">
                             <img src="{{ asset('img/serv_soluciones.webp') }}" alt="Sección Cyber Threat Intelligence"
                                 title="Sección Cyber Threat Intelligence">
-                            <p>Cyber Threat <br> Intelligence (CTI)</p>
+                            <p>{{ __('welcome.soluciones_tecno') }}</p>
                         </button>
                     </div>
                 </div>

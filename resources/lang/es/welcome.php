@@ -32,6 +32,8 @@ return [
 
     'plan_de_continuidad' => 'Plan de continuidad de negocio (BCP, DRP Y BIA).',
 
+    'soluciones_tecno' => 'Soluciones Tecnológicas',
+
     'nuestro_servicio_CTI' => 'Nuestro servicio CTI te permite identificar proactivamente las amenazas a las que se encuentra expuesta tu organización en el ciberespacio, como:',
 
     'suplantación_de_marca' => 'Suplantación de marca',
