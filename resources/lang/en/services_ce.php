@@ -25,9 +25,9 @@ return [
     'other_services_description' => 'These include risk analysis, gap analysis, regulatory audits, business continuity services, among others.',
     'iso_27001_title' => 'What is ISO 27001 and What Is It Used For?',
     'iso_27001_description' => 'ISO 27001: 2022 is an international standard that provides the requirements for establishing, implementing, maintaining, and improving an Information Security Management System (ISMS). This standard is crucial to ensure the confidentiality, integrity, and availability of information in an organization, protecting data from unauthorized access and cyber threats. Aligning your company with ISO 27001: 2022 will allow you to:',
-    'iso_27001_risk_management' => '• Effective risk management: Identify and mitigate security risks with proper controls.',
-    'iso_27001_trust' => '• Strengthened trust: Increase credibility with partners and clients by securing assets in a structured manner.',
-    'iso_27001_continuous_improvement' => '• Continuous improvement: Facilitate adaptation to new threats and regulatory compliance through a continuous improvement framework.',
+    'iso_27001_risk_management' => 'Effective risk management: Identify and mitigate security risks with proper controls.',
+    'iso_27001_trust' => 'Strengthened trust: Increase credibility with partners and clients by securing assets in a structured manner.',
+    'iso_27001_continuous_improvement' => 'Continuous improvement: Facilitate adaptation to new threats and regulatory compliance through a continuous improvement framework.',
 
     'gestion_riesgo_title' => 'How are you managing risk?',
     'gestion_riesgo_description' => 'Risk management is a critical process that helps organizations identify, assess, and mitigate risks that may affect their operations. The importance of risk management lies in its ability to protect organizations from potential financial losses, reputational damage, and harm to employees.',
@@ -45,10 +45,12 @@ return [
 
     'continuidad_negocio_title' => 'Business continuity',
     'continuidad_negocio_description' => 'These plans are essential to minimize the impact of disruptive events, such as natural disasters, cyberattacks, or technological failures, and ensure the rapid and efficient recovery of operations. A business continuity plan is a set of procedures and measures designed to ensure that an organization can continue to operate during and after a critical incident.',
+    'el_plan_de_continuidad_negocio' => 'The business continuity plan includes the creation of prevention and recovery systems that enable organizations to maintain their essential functions.',
     'continuidad_negocio_benefits_title' => 'By implementing a business continuity plan, you will gain:',
     'benefit_reduccion_riesgos' => 'Risk reduction: Identify and mitigate potential risks before they become serious problems.',
     'benefit_ahorro_costos' => 'Cost savings: Minimize financial losses by reducing downtime and improving incident response capabilities.',
     'benefit_cumplimiento_normativo' => 'Regulatory compliance: Ensure the organization complies with applicable regulations and standards, thereby protecting its reputation and avoiding legal penalties.',
+    'continuidad_negocio_description' => 'Our team of specialists will help your company be prepared to face any challenges that may arise and continue operating with minimal interruptions.',
 
     'caracteristicas_empresa_title' => 'Features of a company with better regulatory compliance',
     'caracteristicas_empresa_description' => 'We help your company adapt and respond efficiently to business and security challenges, strengthening its resilience and competitiveness.',

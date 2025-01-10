@@ -53,7 +53,8 @@
                             </div>
 
                             <div id="soluciones" class="content-microsite active">
-                                <span class="title-main title-first-serv text-center">
+                                <span class="title-main title-first-serv" style="display: flex; justify-content:center; align-items: center;">
+                                    <img src="{{asset('img/icon-security.png')}}" style="height: 45px; margin-right:20px;" alt="icono">
                                     {{ __('cti.advanced_security_solutions') }}
                                 </span>
 
@@ -92,7 +93,8 @@
                             </div>
 
                             <div id="firewall" class="content-microsite">
-                                <span class="title-main title-first-serv text-center">
+                                <span class="title-main title-first-serv" style="display: flex; justify-content:center; align-items: center;">
+                                    <img src="{{asset('img/icon-fire.png')}}" style="height: 45px; margin-right:20px;" alt="icono">
                                     {{ __('cti.firewall_and_antivirus') }}
                                 </span>
 
@@ -131,7 +133,8 @@
                             </div>
 
                             <div id="siem" class="content-microsite">
-                                <span class="title-main title-first-serv text-center">
+                                <span class="title-main title-first-serv" style="display: flex; justify-content:center; align-items: center;">
+                                    <img src="{{asset('img/icon-dns.png')}}" style="height: 45px; margin-right:20px;" alt="icono">
                                     {{ __('cti.siem_title') }}
                                 </span>
 

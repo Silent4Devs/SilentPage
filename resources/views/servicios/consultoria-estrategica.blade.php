@@ -47,30 +47,45 @@
                     <div style="margin-top: 50px;">
                         <span class="title-main title-first-serv ">{{ __('services_ce.strategic_axes_title') }}</span>
                         <div>
-                            <p>
-                                <strong>{{ __('services_ce.international_standards_title') }} </strong>
-                                {{ __('services_ce.international_standards_description') }}
-                            </p>
+                            <div class="flex-p-icon">
+                                <img src="{{asset('img/icon-light.png')}}" alt="Iconco light">
+                                <p>
+                                    <strong>{{ __('services_ce.international_standards_title') }} </strong>
+                                    {{ __('services_ce.international_standards_description') }}
+                                </p>
+                            </div>
 
-                            <p>
-                                <strong>{{ __('services_ce.good_practices_title') }}:</strong>
-                                {{ __('services_ce.good_practices_description') }}
-                            </p>
+                            <div class="flex-p-icon">
+                                <img src="{{asset('img/icon-light.png')}}" alt="Iconco light">
+                                <p>
+                                    <strong>{{ __('services_ce.good_practices_title') }}:</strong>
+                                    {{ __('services_ce.good_practices_description') }}
+                                </p>
+                            </div>
 
-                            <p>
-                                <strong>{{ __('services_ce.information_security_title') }}:</strong>
-                                {{ __('services_ce.information_security_description') }}
-                            </p>
+                            <div class="flex-p-icon">
+                                <img src="{{asset('img/icon-light.png')}}" alt="Iconco light">
+                                <p>
+                                    <strong>{{ __('services_ce.information_security_title') }}:</strong>
+                                    {{ __('services_ce.information_security_description') }}
+                                </p>
+                            </div>
 
-                            <p>
-                                <strong>{{ __('services_ce.governance_framework_title') }}:</strong>
-                                {{ __('services_ce.governance_framework_description') }}
-                            </p>
+                            <div class="flex-p-icon">
+                                <img src="{{asset('img/icon-light.png')}}" alt="Iconco light">
+                                <p>
+                                    <strong>{{ __('services_ce.governance_framework_title') }}:</strong>
+                                    {{ __('services_ce.governance_framework_description') }}
+                                </p>
+                            </div>
 
-                            <p>
-                                <strong>{{ __('services_ce.other_services_title') }}:</strong>
-                                {{ __('services_ce.other_services_description') }}
-                            </p>
+                            <div class="flex-p-icon">
+                                <img src="{{asset('img/icon-light.png')}}" alt="Iconco light">
+                                <p>
+                                    <strong>{{ __('services_ce.other_services_title') }}:</strong>
+                                    {{ __('services_ce.other_services_description') }}
+                                </p>
+                            </div>
 
                             <p>
                                 {{ __('services_ce.other_services_description') }}
@@ -85,15 +100,24 @@
                                 {{ __('services_ce.iso_27001_description') }}
                             </p>
 
-                            <p>
-                                <strong>{{ __('services_ce.iso_27001_risk_management') }}</strong>
-                            </p>
-                            <p>
-                                <strong>{{ __('services_ce.iso_27001_trust') }}</strong>
-                            </p>
-                            <p>
-                                <strong>{{ __('services_ce.iso_27001_continuous_improvement') }}</strong>
-                            </p>
+                            <div class="flex-p-icon">
+                                <img src="{{asset('img/icon-deployed.png')}}" alt="Iconco">
+                                <p>
+                                    {!! __('services_ce.iso_27001_risk_management') !!}
+                                </p>
+                            </div>
+                            <div class="flex-p-icon">
+                                <img src="{{asset('img/icon-hdr.png')}}" alt="Iconco">
+                                <p>
+                                    {!! __('services_ce.iso_27001_trust') !!}
+                                </p>
+                            </div>
+                            <div class="flex-p-icon">
+                                <img src="{{asset('img/icon-like.png')}}" alt="Iconco">
+                                <p>
+                                    {!! __('services_ce.iso_27001_continuous_improvement') !!}
+                                </p>
+                            </div>
                         </div>
                         <img src="{{ asset('img/consul-iso.png') }}" alt="">
                     </div>
@@ -128,18 +152,18 @@
                             {{ __('services_ce.gestion_riesgo_benefits_title') }}
                         </p>
 
-                        <ul>
-                            <li>
-                                <strong>{{ __('services_ce.benefit_minimizar_impacto') }}</strong>
-                            </li>
-                            <li>
-                                <strong>{{ __('services_ce.benefit_mejorar_decisiones') }}</strong>
-                            </li>
-                            <li>
-                                <strong>{{ __('services_ce.benefit_aumentar_resiliencia') }}</strong>
-                            </li>
-                        </ul>
-
+                        <div class="flex-p-icon">
+                            <img src="{{asset('img/icon-cognition.png')}}" alt="Iconco">
+                            <p>{!! __('services_ce.benefit_minimizar_impacto') !!}</p>
+                        </div>
+                        <div class="flex-p-icon">
+                            <img src="{{asset('img/icon-cognition.png')}}" alt="Iconco">
+                            <p>{!! __('services_ce.benefit_mejorar_decisiones') !!}</p>
+                        </div>
+                        <div class="flex-p-icon">
+                            <img src="{{asset('img/icon-cognition.png')}}" alt="Iconco">
+                            <p>{!! __('services_ce.benefit_aumentar_resiliencia') !!}</p>
+                        </div>
                     </div>
                     <img src="{{ asset('img/consul-impact.png') }}" alt="">
                 </div>
@@ -158,12 +182,20 @@
                             {{ __('services_ce.auditorias_seguridad_benefits_title') }}
                         </p>
 
-                        <ul>
-                            <li>{{ __('services_ce.benefit_mejorar_seguridad') }}</li>
-                            <li>{{ __('services_ce.benefit_cumplir_normas') }}</li>
-                            <li>{{ __('services_ce.benefit_optimizar_recursos') }}</li>
-                        </ul>
-
+                        
+                         <div class="flex-p-icon">
+                            <img src="{{asset('img/icon-cognition.png')}}" alt="Iconco">
+                            <p>{!! __('services_ce.benefit_mejorar_seguridad') !!}</p>
+                         </div>
+                         <div class="flex-p-icon">
+                            <img src="{{asset('img/icon-cognition.png')}}" alt="Iconco">
+                            <p>{!! __('services_ce.benefit_cumplir_normas') !!}</p>
+                         </div>
+                         <div class="flex-p-icon">
+                            <img src="{{asset('img/icon-cognition.png')}}" alt="Iconco">
+                            <p>{!! __('services_ce.benefit_optimizar_recursos') !!}</p>
+                         </div>
+                        
                     </div>
                     <img src="{{ asset('img/consul-check.png') }}" alt="">
                 </div>
@@ -172,36 +204,61 @@
             <div id="continuo" class="content-microsite ">
                 <div class="flex-serv" style="max-width: 1000px; margin: auto;">
                     <div>
+                        <span class="title-main title-first-serv ">
+                            {{ __('services_ce.continuidad_negocio_title') }}
+                        </span>
                         <p>
                             {{ __('services_ce.continuidad_negocio_description') }}
                         </p>
                         <p>
+                            {{ __('services_ce.el_plan_de_continuidad_negocio') }}
+                        </p>
+                        <p>
                             {{ __('services_ce.continuidad_negocio_benefits_title') }}
                         </p>
-                        <ul>
-                            <li>{{ __('services_ce.benefit_reduccion_riesgos') }}</li>
-                            <li>{{ __('services_ce.benefit_ahorro_costos') }}</li>
-                            <li>{{ __('services_ce.benefit_cumplimiento_normativo') }}</li>
-                        </ul>
-
+                        
+                        <div class="flex-p-icon">
+                            <img src="{{asset('img/icon-alert.png')}}" alt="Iconco">
+                            <p>{{ __('services_ce.benefit_reduccion_riesgos') }}</p>
+                        </div>
+                        <div class="flex-p-icon">
+                            <img src="{{asset('img/icon-paid.png')}}" alt="Iconco">
+                            <p>{{ __('services_ce.benefit_ahorro_costos') }}</p>
+                        </div>
+                        <div class="flex-p-icon">
+                            <img src="{{asset('img/icon-policy.png')}}" alt="Iconco">
+                            <p>{{ __('services_ce.benefit_cumplimiento_normativo') }}</p>
+                        </div>
+                        
+                        <p>
+                            {{ __('services_ce.nuestro_equipo_de_especialistas') }}
+                        </p>
                     </div>
                     <img src="{{ asset('img/consul-blocks.png') }}" alt="">
                 </div>
             </div>
 
             <div class="box-serv-monitor" style="max-width: 1000px; margin: auto;">
-                <img src="{{ asset('img/servs-monitor.png') }}" style="width: 100%;" alt="">
+                <img src="{{ asset('img/servs-monitor.png') }}" style="width: 100%;" alt="Fondo pc" class="img-fondo-pc">
                 <div class="serv-monitor-info">
                     <span style="font-size: 40px;">{{ __('services_ce.caracteristicas_empresa_title') }}</span>
                     <div>
                         <p style="margin-top: 40px;">
                             {{ __('services_ce.caracteristicas_empresa_description') }}
                         </p>
-                        <ul>
-                            <li>{{ __('services_ce.benefit_mejor_toma_decisiones') }}</li>
-                            <li>{{ __('services_ce.benefit_fortalecimiento_seguridad') }}</li>
-                            <li>{{ __('services_ce.benefit_reputacion_marca') }}</li>
-                        </ul>
+                        
+                         <div class="flex-p-icon">
+                            <img src="{{asset('img/icon-cognition.png')}}" alt="Iconco" class="icon">    
+                            <p>{{ __('services_ce.benefit_mejor_toma_decisiones') }}</p>
+                         </div>
+                         <div class="flex-p-icon">
+                            <img src="{{asset('img/icon-cognition.png')}}" alt="Iconco" class="icon">    
+                            <p>{{ __('services_ce.benefit_fortalecimiento_seguridad') }}</p>
+                        </div>
+                         <div class="flex-p-icon">
+                            <img src="{{asset('img/icon-cognition.png')}}" alt="Iconco" class="icon">    
+                            <p>{{ __('services_ce.benefit_reputacion_marca') }}</p>
+                         </div>
                     </div>
                 </div>
             </div>

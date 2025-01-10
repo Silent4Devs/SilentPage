@@ -10,7 +10,7 @@ return [
         'card2' => 'Ciberinteligencia',
         'card3' => [
             'title1' => 'Consultoría',
-            'title2' >= 'Estratégica',
+            'title2' => 'Estratégica',
         ],
         'card4' => [
             'title1' => 'Cyber Threat',
@@ -24,5 +24,5 @@ return [
     'link' => 'Solicita una reunión',
     'desc_4' => 'Conoce nuestros productos',
     'desc_5' => '¿YA ESTÁS SUSCRITO A NUESTRO NEWSLETTER EN LINKEDIN?',
-    'desc_6' => 'ESTÁS SON ALGUNAS DE NUESTRAS NOTAS:'
+    'desc_6' => 'ENTRA A VER ALGUNAS DE NUESTRAS NOTAS:'
 ];

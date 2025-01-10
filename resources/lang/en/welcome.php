@@ -32,6 +32,8 @@ return [
 
     'plan_de_continuidad' => 'Business Continuity Plan (BCP, DRP, and BIA)',
 
+    'soluciones_tecno' => 'Cyber Threat Intelligence (CTI)',
+
     'nuestro_servicio_CTI' => 'Our CTI service allows you to proactively identify the threats your organization is exposed to in cyberspace, such as:',
 
     'suplantación_de_marca' => 'Brand Impersonation',
