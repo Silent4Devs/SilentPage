@@ -19,6 +19,8 @@ class TendenciasController extends Controller
                 ->published()
                 ->get();
 
+                // dd($posts);
+
             $postsRecientes = Post::taxonomy('category', 'tendencias')
                 ->type('post')
                 ->published()

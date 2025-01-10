@@ -2744,7 +2744,7 @@ body.medios-body .content-limit {
     max-width: 1450px;
 }
 
-.medios-body .title-second:not(.tend-descr .title-second) {
+.medios-body .title-second:not(.tend-descr .title-second, footer .title-second) {
     color: #2567ae;
     text-align: center;
     margin: 45px 0;
