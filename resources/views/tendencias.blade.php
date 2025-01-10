@@ -37,7 +37,7 @@
                                 <small>{{ Carbon\Carbon::parse($post->post_date)->format('d-m-Y') }}</small><br><br>
                                 <span class="title-terd">{{ $post->post_title }}</span><br><br>
                                 <span>
-                                    <a href={{ url('/tendencias/' . $post->ID) }}>{{__('tendencias.more_info')}}</a>
+                                    <a  href="{{ $post->guid }}" target="_blanck">{{__('tendencias.more_info')}}</a>
                                 </span>
                             </div>
                         </div>
@@ -58,7 +58,7 @@
                                     <small>{{ Carbon\Carbon::parse($post->post_date)->format('d-m-Y') }}</small><br>
                                     <span class="title-for">{{ $postReciente->post_title }}...</span>
                                     <span>
-                                        <a href={{ url('/tendencias/' . $postReciente->ID) }}>{{__('tendencias.more_info')}}</a>
+                                        <a href="{{ $postReciente->guid }}" target="_blanck">{{__('tendencias.more_info')}}</a>
                                     </span>
                                 </div>
                             </div>
