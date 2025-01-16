@@ -32,10 +32,12 @@ class ContactoFooterFormComponent extends Component
             $correo = $validatedData['email'];
 
             Mail::to('benito.lopez@silent4business.com')->send(new Newsletter($correo));
+            dd($correo);
 
             $this->alert('success', 'Suscrito correctamente.');
         } catch (\Exception $e) {
             $this->alert('error', 'Intente nuevamente más tarde.');
+            dd($e);
         }
 
         $this->reset();
