@@ -66,6 +66,7 @@ class TalentoFormComponent extends Component
         } catch (\Exception $e) {
             DB::rollback();
             $this->alert('error', 'Intente nuevamente más tarde.');
+            dd($e);
         }
 
         $this->reset();
