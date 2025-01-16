@@ -1897,6 +1897,7 @@ body.talento-body {
 
 .form-item {
     margin-top: 18px;
+    width: 100%;
 }
 
 form .form-item:first-child {
@@ -2582,7 +2583,7 @@ body.productos-body {
 }
 
 .contacto-body {
-    background-color: #fbfbfb;
+    background-color: #f5f5f5;
 }
 
 .desplazador {

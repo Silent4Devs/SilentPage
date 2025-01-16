@@ -1,7 +1,7 @@
 <div class="box-escencial-servs" style="margin-top: 100px;">
     <span style="font-size: 35px; color: #fff;">{{ __('servicios.desc_3') }}</span>
 
-    <a href="#" class="btn-solicita-reunion">{{ __('servicios.link') }}</a>
+    <a href="{{route('contacto')}}" class="btn-solicita-reunion">{{ __('servicios.link') }}</a>
 </div>
 
 <div>

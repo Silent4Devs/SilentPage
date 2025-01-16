@@ -60,9 +60,8 @@
 <body>
     <table class="content">
         <tr class="tr-header">
-            <td>
-                <img src="https://tabantaj.silent4business.com/storage/images/Logo%20silent-color.png" alt="Logo S4B">
-                Portal &nbsp;<strong> Silent4Business</strong>
+            <td style="text-align: center;">
+                <img src="https://silent4business.com/storage/images/logo-white.png" alt="Logo S4B">
             </td>
         </tr>
         <tr class="tr-content">
@@ -84,8 +83,8 @@
             </td>
         </tr>
         <tr class="tr-footer">
-            <td>
-                2023
+            <td style="text-align: right;">
+                {{Carbon\Carbon::now()->format('d / m / Y')}}
             </td>
         </tr>
     </table>
