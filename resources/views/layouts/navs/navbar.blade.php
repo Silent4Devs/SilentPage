@@ -1,19 +1,21 @@
 <div class="fixed-header">
     <content class="content-header">
         <div class="header-caja">
-            <a href="{{ url(__('nav.home') ) }}">
+            <a href="{{ url(__('nav.home')) }}">
                 <img src="{{ asset('img/logo_silent.webp') }}" style="height: 70px;" title="Logo Silent4business"
                     alt="Logo Silent4business">
             </a>
             <nav class="nav-principal mobile-none">
-                <a href="{{ route('servicios') }}">
+                <a href="#">
                     {{ __('nav.servicios') }}
                 </a>
                 <ul class="menu-desplegable-itmes">
                     <li><a href="{{ route('servicios/soc-noc') }}">{{ __('servicios.cards.card1') }}</a></li>
                     <li><a href="{{ route('servicios/ciberinteligencia') }}">{{ __('servicios.cards.card2') }}</a></li>
-                    <li><a href="{{ route('servicios/consultoria-estrategica') }}">{{ __('servicios.cards.card3.title1') }} {{ __('servicios.cards.card3.title2') }}</a></li>
-                    <li><a href="{{ route('servicios/otras-soluciones') }}">{{ __('welcome.soluciones_tecno') }}</a></li>
+                    <li><a href="{{ route('servicios/consultoria-estrategica') }}">{{ __('servicios.cards.card3.title1') }}
+                            {{ __('servicios.cards.card3.title2') }}</a></li>
+                    <li><a href="{{ route('servicios/otras-soluciones') }}">{{ __('welcome.soluciones_tecno') }}</a>
+                    </li>
                 </ul>
                 <a href="{{ route('productos') }}">{{ __('nav.productos') }}</a>
                 <a href="{{ route('soluciones') }}">{{ __('nav.soluciones') }}</a>
