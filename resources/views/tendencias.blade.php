@@ -28,7 +28,7 @@
 
             <span class="title-second">{{__('tendencias.title_second')}}</span>
 
-            <div class="noticias --no-visible">
+            <div class="noticias no-visible">
                 <div class="column-noticias caja-noticias-med">
                     @foreach ($posts as $post)
                         <div class="card noticia">

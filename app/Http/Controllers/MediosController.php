@@ -15,6 +15,7 @@ class MediosController extends Controller
         $posts = Post::taxonomy('category', 'medios')
             ->type('post')
             ->published()
+            ->orderBy('post_date', 'desc')
             ->get();
 
         $postsRecientes = Post::taxonomy('category', 'medios')

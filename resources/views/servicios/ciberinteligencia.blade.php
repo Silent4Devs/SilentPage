@@ -190,7 +190,7 @@
             </div>
 
             <div class="box-serv-monitor" style="max-width: 1000px; margin: auto;">
-                <img src="{{ asset('img/servs-monitor.png') }}" style="width: 100%;" alt="">
+                <img src="{{ asset('img/servs-monitor.png') }}" style="width: 100%;" alt="" class="img-fondo-pc">
                 <div class="serv-monitor-info">
                     <span style="font-size: 40px;">{{ __('ciberinteligencia.monitoring_features') }}</span>
                     <div style="">
