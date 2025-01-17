@@ -1,8 +1,13 @@
 @extends('layouts.site')
 
-@section('titulo', __('services_ce.title'))
+@section('titulo', 'Consultoría estratégica: cumplimiento normativo en ciberseguridad')
 
-@section('metaDesc', __('services_ce.meta_desc'))
+@section('ogTitle', 'Consultoría estratégica: soluciones personalizadas en ciberseguridad')
+
+@section('keywords', 'consultoria estrategica, iso 27001, pci, sgsi iso 27001, analisis de riesgos, continuidad de negocio, ciberseguridad empresarial, protección digital, seguridad TI, estrategias personalizadas, optimización de procesos, iso continuidad de negocio, concientizacion seguridad de la información, itil v4')
+
+@section('metaDesc', 'Optimiza la ciberseguridad de tu empresa con consultoría estratégica. Diseñamos soluciones a medida para proteger tus activos digitales.')
+
 
 @section('body', 'serv-inter-body')
 
@@ -182,7 +187,7 @@
                             {{ __('services_ce.auditorias_seguridad_benefits_title') }}
                         </p>
 
-                        
+
                          <div class="flex-p-icon">
                             <img src="{{asset('img/icon-cognition.png')}}" alt="Iconco">
                             <p>{!! __('services_ce.benefit_mejorar_seguridad') !!}</p>
@@ -195,7 +200,7 @@
                             <img src="{{asset('img/icon-cognition.png')}}" alt="Iconco">
                             <p>{!! __('services_ce.benefit_optimizar_recursos') !!}</p>
                          </div>
-                        
+
                     </div>
                     <img src="{{ asset('img/consul-check.png') }}" alt="">
                 </div>
@@ -216,7 +221,7 @@
                         <p>
                             {{ __('services_ce.continuidad_negocio_benefits_title') }}
                         </p>
-                        
+
                         <div class="flex-p-icon">
                             <img src="{{asset('img/icon-alert.png')}}" alt="Iconco">
                             <p>{{ __('services_ce.benefit_reduccion_riesgos') }}</p>
@@ -229,7 +234,7 @@
                             <img src="{{asset('img/icon-policy.png')}}" alt="Iconco">
                             <p>{{ __('services_ce.benefit_cumplimiento_normativo') }}</p>
                         </div>
-                        
+
                         <p>
                             {{ __('services_ce.nuestro_equipo_de_especialistas') }}
                         </p>
@@ -246,17 +251,17 @@
                         <p style="margin-top: 40px;">
                             {{ __('services_ce.caracteristicas_empresa_description') }}
                         </p>
-                        
+
                          <div class="flex-p-icon">
-                            <img src="{{asset('img/icon-cognition.png')}}" alt="Iconco" class="icon">    
+                            <img src="{{asset('img/icon-cognition.png')}}" alt="Iconco" class="icon">
                             <p>{{ __('services_ce.benefit_mejor_toma_decisiones') }}</p>
                          </div>
                          <div class="flex-p-icon">
-                            <img src="{{asset('img/icon-cognition.png')}}" alt="Iconco" class="icon">    
+                            <img src="{{asset('img/icon-cognition.png')}}" alt="Iconco" class="icon">
                             <p>{{ __('services_ce.benefit_fortalecimiento_seguridad') }}</p>
                         </div>
                          <div class="flex-p-icon">
-                            <img src="{{asset('img/icon-cognition.png')}}" alt="Iconco" class="icon">    
+                            <img src="{{asset('img/icon-cognition.png')}}" alt="Iconco" class="icon">
                             <p>{{ __('services_ce.benefit_reputacion_marca') }}</p>
                          </div>
                     </div>

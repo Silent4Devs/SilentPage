@@ -1,8 +1,12 @@
 @extends('layouts.site')
 
-@section('titulo', __('soc-noc.title'))
+@section('titulo', 'SOC y NOC: monitoreo y respuesta 24/7 para tu empresa')
 
-@section('metaDesc', __('soc-noc.meta_desc'))
+@section('ogTitle', 'Servicios SOC y NOC: monitoreo y ciberseguridad 24/7')
+
+@section('keywords', 'SOC, NOC, monitoreo 24/7, ciberseguridad empresarial, gestión de redes, seguridad digital, respuesta a incidentes, soc noc, servicios administrados de ciberseguridad')
+
+@section('metaDesc', 'Protege tu infraestructura digital con servicios SOC y NOC. Monitoreo continuo y gestión proactiva para mantener tu negocio seguro las 24/7.')
 
 @section('body', 'serv-inter-body')
 
