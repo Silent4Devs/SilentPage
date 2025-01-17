@@ -1,8 +1,13 @@
 @extends('layouts.site')
 
-@section('titulo', __('ciberinteligencia.title'))
+@section('titulo', 'Ciberinteligencia: detección de amenazas y análisis avanzado')
 
-@section('metaDesc', __('ciberinteligencia.meta_desc'))
+@section('ogTitle', 'Ciberinteligencia: prevención y análisis de amenazas digitales')
+
+@section('keywords', 'ciberinteligencia, pentest, pruebas de penetracion, análisis de vulnerabilidades, ingenieria social, ciclo de desarrollo seguro, detección de amenazas, análisis de datos, seguridad avanzada, inteligencia digital, protección empresarial, prevencion de ciberataques, analisis forense')
+
+@section('metaDesc', 'Detecta amenazas cibernéticas antes de que afecten tu negocio con servicios de ciberinteligencia avanzada. Protección basada en análisis estratégico.')
+
 
 @section('body', 'serv-inter-body')
 

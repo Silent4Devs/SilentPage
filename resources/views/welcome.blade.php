@@ -1,10 +1,12 @@
 @extends('layouts.site')
 
-@section('titulo', 'Aliados de tu Ciberseguridad | Servicios de ciberseguridad para empresas')
+@section('titulo', 'Silent4Business: Líder en soluciones de ciberseguridad para empresas')
 
-@section('metaDesc',
-    'Protégete de ciberataques con nuestros servicios de ciberseguridad para empresas: SOC/NOC, ISO
-    27001:2022, Pentesting. Aumenta la seguridad y mitiga riesgos.')
+@section('ogTitle', 'Silent4Business: Soluciones integrales en ciberseguridad empresarial')
+
+@section('keywords', 'Ciberseguridad empresarial, soc/noc, ciberinteligencia, consultoria estratégica, seguridad digital, protección de datos empresariales, servicios administrados de ciberseguridad, silent4business, servicios de ciberseguridad, servicios de seguridad informatica')
+
+@section('metaDesc', 'Protege tu empresa con nuestras soluciones de ciberseguridad, consultoría estratégica y servicios SOC/NOC. Innovación y protección a tu alcance. ')
 
 @section('body', 'body')
 

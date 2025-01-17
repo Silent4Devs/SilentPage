@@ -1,8 +1,13 @@
 @extends('layouts.site')
 
-@section('titulo', __('cti.title'))
+@section('titulo', 'Soluciones integrales en ciberseguridad para tu negocio')
 
-@section('metaDesc', __('cti.meta_desc'))
+@section('ogTitle', 'Soluciones integrales en ciberseguridad: protege tu empresa')
+
+@section('keywords', 'soluciones en ciberseguridad, firewall, SIEM, DLP, antivirus, EDR, protección perimetral, protección empresarial, servicios personalizados, ciberseguridad integral, seguridad TI, protección avanzada')
+
+@section('metaDesc', 'Descubre nuestras soluciones personalizadas en ciberseguridad. Protección completa para las necesidades únicas de tu empresa.')
+
 
 @section('body', 'serv-inter-body')
 
