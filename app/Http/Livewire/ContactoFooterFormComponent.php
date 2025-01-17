@@ -36,6 +36,7 @@ class ContactoFooterFormComponent extends Component
             $this->alert('success', 'Suscrito correctamente.');
         } catch (\Exception $e) {
             $this->alert('error', 'Intente nuevamente más tarde.');
+            dd($e);
         }
 
         $this->reset();
