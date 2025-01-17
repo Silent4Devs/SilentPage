@@ -24,7 +24,7 @@
         <span class="title-second">{{__('medios.title_second')}}</span>
 
         <content class="content-limit caja-carrusel">
-            <div class="arrow-carrusel-izq">
+            <div class="arrow-carrusel-izq" onclick="document.querySelector('.carrusel-infinito').scrollBy({left: -400});">
                 <i class="material-symbols-outlined">arrow_back_ios</i>
             </div>
 
@@ -79,7 +79,7 @@
                 </div>
             </div>
 
-            <div class="arrow-carrusel-der">
+            <div class="arrow-carrusel-der" onclick="document.querySelector('.carrusel-infinito').scrollBy({left: 400});">
                 <i class="material-symbols-outlined">arrow_forward_ios</i>
             </div>
         </content>
@@ -124,7 +124,9 @@
                 </div>
             </div>
         </content>
-
     </div>
 
+    @section('scripts')
+
+    @endsection
 @endsection

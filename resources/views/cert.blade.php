@@ -79,18 +79,18 @@
                 </div>
             </div>
 
-            <img src="{{ asset('img/' . __('cert.img_servicios') . '.webp') }}" class="servicio-img --no-visible"
+            <img src="{{ asset('img/' . __('cert.img_servicios') . '.webp') }}" class="servicio-img no-visible"
                 alt="Servicios del CERT" title="Servicios del CERT">
 
             <hr style="width: 500px; border-color:#fff; margin-top:80px;">
 
             <h2 class="title-second title-somm">{{ __('cert.miembros') }}</h2>
 
-            <img src="{{ asset('img/first.webp') }}" class="first-img --no-visible" alt="CERT certificado por FIST"
+            <img src="{{ asset('img/first.webp') }}" class="first-img no-visible" alt="CERT certificado por FIST"
                 title="CERT certificado por FIST">
 
             <content class="content-limit">
-                <p class="parrafo-soes --no-visible">
+                <p class="parrafo-soes no-visible">
                     {{ __('cert.miembros_desc') }}
                 </p>
             </content>
@@ -100,12 +100,12 @@
             <h2 class="title-second title-somm">Traffic Light Protocol (TLP)</h2>
 
             <content class="content-limit">
-                <p class="parrafo-soes --no-visible">
+                <p class="parrafo-soes no-visible">
                     <strong>TLP </strong> {{ __('cert.tlp_desc') }}
                 </p>
                 </p>
 
-                <img src="{{ asset('img/' . __('cert.img_estandares') . '.webp') }}" class="estandares-img --no-visible"
+                <img src="{{ asset('img/' . __('cert.img_estandares') . '.webp') }}" class="estandares-img no-visible"
                     alt="Esquema TLP" title="Esquema TLP">
 
                 <hr style="width: 500px; border-color:#fff; margin-top:80px;">

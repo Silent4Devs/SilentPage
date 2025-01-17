@@ -23,7 +23,7 @@
     <section id="servicios">
         <div class="nuestros-servicios">
             <content class="content-limit">
-                <div class="caja-flex --no-visible caja-servicios-inicio" style="justify-content: space-between;">
+                <div class="caja-flex no-visible caja-servicios-inicio" style="justify-content: space-between;">
                     <div id="serv-original" class="caja-servicios-text">
                         <h1 class="title-servicios title-main">{{ __('welcome.title_conoce_servicios') }}</h1>
                         <p align="justify">
@@ -100,7 +100,7 @@
                             <i class="material-symbols-outlined" title="Cerrar sección">close</i>
                         </button>
                     </div>
-                    <div class="caja-btn-servicios caja-btn-group --no-visible">
+                    <div class="caja-btn-servicios caja-btn-group no-visible">
                         <button onclick="servicio('soc-noc')">
                             <img src="{{ asset('img/serv_monitor.webp') }}" alt="Sección SOC- NOC"
                                 title="Sección SOC- NOC">
@@ -178,7 +178,7 @@
     </section>
 
     {{-- <section class="d-none">
-        <div class="nivel-seguridad --no-visible">
+        <div class="nivel-seguridad no-visible">
             <img src="{{ asset('img/escudo.webp') }}" alt="escudo" title="escudo">
             <div>
                 <h2 class="title-main">¿Conoces tu nivel de seguridad?</h2>
@@ -198,7 +198,7 @@
     </section> --}}
 
     <section>
-        <div class="ciber-ind --no-visible">
+        <div class="ciber-ind no-visible">
             <content class="content-limit">
                 <div class="caja-btn-group">
                     <a href="{{ route('soluciones') }}#salud">
@@ -343,7 +343,7 @@
             <h2 class="title-main">{{ __('welcome.nuestro_ecosistema') }} </h2>
             <p>{{ __('welcome.capacidad_aliados') }} </p>
 
-            <div class="logos-alianzas --no-visible">
+            <div class="logos-alianzas no-visible">
                 <img src="{{ asset('img/alianzas/alianza_1.png') }}" alt="Logo Allot" title="=Logo Allot">
                 <img src="{{ asset('img/alianzas/alianza_3.png') }}" alt="Check Point" title="Check Point">
                 <img src="{{ asset('img/alianzas/alianza_6.png') }}" alt="Logo Eset" title="Logo Eset">
@@ -388,7 +388,7 @@
             <p>{{ __('welcome.mejores_practicas') }}
             </p>
 
-            <div class="logos-certificaciones --no-visible">
+            <div class="logos-certificaciones no-visible">
                 <img src="{{ asset('img/certificaciones/cert_1.webp') }}" alt="Logo SGI" title="Logo SGI">
                 <img src="{{ asset('img/certificaciones/cert_2.webp') }}" alt="Logo COBIT" title="Logo COBIT">
                 <img src="{{ asset('img/certificaciones/cert_3.webp') }}" alt="Logo ITIL" title="Logo ITIL">
@@ -419,7 +419,7 @@
     </section>
 
     <section>
-        <div class="curso --no-visible">
+        <div class="curso no-visible">
             <a href="{{ route('contacto') }}">
                 <h2 class="title-main">{{ __('welcome.cursosycapacitaciones') }}</h2>
             </a>
@@ -433,7 +433,7 @@
             <h2 class="title-main">{{ __('welcome.gideas') }}</h2>
             <p>{{ __('welcome.gideas_desc') }}</p>
         </div>
-        <div class="jefes-cards --no-visible">
+        <div class="jefes-cards no-visible">
             <div class="card-jefe lay">
                 <div class="img-jefe">
                     <img src="{{ asset('img/jefe_lay.webp') }}" alt="CEO Layla Delgadillo"
