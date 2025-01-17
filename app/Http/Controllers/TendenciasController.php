@@ -17,6 +17,7 @@ class TendenciasController extends Controller
             $posts = Post::taxonomy('category', 'tendencias')
                 ->type('post')
                 ->published()
+                ->orderBy('post_date', 'desc')
                 ->get();
 
                 // dd($posts);
