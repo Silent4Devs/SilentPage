@@ -61,7 +61,7 @@
     <table class="content">
         <tr class="tr-header">
             <td style="text-align: center;">
-                <img src="https://silent4business.com/storage/images/logo-white.png" alt="Logo S4B">
+                <img src="https://silent4business.com/img/logo-white.png" alt="Logo S4B">
             </td>
         </tr>
         <tr class="tr-content">
@@ -84,7 +84,7 @@
         </tr>
         <tr class="tr-footer">
             <td style="text-align: right;">
-                {{Carbon\Carbon::now()->format('d / m / Y')}}
+                {{ Carbon\Carbon::now()->format('d / m / Y') }}
             </td>
         </tr>
     </table>
