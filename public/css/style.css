@@ -2862,10 +2862,11 @@ body.medios-body hr {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
+    width: 100%;
 }
 
 .caja-noticias-med {
-    float: left;
+    display: flex;
 }
 
 .noticias span {
@@ -2885,7 +2886,6 @@ body.medios-body hr {
     overflow: hidden;
     margin: 15px;
     margin-bottom: 30px;
-    float: left;
 }
 
 .noticiaid {
@@ -2923,7 +2923,7 @@ body.medios-body hr {
 
 .column-posts {
     margin-left: 30px;
-    width: 600px;
+    min-width: 600px;
 }
 
 .column-posts .caja-flex {
@@ -3286,9 +3286,7 @@ body.admin-medios {
 }
 
 /* animaciones ------- */
-* {
-    -webkit-transition: 0.5s;
-    -o-transition: 0.5s;
+.animandose, .animandose *{
     transition: 0.5s;
 }
 
@@ -3331,7 +3329,9 @@ body.admin-medios {
     -ms-transform: scale(1.1) translate(-50%);
     transform: scale(1.1) translate(-50%);
 }
-
+.caja-servicios-text .title-main, .caja-servicios-text p{
+    transition: 0.5s;
+}
 .no-visible .caja-servicios-text p {
     -webkit-filter: opacity(0);
     filter: opacity(0);
@@ -3449,12 +3449,14 @@ body.admin-medios {
 }
 
 .ciber-ind .caja-industria .title-main {
+    transition: 0.5s;
     -webkit-transition-delay: 0.7s;
     -o-transition-delay: 0.7s;
     transition-delay: 0.7s;
 }
 
 .ciber-ind .caja-industria p {
+    transition: 0.5s;
     -webkit-transition-delay: 0.8s;
     -o-transition-delay: 0.8s;
     transition-delay: 0.8s;
@@ -3463,9 +3465,7 @@ body.admin-medios {
 .logos-alianzas.no-visible img {
 
     opacity: 0;
-    -webkit-transform: scale(0.5) translate(-100%, -170%);
-    -ms-transform: scale(0.5) translate(-100%, -170%);
-    transform: scale(0.5) translate(-100%, -170%);
+    transform: scale(0.8);
 }
 
 .logos-alianzas img {
@@ -3687,9 +3687,11 @@ body.admin-medios {
 .logos-certificaciones.no-visible img {
     -webkit-filter: opacity(0);
     filter: opacity(0);
-    -webkit-transform: scale(1) translate(-100%, -100%);
-    -ms-transform: scale(1) translate(-100%, -100%);
-    transform: scale(1) translate(-100%, -100%);
+    transform: scale(0.8) ;
+}
+
+.logos-certificaciones img{
+    transition: 0.5s;
 }
 
 .logos-certificaciones img:nth-child(1) {
@@ -3839,6 +3841,10 @@ body.admin-medios {
     transform: scale(0.5);
 }
 
+.curso .title-main,
+.curso p{
+    transition: 0.5s;
+}
 .curso p {
     -webkit-transition-delay: 0.2s;
     -o-transition-delay: 0.2s;
@@ -3848,6 +3854,10 @@ body.admin-medios {
 .jefes-cards.no-visible .card-jefe {
     -webkit-box-shadow: 0 3px 6px #0000;
     box-shadow: 0 3px 6px #0000;
+}
+
+.jefes-cards *{
+    transition: 0.5s;
 }
 
 .jefes-cards.no-visible img {
@@ -4206,6 +4216,10 @@ body.admin-medios {
         font-size: 15px;
     }
 
+    .serv-inter-body .flex-serv > img{
+        display: none;
+    }
+
     .ciber-ind .content-limit {
         -webkit-box-orient: vertical;
         -webkit-box-direction: reverse;
@@ -4300,6 +4314,31 @@ body.admin-medios {
         -ms-flex-direction: column;
         flex-direction: column;
         margin-top: 100px;
+    }
+
+    .box-solucion-niveles{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .content-microsite .box-solucion-niveles img{
+        width: 100%;
+    }
+
+    .info-solucion-nivel{
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .serv-inter-body .btns-pestañas-servicios{
+        display: block;
+    }
+
+    .serv-inter-body .btns-pestañas-servicios button{
+        margin-bottom: 5px;
+        border: none;
+        border-radius: 0px;
+        width: 100%;
     }
 
     .solucion p {
@@ -4807,6 +4846,39 @@ body.admin-medios {
     .img-serv-inter img {
         width: 100%;
         margin: 30px 0px !important;
+    }
+
+    .box-servs-ciber-rep, .box-ciber-defens{
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .btns-pestañas-servicios{
+        display: block;
+    }
+
+    .btns-pestañas-servicios button{
+        margin-bottom: 5px;
+        border: none;
+        border-radius: 0px;
+        width: 100%;
+    }
+
+    .serv-monitor-info{
+        font-size: 12px ;
+        padding: 30px 10px;
+    }
+    .serv-monitor-info > span{
+        font-size: 16px !important;
+        font-weight: bolder;
+    }
+
+    .serv-monitor-info ul{
+        padding: 20px;
+    }
+
+    .box-flex-conoce-product{
+        gap: 30px;
     }
 }
 

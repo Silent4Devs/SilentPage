@@ -29,7 +29,7 @@
             <span class="title-second">{{__('tendencias.title_second')}}</span>
 
             <div class="noticias no-visible">
-                <div class="column-noticias caja-noticias-med">
+                <div id="lista-noticias-medias" class="column-noticias caja-noticias-med">
                     @foreach ($posts as $post)
                         <div class="card noticia">
                             <img src={{ asset($post->thumbnail) }}>
@@ -43,9 +43,6 @@
                         </div>
                     @endforeach
                 </div>
-
-                <br style="clear: both;">
-
                 <div class="column-posts">
                     <span class="title-terd" style="color:#2567AE;">{{__('tendencias.last_post')}}</span>
                     <div class="list-noticias-med">
@@ -72,4 +69,46 @@
         <div class="modales-tendencias"></div>
     </div>
 
+@endsection
+
+@section('scripts')
+    <script>
+        function dividirDivsPorIndice(contenedorId) {
+            // Obtener el contenedor principal
+            const contenedor = document.getElementById(contenedorId);
+
+            if (!contenedor) {
+                console.error('El contenedor no existe.');
+                return;
+            }
+
+            // Obtener todos los divs hijos del contenedor
+            const divs = Array.from(contenedor.children).filter(el => el.tagName === 'DIV');
+            console.log(`Total de divs encontrados: ${divs.length}`);
+
+            // Crear los dos nuevos divs
+            const divPares = document.createElement('div');
+            const divImpares = document.createElement('div');
+
+            divPares.classList.add('div-pares');
+            divImpares.classList.add('div-impares');
+
+            // Separar los divs por índice
+            divs.forEach((div, index) => {
+                if (index % 2 === 0) {
+                    divPares.appendChild(div.cloneNode(true)); // Agregar a pares
+                } else {
+                    divImpares.appendChild(div.cloneNode(true)); // Agregar a impares
+                }
+            });
+
+            // Limpiar el contenedor principal y agregar los nuevos divs
+            contenedor.innerHTML = '';
+            contenedor.appendChild(divPares);
+            contenedor.appendChild(divImpares);
+
+            console.log('Los divs se han separado correctamente.');
+        }
+        dividirDivsPorIndice('lista-noticias-medias');
+    </script>
 @endsection
