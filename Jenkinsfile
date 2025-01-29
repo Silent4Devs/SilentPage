@@ -3,7 +3,7 @@ pipeline {
     stages {
        stage('Install') {
             steps {
-                git branch: 'develop', url: 'https://github.com/Silent4Devs/SilentPage.git'
+                git branch: 'main', url: 'https://github.com/Silent4Devs/SilentPage.git'
             }
         }
 
