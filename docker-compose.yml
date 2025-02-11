@@ -42,27 +42,27 @@ services:
         #   restart_policy:
         #     condition: on-failure
 
-    wordpress-business:
-        container_name: wordpress-business
-        build:
-            context: .
-            dockerfile: ./infra/wordpress/Dockerfile.wordpress
-        restart: unless-stopped
-        ports:
-            - 7006:80 # Expose http and https
-            - 8443:443
-        stdin_open: true
-        tty: true
-        environment:
-            WORDPRESS_DB_HOST: mysqlwordpress-business
-            WORDPRESS_DB_USER: homestead
-            WORDPRESS_DB_PASSWORD: secret
-            WORDPRESS_DB_NAME: ciberblog
-            WORDPRESS_DB_PORT: 3030
-        volumes:
-            - wordpress_data:/var/www/html
-        networks:
-            - business-network
+    # wordpress-business:
+    #     container_name: wordpress-business
+    #     build:
+    #         context: .
+    #         dockerfile: ./infra/wordpress/Dockerfile.wordpress
+    #     restart: unless-stopped
+    #     ports:
+    #         - 7006:80 # Expose http and https
+    #         - 8443:443
+    #     stdin_open: true
+    #     tty: true
+    #     environment:
+    #         WORDPRESS_DB_HOST: mysqlwordpress-business
+    #         WORDPRESS_DB_USER: homestead
+    #         WORDPRESS_DB_PASSWORD: secret
+    #         WORDPRESS_DB_NAME: ciberblog
+    #         WORDPRESS_DB_PORT: 3030
+    #     volumes:
+    #         - wordpress_data:/var/www/html
+    #     networks:
+    #         - business-network
 
     mysql-business:
         image: mysql:8.1
@@ -81,30 +81,30 @@ services:
         networks:
             - business-network
 
-    mysqlwordpress-business:
-        image: mariadb:11
-        container_name: mysqlwordpress-business
-        restart: unless-stopped
-        tty: true
-        ports:
-            - 3030:3306
-        volumes:
-            - wordbusiness-dba:/var/lib/mysql
-        environment:
-            MYSQL_DATABASE: "ciberblog"
-            MYSQL_USER: "homestead"
-            MYSQL_PASSWORD: "secret"
-            MYSQL_ROOT_PASSWORD: "secret"
-        networks:
-            - business-network
+    # mysqlwordpress-business:
+    #     image: mariadb:11
+    #     container_name: mysqlwordpress-business
+    #     restart: unless-stopped
+    #     tty: true
+    #     ports:
+    #         - 3030:3306
+    #     volumes:
+    #         - wordbusiness-dba:/var/lib/mysql
+    #     environment:
+    #         MYSQL_DATABASE: "ciberblog"
+    #         MYSQL_USER: "homestead"
+    #         MYSQL_PASSWORD: "secret"
+    #         MYSQL_ROOT_PASSWORD: "secret"
+    #     networks:
+    #         - business-network
 
 volumes:
     business-db:
         driver: local
-    wordpress_data:
-        driver: local
-    wordbusiness-dba:
-        driver: local
+    # wordpress_data:
+    #     driver: local
+    # wordbusiness-dba:
+    #     driver: local
 
 networks:
     business-network:
