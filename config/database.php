@@ -95,11 +95,11 @@ return [
 
         'wordpress' => [ // for WordPress database (used by Corcel)
             'driver' => 'mysql',
-            'host' => '192.168.9.53',
+            'host' => '192.168.9.23',
             'database' => 'ciberblog',
             'username' => 'homestead',
             'password' => 'secret',
-            'port' => '3030',
+            'port' => '3306',
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix' => 'wp_',

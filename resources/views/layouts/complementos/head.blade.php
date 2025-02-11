@@ -1,21 +1,24 @@
 <meta charset="utf-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>@yield('titulo', 'Aliados de tu Ciberseguridad | Servicios para tu empresa')</title>
+
 <meta name="description" content="@yield('metaDesc', 'Protege tu organización con servicios a la medida: Centro de Operaciones de Seguridad, Pentesting, ISO 27001:2022 y mucho más. Contáctanos.')">
 <meta name="keywords"
-    content="Keyword, ciberseguridad, seguridad de información, informacion de la seguridad, seguridad perimetral, ciberinteligencia, seguridad en la informacion, la ciberseguridad, empresas de ciberseguridad, ciberseguridad empresas, empresa de ciberseguridad, servicios de seguridad informática, lider en ciberseguridad, Empresas de seguridad informática, Seguridad de la información, Seguridad informática, Seguridad en redes, Seguridad perimetral, Programa para bloquear páginas, Firewall, Internet Security, Pentesting, Análisis de vulnerabilidades, monitoreo de redes, analisis de riesgo de una empresa, certificación iso 27001, DLP, firewalls, SIEM, analisis de riesgos de seguridad, iso seguridad de la información, analisis de riesgo, normatividades iso, iso 27001, iso 27001:2022, Continuidad de Negocio. SPEI, SPID">
+    content="@yield('keywords', 'Keyword, ciberseguridad, seguridad de información, informacion de la seguridad, seguridad perimetral, ciberinteligencia, seguridad en la informacion, la ciberseguridad, empresas de ciberseguridad, ciberseguridad empresas, empresa de ciberseguridad, servicios de seguridad informática, lider en ciberseguridad, Empresas de seguridad informática, Seguridad de la información, Seguridad informática, Seguridad en redes, Seguridad perimetral, Programa para bloquear páginas, Firewall, Internet Security, Pentesting, Análisis de vulnerabilidades, monitoreo de redes, analisis de riesgo de una empresa, certificación iso 27001, DLP, firewalls, SIEM, analisis de riesgos de seguridad, iso seguridad de la información, analisis de riesgo, normatividades iso, iso 27001, iso 27001:2022, Continuidad de Negocio. SPEI, SPID')">
 <!-- Facebook Meta Tags -->
 
 {{-- canonical --}}
-<link rel="canonical" href="https://silent4business.com/">
+<link rel="canonical" href="{{ url()->current() }}">
 
 <meta property="og:url" content="https://silent4business.com/">
 
 <meta property="og:type" content="website">
 
-<meta property="og:title" content="@yield('titulo', 'Aliados de tu Ciberseguridad | Servicios para tu empresa')">
+<meta property="og:title" content="@yield('ogTitle', 'Aliados de tu Ciberseguridad | Servicios para tu empresa')">
 
-<meta property="og:description" content="@yield('metaDesc', 'Protege tu organización con servicios a la medida: Centro de Operaciones de Seguridad, Pentesting, ISO 27001:2022 y mucho más. Contáctanos.') Descripción: OG”
+<meta property="og:description" content="@yield('metaDesc', 'Protege tu organización con servicios a la medida: Centro de Operaciones de Seguridad, Pentesting, ISO 27001:2022 y mucho más. Contáctanos.') Descripción: OG">
 
 <meta property=" og:image"
     content="https://www.silent4business.com/img/logo_silent.webp">
@@ -36,7 +39,7 @@
 <link rel="shortcut icon" href="{{ asset('img/logo_silent.webp') }}" type="image/png" />
 
 <!-- css inerno -->
-<link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}?v=1.1">
+<link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}?v=1.2">
 
 <!-- font awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"

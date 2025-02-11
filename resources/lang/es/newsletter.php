@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => 'Únete a nuestro Newsletter',
+    'title' => 'Únete a nuestra comunidad',
     'meta_desc' => 'Suscríbete para estar informado acerca de nuestros servicios, productos y desarrollos en el mundo de la
         Ciberseguridad',
     'mail' => 'Dirección de correo',

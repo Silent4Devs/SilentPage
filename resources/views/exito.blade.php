@@ -23,7 +23,7 @@
 
         <div id="seguridad-medida" class="caso-exito-complete" style="background-color: #F3F5FF; margin-top: 100px;">
             <content class="content-limit">
-                <div class="caso-img" style="background-image: url('img/exito_caso_1.webp');" title="Industria turística">
+                <div class="caso-img" style="background-image: url('{{ asset("img/exito_caso_1.webp") }}');" title="Industria turística">
                 </div>
                 <div class="caso-info">
                     <h2 class="title-second">{{ __('exito.title_security') }}</h2>
@@ -39,7 +39,7 @@
             </content>
         </div>
 
-        <div id="cero-extraccion" class="caso-exito-complete --no-visible" style="background-color: #f3f3f3;">
+        <div id="cero-extraccion" class="caso-exito-complete no-visible" style="background-color: #f3f3f3;">
             <content class="content-limit">
                 <div class="caso-info">
                     <h2 class="title-second">{{ __('exito.title_zero') }}</h2>
@@ -52,16 +52,16 @@
                             class="btn-tend">{{ __('exito.title_read_more') }}</a>
                     </p>
                 </div>
-                <div class="caso-img"
-                    style="background-image: url('img/exito_caso_2.webp'); border-radius: 0; border-top-left-radius: 20px; border-bottom-left-radius: 20px; border:none; border-right: 60px solid #B8B8B8;"
+                <div class="caso-img mobile-none"
+                    style="background-image: url('{{ asset("img/exito_caso_2.webp") }}'); border-radius: 0; border-top-left-radius: 20px; border-bottom-left-radius: 20px; border:none; border-right: 60px solid #B8B8B8;"
                     title="Industria minera">
                 </div>
             </content>
         </div>
 
-        <div id="proteccion-total" class="caso-exito-complete --no-visible" style="background-color: #F3F5FF;">
+        <div id="proteccion-total" class="caso-exito-complete no-visible" style="background-color: #F3F5FF;">
             <content class="content-limit">
-                <div class="caso-img" style="background-image: url('img/exito_caso_3.webp');" title="SENER"></div>
+                <div class="caso-img" style="background-image: url('{{ asset("img/exito_caso_3.webp") }}');" title="SENER"></div>
                 <div class="caso-info">
                     <h2 class="title-second">{{ __('exito.title_proteccion') }}</h2>
                     <p style="font-size: 24px;">{{ __('exito.title_proteccion_case_1') }}</p>

@@ -45,6 +45,7 @@ class ContactoCursoCapacitacionFormComponent extends Component
             $this->alert('success', 'Información enviada correctamente.');
         } catch (\Exception $e) {
             $this->alert('error', 'Intente nuevamente.');
+            dd($e);
         }
 
         $this->reset();

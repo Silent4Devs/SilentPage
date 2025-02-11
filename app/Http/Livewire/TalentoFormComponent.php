@@ -60,12 +60,13 @@ class TalentoFormComponent extends Component
 
             //Datos del correo
 
-            Mail::to('cesar.borre@silent4business.com')->send(new Talento($talent));
+            Mail::to('gestiondetalento@silent4business.com')->send(new Talento($talent));
 
             $this->alert('success', 'Nuevo Talento');
         } catch (\Exception $e) {
             DB::rollback();
             $this->alert('error', 'Intente nuevamente más tarde.');
+            dd($e);
         }
 
         $this->reset();

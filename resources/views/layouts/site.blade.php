@@ -83,6 +83,17 @@
         }
     </script>
 
+    <script>
+        function changeContentMicro(id) {
+            document.querySelectorAll('.btns-pestañas-servicios button').forEach(btnPestaña => {
+                btnPestaña.classList.remove('active');
+            });
+            document.querySelector('.btns-pestañas-servicios button:hover').classList.add('active');
+            document.querySelector('.content-microsite.active').classList.remove('active');
+            document.getElementById(id).classList.add('active');
+        }
+    </script>
+
     @livewireScripts
 
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>

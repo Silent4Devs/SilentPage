@@ -29,7 +29,7 @@
                     <img src="{{ asset('img/logo_silent.webp') }}" alt="Logo Silent4business" title="Logo Silent4business">
                     <p>
                         <font style="font-size: 24px;">{{ __('productos.header_weare') }} </font>
-                        {{ __('productos.header_weare_desc')}}
+                        {{ __('productos.header_weare_desc') }}
                     </p>
                 </div>
             </content>
@@ -37,9 +37,9 @@
 
         <span class="title-second title-produ">{{ __('productos.products_title') }}</span>
 
-        <div class="productos">
+        {{-- <div class="productos">
             <content class="content-limit">
-                <div class="producto --no-visible">
+                <div class="producto no-visible">
                     <div class="info-product info-izq">
                         <div class="caja-flex">
                             <p>
@@ -82,7 +82,7 @@
                     </div>
                 </div>
 
-                <div class="producto --no-visible">
+                <div class="producto no-visible">
                     <div class="info-product info-izq">
 
                     </div>
@@ -118,7 +118,7 @@
                     </div>
                 </div>
 
-                <div class="producto --no-visible">
+                <div class="producto no-visible">
                     <div class="info-product info-izq">
 
                     </div>
@@ -158,7 +158,7 @@
                     </div>
                 </div>
 
-                <div class="producto --no-visible">
+                <div class="producto no-visible">
                     <div class="info-product info-izq">
                         <div class="caja-flex">
                             <p>
@@ -192,6 +192,10 @@
                     </div>
                 </div>
             </content>
+        </div> --}}
+
+        <div class="content-limit">
+            <img src="{{ asset('img/diagrama-tabantaj.png') }}" alt="Diagrama tabantaj" style="width: 100%;">
         </div>
     </div>
 

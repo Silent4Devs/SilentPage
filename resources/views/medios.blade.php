@@ -24,7 +24,7 @@
         <span class="title-second">{{__('medios.title_second')}}</span>
 
         <content class="content-limit caja-carrusel">
-            <div class="arrow-carrusel-izq">
+            <div class="arrow-carrusel-izq" onclick="document.querySelector('.carrusel-infinito').scrollBy({left: -400});">
                 <i class="material-symbols-outlined">arrow_back_ios</i>
             </div>
 
@@ -79,7 +79,7 @@
                 </div>
             </div>
 
-            <div class="arrow-carrusel-der">
+            <div class="arrow-carrusel-der" onclick="document.querySelector('.carrusel-infinito').scrollBy({left: 400});">
                 <i class="material-symbols-outlined">arrow_forward_ios</i>
             </div>
         </content>
@@ -96,7 +96,7 @@
                                 <small>{{ Carbon\Carbon::parse($post->post_date)->format('d-m-Y') }}</small><br><br>
                                 <span class="title-terd">{{ $post->post_title }}</span><br><br>
                                 <span>
-                                    <a href={{ url('/medios/' . $post->ID) }}>{{__('medios.more_info')}}</a>
+                                    <a  href="{{ $post->guid }}" target="_blanck">{{__('medios.more_info')}}</a>
                                 </span>
                             </div>
                         </div>
@@ -115,7 +115,7 @@
                                 <div>
                                     <small>{{ Carbon\Carbon::parse($post->post_date)->format('d-m-Y') }}</small><br>
                                     <span class="title-for">{{ $postReciente->post_title }}...</span>
-                                    <a href={{ url('/medios/' . $postReciente->ID) }}>{{__('medios.more_info')}}</a>
+                                    <a  href="{{ $postReciente->guid }}" target="_blanck">{{__('medios.more_info')}}</a>
                                 </div>
                             </div>
                             <hr>
@@ -124,7 +124,9 @@
                 </div>
             </div>
         </content>
-
     </div>
 
+    @section('scripts')
+
+    @endsection
 @endsection

@@ -21,7 +21,7 @@ class Talento extends Mailable
     {
         $this->data = $data;
 
-        $this->attach('storage/'.$data->cv);
+        $this->attach('https://silent4business.com/storage/'.$data->cv);
     }
 
     /**

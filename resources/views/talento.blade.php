@@ -77,6 +77,10 @@
                                 <p>{{ __('talento.advantages_4') }}</p>
                             </div>
                         </div>
+                        <div style="margin-top: 50px;">
+                            <a href="https://www.careers-page.com/silent4business#openings" target="_blanck"
+                                style="color: #2567ae; text-decoration: underline; cursor: pointer; font-size: 18px;">Vacantes</a>
+                        </div>
                     </div>
                     <div class="talento-form">
                         @livewire('talento-form-component')
