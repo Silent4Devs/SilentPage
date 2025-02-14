@@ -24,5 +24,5 @@ return [
 
     'pentester' => 'Estamos en búsqueda de su próximo Consultor de Seguridad (Pentester) Sr. Se busca una persona que este motivada y abierta al aprendizaje continuo, con experiencia.',
     'pentester_experience' => 'Experiencia media SOA, WEB-SERVICES, SVN, GITHUB, SQL Y MATERIAL DESIGN',
-
+    'consultar_vacantes' => 'Consultar Vacantes',
 ];

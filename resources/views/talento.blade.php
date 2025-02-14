@@ -79,7 +79,7 @@
                         </div>
                         <div style="margin-top: 50px;">
                             <a href="https://www.careers-page.com/silent4business#openings" target="_blanck"
-                                style="color: #2567ae; text-decoration: underline; cursor: pointer; font-size: 18px;">Vacantes</a>
+                                class="btn-form-second" style="width: 230px;">{{ __('talento.consultar_vacantes') }}</a>
                         </div>
                     </div>
                     <div class="talento-form">

@@ -3,7 +3,7 @@
 return [
     'servicios' => 'Servicios',
     'productos' => 'Productos',
-    'soluciones' => 'Soluciones',
+    'soluciones' => 'Industrias',
     'ciberblog' => 'Ciber Blog',
     'cert' => 'CERT',
     'contacto' => 'Contáctanos',
