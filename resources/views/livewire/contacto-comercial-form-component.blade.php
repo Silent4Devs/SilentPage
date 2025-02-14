@@ -18,13 +18,22 @@
                     </div>
                     <div class="form-item">
                         <label for="">{{ __('contacto.phone') }} <sup>*</sup></label>
-                        <input required type="tel" pattern="[0-9]{10,15}" maxlength="15" name="telefono" id="telefono"
-                            wire:model.lazy="telefono">
+                        <input required type="tel" pattern="[0-9]{10,15}" maxlength="15" name="telefono"
+                            id="telefono" wire:model.lazy="telefono">
                     </div>
                 </div>
                 <div class="form-item">
                     <label for="mensaje">{{ __('contacto.mensaje') }}</label>
                     <textarea name="mensaje" id="mensaje" wire:model.lazy="mensaje"></textarea>
+                </div>
+                <div class="form-item input-acepto">
+                    <input type="checkbox" required name="terminos" id="terminos" value="1"
+                        title="{{ __('form_talento.privacy') }}">
+                    <label for="terminos">
+                        <a href="{{ route('terminos-privacidad') }}" target="_blanck">
+                            {{ __('form_talento.privacy') }}
+                        </a>
+                    </label>
                 </div>
                 <div class="form-item caja-flex" style="justify-content: space-between;">
                     <div style="width: 230px;">

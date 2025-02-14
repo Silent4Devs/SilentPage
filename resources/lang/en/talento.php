@@ -24,4 +24,5 @@ return [
 
     'pentester' => 'We are looking for our next Senior Security Consultant (Pentester). We seek a motivated individual open to continuous learning, with experience.',
     'pentester_experience' => 'Intermediate experience in SOA, WEB-SERVICES, SVN, GITHUB, SQL, and MATERIAL DESIGN',
+    'consultar_vacantes' => 'Check vacancies',
 ];
