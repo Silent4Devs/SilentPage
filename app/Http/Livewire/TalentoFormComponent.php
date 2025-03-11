@@ -58,7 +58,7 @@ class TalentoFormComponent extends Component
 
             $talent->save();
 
-            //Datos del correo
+            // Datos del correo
 
             Mail::to('gestiondetalento@silent4business.com')->send(new Talento($talent));
 

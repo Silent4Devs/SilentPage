@@ -64,9 +64,6 @@ return [
 
     'nuestra_entrega_de' => 'Our service delivery is subject to a continuous improvement process, fully tailored to the needs of our clients and focused on positively impacting their experience.',
 
-
-
-
     'salud' => 'Health',
 
     'financiera' => 'Financial',
@@ -83,8 +80,6 @@ return [
 
     'el_concepto_de' => 'The concept of industrial cybersecurity specializes mainly in integrating the security principles of the OT (Operational Technology) environment with the security foundations of the IT (Information Technology) network environment.',
 
-
-
     'casos_de_éxito' => 'Success Stories',
 
     'cero_extracción' => 'Zero Extraction',
@@ -99,9 +94,6 @@ return [
 
     'la_entrega_de_nuestros' => 'The delivery of our services is based on continuous communication.',
 
-
-
-
     'tendencias' => 'Trends',
 
     'noticias_relevantes' => 'Relevant Cybersecurity News',
@@ -112,12 +104,9 @@ return [
 
     'tendencias_importantes' => 'Most important and recent trends to protect your personal data and prevent cyberattacks.',
 
-
     'tendencias_ciberseguridad' => 'Updated Cybersecurity Trends',
 
     'mantente_actualizado' => 'Stay updated on the latest cybersecurity trends and protect your personal data',
-
-
 
     'nuestra_presencia' => 'Our Media Presence',
 
@@ -128,7 +117,6 @@ return [
     'nuestras_certificaciones' => 'Our Certifications',
 
     'mejores_practicas' => 'We always seek the best practices to offer the highest quality in our services',
-
 
     'cursosycapacitaciones' => 'Courses and Training',
     'cursoscap_desc' => 'Request a visit to your school for a training session or to receive a cybersecurity presentation.',

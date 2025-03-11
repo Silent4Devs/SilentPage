@@ -68,6 +68,4 @@ return [
     'benefit_fortalecimiento_seguridad' => 'Fortalecimiento de la seguridad: Implementa sistemas y prácticas para proteger los activos digitales y garantizar la continuidad del negocio.',
     'benefit_reputacion_marca' => 'Reputación de marca: Asegura que la organización cumpla con regulaciones internacionales y estándares de la industria.',
 
-
 ];
- 

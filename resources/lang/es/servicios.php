@@ -20,9 +20,9 @@ return [
     'desc_2' => 'Debido a la creciente incidencia de robo de información y demás ciberataques, las compañías intentan estar
                 preparadas para hacer frente y disminuir los riegos a los que se exponen diariamente. Conoce que servicios
                 podemos ofrecerle a tu organización para proteger su información.',
-    'desc_3' =>  'Tu ciberseguridad no es opcional, es esencial.',
+    'desc_3' => 'Tu ciberseguridad no es opcional, es esencial.',
     'link' => 'Solicita una reunión',
     'desc_4' => 'Conoce nuestros productos',
     'desc_5' => '¿YA ESTÁS SUSCRITO A NUESTRO NEWSLETTER EN LINKEDIN?',
-    'desc_6' => 'ENTRA A VER ALGUNAS DE NUESTRAS NOTAS:'
+    'desc_6' => 'ENTRA A VER ALGUNAS DE NUESTRAS NOTAS:',
 ];
