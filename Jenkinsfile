@@ -15,7 +15,7 @@ pipeline {
                         cd /var/contenedor/silentpage &&
                         echo 'D3sarrollo.portal' | sudo -S docker compose exec php composer require --dev laravel/pint &&
                         echo 'D3sarrollo.portal' | sudo -S docker compose exec php ./vendor/bin/pint --test &&
-                        echo 'D3sarrollo.portal' | sudo -S docker compose exec php ./vendor/bin/pint --fix
+                        echo 'D3sarrollo.portal' | sudo -S docker compose exec php ./vendor/bin/pint
                     "
                     '''
                     sh '''
