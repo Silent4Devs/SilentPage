@@ -1,12 +1,34 @@
 pipeline {
     agent any
     stages {
-       stage('Install') {
+        stage('Install') {
             steps {
                 git branch: 'develop', url: 'https://github.com/Silent4Devs/SilentPage.git'
             }
         }
-
+ 
+        stage('Laravel Pint') {
+            steps {
+                sh 'composer require --dev laravel/pint' // Asegura que Laravel Pint esté instalado
+                sh './vendor/bin/pint --test' // Ejecuta Laravel Pint en modo test
+            }
+        }
+ 
+        stage('Build') {
+            steps {
+                git branch: 'develop', url: 'https://github.com/Silent4Devs/SilentPage.git'
+                sh 'composer install'
+                sh 'cp .env.example .env'
+                sh 'php artisan key:generate'
+            }
+        }
+ 
+        stage('Test') {
+            steps {
+                sh './vendor/bin/phpunit'
+            }
+        }
+ 
         stage('Deploy via SSH') {
             steps {
                 script {
@@ -15,11 +37,8 @@ pipeline {
                         sh 'ls -l $WORKSPACE'
                         sh 'scp -r $WORKSPACE/* desarrollo@192.168.9.53:/var/contenedor/silentpage'
                     }
-         }
-    }
-}
-
-
-
+                }
+            }
+        }
     }
 }
