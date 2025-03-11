@@ -13,8 +13,8 @@ pipeline {
                     sh '''
                     sshpass -p "D3sarrollo.portal" ssh desarrollo@192.168.9.53 "
                         cd /var/contenedor/silentpage &&
-                        sudo -S docker compose exec php composer require --dev laravel/pint &&
-                        sudo -S docker compose exec php ./vendor/bin/pint --test
+                        echo 'D3sarrollo.portal' | sudo -S docker compose exec php composer require --dev laravel/pint &&
+                        echo 'D3sarrollo.portal' | sudo -S docker compose exec php ./vendor/bin/pint --test
                     "
                     '''
                     sh '''
