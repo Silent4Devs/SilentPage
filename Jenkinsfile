@@ -9,8 +9,8 @@ pipeline {
  
         stage('Laravel Pint') {
             steps {
-                sh 'sudo docker compose exec php composer install --no-dev' // Asegura que Laravel Pint esté instalado
-                sh 'sudo docker composer require --dev laravel/pint'
+                sh 'docker compose exec php composer install --no-dev' // Asegura que Laravel Pint esté instalado
+                sh 'docker composer require --dev laravel/pint'
                 sh './vendor/bin/pint --test' // Ejecuta Laravel Pint en modo test
             }
         }
