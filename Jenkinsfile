@@ -1,8 +1,5 @@
 pipeline {
     agent any
-    environment {
-        SSH_PASSWORD = credentials('D3sarrollo.portal')
-    }
     stages {
         stage('Install') {
             steps {
@@ -13,9 +10,9 @@ pipeline {
         stage('Deploy via SSH') {
             steps {
                 script {
-                    sh 'sshpass -p "$SSH_PASSWORD" ssh desarrollo@192.168.9.53 "cd /var/contenedor/silentpage && sudo -S docker compose exec php composer require --dev laravel/pint"'
-                    sh 'sshpass -p "$SSH_PASSWORD" ssh desarrollo@192.168.9.53 "cd /var/contenedor/silentpage && sudo -S docker compose exec php ./vendor/bin/pint --test"'
-                    sh 'sshpass -p "$SSH_PASSWORD" scp -r $WORKSPACE/* desarrollo@192.168.9.53:/var/contenedor/silentpage'
+                    sh 'sshpass -p "D3sarrollo.portal" ssh desarrollo@192.168.9.53 "cd /var/contenedor/silentpage && sudo -S docker compose exec php composer require --dev laravel/pint"'
+                    sh 'sshpass -p "D3sarrollo.portal" ssh desarrollo@192.168.9.53 "cd /var/contenedor/silentpage && sudo -S docker compose exec php ./vendor/bin/pint --test"'
+                    sh 'sshpass -p "D3sarrollo.portal" scp -r $WORKSPACE/* desarrollo@192.168.9.53:/var/contenedor/silentpage'
                 }
             }
         }
