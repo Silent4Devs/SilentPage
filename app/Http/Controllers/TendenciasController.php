@@ -13,14 +13,14 @@ class TendenciasController extends Controller
     public function index()
     {
         try {
-            //code...
+            // code...
             $posts = Post::taxonomy('category', 'tendencias')
                 ->type('post')
                 ->published()
                 ->orderBy('post_date', 'desc')
                 ->get();
 
-                // dd($posts);
+            // dd($posts);
 
             $postsRecientes = Post::taxonomy('category', 'tendencias')
                 ->type('post')

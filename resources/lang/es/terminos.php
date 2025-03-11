@@ -19,14 +19,14 @@ return [
                     tipo de datos personales (los “Datos Personales”) que en su caso podríamos recabar de usted, cómo los
                     usamos, manejamos y aprovechamos; en cumplimiento a lo establecido en la Ley Federal de Protección de
                     Datos Personales en Posesión de Particulares y su reglamento (la “Ley”).',
-                'parrafo2' => 'Nuestros clientes proporcionan Datos Personales a “S4B”, de manera directa, indirecta, personal o a través de sus subsidiarias, filiales, afiliadas, controladoras y/o aliadas comerciales, a través de oficinas y en las ubicaciones de “S4B”; correo electrónico; teléfono o página web, los cuales podrán incluir:'
+                'parrafo2' => 'Nuestros clientes proporcionan Datos Personales a “S4B”, de manera directa, indirecta, personal o a través de sus subsidiarias, filiales, afiliadas, controladoras y/o aliadas comerciales, a través de oficinas y en las ubicaciones de “S4B”; correo electrónico; teléfono o página web, los cuales podrán incluir:',
             ],
         ],
 
         'tipos_de_datos' => [
             'title' => 'Tipos de Datos Personales Recabados',
             'paragraphs' => [
-               'parrafo1' => 'Datos Personales: nombre completo; dirección de correo electrónico; números telefónicos (trabajo y/o móvil); identificación oficial, Registro Federal de Contribuyentes (RFC); referencias comerciales y/o personales.',
+                'parrafo1' => 'Datos Personales: nombre completo; dirección de correo electrónico; números telefónicos (trabajo y/o móvil); identificación oficial, Registro Federal de Contribuyentes (RFC); referencias comerciales y/o personales.',
                 'parrafo2' => 'Datos Personales Sensibles Patrimoniales: datos de cuentas bancarias (institución bancaria, número de cuenta, CLABE interbancaria y sucursal).',
             ],
         ],
@@ -34,8 +34,8 @@ return [
         'cookies' => [
             'title' => 'Uso de Cookies y Tecnologías Similares',
             'paragraphs' => [
-               'parrafo1' => 'Para obtener mayor información de Usted, podemos utilizar cookies, web beacons y/o elementos tecnológicos similares, para obtener información, como: tipo de navegador y sistema operativo; páginas de internet que visita; vínculos que sigue; dirección de IP; sitios que visitó antes de entrar al nuestro; reconocimiento de usuarios; detectar información destacada; y medir algunos parámetros de tráfico.',
-               'parrafo2' => 'Estas tecnologías pueden ser deshabilitadas mediante los procedimientos siguiendo las ligas que se indican a continuación según el tipo de navegador que utilicen:',
+                'parrafo1' => 'Para obtener mayor información de Usted, podemos utilizar cookies, web beacons y/o elementos tecnológicos similares, para obtener información, como: tipo de navegador y sistema operativo; páginas de internet que visita; vínculos que sigue; dirección de IP; sitios que visitó antes de entrar al nuestro; reconocimiento de usuarios; detectar información destacada; y medir algunos parámetros de tráfico.',
+                'parrafo2' => 'Estas tecnologías pueden ser deshabilitadas mediante los procedimientos siguiendo las ligas que se indican a continuación según el tipo de navegador que utilicen:',
             ],
             'links' => [
                 'Microsoft_Edge' => 'https://privacy.microsoft.com/es-ES/windows-10-microsoft-edge-and-privacy',
@@ -61,7 +61,7 @@ return [
                 'parrafo9' => 'Toda la documentación deberá ser enviada en formato de archivo PDF, legible y completa, para que “S4B” pueda atender la Solicitud. En caso de actuar por medio de representante en cualquiera de las solicitudes señaladas anteriormente, deberá acreditar la existencia de la representación, mediante instrumento público o carta poder firmada ante dos testigos en su caso, y enviar también copia simple de la identificación oficial de su representante.',
                 'parrafo10' => 'Si usted considera que su derecho de protección de Datos Personales ha sido lesionado por “S4B” o presume que en el tratamiento de sus Datos Personales existe alguna violación a las disposiciones previstas en la Ley, podrá interponer su queja o denuncia correspondiente ante el Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales, INAI (www.inafai.orggob.mx), dentro de los 15 (quince) días siguientes a la fecha en que reciba la respuesta de “S4B” o a partir de que concluya el plazo de 20 (veinte) días contados a partir de la fecha del acuse de recepción de la Solicitud de ejercicio de derechos.',
                 'parrafo11' => '“S4B” es una empresa dedicada a los servicios de información en el área de investigación técnica y científica, practicar toda clase de investigaciones y estudios sobre potencialidad y tendencias de mercado, así como prestar servicios de consultoría, en consecuencia, los Datos Personales podrán ser transferidos a sociedades subsidiarias, filiales, afiliadas, controladoras y/o aliadas comerciales, dentro de territorio nacional, para los mismos fines citados. Asimismo, podrá ser transmitida a las personas que a continuación se mencionan: asesores en materia legal, contable y/o fiscal, autoridades hacendarias y, cualquier otra que sea necesaria para cumplir los fines para los cuales nos contactó.',
-                'parrafo12' => 'Importante: Cualquier modificación a este AVISO DE PRIVACIDAD se hará de su conocimiento en este mismo sitio de Internet: www.silent4business.com ubicado en la parte inferior izquierda de la página principal en el apartado de AVISO DE PRIVACIDAD, sin que sea necesario comunicarle dicha modificación al respecto a usted en forma individual. Fecha de última actualización: 27/02/2018 | Protección de Datos Personales.'
+                'parrafo12' => 'Importante: Cualquier modificación a este AVISO DE PRIVACIDAD se hará de su conocimiento en este mismo sitio de Internet: www.silent4business.com ubicado en la parte inferior izquierda de la página principal en el apartado de AVISO DE PRIVACIDAD, sin que sea necesario comunicarle dicha modificación al respecto a usted en forma individual. Fecha de última actualización: 27/02/2018 | Protección de Datos Personales.',
             ],
         ],
     ],

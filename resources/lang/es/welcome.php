@@ -44,9 +44,6 @@ return [
 
     'leer_más' => 'Leer más',
 
-
-
-
     'cómo_se_puede' => '¿Cómo se puede enriquecer nuestro entorno?',
 
     'nuestra_visión' => 'Nuestra visión',
@@ -67,9 +64,6 @@ return [
 
     'nuestra_entrega_de' => 'Nuestra entrega de servicios está sujeta a un proceso de mejora continua, totalmente adecuado a las necesidades de nuestros clientes y enfocado a impactar positivamente su experiencia.',
 
-
-
-
     'salud' => 'Salud',
 
     'financiera' => 'Financiera',
@@ -86,8 +80,6 @@ return [
 
     'el_concepto_de' => 'El concepto de ciberseguridad industrial se especializa principalmente en la unión de los principios de seguridad del entorno de la OT (Tecnología de las Operaciones) y los fundamentos de seguridad del entorno de la red TI (Tecnologías de la Información).',
 
-
-
     'casos_de_éxito' => 'Casos de éxito',
 
     'cero_extracción' => 'Cero Extracción',
@@ -102,13 +94,9 @@ return [
 
     'la_entrega_de_nuestros' => 'La entrega de nuestros servicios está basada en la comunicación continua.',
 
-
-
     'tendencias' => 'Tendencias',
 
     'noticias_relevantes' => 'Noticias relevantes sobre Ciberseguridad',
-
-
 
     'proteccion_online' => 'Protección Online Confiable',
 
@@ -120,7 +108,6 @@ return [
 
     'mantente_actualizado' => 'Mantente actualizado sobre las últimas tendencias en ciberseguridad y protege tus datos personales',
 
-
     'nuestra_presencia' => 'Nuestra presencia en medios',
 
     'nuestro_ecosistema' => 'Nuestro ecosistema de alianzas',
@@ -130,7 +117,6 @@ return [
     'nuestras_certificaciones' => 'Nuestras certificaciones',
 
     'mejores_practicas' => 'Buscamos siempre las mejores prácticas para poder ofrecer la mejor calidad en nuestros servicios',
-
 
     'cursosycapacitaciones' => 'Cursos y capacitaciones',
     'cursoscap_desc' => 'Solicita una visita a tu escuela para una capacitación o bien para recibir una

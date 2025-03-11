@@ -20,7 +20,6 @@ return [
     'link' => 'Request a meeting',
     'desc_4' => 'Discover our products',
     'desc_5' => 'ARE YOU ALREADY SUBSCRIBED TO OUR LINKEDIN NEWSLETTER?',
-    'desc_6' => 'THESE ARE SOME OF OUR NOTES:'
-
+    'desc_6' => 'THESE ARE SOME OF OUR NOTES:',
 
 ];
