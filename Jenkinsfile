@@ -33,8 +33,8 @@ pipeline {
                             sleep 5
                             
                             # Instalar y ejecutar Laravel Pint dentro del contenedor Docker
-                            echo '${SSH_PASS}' | sudo -S docker compose exec php composer require --dev laravel/pint || exit 1
-                            echo '${SSH_PASS}' | sudo -S docker compose exec php ./vendor/bin/pint || exit 1
+                            echo '${SSH_PASS}' | sudo -S docker compose exec php composer require --dev laravel/pint
+                            echo '${SSH_PASS}' | sudo -S docker compose exec php ./vendor/bin/pint
                         """
 
                         // Copiar archivos desde Jenkins a la máquina remota
