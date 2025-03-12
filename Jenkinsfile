@@ -19,10 +19,7 @@ pipeline {
                         string(credentialsId: 'GITHUB_PAT_TOKEN', variable: 'GITHUB_TOKEN')  
                     ]) {
                         // Conectar al servidor y ejecutar comandos
-                        sh """
-                            # Asegurar que los contenedores están corriendo
-                            echo '$SSH_PASS' | sudo -S docker compose up -d
-                            
+                        sh """ 
                             # Instalar y ejecutar Laravel Pint dentro del contenedor Docker
                             echo '$SSH_PASS' | sudo -S docker compose exec php composer require --dev laravel/pint
                             echo '$SSH_PASS' | sudo -S docker compose exec php ./vendor/bin/pint --test
