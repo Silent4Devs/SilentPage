@@ -40,7 +40,7 @@ pipeline {
 
                         // pull 
                         sh """
-                        sshpass -p '$SSH_PASS' ssh -F /tmp/ssh_config $SSH_USER@$DEPLOY_SERVER \
+                        sshpass -p "$SSH_PASS" ssh -F /tmp/ssh_config $SSH_USER@$DEPLOY_SERVER \
                         "cd $DEPLOY_PATH && echo '$SSH_PASS' | sudo -S git pull"
                         """
                     }
