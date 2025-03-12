@@ -38,9 +38,9 @@ pipeline {
                             echo '${SSH_PASS}' | sudo -S docker compose exec php ./vendor/bin/pint
                         """
 
-                        // Copiar archivos desde Jenkins a la máquina remota
+                        // pull 
                         sh """
-                        sshpass -p '${SSH_PASS}' scp -r $WORKSPACE/* ${SSH_USER}@${DEPLOY_SERVER}:${DEPLOY_PATH}
+                            sshpass -p $SSH_PASS ssh -F /tmp/ssh_config $SSH_USER@$DEPLOY_SERVER "cd /var/contenedor/silentpage && echo $SSH_PASS | sudo -S git pull"
                         """
                     }
                 }
