@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'title' => 'S4B CERT | Seguridad Informática de Vanguardia',
-    'meta_desc' => 'Nuestro Computer Emergency Response Team (CERT) está listo para prevenir y responder a los
+    'title' => 'S4B CSIRT | Seguridad Informática de Vanguardia',
+    'meta_desc' => 'Nuestro Computer Emergency Response Team (CSIRT) está listo para prevenir y responder a los
     incidentes de seguridad informática que acechan a tu organización.',
     'header' => 'Asistencia técnica especializada a nuestros clientes y a las organizaciones.',
     'header_desc' => 'Computer Emergency Response Team. Es un equipo de
@@ -15,7 +15,7 @@ return [
     'vision' => 'Visión',
     'vision_desc' => 'A través de un equipo especializado, ser un frente confiable en materia de investigación,
                         asistencia y difusión en actividades de atención y respuesta a incidentes de seguridad.',
-    'objetivo' => 'Objetivos de un CERT',
+    'objetivo' => 'Objetivos de un CSIRT',
     'objetivo1' => 'en el manejo de información, riesgos,
                         así como implementación de políticas de seguridad de la información.',
     'objetivo1_strong' => 'Impulsar actividades de concientización',

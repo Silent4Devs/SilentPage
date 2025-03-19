@@ -17,14 +17,14 @@
 @section('content')
     <div>
         <div class="title-fondo">
-            <h1 class="title-main">S4B CERT</h1>
+            <h1 class="title-main">S4B CSIRT</h1>
             <p>{{ __('cert.header') }}</p>
         </div>
 
         <div class="blue-compu">
             <content class="content-limit">
                 <p>
-                    <strong style="font-size: 24px;"> CERT: </strong>
+                    <strong style="font-size: 24px;"> CSIRT: </strong>
                     {{ __('cert.header_desc') }}
                 </p>
             </content>
@@ -40,13 +40,13 @@
                     </p>
                 </div>
                 <div class="cert-icon">
-                    <img src="{{ asset('img/cert_vision.webp') }}" alt="Misión CERT" title="Misión CERT">
+                    <img src="{{ asset('img/cert_vision.webp') }}" alt="Misión CSIRT" title="Misión CSIRT">
                     <h2 class="title-five">{{ __('cert.mision') }}</h2>
                 </div>
             </div>
             <div class="cert-valor cert-vision">
                 <div class="cert-icon">
-                    <img src="{{ asset('img/cert_vision.webp') }}" alt="Visión CERT" title="Visión CERT">
+                    <img src="{{ asset('img/cert_vision.webp') }}" alt="Visión CSIRT" title="Visión CSIRT">
                     <h2 class="title-five">{{ __('cert.vision') }}</h2>
                 </div>
                 <div class="cert-text">
@@ -80,13 +80,13 @@
             </div>
 
             <img src="{{ asset('img/' . __('cert.img_servicios') . '.webp') }}" class="servicio-img no-visible"
-                alt="Servicios del CERT" title="Servicios del CERT">
+                alt="Servicios del CSIRT" title="Servicios del CSIRT">
 
             <hr style="width: 500px; border-color:#fff; margin-top:80px;">
 
             <h2 class="title-second title-somm">{{ __('cert.miembros') }}</h2>
 
-            <img src="{{ asset('img/first.webp') }}" class="first-img no-visible" alt="CERT certificado por FIST"
+            <img src="{{ asset('img/first.webp') }}" class="first-img no-visible" alt="CSIRT certificado por FIST"
                 title="CERT certificado por FIST">
 
             <content class="content-limit">
