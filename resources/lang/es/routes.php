@@ -11,7 +11,7 @@ return [
     'contacto' => 'contacto',
     'metaverso' => 'metaverso',
     'terminos_privacidad' => 'terminos-privacidad',
-    'cert' => 'cert',
+    'cert' => 'CSIRT',
     'talento' => 'talento',
     'servicios_soc_noc' => 'servicios_soc_noc',
     'servicios_ciberinteligencia' => 'servicios_ciberinteligencia',

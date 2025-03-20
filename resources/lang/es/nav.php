@@ -5,7 +5,7 @@ return [
     'productos' => 'Productos',
     'soluciones' => 'Industrias',
     'ciberblog' => 'Ciber Blog',
-    'cert' => 'CERT',
+    'cert' => 'CSIRT',
     'contacto' => 'Contáctanos',
     'alianzas' => 'Alianzas',
     'casosexito' => 'Casos de éxito',
