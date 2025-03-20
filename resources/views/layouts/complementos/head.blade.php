@@ -5,8 +5,7 @@
 <title>@yield('titulo', 'Aliados de tu Ciberseguridad | Servicios para tu empresa')</title>
 
 <meta name="description" content="@yield('metaDesc', 'Protege tu organización con servicios a la medida: Centro de Operaciones de Seguridad, Pentesting, ISO 27001:2022 y mucho más. Contáctanos.')">
-<meta name="keywords"
-    content="@yield('keywords', 'Keyword, ciberseguridad, seguridad de información, informacion de la seguridad, seguridad perimetral, ciberinteligencia, seguridad en la informacion, la ciberseguridad, empresas de ciberseguridad, ciberseguridad empresas, empresa de ciberseguridad, servicios de seguridad informática, lider en ciberseguridad, Empresas de seguridad informática, Seguridad de la información, Seguridad informática, Seguridad en redes, Seguridad perimetral, Programa para bloquear páginas, Firewall, Internet Security, Pentesting, Análisis de vulnerabilidades, monitoreo de redes, analisis de riesgo de una empresa, certificación iso 27001, DLP, firewalls, SIEM, analisis de riesgos de seguridad, iso seguridad de la información, analisis de riesgo, normatividades iso, iso 27001, iso 27001:2022, Continuidad de Negocio. SPEI, SPID')">
+<meta name="keywords" content="@yield('keywords', 'Keyword, ciberseguridad, seguridad de información, informacion de la seguridad, seguridad perimetral, ciberinteligencia, seguridad en la informacion, la ciberseguridad, empresas de ciberseguridad, ciberseguridad empresas, empresa de ciberseguridad, servicios de seguridad informática, lider en ciberseguridad, Empresas de seguridad informática, Seguridad de la información, Seguridad informática, Seguridad en redes, Seguridad perimetral, Programa para bloquear páginas, Firewall, Internet Security, Pentesting, Análisis de vulnerabilidades, monitoreo de redes, analisis de riesgo de una empresa, certificación iso 27001, DLP, firewalls, SIEM, analisis de riesgos de seguridad, iso seguridad de la información, analisis de riesgo, normatividades iso, iso 27001, iso 27001:2022, Continuidad de Negocio. SPEI, SPID')">
 <!-- Facebook Meta Tags -->
 
 {{-- canonical --}}
@@ -20,8 +19,7 @@
 
 <meta property="og:description" content="@yield('metaDesc', 'Protege tu organización con servicios a la medida: Centro de Operaciones de Seguridad, Pentesting, ISO 27001:2022 y mucho más. Contáctanos.') Descripción: OG">
 
-<meta property=" og:image"
-    content="https://www.silent4business.com/img/logo_silent.webp">
+<meta property=" og:image" content="https://www.silent4business.com/img/logo_silent.webp">
 
 <!-- Twitter Meta Tags -->
 <meta name="twitter:card" content="summary_large_image">
@@ -39,7 +37,7 @@
 <link rel="shortcut icon" href="{{ asset('img/logo_silent.webp') }}" type="image/png" />
 
 <!-- css inerno -->
-<link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}?v=1.2">
+<link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}?v=1.2.1">
 
 <!-- font awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -64,5 +62,41 @@
 <script src="{{ asset('js/head/hotjar.js') }}"></script>
 
 <meta name="csrf-token" content="{{ csrf_token() }}">
+
+<script>
+    (function() {
+        if (!window.chatbase || window.chatbase("getState") !== "initialized") {
+            window.chatbase = (...arguments) => {
+                if (!window.chatbase.q) {
+                    window.chatbase.q = [];
+                }
+                window.chatbase.q.push(arguments);
+            };
+            window.chatbase = new Proxy(window.chatbase, {
+                get(target, prop) {
+                    if (prop === "q") {
+                        return target.q;
+                    }
+                    return (...args) => target(prop, ...args);
+                }
+            });
+        }
+
+        const onLoad = function() {
+            const script = document.createElement("script");
+            script.src = "https://www.chatbase.co/embed.min.js";
+            script.id = "wDhF6yI2wNeB5G4PhmVoS"; // Reemplaza con tu ID si es necesario
+            script.setAttribute("data-key", "4ppbm2qsoatcxk72k09ri7k6cjkajuqp"); // Aquí se añade la clave
+            script.domain = "www.chatbase.co";
+            document.body.appendChild(script);
+        };
+
+        if (document.readyState === "complete") {
+            onLoad();
+        } else {
+            window.addEventListener("load", onLoad);
+        }
+    })();
+</script>
 
 @yield('head')

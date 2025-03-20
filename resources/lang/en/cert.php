@@ -1,15 +1,15 @@
 <?php
 
 return [
-    'title' => 'S4B CERT | Cutting-Edge Cybersecurity',
-    'meta_desc' => 'Our Computer Emergency Response Team (CERT) is ready to prevent and respond to the cybersecurity incidents threatening your organization.',
+    'title' => 'S4B CSIRT | Cutting-Edge Cybersecurity',
+    'meta_desc' => 'Our Computer Emergency Response Team (CSIRT) is ready to prevent and respond to the cybersecurity incidents threatening your organization.',
     'header' => 'Specialized technical assistance to our clients and organizations.',
     'header_desc' => 'Computer Emergency Response Team. It is a team of specialists responsible for developing preventive and reactive measures in response to cybersecurity incidents.',
     'mision' => 'Mission',
     'mision_desc' => 'To provide specialized incident response and security services, through continuous improvement of our processes and alliances with other organizations to contribute to a secure digital environment for our clients.',
     'vision' => 'Vision',
     'vision_desc' => 'Through a specialized team, be a trusted front in research, assistance, and dissemination activities in the field of incident response and security.',
-    'objetivo' => 'Objectives of a CERT',
+    'objetivo' => 'Objectives of a CSIRT',
     'objetivo1' => 'in managing information, risks, as well as implementing information security policies.',
     'objetivo1_strong' => 'Promote awareness activities',
     'objetivo2' => 'to our clients and organizations in general, in handling threats and/or security incidents.',
