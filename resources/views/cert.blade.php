@@ -79,7 +79,7 @@
                 </div>
             </div>
 
-            <img src="{{ asset('img/' . __('cert.img_servicios') . '.webp') }}" class="servicio-img no-visible"
+            <img src="{{ asset('img/' . __('cert.img_servicios') . '.png') }}" class="servicio-img no-visible"
                 alt="Servicios del CSIRT" title="Servicios del CSIRT">
 
             <hr style="width: 500px; border-color:#fff; margin-top:80px;">
